@@ -14,7 +14,7 @@ export default function Page() {
           </p>
         </div>
         <div className="flex justify-center gap-4">
-          <Link href="#" passHref>
+          <Link href="/vidya" passHref>
             <Button size="lg">
               Get Started
             </Button>
