@@ -35,7 +35,11 @@ export default function VidyaLayout({
           </SidebarMenu>
         </SidebarContent>
       </Sidebar>
-      <SidebarInset>{children}</SidebarInset>
+      <SidebarInset className="min-h-0 flex-1">
+        <main className="flex min-h-0 flex-1 flex-col overflow-hidden">
+          {children}
+        </main>
+      </SidebarInset>
     </SidebarProvider>
   )
 }

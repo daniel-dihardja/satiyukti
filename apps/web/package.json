@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@ai-sdk/react": "^3.0.193",
     "@workspace/ui": "workspace:*",
     "ai": "^6.0.191",
     "ai-elements": "^1.9.0",
