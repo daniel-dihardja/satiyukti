@@ -1,6 +1,10 @@
 import json
+import logging
 import re
+from dataclasses import asdict, dataclass
 from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 INPUT_PATH = Path(__file__).parent.parent / "output.json"
 OUTPUT_DIR = Path(__file__).parent.parent / "output"
@@ -10,6 +14,29 @@ DEVI_RE = re.compile(r"देव्युिाच|देव्य्\s*उि�
 BHAIRAVA_RE = re.compile(r"भैरि\s*उिाच")
 
 DEVA_DIGITS = {ch: i for i, ch in enumerate("०१२३४५६७८९")}
+
+
+@dataclass(frozen=True)
+class Page:
+    page: int
+    text: str
+    sanskrit: str
+
+
+@dataclass(frozen=True)
+class Verse:
+    verse_number: int
+    page: int
+    speaker: str
+    sanskrit: str
+
+
+@dataclass(frozen=True)
+class ValidationReport:
+    total_verses: int
+    missing_verses: list[int]
+    duplicate_verses: list[int]
+    warnings: list[str]
 
 
 def devanagari_to_int(s: str) -> int:
@@ -37,20 +64,22 @@ def detect_speaker(line: str) -> str | None:
     return None
 
 
-def load_pages(path: Path) -> list:
-    with open(path) as f:
-        return json.load(f)
+def load_pages(path: Path) -> list[Page]:
+    try:
+        with open(path) as f:
+            data = json.load(f)
+    except (OSError, json.JSONDecodeError) as err:
+        raise RuntimeError(f"failed to load pages from {path}") from err
+    return [Page(**d) for d in data]
 
 
-def extract_verses(pages: list) -> list:
-    verses = []
+def extract_verses(pages: list[Page]) -> list[Verse]:
+    verses: list[Verse] = []
     current_speaker = "Unknown"
     current_lines: list[str] = []
 
     for page_data in pages:
-        page_num = page_data["page"]
-
-        for line in page_data.get("sanskrit", "").split("\n"):
+        for line in page_data.sanskrit.split("\n"):
             line = line.strip()
 
             if is_header(line):
@@ -64,12 +93,12 @@ def extract_verses(pages: list) -> list:
             verse_match = VERSE_RE.search(line)
             if verse_match:
                 current_lines.append(line)
-                verses.append({
-                    "verse_number": devanagari_to_int(verse_match.group(1)),
-                    "page": page_num,
-                    "speaker": current_speaker,
-                    "sanskrit": "\n".join(current_lines),
-                })
+                verses.append(Verse(
+                    verse_number=devanagari_to_int(verse_match.group(1)),
+                    page=page_data.page,
+                    speaker=current_speaker,
+                    sanskrit="\n".join(current_lines),
+                ))
                 current_lines = []
             else:
                 current_lines.append(line)
@@ -77,8 +106,11 @@ def extract_verses(pages: list) -> list:
     return verses
 
 
-def validate_verses(verses: list) -> dict:
-    nums = [v["verse_number"] for v in verses]
+def validate_verses(verses: list[Verse]) -> ValidationReport:
+    if not verses:
+        return ValidationReport(total_verses=0, missing_verses=[], duplicate_verses=[], warnings=[])
+
+    nums = [v.verse_number for v in verses]
     seen: dict[int, int] = {}
     duplicates: list[int] = []
 
@@ -87,29 +119,32 @@ def validate_verses(verses: list) -> dict:
             duplicates.append(n)
         seen[n] = seen.get(n, 0) + 1
 
-    expected = set(range(min(nums), max(nums) + 1)) if nums else set()
+    expected = set(range(min(nums), max(nums) + 1))
     missing = sorted(expected - set(seen.keys()))
 
-    warnings = []
+    warnings: list[str] = []
     if missing:
         warnings.append(f"Missing verse numbers: {missing}")
     if duplicates:
         warnings.append(f"Duplicate verse numbers: {duplicates}")
 
-    return {
-        "total_verses": len(verses),
-        "missing_verses": missing,
-        "duplicate_verses": duplicates,
-        "warnings": warnings,
-    }
+    return ValidationReport(
+        total_verses=len(verses),
+        missing_verses=missing,
+        duplicate_verses=duplicates,
+        warnings=warnings,
+    )
 
 
-def write_output(verses: list, report: dict, output_dir: Path) -> None:
+def write_output(verses: list[Verse], report: ValidationReport, output_dir: Path) -> None:
     output_dir.mkdir(exist_ok=True)
-    with open(output_dir / "verses.json", "w") as f:
-        json.dump(verses, f, indent=2, ensure_ascii=False)
-    with open(output_dir / "extraction-report.json", "w") as f:
-        json.dump(report, f, indent=2)
+    try:
+        with open(output_dir / "verses.json", "w") as f:
+            json.dump([asdict(v) for v in verses], f, indent=2, ensure_ascii=False)
+        with open(output_dir / "extraction-report.json", "w") as f:
+            json.dump(asdict(report), f, indent=2)
+    except OSError as err:
+        raise RuntimeError(f"failed to write output to {output_dir}") from err
 
 
 def main() -> None:
@@ -118,14 +153,15 @@ def main() -> None:
     report = validate_verses(verses)
     write_output(verses, report, OUTPUT_DIR)
 
-    print(f"Extracted {report['total_verses']} verses")
-    if report["missing_verses"]:
-        print(f"Missing: {report['missing_verses']}")
-    if report["duplicate_verses"]:
-        print(f"Duplicates: {report['duplicate_verses']}")
-    if not report["warnings"]:
-        print("Validation passed")
+    logger.info("extracted %d verses", report.total_verses)
+    if report.missing_verses:
+        logger.warning("missing: %s", report.missing_verses)
+    if report.duplicate_verses:
+        logger.warning("duplicates: %s", report.duplicate_verses)
+    if not report.warnings:
+        logger.info("validation passed")
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     main()

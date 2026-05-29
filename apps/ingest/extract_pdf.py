@@ -1,12 +1,25 @@
 import json
+import logging
 import re
+from dataclasses import asdict, dataclass
+from pathlib import Path
+
 import pymupdf
 
-PDF_PATH = "../../packages/scriptures/Vijnana-Bhairava-Tantra-Sanskrit-Text-English-Translation.pdf"
-OUTPUT_PATH = "output.json"
+logger = logging.getLogger(__name__)
+
+PDF_PATH = Path(__file__).parent.parent.parent / "packages/scriptures/Vijnana-Bhairava-Tantra-Sanskrit-Text-English-Translation.pdf"
+OUTPUT_PATH = Path(__file__).parent / "output.json"
 
 # Devanagari block + dandas (। ॥) + spaces between words
 _SANSKRIT_RE = re.compile(r"[ऀ-ॿ।॥ ]+")
+
+
+@dataclass(frozen=True)
+class Page:
+    page: int
+    text: str
+    sanskrit: str
 
 
 def _extract_sanskrit(text: str) -> str:
@@ -14,21 +27,27 @@ def _extract_sanskrit(text: str) -> str:
     return "\n".join(m.strip() for m in matches if m.strip())
 
 
-def extract():
-    doc = pymupdf.open(PDF_PATH)
+def extract() -> None:
+    try:
+        doc = pymupdf.open(PDF_PATH)
+    except Exception as err:
+        raise RuntimeError(f"failed to open PDF: {PDF_PATH}") from err
 
     pages = [
-        {"page": i + 1, "text": page.get_text(), "sanskrit": _extract_sanskrit(page.get_text())}
+        Page(page=i + 1, text=page.get_text(), sanskrit=_extract_sanskrit(page.get_text()))
         for i, page in enumerate(doc)
     ]
-
     doc.close()
 
-    with open(OUTPUT_PATH, "w") as f:
-        json.dump(pages, f, indent=2, ensure_ascii=False)
+    try:
+        with open(OUTPUT_PATH, "w") as f:
+            json.dump([asdict(p) for p in pages], f, indent=2, ensure_ascii=False)
+    except OSError as err:
+        raise RuntimeError(f"failed to write output: {OUTPUT_PATH}") from err
 
-    print(f"Extracted {len(pages)} pages to {OUTPUT_PATH}")
+    logger.info("extracted %d pages to %s", len(pages), OUTPUT_PATH)
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     extract()
