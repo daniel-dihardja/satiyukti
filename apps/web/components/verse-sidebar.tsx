@@ -33,6 +33,7 @@ import {
   SidebarMenuSubItem,
   SidebarRail,
   SidebarSeparator,
+  useSidebar,
 } from '@workspace/ui/components/sidebar'
 import { cn } from '@workspace/ui/lib/utils'
 import type { Category, Difficulty, EnrichedVerse } from '@/lib/types/verse'
@@ -57,10 +58,24 @@ function shortName(name: string, words = 4): string {
   return parts.slice(0, words).join(' ') + '…'
 }
 
-const DIFFICULTY_DOT: Record<Difficulty, string> = {
-  beginner: 'bg-emerald-500',
-  intermediate: 'bg-amber-500',
-  advanced: 'bg-rose-500',
+const DIFFICULTY_LEVEL: Record<Difficulty, number> = {
+  beginner: 1,
+  intermediate: 2,
+  advanced: 3,
+}
+
+function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
+  const level = DIFFICULTY_LEVEL[difficulty]
+  return (
+    <span className="ml-auto flex shrink-0 gap-0.5">
+      {[1, 2, 3].map(i => (
+        <span
+          key={i}
+          className={cn('size-1 rounded-full', i <= level ? 'bg-foreground/35' : 'bg-foreground/10')}
+        />
+      ))}
+    </span>
+  )
 }
 
 interface VerseSidebarProps {
@@ -69,6 +84,7 @@ interface VerseSidebarProps {
 
 export function VerseSidebar({ groups }: VerseSidebarProps) {
   const pathname = usePathname()
+  const { setOpenMobile } = useSidebar()
   const [query, setQuery] = useState('')
   const [openSections, setOpenSections] = useState({
     opening: false,
@@ -227,17 +243,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
                                 isActive={activeVerse === verse.verse_number}
                                 size="sm"
                               >
-                                <Link href={`/vidya/verse/${verse.verse_number}`}>
+                                <Link href={`/vidya/verse/${verse.verse_number}`} onClick={() => setOpenMobile(false)}>
                                   <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
                                     {verse.verse_number}
                                   </span>
                                   <span className="flex-1 truncate">{shortName(verse.method_name)}</span>
-                                  <div
-                                    className={cn(
-                                      'ml-auto size-1.5 shrink-0 rounded-full',
-                                      DIFFICULTY_DOT[verse.difficulty]
-                                    )}
-                                  />
+                                  <DifficultyDots difficulty={verse.difficulty} />
                                 </Link>
                               </SidebarMenuSubButton>
                             </SidebarMenuSubItem>
@@ -316,17 +327,16 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
 }
 
 function VerseItem({ verse, isActive }: { verse: EnrichedVerse; isActive: boolean }) {
+  const { setOpenMobile } = useSidebar()
   return (
     <SidebarMenuItem>
       <SidebarMenuButton asChild isActive={isActive} size="sm">
-        <Link href={`/vidya/verse/${verse.verse_number}`}>
+        <Link href={`/vidya/verse/${verse.verse_number}`} onClick={() => setOpenMobile(false)}>
           <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
             {verse.verse_number}
           </span>
           <span className="flex-1 truncate">{shortName(verse.method_name)}</span>
-          <div
-            className={cn('ml-auto size-1.5 shrink-0 rounded-full', DIFFICULTY_DOT[verse.difficulty])}
-          />
+          <DifficultyDots difficulty={verse.difficulty} />
         </Link>
       </SidebarMenuButton>
     </SidebarMenuItem>

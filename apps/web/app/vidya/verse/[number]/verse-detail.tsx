@@ -3,12 +3,26 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { cn } from '@workspace/ui/lib/utils'
-import type { EnrichedVerse } from '@/lib/types/verse'
+import type { Difficulty, EnrichedVerse } from '@/lib/types/verse'
 
-const DIFFICULTY_STYLES = {
-  beginner: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400',
-  intermediate: 'bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-400',
-  advanced: 'bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-400',
+const DIFFICULTY_LEVEL: Record<Difficulty, number> = {
+  beginner: 1,
+  intermediate: 2,
+  advanced: 3,
+}
+
+function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
+  const level = DIFFICULTY_LEVEL[difficulty]
+  return (
+    <span className="flex gap-0.5">
+      {[1, 2, 3].map(i => (
+        <span
+          key={i}
+          className={cn('size-1 rounded-full', i <= level ? 'bg-foreground/35' : 'bg-foreground/10')}
+        />
+      ))}
+    </span>
+  )
 }
 
 const CATEGORY_STYLES = 'bg-secondary text-secondary-foreground'
@@ -24,12 +38,8 @@ export function VerseDetail({ verse }: { verse: EnrichedVerse }) {
           <span className="text-xs font-mono text-muted-foreground md:text-sm">
             Verse {verse.verse_number}
           </span>
-          <span
-            className={cn(
-              'rounded-full px-2.5 py-1 text-xs font-medium capitalize md:text-sm',
-              DIFFICULTY_STYLES[verse.difficulty]
-            )}
-          >
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-muted px-2.5 py-1 text-xs font-medium capitalize text-muted-foreground md:text-sm">
+            <DifficultyDots difficulty={verse.difficulty} />
             {verse.difficulty}
           </span>
           <span className={cn('rounded-full px-2.5 py-1 text-xs font-medium md:text-sm', CATEGORY_STYLES)}>
