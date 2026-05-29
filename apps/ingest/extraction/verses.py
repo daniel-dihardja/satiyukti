@@ -1,42 +1,18 @@
 import json
 import logging
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from pathlib import Path
 
-logger = logging.getLogger(__name__)
+from .models import Page, ValidationReport, Verse
 
-INPUT_PATH = Path(__file__).parent.parent / "output.json"
-OUTPUT_DIR = Path(__file__).parent.parent / "output"
+logger = logging.getLogger(__name__)
 
 VERSE_RE = re.compile(r"॥\s*([०-९]+)\s*[a-z]?\s*॥")
 DEVI_RE = re.compile(r"देव्युिाच|देव्य्\s*उिाच|देिी\s*उिाच")
 BHAIRAVA_RE = re.compile(r"भैरि\s*उिाच")
 
 DEVA_DIGITS = {ch: i for i, ch in enumerate("०१२३४५६७८९")}
-
-
-@dataclass(frozen=True)
-class Page:
-    page: int
-    text: str
-    sanskrit: str
-
-
-@dataclass(frozen=True)
-class Verse:
-    verse_number: int
-    page: int
-    speaker: str
-    sanskrit: str
-
-
-@dataclass(frozen=True)
-class ValidationReport:
-    total_verses: int
-    missing_verses: list[int]
-    duplicate_verses: list[int]
-    warnings: list[str]
 
 
 def devanagari_to_int(s: str) -> int:
@@ -46,7 +22,7 @@ def devanagari_to_int(s: str) -> int:
     return result
 
 
-def is_header(line: str) -> bool:
+def _is_header(line: str) -> bool:
     if not line:
         return True
     if re.match(r"^\d+$", line):
@@ -56,7 +32,7 @@ def is_header(line: str) -> bool:
     return False
 
 
-def detect_speaker(line: str) -> str | None:
+def _detect_speaker(line: str) -> str | None:
     if DEVI_RE.search(line):
         return "Devi"
     if BHAIRAVA_RE.search(line):
@@ -82,10 +58,10 @@ def extract_verses(pages: list[Page]) -> list[Verse]:
         for line in page_data.sanskrit.split("\n"):
             line = line.strip()
 
-            if is_header(line):
+            if _is_header(line):
                 continue
 
-            speaker = detect_speaker(line)
+            speaker = _detect_speaker(line)
             if speaker:
                 current_speaker = speaker
                 continue
@@ -146,22 +122,4 @@ def write_output(verses: list[Verse], report: ValidationReport, output_dir: Path
     except OSError as err:
         raise RuntimeError(f"failed to write output to {output_dir}") from err
 
-
-def main() -> None:
-    pages = load_pages(INPUT_PATH)
-    verses = extract_verses(pages)
-    report = validate_verses(verses)
-    write_output(verses, report, OUTPUT_DIR)
-
-    logger.info("extracted %d verses", report.total_verses)
-    if report.missing_verses:
-        logger.warning("missing: %s", report.missing_verses)
-    if report.duplicate_verses:
-        logger.warning("duplicates: %s", report.duplicate_verses)
-    if not report.warnings:
-        logger.info("validation passed")
-
-
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    main()
+    logger.info("wrote %d verses to %s", len(verses), output_dir)
