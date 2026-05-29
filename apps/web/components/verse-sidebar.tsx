@@ -51,6 +51,12 @@ const CATEGORY_ICONS: Record<Category, React.ElementType> = {
   Dialogue: MessageSquare,
 }
 
+function shortName(name: string, words = 4): string {
+  const parts = name.split(' ')
+  if (parts.length <= words) return name
+  return parts.slice(0, words).join(' ') + '…'
+}
+
 const DIFFICULTY_DOT: Record<Difficulty, string> = {
   beginner: 'bg-emerald-500',
   intermediate: 'bg-amber-500',
@@ -225,7 +231,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
                                   <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
                                     {verse.verse_number}
                                   </span>
-                                  <span className="flex-1 truncate">{verse.method_name}</span>
+                                  <span className="flex-1 truncate">{shortName(verse.method_name)}</span>
                                   <div
                                     className={cn(
                                       'ml-auto size-1.5 shrink-0 rounded-full',
@@ -317,7 +323,7 @@ function VerseItem({ verse, isActive }: { verse: EnrichedVerse; isActive: boolea
           <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
             {verse.verse_number}
           </span>
-          <span className="flex-1 truncate">{verse.method_name}</span>
+          <span className="flex-1 truncate">{shortName(verse.method_name)}</span>
           <div
             className={cn('ml-auto size-1.5 shrink-0 rounded-full', DIFFICULTY_DOT[verse.difficulty])}
           />

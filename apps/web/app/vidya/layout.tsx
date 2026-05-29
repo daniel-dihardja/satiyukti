@@ -3,13 +3,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from '@workspace/ui/components/sidebar'
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-} from '@workspace/ui/components/resizable'
 import { VerseSidebar } from '@/components/verse-sidebar'
-import { ChatPanel } from '@/components/chat-panel'
 import { getVerseGroups } from '@/lib/data/verses'
 
 export default function VidyaLayout({
@@ -24,18 +18,8 @@ export default function VidyaLayout({
         <header className="flex h-12 shrink-0 items-center border-b px-4">
           <SidebarTrigger className="-ml-1" />
         </header>
-        <div className="flex min-h-0 flex-1 overflow-hidden">
-          <ResizablePanelGroup orientation="horizontal" className="h-full">
-            <ResizablePanel defaultSize="67%" minSize="25%" maxSize="80%">
-              <div className="h-full overflow-y-auto">
-                {children}
-              </div>
-            </ResizablePanel>
-            <ResizableHandle withHandle />
-            <ResizablePanel defaultSize="33%" minSize="20%" maxSize="75%">
-              <ChatPanel />
-            </ResizablePanel>
-          </ResizablePanelGroup>
+        <div className="h-full overflow-y-auto">
+          {children}
         </div>
       </SidebarInset>
     </SidebarProvider>
