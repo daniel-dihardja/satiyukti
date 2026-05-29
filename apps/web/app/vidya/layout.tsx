@@ -26,13 +26,13 @@ export default function VidyaLayout({
         </header>
         <div className="flex min-h-0 flex-1 overflow-hidden">
           <ResizablePanelGroup orientation="horizontal" className="h-full">
-            <ResizablePanel defaultSize="40%" minSize="25%" maxSize="65%">
+            <ResizablePanel defaultSize="67%" minSize="25%" maxSize="80%">
               <div className="h-full overflow-y-auto">
                 {children}
               </div>
             </ResizablePanel>
             <ResizableHandle withHandle />
-            <ResizablePanel defaultSize="60%" minSize="35%" maxSize="75%">
+            <ResizablePanel defaultSize="33%" minSize="20%" maxSize="75%">
               <ChatPanel />
             </ResizablePanel>
           </ResizablePanelGroup>
