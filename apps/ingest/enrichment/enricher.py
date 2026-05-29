@@ -23,7 +23,13 @@ Text structure:
 
 The Sanskrit may contain OCR artifacts but retains its structural meaning.
 
-Use EXACTLY one of these categories per verse:
+For each verse produce ALL of the following fields:
+
+method_name:
+- Dharana verses: a concise English technique name (e.g., "Breath Suspension at Junction", "Inner Sound Dissolution")
+- Dialogue verses: a descriptive title (e.g., "Devi Questions Bhairava's True Form")
+
+category — use EXACTLY one of:
 - "Breath" — pranayama, breath suspension, kumbhaka, prana movement, transitions between breaths
 - "Sound" — nada, mantra, inner sound, shabda, AUM, resonance
 - "Space" — akasha, void, emptiness, infinite space, sky, chidakasha
@@ -35,9 +41,30 @@ Use EXACTLY one of these categories per verse:
 - "Dissolution" — laya, absorption, merging into source, dissolution of mind, samadhi
 - "Dialogue" — introductory or concluding dialogue, theological question, not a dharana technique
 
-For method_name:
-- Dharana verses: a concise English technique name (e.g., "Breath Suspension at Junction", "Inner Sound Dissolution")
-- Dialogue verses: a descriptive title (e.g., "Devi Questions Bhairava's True Form")\
+summary: one sentence distilling the verse's core meaning or instruction.
+
+difficulty — EXACTLY one of: "beginner", "intermediate", "advanced"
+- beginner: accessible, concrete, minimal prerequisite knowledge
+- intermediate: requires some meditation experience or conceptual familiarity
+- advanced: subtle, non-dual, or requires sustained practice to approach
+
+practice_type — EXACTLY one of: "contemplation", "meditation", "breathwork", "visualization"
+- contemplation: intellectual or reflective inquiry
+- meditation: sustained inward attention or absorption
+- breathwork: explicit use of breath as the primary vehicle
+- visualization: use of mental imagery or inner forms
+
+focus_object: the single primary object of attention the practice directs the practitioner toward (e.g., "breath gap", "inner sound", "infinite space", "awareness itself").
+
+primary_concepts: 2–5 core concepts explicitly expressed in this verse (Sanskrit terms welcome).
+secondary_concepts: 1–4 supporting or implied concepts not directly stated but relevant to understanding.
+
+related_verses: verse numbers (integers, 1–163) that are thematically or technically linked to this verse. Use an empty list if none are strongly related.
+
+beginner_explanation: 2–4 sentences accessible to a complete newcomer — avoid jargon, use plain language and analogy.
+developer_explanation: 2–4 sentences for a practitioner or scholar — include Sanskrit terms, philosophical nuance, and cross-references to doctrine where relevant.
+
+tags: 3–8 flat, lowercase, searchable labels (e.g., ["breath", "kumbhaka", "advanced", "nondual"]).\
 """
 
 _VALID_CATEGORIES = frozenset(
@@ -61,7 +88,15 @@ class _VerseEnrichment(BaseModel):
     method_name: str
     category: str
     summary: str
-    concepts: list[str]
+    difficulty: str
+    practice_type: str
+    focus_object: str
+    primary_concepts: list[str]
+    secondary_concepts: list[str]
+    related_verses: list[int]
+    beginner_explanation: str
+    developer_explanation: str
+    tags: list[str]
 
 
 class _BatchEnrichment(BaseModel):
@@ -69,7 +104,7 @@ class _BatchEnrichment(BaseModel):
 
 
 def _make_chain():
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+    llm = ChatOpenAI(model="gpt-5.4", temperature=0)
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", _SYSTEM_PROMPT),
@@ -107,7 +142,15 @@ def enrich_verses(verses: list[Verse], batch_size: int = 10) -> list[EnrichedVer
                     method_name=item.method_name,
                     category=item.category,
                     summary=item.summary,
-                    concepts=item.concepts,
+                    difficulty=item.difficulty,
+                    practice_type=item.practice_type,
+                    focus_object=item.focus_object,
+                    primary_concepts=item.primary_concepts,
+                    secondary_concepts=item.secondary_concepts,
+                    related_verses=item.related_verses,
+                    beginner_explanation=item.beginner_explanation,
+                    developer_explanation=item.developer_explanation,
+                    tags=item.tags,
                 )
             )
 

@@ -7,7 +7,15 @@ class EnrichedVerse:
     method_name: str
     category: str
     summary: str
-    concepts: list[str]
+    difficulty: str
+    practice_type: str
+    focus_object: str
+    primary_concepts: list[str]
+    secondary_concepts: list[str]
+    related_verses: list[int]
+    beginner_explanation: str
+    developer_explanation: str
+    tags: list[str]
 
 
 @dataclass
