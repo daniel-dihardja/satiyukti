@@ -135,10 +135,15 @@ def enrich_verses(verses: list[Verse], batch_size: int = 10) -> list[EnrichedVer
 
         result: _BatchEnrichment = chain.invoke({"verses": verses_text})
 
+        source_map = {v.verse_number: v for v in batch}
         for item in result.enrichments:
+            source = source_map.get(item.verse_number)
             enriched.append(
                 EnrichedVerse(
                     verse_number=item.verse_number,
+                    page=source.page if source else 0,
+                    speaker=source.speaker if source else "",
+                    sanskrit=source.sanskrit if source else "",
                     method_name=item.method_name,
                     category=item.category,
                     summary=item.summary,

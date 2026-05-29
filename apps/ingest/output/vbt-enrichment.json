@@ -1,6 +1,9 @@
 [
   {
     "verse_number": 1,
+    "page": 3,
+    "speaker": "Devi",
+    "sanskrit": "श्रुतं देि मया सिं रुद्रयामऱसम्भिम् ।\nविकभेदमशेषेण सारात्सारविभागश् ॥ १ ॥",
     "method_name": "Devi Recalls the Essence of the Rudrayāmala",
     "category": "Dialogue",
     "summary": "Devi says she has heard the essential teachings of the Rudrayāmala, including its many divisions and distilled meanings.",
@@ -36,6 +39,9 @@
   },
   {
     "verse_number": 2,
+    "page": 3,
+    "speaker": "Devi",
+    "sanskrit": "अद्यावऩ न वनिृत्तो मे सम्शय् ऩरमेश्वर ।\nवकं रूऩं तत्त्वतो देि शब्दरावशकऱामयम् ॥ २ ॥",
     "method_name": "Devi Questions Bhairava's True Form",
     "category": "Dialogue",
     "summary": "Devi says her doubt remains and asks what Bhairava truly is, especially whether his nature is constituted by sound, flow, and powers.",
@@ -72,6 +78,9 @@
   },
   {
     "verse_number": 3,
+    "page": 4,
+    "speaker": "Devi",
+    "sanskrit": "वकं िा निात्मभेदेन भैरिे भैरिाकृतौ ।\nविवशरोभेदवभन्नं िा वकं िा शविियात्मकम् ॥ ३ ॥",
     "method_name": "Devi Examines Possible Forms of Bhairava",
     "category": "Dialogue",
     "summary": "Devi asks whether Bhairava is distinct through differentiated selfhood, embodied as Bhairava and Bhairavī, divided by powers, or constituted by śakti.",
@@ -108,6 +117,9 @@
   },
   {
     "verse_number": 4,
+    "page": 4,
+    "speaker": "Devi",
+    "sanskrit": "नादविन्दुमयं िावऩ वकं चन्द्राधधवनरोवधका् ।\nचक्रारूढमनच्कं िा वकं िा शविस्वरूऩकम् ॥ ४ ॥",
     "method_name": "Devi Questions Nāda, Bindu, and the Chakras",
     "category": "Dialogue",
     "summary": "Devi asks whether Bhairava is to be understood as nāda, bindu, the lunar energies, the chakras, or the essential form of śakti.",
@@ -147,6 +159,9 @@
   },
   {
     "verse_number": 5,
+    "page": 5,
+    "speaker": "Devi",
+    "sanskrit": "ऩराऩराया् सकऱम् अऩरायाश्च िा ऩुन् ।\nऩराया यवद तद्वत्स्यात् ऩरत्वं तद् विरुध्यते ॥ ५ ॥",
     "method_name": "Devi Questions the Parā and Aparā Distinction",
     "category": "Dialogue",
     "summary": "Devi asks whether Bhairava is the totality of parā and aparā or only parā, noting that exclusive transcendence would conflict with true supremacy.",
@@ -182,6 +197,9 @@
   },
   {
     "verse_number": 6,
+    "page": 5,
+    "speaker": "Devi",
+    "sanskrit": "न वह िणधविभेदेन देहभेदेन िा भिेत् ।\nऩरत्वम् वनष्कऱत्वेन सकऱत्वे न तद्भिेत् ॥ ६ ॥",
     "method_name": "Devi Rejects Limited Notions of Supremacy",
     "category": "Dialogue",
     "summary": "Devi argues that supreme reality cannot be based on distinctions of sound, category, or body, because true transcendence cannot be confined to formed or partite existence.",
@@ -218,6 +236,9 @@
   },
   {
     "verse_number": 7,
+    "page": 6,
+    "speaker": "Bhairava",
+    "sanskrit": "प्रसादं कुरु मे नाथ वन्शेषं विवि संशयम् ।\nसाधु साधु त्वया ऩृष्टं तन्त्रसारवमदं वप्रये ॥ ७ ॥",
     "method_name": "Bhairava Praises Devi's Question",
     "category": "Dialogue",
     "summary": "Bhairava responds appreciatively, saying Devi has asked well and that her question concerns the very essence of the tantra.",
@@ -253,6 +274,9 @@
   },
   {
     "verse_number": 8,
+    "page": 6,
+    "speaker": "Bhairava",
+    "sanskrit": "गूहनीयतमं भद्रे तथावऩ कथयावम ते ।\nयविंवचत्सकऱम् रूऩम् भैरिस्य प्रकीवतधतम् ॥ ८ ॥",
     "method_name": "Bhairava Introduces the Secret Teaching",
     "category": "Dialogue",
     "summary": "Bhairava says he will reveal the most secret teaching and begins by noting that whatever forms of Bhairava are commonly described are only what has been proclaimed in a total way.",
@@ -289,6 +313,9 @@
   },
   {
     "verse_number": 9,
+    "page": 6,
+    "speaker": "Bhairava",
+    "sanskrit": "तदसारतया देवि विऻेयं शक्रजाऱित् ।\nमायास्वप्नोऩमं चैि गन्धिधनगरभ्रमम् ॥ ९ ॥",
     "method_name": "Bhairava Declares Described Forms Insubstantial",
     "category": "Dialogue",
     "summary": "Bhairava says those described forms should be known as insubstantial, like Indra's net, a magical illusion, a dream, or the imagined city of celestial beings.",
@@ -325,6 +352,9 @@
   },
   {
     "verse_number": 10,
+    "page": 7,
+    "speaker": "Bhairava",
+    "sanskrit": "ध्यानाथं भ्रान्तिुद्धीनाम् वक्रयाडम्बरिवतधनाम् ।\nकेिऱं िवणधतं ऩुंसां विकल्पवनहतात्मनाम् ॥ १० ॥",
     "method_name": "Forms Are Given for Meditative Support",
     "category": "Dialogue",
     "summary": "Bhairava explains that such descriptions are taught only for meditation by those whose minds are still caught in conceptual thought and external ritual elaboration.",
@@ -362,6 +392,9 @@
   },
   {
     "verse_number": 11,
+    "page": 7,
+    "speaker": "Bhairava",
+    "sanskrit": "तत्त्वतो न निात्मासौ शब्दरावशनध भैरि् ।\nन चासौ विवशरा देिो न च शविियात्मक् ॥ ११ ॥",
     "method_name": "Bhairava Beyond Sound and Form",
     "category": "Dialogue",
     "summary": "Bhairava says his true nature is not limited to sound, articulated speech, deity-form, or the differentiated powers usually imagined about him.",
@@ -401,6 +434,9 @@
   },
   {
     "verse_number": 12,
+    "page": 7,
+    "speaker": "Bhairava",
+    "sanskrit": "नादविन्दुमयो िावऩ न चन्द्राधधवनरोवधका् ।\nन चक्रक्रमसवम्भन्नो न च शविस्वरूऩक् ॥ १२ ॥",
     "method_name": "Bhairava Beyond Nada, Bindu, and Chakra Sequence",
     "category": "Dialogue",
     "summary": "Bhairava further denies that his essence is exhausted by nāda, bindu, lunar centers, chakra progressions, or even a limited notion of śakti-form.",
@@ -440,6 +476,9 @@
   },
   {
     "verse_number": 13,
+    "page": 8,
+    "speaker": "Bhairava",
+    "sanskrit": "अप्रिुद्धमतीनाम् वह एता िाऱविभीवषका् ।\nमातृमोदकित्सिं प्रिृत्त्यथधमुदाहृतम् ॥ १३ ॥",
     "method_name": "Provisional Teachings for the Unawakened",
     "category": "Dialogue",
     "summary": "These symbolic teachings are said to be instructional devices offered for those not yet awakened, like sweet encouragement given to a child.",
@@ -477,6 +516,9 @@
   },
   {
     "verse_number": 14,
+    "page": 8,
+    "speaker": "Bhairava",
+    "sanskrit": "वदक्काऱकऱनोन्मुिा देशोद्देशाविशेवषणी ।\nव्यऩदेष्टुमशक्यासािकथ्या ऩरमाथधत् ॥ १४ ॥",
     "method_name": "The Inexpressible Beyond Direction and Location",
     "category": "Dialogue",
     "summary": "The supreme reality is free from direction, time, place, and distinction, and therefore cannot truly be specified in language.",
@@ -516,6 +558,9 @@
   },
   {
     "verse_number": 15,
+    "page": 9,
+    "speaker": "Bhairava",
+    "sanskrit": "अन्त् स्वानुभिानन्दा विकल्पोन्मुिगोचरा ।\nयािस्था भवरताकारा भैरिी भैरिात्मन् ॥ १५ ॥",
     "method_name": "Bhairavī as the Fullness of Inner Experience",
     "category": "Nonduality",
     "summary": "That state accessible through inner experiential bliss and beyond discursive thought, full and complete in itself, is Bhairavī as the very essence of Bhairava.",
@@ -555,6 +600,9 @@
   },
   {
     "verse_number": 16,
+    "page": 9,
+    "speaker": "Bhairava",
+    "sanskrit": "तद्वऩुस्तत्त्वतो ऻेयं विमऱं विश्वऩूरणम् ।\nएिं विधे ऩरे तत्त्वे क् ऩूज्य् कश्च तृप्यवत ॥ १६ ॥",
     "method_name": "The Stainless All-Pervading Body of Reality",
     "category": "Nonduality",
     "summary": "Bhairava's true body is to be known as pure and all-pervading, in which no separate worshipper or object of worship remains.",
@@ -594,6 +642,9 @@
   },
   {
     "verse_number": 17,
+    "page": 10,
+    "speaker": "Bhairava",
+    "sanskrit": "एिं विधा भैरिस्य यािस्था ऩवरगीयते ।\nसा ऩरा ऩररूऩेण ऩरा देिी प्रकीवतधता ॥ १७ ॥",
     "method_name": "The Supreme Goddess as Bhairava's State",
     "category": "Nonduality",
     "summary": "The supreme state of Bhairava just described is itself proclaimed to be the supreme Goddess in her transcendent form.",
@@ -630,6 +681,9 @@
   },
   {
     "verse_number": 18,
+    "page": 10,
+    "speaker": "Bhairava",
+    "sanskrit": "शविशविमतोयधद्वद् अभेद् सिधदा वस्थत् ।\nअतस्तद्धमधवमधत्वात् ऩराशवि् ऩरात्मन् ॥ १८ ॥",
     "method_name": "Inseparability of Shakti and the Supreme Self",
     "category": "Nonduality",
     "summary": "Just as a property never stands apart from its possessor, so Śakti remains inseparable from the supreme Self at all times.",
@@ -667,6 +721,9 @@
   },
   {
     "verse_number": 19,
+    "page": 10,
+    "speaker": "Bhairava",
+    "sanskrit": "न िह्नेदाधवहका शविव्यधवतवरिा विभाव्यते ।\nकेिऱम् ऻानसत्तायां प्रारम्भोऽयं प्रिेशने ॥ १९ ॥",
     "method_name": "Like Fire and Its Burning Power",
     "category": "Dialogue",
     "summary": "Just as the burning power of fire is not perceived as separate from fire, this teaching begins only as an entryway into understanding consciousness-being.",
@@ -703,6 +760,9 @@
   },
   {
     "verse_number": 20,
+    "page": 11,
+    "speaker": "Bhairava",
+    "sanskrit": "शक्त्यिस्थाप्रविष्टस्य वनविधभागेन भािना ।\nतदासौ वशिरूऩी स्यात् शैिी मुखवमहोच्यते ॥ २० ॥",
     "method_name": "Entering Shakti to Become Shiva",
     "category": "Dissolution",
     "summary": "One who enters and stabilizes in the state of Śakti through concentrated contemplation becomes Śiva in form; this is called the Śaiva face or gateway.",
@@ -741,6 +801,9 @@
   },
   {
     "verse_number": 21,
+    "page": 11,
+    "speaker": "Bhairava",
+    "sanskrit": "यथाऱोकेन दीऩस्य वकरणैभाधस्करस्य च ।\nऻायते वदवविभागावद तद्वच्छक्त्या वशि् वप्रये ॥ २१ ॥",
     "method_name": "Shakti Reveals Shiva Through Distinction",
     "category": "Dialogue",
     "summary": "Bhairava says that just as light reveals the distinctions of objects, Shakti reveals Shiva by making manifestation knowable.",
@@ -778,6 +841,9 @@
   },
   {
     "verse_number": 22,
+    "page": 12,
+    "speaker": "Devi",
+    "sanskrit": "देिदेि विशूऱाङ्क कऩाऱकृतभूषण ।\nवदवदेशकाऱशून्या च व्यऩदेशवििवजधता ॥ २२ ॥",
     "method_name": "Devi Describes the Formless Absolute",
     "category": "Dialogue",
     "summary": "Devi addresses Bhairava as beyond direction, space, and time, and beyond all ordinary designation despite his fearsome iconographic forms.",
@@ -815,6 +881,9 @@
   },
   {
     "verse_number": 23,
+    "page": 12,
+    "speaker": "Devi",
+    "sanskrit": "यािस्था भवरताकारा भैरिस्योऩऱभ्यते ।\nकैरुऩायैमुधखम् तस्य ऩरा देवि कथं भिेत् ।\nयथा सम्यगहम् िेवि तथा मे ब्रूवह भैरि ॥ २३ ॥",
     "method_name": "Devi Asks the Means to Realize Bhairava",
     "category": "Dialogue",
     "summary": "Devi asks by what means Bhairava's supreme state may be realized directly and correctly.",
@@ -851,6 +920,9 @@
   },
   {
     "verse_number": 24,
+    "page": 13,
+    "speaker": "Bhairava",
+    "sanskrit": "ऊर्ध्वे प्राणो ह्यधो जीिो विसगाधत्मा ऩरोच्चरेत् ।\nउत्पवत्तवद्वतयस्थाने भरणाद्भवरता वस्थवत् ॥ २४ ॥",
     "method_name": "Breath Junction Between Prana and Jiva",
     "category": "Breath",
     "summary": "When the upward-moving prana and downward-moving jiva/apana meet at the two points of arising and subsiding, the Bhairava state shines forth.",
@@ -889,6 +961,9 @@
   },
   {
     "verse_number": 25,
+    "page": 13,
+    "speaker": "Bhairava",
+    "sanskrit": "मरुतोऽन्तिधवहिाधवऩ वियद्युवमावनितधनात् ।\nभैरव्या भैरिस्येत्थं भैरवि व्यज्यते िऩु् ॥ २५ ॥",
     "method_name": "Revelation in the Turning of Breath",
     "category": "Breath",
     "summary": "Through the cessation of the breath's movement inward and outward, the body or form of Bhairava becomes manifest.",
@@ -927,6 +1002,9 @@
   },
   {
     "verse_number": 26,
+    "page": 14,
+    "speaker": "Bhairava",
+    "sanskrit": "न व्रजेन्न विशेच्छविमधरुद्रूऩा विकावसते ।\nवनविधकल्पतया मध्ये तया भैरिरूऩता ॥ २६ ॥",
     "method_name": "The Breathless Middle Free of Movement",
     "category": "Breath",
     "summary": "When Shakti as breath neither goes out nor enters in, the Bhairava-form is revealed in the middle as free from thought-construction.",
@@ -965,6 +1043,9 @@
   },
   {
     "verse_number": 27,
+    "page": 14,
+    "speaker": "Bhairava",
+    "sanskrit": "कुवम्भता रेवचता िावऩ ऩूवरता िा यदा भिेत् ।\nतदन्ते शान्तनामासौ शक्त्या शान्त् प्रकाशते ॥ २७ ॥",
     "method_name": "Peace at the End of Retention Exhalation or Inhalation",
     "category": "Breath",
     "summary": "Whether the breath is retained, exhaled, or inhaled, at the end of each phase the peaceful state shines forth through Shakti.",
@@ -1003,6 +1084,9 @@
   },
   {
     "verse_number": 28,
+    "page": 14,
+    "speaker": "Bhairava",
+    "sanskrit": "आमूऱाविरणाभासां सूक्ष्मात् सूक्ष्मतरावत्मकाम् ।\nवचन्तयेत्ताम् वद्वषट्कान्ते श्याम्यन्तीम् भैरिोदय् ॥ २८ ॥",
     "method_name": "Meditation on the Subtle Darkening Current",
     "category": "Visualization",
     "summary": "One should contemplate the extremely subtle radiant current rising from the root and becoming quiet in the dvadasanta, where the arising of Bhairava occurs.",
@@ -1040,6 +1124,9 @@
   },
   {
     "verse_number": 29,
+    "page": 15,
+    "speaker": "Bhairava",
+    "sanskrit": "उद्गच्छन्तं तवडद्रूऩाम् प्रवतचक्रं क्रमात्क्रमम् ।\nऊर्ध्वं मुवष्टियं याित् तािदन्ते महोदय् ॥ २९ ॥",
     "method_name": "Lightning Ascent Through the Chakras",
     "category": "Visualization",
     "summary": "Meditate on a lightning-like force rising successively through each chakra upward until, at the end, the great awakening dawns.",
@@ -1077,6 +1164,9 @@
   },
   {
     "verse_number": 30,
+    "page": 15,
+    "speaker": "Bhairava",
+    "sanskrit": "क्रमद्वादशकं सम्यग् द्वादशाऺरभेवदतम् ।\nस्थूऱसूक्ष्मऩरवस्थत्या मुक्त्वा मुक्त्वान्तत् वशि् ॥ ३० ॥",
     "method_name": "Transcending the Twelvefold Sequence",
     "category": "Dissolution",
     "summary": "By correctly traversing the twelvefold sequence, known as the twelve-syllabled process, and relinquishing gross, subtle, and supreme stages, one reaches Shiva at the end of the end.",
@@ -1114,6 +1204,9 @@
   },
   {
     "verse_number": 31,
+    "page": 16,
+    "speaker": "Bhairava",
+    "sanskrit": "तयाऩूयाधशु मूधाधन्तं भङ्क्त्वा भ्रूऺेऩसेतुना ।\nवनविधकल्पं मन् कृत्वा सिोर्ध्वे सिधगोद्गम् ॥ ३१ ॥",
     "method_name": "Eyebrow Bridge to Upward Expansion",
     "category": "Visualization",
     "summary": "Using the bridge of attention at the eyebrows, one contemplates the rising movement into the all-pervading upward expansion beyond constructed thought.",
@@ -1151,6 +1244,9 @@
   },
   {
     "verse_number": 32,
+    "page": 16,
+    "speaker": "Bhairava",
+    "sanskrit": "वशवखऩऺैवश्चिरूऩैमधण्डऱै् शून्यऩञ्चकम् ।\nध्यायतोऽनुत्तरे शून्ये प्रिेशो हृदये भिेत् ॥ ३२ ॥",
     "method_name": "Meditation on the Fivefold Void",
     "category": "Space",
     "summary": "By contemplating the fivefold emptiness in subtle forms, one gains प्रवेश into the unsurpassable void within the heart.",
@@ -1187,6 +1283,9 @@
   },
   {
     "verse_number": 33,
+    "page": 16,
+    "speaker": "Bhairava",
+    "sanskrit": "ईदृशेन क्रमेणैि यि कुिावऩ वचन्तना ।\nशून्ये कुड्ये ऩरे ऩािे स्वयम् ऱीना िरप्रदा ॥ ३३ ॥",
     "method_name": "Thought Dissolving into Any Void",
     "category": "Dissolution",
     "summary": "By applying the same method of contemplation to any object of thought and letting it open into emptiness, the mind dissolves of itself into the supreme state.",
@@ -1223,6 +1322,9 @@
   },
   {
     "verse_number": 34,
+    "page": 17,
+    "speaker": "Bhairava",
+    "sanskrit": "कऩाऱान्तमधनो न्यस्य वतष्ठन्मीवऱतऱोचन् ।\nक्रमेण मनसो दार्ढ्ाधत् ऱऺयेत् ऱष्यमुत्तमम् ॥ ३४ ॥",
     "method_name": "Forehead Limit and the Supreme Target",
     "category": "Awareness",
     "summary": "Placing attention at the end-point of the skull or forehead and remaining with closed eyes, one steadily strengthens the mind until the supreme object of realization is perceived.",
@@ -1260,6 +1362,9 @@
   },
   {
     "verse_number": 35,
+    "page": 17,
+    "speaker": "Bhairava",
+    "sanskrit": "मध्यनाडी मध्यसंस्था विससूिाभरूऩया ।\nध्यातान्तव्योमया देव्या तया देि् प्रकाशते ॥ ३५ ॥",
     "method_name": "Meditation on the Central Channel as Subtle Thread",
     "category": "Visualization",
     "summary": "Meditating on the middle channel, established in the center like the form of a lotus fiber and filled with inner space as the Goddess, one comes to the divine radiance.",
@@ -1297,6 +1402,9 @@
   },
   {
     "verse_number": 36,
+    "page": 18,
+    "speaker": "Bhairava",
+    "sanskrit": "कररुद्धदृगस्त्रेण भ्रूभेदाद्द्वाररोधनात् ।\nदृष्टे विन्दौ क्रमाल्लीने तन्मध्ये ऩरमा वस्थवत् ॥ ३६ ॥",
     "method_name": "Sealed Senses and the Dissolving Point",
     "category": "Visualization",
     "summary": "By blocking the sensory doors and fixing vision through the brow center, one perceives a point which gradually dissolves, and in its center the supreme state appears.",
@@ -1335,6 +1443,9 @@
   },
   {
     "verse_number": 37,
+    "page": 18,
+    "speaker": "Bhairava",
+    "sanskrit": "धामान्त् ऺोभसम्भूतसूक्ष्माविवतऱकाकृवतम् ।\nविन्दुं वशखान्ते हृदये ऱयान्ते ध्यायतो ऱय् ॥ ३७ ॥",
     "method_name": "Subtle Tilaka Bindu at Crown, Heart, and Dissolution",
     "category": "Visualization",
     "summary": "Meditating on a subtle bindu shaped like a tiny tilaka, born of inner vibration, at the crown, in the heart, or at the point of dissolution, one attains absorption.",
@@ -1373,6 +1484,9 @@
   },
   {
     "verse_number": 38,
+    "page": 19,
+    "speaker": "Bhairava",
+    "sanskrit": "अनाहते ऩािकणेऽभिशब्दे सवरद्द्रुते ।\nशब्दब्रह्मवण वनष्णात् ऩरं ब्रह्मावधगच्छवत ॥ ३८ ॥",
     "method_name": "Immersion in the Unstruck Sound",
     "category": "Sound",
     "summary": "Meditating on the unstruck inner sound in the region of the heart and becoming fully immersed in sound-brahman, one realizes the supreme brahman.",
@@ -1408,6 +1522,9 @@
   },
   {
     "verse_number": 39,
+    "page": 19,
+    "speaker": "Bhairava",
+    "sanskrit": "प्रणिावदसमुच्चारात् प्लुतान्ते शून्यभािानात् ।\nशून्यया ऩरया शक्त्या शून्यतामेवत भैरवि ॥ ३९ ॥",
     "method_name": "Plunging into the Void after Sacred Sound",
     "category": "Sound",
     "summary": "From the utterance of praṇava or another mantra, at the prolonged ending one should contemplate the void, and through the supreme power of that void one becomes void-like, O Bhairavi.",
@@ -1445,6 +1562,9 @@
   },
   {
     "verse_number": 40,
+    "page": 19,
+    "speaker": "Bhairava",
+    "sanskrit": "यस्य कस्यावऩ िणधस्य ऩूिाधन्तािनुभाियेत् ।\nशून्यया शून्यभूतोऽसौ शून्याकार् ऩुमान्भिेत् ॥ ४० ॥",
     "method_name": "Entering the Void at the Beginning and End of Sound",
     "category": "Sound",
     "summary": "For any sound or syllable, one should experience its beginning and end; through the void, one becomes void-like and assumes the form of spacious emptiness.",
@@ -1482,6 +1602,9 @@
   },
   {
     "verse_number": 41,
+    "page": 20,
+    "speaker": "Bhairava",
+    "sanskrit": "तन्त्र्यावदिाद्यशब्देषु दीघेषु क्रमसवम्स्थते् ।\nअनन्यचेता् प्रत्यन्ते ऩरव्योमिऩुभधिेत् ॥ ४१ ॥",
     "method_name": "Dissolution in the End of Sustained Sound",
     "category": "Sound",
     "summary": "By attending one-pointedly to the fading end of prolonged instrumental or other sounds, one realizes the supreme space.",
@@ -1520,6 +1643,9 @@
   },
   {
     "verse_number": 42,
+    "page": 20,
+    "speaker": "Bhairava",
+    "sanskrit": "वऩण्डमन्त्रस्य सिधस्य स्थूऱिणधक्रमेण तु ।\nअधेन्दुविन्दुनादान्त् शून्योच्चाराद्भिेवच्छि् ॥ ४२ ॥",
     "method_name": "Mantra Dissolution through Bindu and Nada",
     "category": "Sound",
     "summary": "By subtle contemplation of a perfected mantra through its gross and progressively subtler stages—ending in crescent, bindu, and nāda—one becomes Bhairava through the void-like utterance.",
@@ -1560,6 +1686,9 @@
   },
   {
     "verse_number": 43,
+    "page": 21,
+    "speaker": "Bhairava",
+    "sanskrit": "वनजदेहे सिधवदक्कम् युगऩद्भाियेवद्वयत् ।\nवनविधकल्पमनास्तस्य वियत्सिधम् प्रितधते ॥ ४३ ॥",
     "method_name": "Simultaneous Contemplation of Bodily Directions as Space",
     "category": "Space",
     "summary": "When one simultaneously contemplates the body's directional expanse as pervaded by space, conceptual thought ceases and the attainment of spaciousness arises.",
@@ -1599,6 +1728,9 @@
   },
   {
     "verse_number": 44,
+    "page": 21,
+    "speaker": "Bhairava",
+    "sanskrit": "ऩृष्टशून्यम् मूऱशून्यम् युगऩद्भाियेच्च य् ।\nशरीरवनरऩेवऺण्या शक्त्या शून्यमना भिेत् ॥ ४४ ॥",
     "method_name": "Front and Root Void Contemplation",
     "category": "Space",
     "summary": "By simultaneously contemplating void at the back and at the root, one becomes empty-minded through the body's own power becoming space-like.",
@@ -1638,6 +1770,9 @@
   },
   {
     "verse_number": 45,
+    "page": 21,
+    "speaker": "Bhairava",
+    "sanskrit": "ऩृष्टशून्यं मूऱशून्यं हृच्छून्यं भाियेविरम् ।\nयुगऩवन्नविधकल्पत्वावन्नविधकल्पोदयस्तत् ॥ ४५ ॥",
     "method_name": "Threefold Void in Back, Root, and Heart",
     "category": "Space",
     "summary": "By steadily contemplating void in the back, root, and heart simultaneously, the rise of non-conceptual awareness occurs.",
@@ -1677,6 +1812,9 @@
   },
   {
     "verse_number": 46,
+    "page": 22,
+    "speaker": "Bhairava",
+    "sanskrit": "तनूदेशे शून्यतैि ऺणमािं विभाियेत् ।\nवनविधकल्पं वनविधकल्पो वनविधकल्पस्वरूऩभाक् ॥ ४६ ॥",
     "method_name": "Momentary Void in Any Body Part",
     "category": "Space",
     "summary": "If one contemplates emptiness for even a moment in any part of the body, one comes to share the nature of non-conceptual awareness.",
@@ -1714,6 +1852,9 @@
   },
   {
     "verse_number": 47,
+    "page": 22,
+    "speaker": "Bhairava",
+    "sanskrit": "सिं देहगतं द्रव्यं वियद्व्याप्तं मृगेऺणे ।\nविभाियेत्ततस्तस्य भािना सा वस्थरा भिेत् ॥ ४७ ॥",
     "method_name": "Body Substance as Space-Pervaded",
     "category": "Space",
     "summary": "By contemplating all the bodily substance as entirely pervaded by space, one's meditative vision becomes steady.",
@@ -1752,6 +1893,9 @@
   },
   {
     "verse_number": 48,
+    "page": 23,
+    "speaker": "Bhairava",
+    "sanskrit": "देहान्तरे त्ववविभागम् वभवत्तभूतम् विवचन्तयेत् ।\nन वकंवचदन्तरे तस्य ध्यायन्नध्येयभाग्भिेत् ॥ ४८ ॥",
     "method_name": "Contemplation of the Inner Partitionless Space",
     "category": "Space",
     "summary": "By contemplating the body interior as undivided, foundational space with nothing separate within it, one becomes absorbed beyond meditator and object.",
@@ -1789,6 +1933,9 @@
   },
   {
     "verse_number": 49,
+    "page": 23,
+    "speaker": "Bhairava",
+    "sanskrit": "हृद्याकाशे वनऱीनाऺ् ऩिसम्पुटमध्यग् ।\nअनन्यचेता् सुभगे ऩरं सौभावयमाप्नुयात् ॥ ४९ ॥",
     "method_name": "Heart-Space Within the Lotus Core",
     "category": "Space",
     "summary": "With one-pointed mind absorbed in the space of the heart at the center of the inner lotus, one attains supreme good fortune or blessed radiance.",
@@ -1827,6 +1974,9 @@
   },
   {
     "verse_number": 50,
+    "page": 23,
+    "speaker": "Bhairava",
+    "sanskrit": "सिधत् स्वशरीरस्य द्वादशान्ते मनोऱयात् ।\nदृढिुद्धेदृधढीभूतं तत्त्वऱक्ष्यं प्रितधते ॥ ५० ॥",
     "method_name": "Mind Dissolution at the Dvadasanta",
     "category": "Breath",
     "summary": "When the mind dissolves in the dvādaśānta of one's own body, the true principle becomes manifest to firm and steady intelligence.",
@@ -1865,6 +2015,9 @@
   },
   {
     "verse_number": 51,
+    "page": 24,
+    "speaker": "Bhairava",
+    "sanskrit": "यथा तथा यि ति द्वादशान्ते मन् वऺऩेत् ॥\nप्रवतऺणम् ऺीणिृत्तेिैऱऺण्यं वदनैभधिेत् ॥ ५१ ॥",
     "method_name": "Mind Fixed in the Dvādaśānta",
     "category": "Space",
     "summary": "By placing the mind in the dvādaśānta and sustaining that attention moment after moment, the ordinary mental movements fade and an exceptional state emerges.",
@@ -1902,6 +2055,9 @@
   },
   {
     "verse_number": 52,
+    "page": 24,
+    "speaker": "Bhairava",
+    "sanskrit": "काऱाविना काऱऩदादुवत्थतेन स्वकं ऩुरम् ।\nप्लुष्टं विवचन्तयेदन्ते शान्ताभासस्तदा भिेत् ॥ ५२ ॥",
     "method_name": "Contemplation of One's City Burned by Time",
     "category": "Visualization",
     "summary": "One should contemplate one's own embodied domain as burned up by the fire arising from Time, and at the end a peaceful radiance appears.",
@@ -1938,6 +2094,9 @@
   },
   {
     "verse_number": 53,
+    "page": 25,
+    "speaker": "Bhairava",
+    "sanskrit": "एिम् एि जगत्सिं दवधं ध्यात्वा विकल्पत् ।\nअनन्यचेतस् ऩुम्स् ऩुम्भाि् ऩरमो भिेत् ॥ ५३ ॥",
     "method_name": "Seeing the Whole World as Dissolving",
     "category": "Dissolution",
     "summary": "By meditating on the entire world as dissolving and remaining free of alternative thought, the practitioner attains the supreme state.",
@@ -1974,6 +2133,9 @@
   },
   {
     "verse_number": 54,
+    "page": 25,
+    "speaker": "Bhairava",
+    "sanskrit": "स्वदेहे जगतो िावऩ सूक्ष्मसूक्ष्मतरावण च ।\nतत्त्वावन यावन वनऱयं ध्यात्वान्ते व्यज्यते ऩरा ॥ ५४ ॥",
     "method_name": "Contemplating the Tattvas in Body and World",
     "category": "Nonduality",
     "summary": "By meditating on the subtle and even subtler tattvas that abide in one's own body and in the cosmos, the supreme reality is revealed in the end.",
@@ -2011,6 +2173,9 @@
   },
   {
     "verse_number": 55,
+    "page": 26,
+    "speaker": "Bhairava",
+    "sanskrit": "ऩीनां च दुिधऱां शविं ध्यात्वा द्वादशगोचरे ।\nप्रविश्य हृदये ध्यायन्मुि् स्वातन्त्र्यमाप्नुयात् ॥ ५५ ॥",
     "method_name": "Meditating on the Subtle Power in the Dvādaśānta and Heart",
     "category": "Visualization",
     "summary": "Meditating on the subtle power in the field of the twelve and then entering the heart with that awareness, one attains liberation and innate freedom.",
@@ -2049,6 +2214,9 @@
   },
   {
     "verse_number": 56,
+    "page": 26,
+    "speaker": "Bhairava",
+    "sanskrit": "भुिनार्ध्वावदरूऩेण वचन्तयेत्क्रमशोऽवखऱम् ।\nस्थूऱसूक्ष्मऩरवस्थत्या यािदन्ते मनोऱय् ॥ ५६ ॥",
     "method_name": "Sequential Contemplation of the Cosmic Hierarchy",
     "category": "Dissolution",
     "summary": "One should contemplate the entire cosmic sequence step by step in its gross, subtle, and supreme forms until the mind dissolves at the end.",
@@ -2087,6 +2255,9 @@
   },
   {
     "verse_number": 57,
+    "page": 27,
+    "speaker": "Bhairava",
+    "sanskrit": "अस्य सिधस्य विश्वस्य ऩयधन्तेषु समन्तत् ।\nअर्ध्वप्रवक्रयया तत्त्वं शैिं ध्यत्वा महोदय् ॥ ५७ ॥",
     "method_name": "Meditation on Śaiva Reality through the Adhva Process",
     "category": "Nonduality",
     "summary": "By meditating on the Śaiva principle through the adhva-process at the limits and extensions of the whole universe, great awakening arises.",
@@ -2124,6 +2295,9 @@
   },
   {
     "verse_number": 58,
+    "page": 27,
+    "speaker": "Bhairava",
+    "sanskrit": "विश्वमेतन्महादेवि शून्यभूतं विवचन्तयेत् ।\nतिैि च मनो ऱीनं ततस्तल्लयभाजनम् ॥ ५८ ॥",
     "method_name": "Seeing the World as Empty and Letting Mind Dissolve",
     "category": "Space",
     "summary": "One should contemplate the entire universe as empty in nature; when the mind dissolves there, one becomes fit for that same dissolution.",
@@ -2160,6 +2334,9 @@
   },
   {
     "verse_number": 59,
+    "page": 27,
+    "speaker": "Bhairava",
+    "sanskrit": "घटावदभाजने दृवष्टं वभवत्तस्त्यक्त्वा विवनवऺऩेत् ।\nतल्लयं तत्क्षणाद्गत्वा तल्लयात्तन्मयो भिेत् ॥ ५९ ॥",
     "method_name": "Fixing the Gaze on a Vessel and Merging",
     "category": "Body",
     "summary": "By fixing the gaze on a pot or similar vessel without shifting to surrounding supports, one quickly enters absorption and becomes one with that dissolution.",
@@ -2196,6 +2373,9 @@
   },
   {
     "verse_number": 60,
+    "page": 28,
+    "speaker": "Bhairava",
+    "sanskrit": "वनिृधऺवगवरवभत्त्यावददेशे दृवष्टं विवनवऺऩेत् ।\nविऱीने मानसे भािे िृवत्तऺीण् प्रजायते ॥ ६० ॥",
     "method_name": "Steady Gaze in Vast Places",
     "category": "Space",
     "summary": "By fixing the gaze in places such as an empty mountain expanse or wall and allowing the mental state to dissolve, thought-waves become attenuated.",
@@ -2232,6 +2412,9 @@
   },
   {
     "verse_number": 61,
+    "page": 28,
+    "speaker": "Bhairava",
+    "sanskrit": "उभयोभाधियोऻाधने ध्यात्वा मध्यं समाश्रयेत् ।\nयुगऩच्च द्वयं त्यक्त्वा मध्ये तत्त्वं प्रकाशते ॥ ६१ ॥",
     "method_name": "Abiding in the Middle Between Two States",
     "category": "Awareness",
     "summary": "By contemplating the middle between two opposing mental states and abandoning both at once, the essential reality shines forth in the center.",
@@ -2271,6 +2454,9 @@
   },
   {
     "verse_number": 62,
+    "page": 29,
+    "speaker": "Bhairava",
+    "sanskrit": "भािे त्यिे वनरुद्धा वचन् नैि भािान्तरम् व्रजेत् ।\nतदा तन्मध्यभािेन विकसत्यवत भािना ॥ ६२ ॥",
     "method_name": "Resting in the Gap After a Thought",
     "category": "Dissolution",
     "summary": "When one mental state has ceased and the next has not yet arisen, abiding in that middle condition allows the power of awareness to unfold.",
@@ -2309,6 +2495,9 @@
   },
   {
     "verse_number": 63,
+    "page": 29,
+    "speaker": "Bhairava",
+    "sanskrit": "सिं देहं वचन्मयं वह जगद्वा ऩवरभाियेत् ।\nयुगऩवन्नविधकल्पेन मनसा ऩरमोदय् ॥ ६३ ॥",
     "method_name": "Contemplating Body or World as Consciousness",
     "category": "Nonduality",
     "summary": "By envisioning either the whole body or the entire universe as made of consciousness, and holding both possibilities simultaneously, supreme awakening arises.",
@@ -2347,6 +2536,9 @@
   },
   {
     "verse_number": 64,
+    "page": 30,
+    "speaker": "Bhairava",
+    "sanskrit": "िायुद्वयस्य सम्घट्टाद् अन्तर् िा िवहरन्तत् ।\nयोगी समत्वविऻानसमुद्गमनभाजनम् ॥ ६४ ॥",
     "method_name": "Equanimity at the Collision of the Two Breaths",
     "category": "Breath",
     "summary": "At the meeting point of the two breaths, whether inside or outside, the yogin becomes a vessel for the arising knowledge of perfect equilibrium.",
@@ -2386,6 +2578,9 @@
   },
   {
     "verse_number": 65,
+    "page": 30,
+    "speaker": "Bhairava",
+    "sanskrit": "सिं जगत्स्वदेहं िा स्वानन्दभवरतं स्मरेत् ।\nयुगऩत्स्वामृतेनैि ऩरानन्दमयो भिेत् ॥ ६५ ॥",
     "method_name": "Remembering the World or Body as Filled with One's Own Bliss",
     "category": "Emotion",
     "summary": "By remembering the whole world or one's own body as filled with one's intrinsic bliss and immortal essence, one becomes saturated with supreme bliss.",
@@ -2424,6 +2619,9 @@
   },
   {
     "verse_number": 66,
+    "page": 30,
+    "speaker": "Bhairava",
+    "sanskrit": "कुहनेन प्रयोगेण सद्य एि मृगेऺणे ।\nसमुदेवत महानन्दो येन तत्त्वम् प्रकाशते ॥ ६६ ॥",
     "method_name": "Sudden Great Bliss Through a Hidden Method",
     "category": "Dissolution",
     "summary": "Through a secret practical means, great bliss suddenly arises, and through that bliss the essential reality becomes revealed.",
@@ -2461,6 +2659,9 @@
   },
   {
     "verse_number": 67,
+    "page": 31,
+    "speaker": "Bhairava",
+    "sanskrit": "सिधस्रोतोवनिन्धेन प्राणशक्त्योर्ध्वधया शनै् ।\nवऩऩीऱस्पशधिेऱायां प्रथते ऩरमं सुखम् ॥ ६७ ॥",
     "method_name": "Blocking the Channels and Raising Prana",
     "category": "Breath",
     "summary": "By gradually restraining all the channels and leading the life-force upward, a subtle ant-like sensation appears, and with it supreme bliss unfolds.",
@@ -2499,6 +2700,9 @@
   },
   {
     "verse_number": 68,
+    "page": 31,
+    "speaker": "Bhairava",
+    "sanskrit": "िह्नेविधषस्य मध्ये तु वचत्तं सुखमयं वऺऩेत् ।\nकेिऱं िायुऩूणं िा स्मरानन्देन युज्यते ॥ ६८ ॥",
     "method_name": "Casting Mind into Fire or Wind-Filled Space",
     "category": "Visualization",
     "summary": "Placing the mind in the blissful center of fire, or in a state filled only with air, joins one to the bliss born of subtle recollection.",
@@ -2537,6 +2741,9 @@
   },
   {
     "verse_number": 69,
+    "page": 32,
+    "speaker": "Bhairava",
+    "sanskrit": "शविसंगमसंऺुब्धशक्त्यािेशािसावनकम् ।\nयत्सुखम् ब्रह्मतत्त्वस्य तत्सुखम् स्वाक्यमुच्यते ॥ ६९ ॥",
     "method_name": "Recognizing the Bliss at the End of Shakti's Arousal",
     "category": "Emotion",
     "summary": "The joy that appears at the culmination of the agitation caused by the union of energies is declared to be the very bliss of Brahman.",
@@ -2575,6 +2782,9 @@
   },
   {
     "verse_number": 70,
+    "page": 32,
+    "speaker": "Bhairava",
+    "sanskrit": "ऱेहनामन्थनाकोटै् स्त्रीसुखस्य भरात्स्मृते् ।\nशक्त्यभािेऽवऩ देिेवश भिेदानन्दसम्प्लि् ॥ ७० ॥",
     "method_name": "Remembered Pleasure as a Flood of Bliss",
     "category": "Emotion",
     "summary": "By vividly recalling the fullness of sensual pleasure, even in the absence of the external partner or stimulus, one may become immersed in a flood of bliss.",
@@ -2613,6 +2823,9 @@
   },
   {
     "verse_number": 71,
+    "page": 32,
+    "speaker": "Bhairava",
+    "sanskrit": "आनन्दे महवत प्राप्ते दृष्टे िा िान्धिे वचरात् ।\nआनन्दमुद्गतम् ध्यात्वा तल्लयस्तन्मना भिेत् ॥ ७१ ॥",
     "method_name": "Absorption into Arising Joy",
     "category": "Emotion",
     "summary": "When great joy arises through seeing a long-separated loved one or other powerful delight, meditate on that upsurging bliss and merge the mind into it.",
@@ -2648,6 +2861,9 @@
   },
   {
     "verse_number": 72,
+    "page": 33,
+    "speaker": "Bhairava",
+    "sanskrit": "जववधऩानकृतोल्लासरसानन्दविजृम्भणात् ।\nभाियेद्भवरतािस्थां महानन्दस्ततो भिेत् ॥ ७२ ॥",
     "method_name": "Expanding the Bliss of Taste and Delight",
     "category": "Emotion",
     "summary": "From the exhilaration and rasa-bliss produced by food and drink, one should cultivate the filled state of delight, from which great bliss arises.",
@@ -2683,6 +2899,9 @@
   },
   {
     "verse_number": 73,
+    "page": 33,
+    "speaker": "Bhairava",
+    "sanskrit": "वगतावदविषयास्वादासमसौख्यैकतात्मन् ।\nयोवगनस्तन्मयत्वेन मनोरूढेस् तदात्मता ॥ ७३ ॥",
     "method_name": "Becoming One with Aesthetic Enjoyment",
     "category": "Emotion",
     "summary": "In the savoring of song and similar objects, when the yogin becomes wholly one with the undivided happiness of the experience, identity with That arises.",
@@ -2718,6 +2937,9 @@
   },
   {
     "verse_number": 74,
+    "page": 34,
+    "speaker": "Bhairava",
+    "sanskrit": "यि यि मनस्तुवष्टमधनस्तिैि धारयेत् ।\nति ति ऩरानन्दस्वारूऩं सम्प्रितधते ॥ ७४ ॥",
     "method_name": "Resting Where the Mind Finds Satisfaction",
     "category": "Awareness",
     "summary": "Wherever the mind finds contentment and satisfaction, one should hold it there; in that very place the nature of supreme bliss unfolds.",
@@ -2753,6 +2975,9 @@
   },
   {
     "verse_number": 75,
+    "page": 34,
+    "speaker": "Bhairava",
+    "sanskrit": "अनागतायां वनद्रायां प्रणष्टे िाह्यगोचरे ।\nसािस्था मनसा गम्या ऩरा देिी प्रकाशते ॥ ७५ ॥",
     "method_name": "Entering the Threshold Before Sleep",
     "category": "Awareness",
     "summary": "At the onset of sleep, when external objects have vanished but sleep has not yet fully arrived, that state is to be reached by the mind; there the supreme Goddess shines.",
@@ -2788,6 +3013,9 @@
   },
   {
     "verse_number": 76,
+    "page": 34,
+    "speaker": "Bhairava",
+    "sanskrit": "तेजसा सूयधदीऩादेराकाशे शिऱीकृते ।\nदृवष्टवनधिेश्या तिैि स्वात्मरूऩं प्रकाशते ॥ ७६ ॥",
     "method_name": "Gazing into Luminous Space",
     "category": "Visualization",
     "summary": "When space is brightened by the light of the sun, lamp, or similar radiance, fixing the gaze there reveals one's own true nature.",
@@ -2823,6 +3051,9 @@
   },
   {
     "verse_number": 77,
+    "page": 35,
+    "speaker": "Bhairava",
+    "sanskrit": "करवङ्कण्या क्रोधनया भैरव्या ऱेवऱहानया ।\nखेचयाध दृवष्टकाऱे च ऩरािावप्त् प्रकाशते ॥ ७७ ॥",
     "method_name": "Fierce Gaze of Bhairavī",
     "category": "Visualization",
     "summary": "At the moment of the gaze of the fierce, licking, wrathful Bhairavī or Khecarī, supreme attainment flashes forth.",
@@ -2859,6 +3090,9 @@
   },
   {
     "verse_number": 78,
+    "page": 35,
+    "speaker": "Bhairava",
+    "sanskrit": "मृद्वासने विजैकेन हस्तऩादौ वनराश्रयम् ।\nवनधाय तत्प्रसङ्गेन ऩरा ऩूणाध मवतभधिेत् ॥ ७८ ॥",
     "method_name": "Weightless Limbs on a Soft Seat",
     "category": "Body",
     "summary": "Seated on a soft support, placing the hands and feet without reliance, one should attend to that condition, whereby the mind becomes filled with the supreme fullness.",
@@ -2894,6 +3128,9 @@
   },
   {
     "verse_number": 79,
+    "page": 36,
+    "speaker": "Bhairava",
+    "sanskrit": "उऩविश्यासने सम्यविाहू कृत्वाधधकुवञ्चतौ ।\nकऺव्योवि मन् कुिधन् शममायावत तल्लयात् ॥ ७९ ॥",
     "method_name": "Armpit Compression and Mental Dissolution",
     "category": "Body",
     "summary": "Seated properly, with the arms bent and arranged in a specific way at the sides, one brings about tranquility; through dissolution there, peace arises.",
@@ -2930,6 +3167,9 @@
   },
   {
     "verse_number": 80,
+    "page": 36,
+    "speaker": "Bhairava",
+    "sanskrit": "स्थूऱरूऩस्य भािस्य स्तब्धां दृवष्टं वनऩात्य च ।\nअवचरेण वनराधारं मन् कृत्वा वशिं व्रजेत् ॥ ८० ॥",
     "method_name": "Steady Gaze on a Solid Form",
     "category": "Visualization",
     "summary": "Casting an unmoving gaze upon a gross form and then making the mind unsupported, one quickly attains Śiva.",
@@ -2965,6 +3205,9 @@
   },
   {
     "verse_number": 81,
+    "page": 36,
+    "speaker": "Bhairava",
+    "sanskrit": "मध्यवजह्वे िावरतास्ये मध्ये वनवऺप्य चेतनाम् ।\nहोच्चारं मनसा कुिंस्तत् शान्ते प्रऱीयते ॥ ८१ ॥",
     "method_name": "Awareness at the Palatal Center with Inner Utterance",
     "category": "Sound",
     "summary": "By placing awareness in the middle of the palate and mentally intoning the sacred exhalatory sound, one dissolves into peace.",
@@ -3004,6 +3247,9 @@
   },
   {
     "verse_number": 82,
+    "page": 37,
+    "speaker": "Bhairava",
+    "sanskrit": "आसने शयने वस्थत्वा वनराधारं विभाियन् ।\nस्वदेहं मनवस वऺणे ऺणात्क्षीणाशयो भिेत् ॥ ८२ ॥",
     "method_name": "Contemplation of the Unsupported Body",
     "category": "Awareness",
     "summary": "While sitting or lying down, one should contemplate the body in the mind as unsupported, and thereby latent tendencies quickly fade.",
@@ -3043,6 +3289,9 @@
   },
   {
     "verse_number": 83,
+    "page": 37,
+    "speaker": "Bhairava",
+    "sanskrit": "चऱासने वस्थतस्याथ शनैिाध देहचाऱनात् ।\nप्रशान्ते मानसे भािे देवि वदव्यौघम् आप्नुयात् ॥ ८३ ॥",
     "method_name": "Stilling the Mind Through Gentle Swaying",
     "category": "Body",
     "summary": "While seated on a moving seat or gently moving the body, one allows motion to subside gradually, and in the resulting quiet mind attains a divine influx.",
@@ -3082,6 +3331,9 @@
   },
   {
     "verse_number": 84,
+    "page": 38,
+    "speaker": "Bhairava",
+    "sanskrit": "आकाशं विमऱं ऩश्यन्कृत्वा दृवष्टं वनरन्तराम् ।\nस्तब्धात्मा तत्क्षणाद्देवि भैरिं िऩुराप्नुयात् ॥ ८४ ॥",
     "method_name": "Steady Gaze into the Clear Sky",
     "category": "Space",
     "summary": "By maintaining an unbroken gaze into the stainless sky and becoming inwardly still, one instantly attains the form of Bhairava.",
@@ -3122,6 +3374,9 @@
   },
   {
     "verse_number": 85,
+    "page": 38,
+    "speaker": "Bhairava",
+    "sanskrit": "ऱीनं मूवनध वियत्सिधम् भैरित्वेन भाियेत् ।\nतत्सिधम् भैरिाकारतेजस्तत्त्वं समाविशेत् ॥ ८५ ॥",
     "method_name": "Contemplating All Space as Bhairava",
     "category": "Nonduality",
     "summary": "One should contemplate the entire expanse of space as Bhairava, and thereby enter the radiant essence in which all appears as Bhairava's form.",
@@ -3162,6 +3417,9 @@
   },
   {
     "verse_number": 86,
+    "page": 39,
+    "speaker": "Bhairava",
+    "sanskrit": "वकवञ्चज्ज्ञातम् द्वैतदावय िाह्याऱोकस्तम् ऩुन् ।\nविश्वावद भैरिं रूऩं ऻात्वानन्तप्रकाशभृत् ॥ ८६ ॥",
     "method_name": "From Limited Knowing to Infinite Bhairava-Light",
     "category": "Nonduality",
     "summary": "Recognizing that limited knowledge and external perception generate duality, one realizes the universe as Bhairava's form and becomes the bearer of infinite light.",
@@ -3202,6 +3460,9 @@
   },
   {
     "verse_number": 87,
+    "page": 39,
+    "speaker": "Bhairava",
+    "sanskrit": "एिमेि दुवनधशायां कृष्णऩऺागमे वचरम् ।\nतैवमरं भाियन् रूऩं भैरिं रूऩमेष्यवत ॥ ८७ ॥",
     "method_name": "Meditation on Darkness in the Night",
     "category": "Visualization",
     "summary": "In deep night, especially during the dark lunar phase, one should contemplate darkness for a long time and thereby become the form of Bhairava.",
@@ -3241,6 +3502,9 @@
   },
   {
     "verse_number": 88,
+    "page": 39,
+    "speaker": "Bhairava",
+    "sanskrit": "एिमेि वनमील्यादौ नेिे कृष्णाभमाग्रत् ।\nप्रसायध भैरिं रूऩं भाियम्स्तन्मयो भिेत् ॥ ८८ ॥",
     "method_name": "Seeing the Dark Field Behind Closed Eyes",
     "category": "Visualization",
     "summary": "Closing the eyes at the beginning and contemplating the dark form appearing before oneself, one becomes absorbed in Bhairava.",
@@ -3280,6 +3544,9 @@
   },
   {
     "verse_number": 89,
+    "page": 40,
+    "speaker": "Bhairava",
+    "sanskrit": "यस्य कस्येवन्द्रयस्यावऩ व्याघाताच्च वनरोधत् ।\nप्रविष्टस्याद्वये शून्ये तिैिात्मा प्रकाशते ॥ ८९ ॥",
     "method_name": "Revelation Through Interruption of the Senses",
     "category": "Awareness",
     "summary": "When any sense faculty is obstructed or brought to a halt, and one enters the non-dual void there, the Self shines forth.",
@@ -3320,6 +3587,9 @@
   },
   {
     "verse_number": 90,
+    "page": 40,
+    "speaker": "Bhairava",
+    "sanskrit": "अविन्दुम् अविसगधम् च अकारम् जऩतो महान् ।\nउदेवत देवि सहसा ऻानौघ् ऩरमेश्वर् ॥ ९० ॥",
     "method_name": "Japa of the Undifferentiated A-Sound",
     "category": "Sound",
     "summary": "By reciting the great letter A without bindu or visarga, a sudden flood of knowledge arises as the supreme Lord.",
@@ -3360,6 +3630,9 @@
   },
   {
     "verse_number": 91,
+    "page": 41,
+    "speaker": "Bhairava",
+    "sanskrit": "िणधस्य सविसगधस्य विसगाधन्तं वचवतं कुरु ।\nवनराधारेण वचत्तेन स्पृशेद्ब्रह्म सनातनम् ॥ ९१ ॥",
     "method_name": "Visarga Sound into the Eternal",
     "category": "Sound",
     "summary": "By contemplating the terminal visarga breath-sound at the end of utterance, one touches the eternal Brahman through that support.",
@@ -3401,6 +3674,9 @@
   },
   {
     "verse_number": 92,
+    "page": 41,
+    "speaker": "Bhairava",
+    "sanskrit": "व्योमाकारं स्वमात्मानम् ध्यायेवद्दवग्भरनािृतम् ।\nवनराश्रया वचवत् शवि् स्वरूऩं दशधयेत्तदा ॥ ९२ ॥",
     "method_name": "Meditation on the Sky-Form Self",
     "category": "Space",
     "summary": "Meditating on one's own Self as sky-like and all-pervasive, one comes to recognize the true nature of Śakti/Bhairava as that very expansive consciousness.",
@@ -3441,6 +3717,9 @@
   },
   {
     "verse_number": 93,
+    "page": 41,
+    "speaker": "Bhairava",
+    "sanskrit": "वकंवचदङ्गम् विवभद्यादौ तीक्ष्णसूच्यावदना तत् ।\nतिैि चेतनां युक्त्वा भैरिे वनमधऱा गवत् ॥ ९३ ॥",
     "method_name": "Piercing Sensation with a Sharp Point",
     "category": "Body",
     "summary": "By intensely attending to the consciousness present at the point where a limb is pierced by a sharp needle, one attains the stainless state of Bhairava.",
@@ -3480,6 +3759,9 @@
   },
   {
     "verse_number": 94,
+    "page": 42,
+    "speaker": "Bhairava",
+    "sanskrit": "वचत्ताद्यन्त्कृवतनाधवस्त ममान्तभाधियेवदवत ।\nविकल्पानामभािेन विकल्पैरुवितो भिेत् ॥ ९४ ॥",
     "method_name": "Freedom from Concept at Mind's Edges",
     "category": "Awareness",
     "summary": "By reflecting on the beginning and end of mental constructions and resting where conceptualization is absent, one rises beyond the network of thought.",
@@ -3520,6 +3802,9 @@
   },
   {
     "verse_number": 95,
+    "page": 42,
+    "speaker": "Bhairava",
+    "sanskrit": "माया विमोवहनी नाम कऱाया् कऱनं वस्थतम् ।\nइत्यावदधमं तत्त्वानां कऱयन्न ऩृथग्भिेत् ॥ ९५ ॥",
     "method_name": "Contemplating Maya as Differentiating Power",
     "category": "Nonduality",
     "summary": "By understanding māyā as the principle that produces division among the tattvas, one ceases to regard reality as truly separate.",
@@ -3561,6 +3846,9 @@
   },
   {
     "verse_number": 96,
+    "page": 43,
+    "speaker": "Bhairava",
+    "sanskrit": "झवगतीच्छां समुत्पन्नामिऱोक्य शमं नयेत् ।\nयत एि समुद्भूता ततस्तिैि ऱीयते ॥ ९६ ॥",
     "method_name": "Tracing Desire Back to Its Source",
     "category": "Emotion",
     "summary": "When a powerful desire arises, one should observe it and lead it into quiescence, for it dissolves back into the very source from which it emerged.",
@@ -3600,6 +3888,9 @@
   },
   {
     "verse_number": 97,
+    "page": 43,
+    "speaker": "Bhairava",
+    "sanskrit": "यदा ममेच्छा नोत्पन्ना ऻानं िा कस्तदावस्म िै ।\nतत्त्वतोऽहम् तथाभूतस्तल्लीनस्तन्मना भिेत् ॥ ९७ ॥",
     "method_name": "Who Am I Before Will and Knowledge?",
     "category": "Awareness",
     "summary": "One should inquire into what one truly is before desire or knowledge has arisen, then become absorbed in that primordial state.",
@@ -3639,6 +3930,9 @@
   },
   {
     "verse_number": 98,
+    "page": 44,
+    "speaker": "Bhairava",
+    "sanskrit": "इच्छायामथिा ऻाने जाते वचत्तं वनिेशयेत् ।\nआत्मिुद्ध्यानन्यचेतास्ततस्तत्त्वाथधदशधनम् ॥ ९८ ॥",
     "method_name": "Entering the Moment of Will or Knowing",
     "category": "Awareness",
     "summary": "Whenever desire or knowledge arises, one should place the mind there with the understanding that it is the Self, and through undivided attention realize the truth.",
@@ -3678,6 +3972,9 @@
   },
   {
     "verse_number": 99,
+    "page": 44,
+    "speaker": "Bhairava",
+    "sanskrit": "वनवनधवमत्तं भिेज्ज्ञानम् वनराधारं भ्रमात्मकम् ।\nतत्त्वत् कस्यवचन्नैतद् एिम्भािी वशि् वप्रये ॥ ९९ ॥",
     "method_name": "Knowledge Without Cause or Support",
     "category": "Nonduality",
     "summary": "Knowledge that appears causeless and unsupported is actually illusory as an independent phenomenon, for in truth it belongs to no separate entity.",
@@ -3716,6 +4013,9 @@
   },
   {
     "verse_number": 100,
+    "page": 44,
+    "speaker": "Bhairava",
+    "sanskrit": "वचद्धमाध सिधदेहेषु विशेषो नावस्त कुिवचत् ।\nअतश्च तन्मयं सिं भाियन्भिवजज्जन् ॥ १०० ॥",
     "method_name": "One Consciousness in All Bodies",
     "category": "Nonduality",
     "summary": "Since the nature of consciousness is the same in all bodies without any real distinction, one should contemplate everything as pervaded by that consciousness and thus become liberated.",
@@ -3757,6 +4057,9 @@
   },
   {
     "verse_number": 101,
+    "page": 45,
+    "speaker": "Bhairava",
+    "sanskrit": "कामक्रोधऱोभमोहमदमात्सयधगोचरे ।\nिुवद्धं वनवस्तवमतां कृत्वा तत्तत्त्वमिवशष्यते ॥ १०१ ॥",
     "method_name": "Transmuting Passion and Anger into Their Essence",
     "category": "Dissolution",
     "summary": "By entering states such as desire, anger, greed, delusion, pride, and envy without conceptual fixation, one discovers the remaining essential reality within them.",
@@ -3797,6 +4100,9 @@
   },
   {
     "verse_number": 102,
+    "page": 45,
+    "speaker": "Bhairava",
+    "sanskrit": "इन्द्रजाऱमयं विश्वं व्यस्तं िा वचिकमधित् ।\nभ्रमद्वा ध्यायत् सिं ऩश्यतश्च सुखोद्गम् ॥ १०२ ॥",
     "method_name": "Seeing the World as Magical Appearance",
     "category": "Awareness",
     "summary": "Meditating on the world as an illusion-like display, like a magical show or painted image, gives rise to a sudden upwelling of bliss.",
@@ -3835,6 +4141,9 @@
   },
   {
     "verse_number": 103,
+    "page": 46,
+    "speaker": "Bhairava",
+    "sanskrit": "न वचत्तं वनवऺऩेद् दु्खे न सुखे िा ऩवरवऺऩेत् ।\nभैरवि ऻायतां मध्ये वकं तत्त्वमिवशष्यते ॥ १०३ ॥",
     "method_name": "The Middle Beyond Pleasure and Pain",
     "category": "Awareness",
     "summary": "Do not cast the mind into sorrow or scatter it into pleasure; knowing the middle between them, one discovers the remaining reality.",
@@ -3874,6 +4183,9 @@
   },
   {
     "verse_number": 104,
+    "page": 46,
+    "speaker": "Bhairava",
+    "sanskrit": "विहाय वनजदेहस्थं सिधिास्मीवत भाियन् ।\nदृढेन मनसा दृष्ट्या नान्येवऺण्या सुखी भिेत् ॥ १०४ ॥",
     "method_name": "I Am All-Pervading",
     "category": "Nonduality",
     "summary": "Abandoning identification with the limited body and firmly contemplating 'I am all-pervasive,' one becomes happy through unwavering vision.",
@@ -3912,6 +4224,9 @@
   },
   {
     "verse_number": 105,
+    "page": 46,
+    "speaker": "Bhairava",
+    "sanskrit": "घटादौ यच्च विऻानवमच्छाद्यं िा ममान्तरे ।\nनैि सिधगतं जातं भाियवन्नवत सिधग् ॥ १०५ ॥",
     "method_name": "Contemplating Consciousness as All-Pervading",
     "category": "Nonduality",
     "summary": "One should contemplate that the consciousness appearing in a pot or within oneself is not locally produced there but is universally present everywhere.",
@@ -3950,6 +4265,9 @@
   },
   {
     "verse_number": 106,
+    "page": 47,
+    "speaker": "Bhairava",
+    "sanskrit": "ग्राह्यग्राहकसविवत्त् सामान्या सिधदेवहनाम् ।\nयोवगनां तु विशेषोऽवस्त सम्बन्धे सािधानता ॥ १०६ ॥",
     "method_name": "Attentiveness to the Subject-Object Relation",
     "category": "Awareness",
     "summary": "The relation between knower and known is common to all embodied beings, but the yogin's special skill lies in careful attention to that very relation.",
@@ -3987,6 +4305,9 @@
   },
   {
     "verse_number": 107,
+    "page": 47,
+    "speaker": "Bhairava",
+    "sanskrit": "स्विदन्यशरीरेऽवऩ सविवत्तं अनुभाियेत् ।\nअऩेऺां स्वशरीरस्य त्यक्त्वा व्याऩी वदनैर् भिेत् ॥ १०७ ॥",
     "method_name": "Experiencing Awareness in Another Body",
     "category": "Nonduality",
     "summary": "By directly sensing consciousness in another body and abandoning fixation on one's own body, one gradually becomes all-pervasive.",
@@ -4025,6 +4346,9 @@
   },
   {
     "verse_number": 108,
+    "page": 48,
+    "speaker": "Bhairava",
+    "sanskrit": "वनराधारं मन् कृत्वा विकल्पान्न विकल्पयेत् ।\nतदात्मऩरमात्मत्वे भैरिो मृगऱोचने ॥ १०८ ॥",
     "method_name": "Mind Without Support or Thought Construction",
     "category": "Awareness",
     "summary": "Making the mind supportless and not generating conceptual alternatives, one realizes the identity of self and supreme Self as Bhairava.",
@@ -4063,6 +4387,9 @@
   },
   {
     "verse_number": 109,
+    "page": 48,
+    "speaker": "Bhairava",
+    "sanskrit": "सिधऻ् सिधकताध च व्याऩक् ऩरमेश्वर् ।\nस एिाहम् शैिधमाध इवत दार्ढ्ाधवच्छिो भिेत् ॥ १०९ ॥",
     "method_name": "Firmly Affirming Identity with Shiva",
     "category": "Nonduality",
     "summary": "By firmly knowing 'I alone am that all-knowing, all-doing, all-pervading Lord,' one becomes Shiva.",
@@ -4102,6 +4429,9 @@
   },
   {
     "verse_number": 110,
+    "page": 48,
+    "speaker": "Bhairava",
+    "sanskrit": "जऱस्येिोमधयो िह्नेर्ज्ाधऱाभङ्ग्य् प्रभा रिे् ।\nममैि भैरिस्यैता विश्वभङ्ग्यो विभेवदता् ॥ ११० ॥",
     "method_name": "Viewing the Universe as Bhairava's Emanated Rays",
     "category": "Nonduality",
     "summary": "Just as rays issue from lamp, moon, fire, or sun, so the differentiated forms of the universe are contemplated as emanations of Bhairava alone.",
@@ -4139,6 +4469,9 @@
   },
   {
     "verse_number": 111,
+    "page": 49,
+    "speaker": "Bhairava",
+    "sanskrit": "भ्रान्त्वा भ्रान्त्वा शरीरेण त्ववरतम् भुवि ऩातनात् ।\nऺोभशविविरामेण ऩरा संजायते दशा ॥ १११ ॥",
     "method_name": "Whirling Shock into Stillness",
     "category": "Body",
     "summary": "By repeatedly spinning the body and then suddenly falling to the ground, the shock and ensuing stillness can open a higher state.",
@@ -4175,6 +4508,9 @@
   },
   {
     "verse_number": 112,
+    "page": 49,
+    "speaker": "Bhairava",
+    "sanskrit": "आधारेष्वथिाऽशक्त्याऽऻानावच्चत्तऱयेन िा ।\nजातशविसमािेशऺोभान्ते भैरिं िऩु् ॥ ११२ ॥",
     "method_name": "Energy Surge at the End of Agitation",
     "category": "Dissolution",
     "summary": "When agitation subsides after a powerful energetic stirring in the bodily centers, Bhairava's state is revealed.",
@@ -4212,6 +4548,9 @@
   },
   {
     "verse_number": 113,
+    "page": 50,
+    "speaker": "Bhairava",
+    "sanskrit": "सम्प्रदायवममं देवि शृणु सम्यविदाम्यहम् ।\nकैिल्यं जायते सद्यो नेियो् स्तब्धमाियो् ॥ ११३ ॥",
     "method_name": "Still the Eyes Completely",
     "category": "Awareness",
     "summary": "Bhairava introduces a traditional teaching: when the two eyes become utterly motionless, liberation can arise immediately.",
@@ -4248,6 +4587,9 @@
   },
   {
     "verse_number": 114,
+    "page": 50,
+    "speaker": "Bhairava",
+    "sanskrit": "सम्कोचं कणधयो् कृत्वा ह्यधोद्वारे तथैि च ।\nअनच्कमहऱं ध्यायविशेद्ब्रह्म सनातनम् ॥ ११४ ॥",
     "method_name": "Contract the Throat and Meditate on the Gap",
     "category": "Body",
     "summary": "By contracting the channels at the throat and lower gate and meditating on the central gap, one enters the eternal Brahman.",
@@ -4284,6 +4626,9 @@
   },
   {
     "verse_number": 115,
+    "page": 51,
+    "speaker": "Bhairava",
+    "sanskrit": "कूऩावदके महागते वस्थत्वोऩवर वनरीऺणात् ।\nअविकल्पमते् सम्यक्सद्यवश्चत्तऱय् िुटम् ॥ ११५ ॥",
     "method_name": "Look Down from a Great Height",
     "category": "Space",
     "summary": "Standing at the edge of a deep well or high precipice and looking downward, one whose mind becomes free of thought suddenly dissolves mental fluctuation.",
@@ -4320,6 +4665,9 @@
   },
   {
     "verse_number": 116,
+    "page": 51,
+    "speaker": "Bhairava",
+    "sanskrit": "यि यि मनो यावत िाह्ये िाभ्यन्तरेऽवऩ िा ।\nति ति वशिािास्था व्याऩकत्वात्क्व यास्यवत ॥ ११६ ॥",
     "method_name": "Wherever the Mind Goes, There Is Shiva",
     "category": "Nonduality",
     "summary": "Wherever the mind moves, whether outward or inward, there abides Shiva, for the all-pervading reality leaves no place to go outside it.",
@@ -4356,6 +4704,9 @@
   },
   {
     "verse_number": 117,
+    "page": 51,
+    "speaker": "Bhairava",
+    "sanskrit": "यि यिाऺमागेण चैतन्यं व्यज्यते विभो् ।\nतस्य तन्मािधवमधत्वावच्चल्लयाद्भवरतात्मता ॥ ११७ ॥",
     "method_name": "Trace Every Cognition Back to Consciousness",
     "category": "Awareness",
     "summary": "Wherever consciousness shines through any sensory path, one should recognize that manifestation as only that, and by dissolving into pure awareness become filled with Bhairava.",
@@ -4393,6 +4744,9 @@
   },
   {
     "verse_number": 118,
+    "page": 52,
+    "speaker": "Bhairava",
+    "sanskrit": "ऺुताद्यन्ते भये शोके गह्वरे िा रणाद्द्रुते ।\nकुतूहऱेऺुधाद्यन्ते ब्रह्मसत्तामयी दशा ॥ ११८ ॥",
     "method_name": "Threshold Awareness in Hunger, Fear, Shock, and Wonder",
     "category": "Emotion",
     "summary": "At the end-point of hunger, fear, grief, running panic, or intense curiosity, a state saturated with Brahman may arise.",
@@ -4429,6 +4783,9 @@
   },
   {
     "verse_number": 119,
+    "page": 52,
+    "speaker": "Bhairava",
+    "sanskrit": "िस्तुषु स्मयधमाणेषु दृष्टे देशे मनस् त्यजेत् ।\nस्वशरीरं वनराधारं कृत्वा प्रसरवत प्रभु् ॥ ११९ ॥",
     "method_name": "Abandon Mind from Remembered Objects and the Body",
     "category": "Dissolution",
     "summary": "When objects are remembered or seen in a place, one should let go of mind and make one's own body unsupported; then the Lord expands forth.",
@@ -4466,6 +4823,9 @@
   },
   {
     "verse_number": 120,
+    "page": 53,
+    "speaker": "Bhairava",
+    "sanskrit": "क्ववचद्वस्तुवन विन्यस्य शनैदृधवष्टम् वनितधयेत् ।\nतज्ज्ञानं वचत्तसवहतं देवि शून्याऱायो भिेत् ॥१२० ॥",
     "method_name": "Steady Gaze Until Object and Mind Empty Out",
     "category": "Visualization",
     "summary": "Fixing the gaze on some object and gradually withdrawing it, the knowledge of that object together with mind dissolves into the abode of emptiness.",
@@ -4503,6 +4863,9 @@
   },
   {
     "verse_number": 121,
+    "page": 53,
+    "speaker": "Bhairava",
+    "sanskrit": "भक्त्युद्रेकावद्वरिस्य यादृशी जायते मवत् ।\nसा शवि् शाङ्करी वनत्यं भियेत्तां तत् वशि् ॥ १२१ ॥",
     "method_name": "Devotional Surge into Shankari State",
     "category": "Emotion",
     "summary": "When a powerful upsurge of devotion arises, one should enter and abide in that Śāṅkarī state, through which one comes under the power of the Divine.",
@@ -4541,6 +4904,9 @@
   },
   {
     "verse_number": 122,
+    "page": 53,
+    "speaker": "Bhairava",
+    "sanskrit": "िस्त्वन्तरे िेद्यमाने सिधिस्तुषु शून्यता ।\nतामेि मनसा ध्यात्वा विवदतोऽवऩ प्रशाम्यवत ॥ १२२ ॥",
     "method_name": "Meditation on the Void Between Thoughts",
     "category": "Space",
     "summary": "When a gap or emptiness appears between cognitions or attainments, meditating on that inner void with the mind brings agitation to peace.",
@@ -4580,6 +4946,9 @@
   },
   {
     "verse_number": 123,
+    "page": 54,
+    "speaker": "Bhairava",
+    "sanskrit": "वकंवचज्ज्ञैयाध स्मृता शुवद्ध् सा शुवद्ध् शम्भुदशधने ।\nन शुवचह्यधशुवचस्तस्मावन्नविधकल्प् सुखी भिेत् ॥ १२३ ॥",
     "method_name": "Beyond Purity and Impurity",
     "category": "Nonduality",
     "summary": "True purity is remembered as the purity of Śambhu's realization, where one is neither pure nor impure and thus lives free from conceptual division and at ease.",
@@ -4619,6 +4988,9 @@
   },
   {
     "verse_number": 124,
+    "page": 54,
+    "speaker": "Bhairava",
+    "sanskrit": "सिधि भैरिो भाि् सामान्येष्ववऩ गोचर् ।\nन च तद्व्यवतरेिेण ऩरोऽस्तीत्यद्वया गवत् ॥ १२४ ॥",
     "method_name": "Recognizing Bhairava in the Ordinary",
     "category": "Nonduality",
     "summary": "Bhairava is present even in common objects of experience, and realizing that nothing exists apart from That is the nondual path.",
@@ -4657,6 +5029,9 @@
   },
   {
     "verse_number": 125,
+    "page": 55,
+    "speaker": "Bhairava",
+    "sanskrit": "सम् शिौ च वमिे च समो मानािमानयो् ॥\nब्रह्मण् ऩवरऩूणधत्वावदवत ऻात्वा सुखी भिेत् ॥ १२५ ॥",
     "method_name": "Equanimity in Friend and Foe",
     "category": "Awareness",
     "summary": "By remaining equal toward enemy and friend, honor and dishonor, and knowing Brahman as complete fullness, one becomes happy.",
@@ -4694,6 +5069,9 @@
   },
   {
     "verse_number": 126,
+    "page": 55,
+    "speaker": "Bhairava",
+    "sanskrit": "न द्वेषं भाियेत्क्वावऩ न रागं भाियेत्क्ववचत् ।\nरागद्वेषविवनमुधिौ मध्ये ब्रह्म प्रसऩधवत ॥ १२६ ॥",
     "method_name": "The Middle Between Attraction and Aversion",
     "category": "Nonduality",
     "summary": "One should cultivate neither aversion nor attachment anywhere; when free from both, Brahman shines forth in the middle.",
@@ -4732,6 +5110,9 @@
   },
   {
     "verse_number": 127,
+    "page": 56,
+    "speaker": "Bhairava",
+    "sanskrit": "यदिेद्यं यदग्राह्यं यच्छून्यं यदभािगम् ।\nतत्सिं भैरिं भाव्यं तदन्ते िोधसम्भि् ॥ १२७ ॥",
     "method_name": "Contemplating All as Bhairava",
     "category": "Nonduality",
     "summary": "Whatever is knowable, unknowable, void, or beyond being, all of it should be contemplated as Bhairava, and from that comes awakening.",
@@ -4772,6 +5153,9 @@
   },
   {
     "verse_number": 128,
+    "page": 56,
+    "speaker": "Bhairava",
+    "sanskrit": "वनत्ये वनराश्रये शून्ये व्याऩके कऱनोविते ।\nिाह्याकाशे मन् कृत्वा वनराकाशं समाविशेत् ॥ १२८ ॥",
     "method_name": "Entering the Space Beyond Space",
     "category": "Space",
     "summary": "Fixing the mind on the eternal, unsupported, empty, all-pervading outer space, one should enter the spaceless state beyond space.",
@@ -4812,6 +5196,9 @@
   },
   {
     "verse_number": 129,
+    "page": 56,
+    "speaker": "Bhairava",
+    "sanskrit": "यि यि मनो यावत तत्तत् तेनैि तत्क्षणम् ।\nऩवरत्यज्यानिवस्थत्या वनस्तरङ्गस्ततो भिेत् ॥ १२९ ॥",
     "method_name": "Releasing the Mind Wherever It Goes",
     "category": "Awareness",
     "summary": "Wherever the mind goes, abandon fixation there in that very moment, and through non-abiding one becomes waveless.",
@@ -4850,6 +5237,9 @@
   },
   {
     "verse_number": 130,
+    "page": 57,
+    "speaker": "Bhairava",
+    "sanskrit": "भया सिधम् रियवत सिधदो व्याऩकोऽवखऱे ।\nइवत भैरिशब्दस्य सन्ततोच्चारणावच्छि् ॥ १३० ॥",
     "method_name": "Continuous Recitation of Bhairava",
     "category": "Sound",
     "summary": "By continuous recitation of the word 'Bhairava' with the understanding that He pervades and protects all everywhere, one becomes united with Śiva.",
@@ -4888,6 +5278,9 @@
   },
   {
     "verse_number": 131,
+    "page": 57,
+    "speaker": "Bhairava",
+    "sanskrit": "अहं ममेदवमत्यावद प्रवतऩवत्तप्रसङ्गत् ।\nवनराधारे मनो यावत तद्ध्यानप्रेरणाच्छमी ॥ १३१ ॥",
     "method_name": "Mind Resting in the Supportless",
     "category": "Space",
     "summary": "As long as the mind remains without any support, through the impulse of meditation it becomes pacified.",
@@ -4925,6 +5318,9 @@
   },
   {
     "verse_number": 132,
+    "page": 58,
+    "speaker": "Bhairava",
+    "sanskrit": "वनत्यो विभुवनधराधारो व्याऩकश्चावखऱावधऩ् ।\nशब्दान्प्रवतऺणं ध्यायन्कृताथोऽथाधनुरूऩत् ॥ १३२ ॥",
     "method_name": "Contemplation of the All-Supporting Pervader",
     "category": "Nonduality",
     "summary": "By continuously contemplating the Lord as eternal, all-supporting, all-pervading, and sovereign over all, one becomes fulfilled and takes on that very nature.",
@@ -4963,6 +5359,9 @@
   },
   {
     "verse_number": 133,
+    "page": 58,
+    "speaker": "Bhairava",
+    "sanskrit": "अतत्त्ववमन्द्रजाऱाभवमदं सिधमिवस्थतम् ।\nवकं तत्त्ववमन्द्रजाऱस्य इवत दार्ढ्ाधच्छमं व्रजेत् ॥ १३३ ॥",
     "method_name": "Seeing the World as Indra's Net Illusion",
     "category": "Nonduality",
     "summary": "Recognizing this manifest world as an insubstantial magical display and inquiring into its true reality, one enters firm peace.",
@@ -5001,6 +5400,9 @@
   },
   {
     "verse_number": 134,
+    "page": 58,
+    "speaker": "Bhairava",
+    "sanskrit": "आत्मनो वनविधकारस्य क्व ऻानं क्व च िा वक्रया ।\nऻानायत्ता िवहभाधिा अत् शून्यवमदं जगत् ॥ १३४ ॥",
     "method_name": "Contemplating the Voidness of Knowledge and Action",
     "category": "Awareness",
     "summary": "For the Self whose nature is illumination, one asks where knowledge is and where action is; seeing outer objectivity as dependent on cognition, the world is realized as void.",
@@ -5039,6 +5441,9 @@
   },
   {
     "verse_number": 135,
+    "page": 59,
+    "speaker": "Bhairava",
+    "sanskrit": "न मे िन्धो न मोऺो मे भीतस्यैता विभीवषका् ।\nप्रवतविम्बवमदम् िुद्धेजधऱेवष्वि वििस्वत् ॥ १३५ ॥",
     "method_name": "Beyond Bondage and Liberation",
     "category": "Nonduality",
     "summary": "There is neither bondage nor liberation for me; these are terrors only for the frightened, while the world appears like a reflection in the mirror of awakened intelligence.",
@@ -5078,6 +5483,9 @@
   },
   {
     "verse_number": 136,
+    "page": 59,
+    "speaker": "Bhairava",
+    "sanskrit": "इवन्द्रयद्वारकं सिं सुखदु्खावदसम्गमम् ।\nइतीवन्द्रयावण सम्त्यज्य स्वस्थ् स्वात्मवन ितधते ॥ १३६ ॥",
     "method_name": "Withdrawing from the Sense Gates",
     "category": "Body",
     "summary": "All contact with pleasure and pain comes through the doors of the senses; abandoning dependence on the senses, one abides established in one's own Self.",
@@ -5116,6 +5524,9 @@
   },
   {
     "verse_number": 137,
+    "page": 60,
+    "speaker": "Bhairava",
+    "sanskrit": "ऻानप्रकाशकं सिं सिेणात्मा प्रकाशक् ।\nएकवमकस्वभाित्वात्ज्ऻानं ऻेयं विभाव्यते ॥ १३७ ॥",
     "method_name": "One Light of Knower and Known",
     "category": "Awareness",
     "summary": "All is illuminated by the Self, the revealer of everything; because of their single essential nature, knowledge and the known are to be understood as one.",
@@ -5154,6 +5565,9 @@
   },
   {
     "verse_number": 138,
+    "page": 60,
+    "speaker": "Bhairava",
+    "sanskrit": "मानसं चेतना शविरात्मा चेवत चतुष्टयम् ।\nयदा वप्रये ऩवरऺीणं तदा तद्भैरिम् िऩु् ॥ १३८ ॥",
     "method_name": "Exhaustion of Mind, Consciousness, Power, and Self",
     "category": "Dissolution",
     "summary": "When the fourfold structure of mind, individual consciousness, power, and self-sense is exhausted, then that state is the body of Bhairava.",
@@ -5193,6 +5607,9 @@
   },
   {
     "verse_number": 139,
+    "page": 60,
+    "speaker": "Bhairava",
+    "sanskrit": "वनस्तरङ्गोऩदेशानां शतमुिं समासत् ।\nद्वादशाभ्यवधकं देवि यज्ज्ञात्वा ऻानविज्जन् ॥ १३९ ॥",
     "method_name": "Summary of the Hundred and Twelve Teachings",
     "category": "Dialogue",
     "summary": "These wave-less instructions have been declared in summary as one hundred and twelve, O Goddess; knowing them, one becomes a knower of true knowledge.",
@@ -5229,6 +5646,9 @@
   },
   {
     "verse_number": 140,
+    "page": 61,
+    "speaker": "Bhairava",
+    "sanskrit": "अि चैकतमे युिो जायते भैरि् स्वयम् ।\nिाचा करोवत कमाधवण शाऩानुग्रहकारक् ॥ १४० ॥",
     "method_name": "Mastery of One Method Becomes Bhairava",
     "category": "Dialogue",
     "summary": "By being properly joined to even one of these methods, one becomes Bhairava himself, whose speech and actions carry the power of curse and blessing.",
@@ -5265,6 +5685,9 @@
   },
   {
     "verse_number": 141,
+    "page": 61,
+    "speaker": "Bhairava",
+    "sanskrit": "अजरामरतामेवत सोऽवणमावदगुणावित् ।\nयोवगनीनां वप्रयो देवि सिधमेऱाऩकावधऩ् ॥ १४१ ॥",
     "method_name": "Marks of the Liberated Yogi",
     "category": "Dialogue",
     "summary": "Bhairava describes the accomplished yogi as beyond decay, death, attributes, and ordinary limitation, established in perfected freedom.",
@@ -5300,6 +5723,9 @@
   },
   {
     "verse_number": 142,
+    "page": 62,
+    "speaker": "Devi",
+    "sanskrit": "जीिन्नवऩ विमुिोऽसौ कुिधन्नवऩ न वऱप्यते ।\nइदं यवद िऩुदेि ऩरायाश्च महेश्वर ॥ १४२ ॥",
     "method_name": "Devi Inquires About the Liberated One",
     "category": "Dialogue",
     "summary": "Devi asks how one who is liberated while living acts in the world without becoming tainted by action.",
@@ -5336,6 +5762,9 @@
   },
   {
     "verse_number": 143,
+    "page": 62,
+    "speaker": "Devi",
+    "sanskrit": "एिमुिव्यिस्थायां जप्यते को जऩश्च क् ।\nध्यायते को महानाथ ऩूज्यते कश्च तृप्यवत ॥ १४३ ॥",
     "method_name": "Devi Questions Inner Japa and Worship",
     "category": "Dialogue",
     "summary": "Devi asks who truly performs japa, who meditates, who is worshipped, and who receives satisfaction in this liberated condition.",
@@ -5373,6 +5802,9 @@
   },
   {
     "verse_number": 144,
+    "page": 63,
+    "speaker": "Bhairava",
+    "sanskrit": "हूयते कस्य िा होमो याग् कस्य च वकं कथम् ।\nएषाि प्रवक्रया िाह्या स्थूऱेष्वेि मृगेऺणे ॥ १४४ ॥",
     "method_name": "External Ritual Is for the Gross-Minded",
     "category": "Dialogue",
     "summary": "Bhairava says that questions such as for whom oblation and sacrifice are performed belong to external procedure meant for those still oriented to gross forms.",
@@ -5409,6 +5841,9 @@
   },
   {
     "verse_number": 145,
+    "page": 63,
+    "speaker": "Bhairava",
+    "sanskrit": "भूयो भूय् ऩरे भािे भािना भाव्यते वह या ।\nजऩ् सोऽि स्वयं नादो मन्त्रात्मा जप्य ईदृश् ॥ १४५ ॥",
     "method_name": "Spontaneous Inner Sound as Japa",
     "category": "Sound",
     "summary": "Repeated immersion in the supreme state gives rise to a resonant continuity of awareness, and that self-arising inner sound itself is the true mantra and japa.",
@@ -5446,6 +5881,9 @@
   },
   {
     "verse_number": 146,
+    "page": 63,
+    "speaker": "Bhairava",
+    "sanskrit": "ध्यानं वह वनश्चऱा िुवद्धवनधराकारा वनराश्रया ।\nन तु ध्यानं शरीरावऺमुखहस्तावदकल्पना ॥ १४६ ॥",
     "method_name": "Formless Steady Intelligence as Meditation",
     "category": "Awareness",
     "summary": "True meditation is unwavering, supportless, and free of conceptual form, not imagination centered on body parts or visualized shapes.",
@@ -5483,6 +5921,9 @@
   },
   {
     "verse_number": 147,
+    "page": 64,
+    "speaker": "Bhairava",
+    "sanskrit": "ऩूजा नाम न ऩुष्पाद्यैयाध मवत् वक्रयते दृढा ।\nवनविधकल्पे महाव्योवि सा ऩूजा ह्यदराल्लय् ॥ १४७ ॥",
     "method_name": "Abidance in the Vast as Worship",
     "category": "Nonduality",
     "summary": "Worship is not the offering of flowers but firm absorption in the unsupported vastness, where the mind dissolves into the great expanse.",
@@ -5519,6 +5960,9 @@
   },
   {
     "verse_number": 148,
+    "page": 64,
+    "speaker": "Bhairava",
+    "sanskrit": "अिैकतमयुविस्थे योत्पद्येत वदनावद्दनम् ।\nभवरताकारता साि तृवप्तरत्यन्तऩूणधता ॥ १४८ ॥",
     "method_name": "Growing Fullness as Supreme Satisfaction",
     "category": "Dissolution",
     "summary": "When one becomes established in this one-pointed union, a day-by-day expansion into fullness arises, and that complete saturation is true satisfaction.",
@@ -5554,6 +5998,9 @@
   },
   {
     "verse_number": 149,
+    "page": 65,
+    "speaker": "Bhairava",
+    "sanskrit": "महाशून्याऱये िह्नौ भूताऺविषयावदकम् ।\nहूयते मनसा साधं स होमश्चेतनास्रुचा ॥ १४९ ॥",
     "method_name": "Inner Homa in the Fire of the Great Void",
     "category": "Dissolution",
     "summary": "True homa is the mental offering of elements, senses, and objects into the fire of the great void, performed with consciousness itself as the ladle.",
@@ -5589,6 +6036,9 @@
   },
   {
     "verse_number": 150,
+    "page": 65,
+    "speaker": "Bhairava",
+    "sanskrit": "यागोऽि ऩरमेशावन तुवष्टरनन्दऱऺणा ।\nऺऩणात्सिधऩाऩानां िाणात्सिधस्य ऩािधवत ॥ १५० ॥",
     "method_name": "Sacrifice as Blissful Dissolution of All Sin",
     "category": "Nonduality",
     "summary": "Bhairava defines true sacrifice as the bliss-marked satisfaction that dissolves all impurity and consumes the whole field of limitation.",
@@ -5625,6 +6075,9 @@
   },
   {
     "verse_number": 151,
+    "page": 66,
+    "speaker": "Bhairava",
+    "sanskrit": "रुद्रशविसमािेशस्तत् ऺेिं भािना ऩरा ।\nअन्यथा तस्य तत्त्वस्य का ऩूजा काश्च तृप्यवत ॥ १५१ ॥",
     "method_name": "Supreme Worship as Absorption in Rudra-Shakti",
     "category": "Nonduality",
     "summary": "The highest worship is complete immersion in the field of Rudra-Shakti, for without entering that reality, external worship cannot truly satisfy its essence.",
@@ -5663,6 +6116,9 @@
   },
   {
     "verse_number": 152,
+    "page": 66,
+    "speaker": "Bhairava",
+    "sanskrit": "स्वतन्त्रानन्दवचन्मािसार् स्वात्मा वह सिधत् ।\nआिेशनं तत्स्वरूऩे स्वात्मन् स्नानमीवरतम् ॥ १५२ ॥",
     "method_name": "Inner Bathing in One's Own Free Bliss-Nature",
     "category": "Awareness",
     "summary": "One's own Self, made of free and blissful consciousness, is all-pervading; immersion into that very nature is the true sacred bath.",
@@ -5701,6 +6157,9 @@
   },
   {
     "verse_number": 153,
+    "page": 66,
+    "speaker": "Bhairava",
+    "sanskrit": "यैरेि ऩूज्यते द्रव्यैस्तप्यधते िा ऩराऩर् ।\nयश्चैि ऩूजक् सिध् स एिैक् क्व ऩूजनम् ॥ १५३ ॥",
     "method_name": "Nondual Identity of Worshipper and Worshipped",
     "category": "Nonduality",
     "summary": "The substances offered, the one worshipped, and the worshipper are all the same all-pervading reality, so true worship is the recognition of this unity.",
@@ -5738,6 +6197,9 @@
   },
   {
     "verse_number": 154,
+    "page": 67,
+    "speaker": "Bhairava",
+    "sanskrit": "व्रजेत् प्राणो विशेज्जीि इच्छया कुवटऱाकृवत् ।\nदीघाधत्मा सा महादेिी ऩरऺेिम् ऩराऩरा ॥ १५४ ॥",
     "method_name": "Contemplation of the Coiled Ascending Life-Force",
     "category": "Breath",
     "summary": "The life-force moves outward and inward in a curved or coiled manner by its own impulse; this long-bodied Great Goddess is the supreme transcendent-immanent power.",
@@ -5776,6 +6238,9 @@
   },
   {
     "verse_number": 155,
+    "page": 67,
+    "speaker": "Bhairava",
+    "sanskrit": "अस्यामनुचरन् वतष्ठन् महानन्दमयेऽर्ध्वरे ।\nतया देव्या समाविष्ट् ऩरं भैरिं आप्नुयात् ॥ १५५ ॥",
     "method_name": "Following the Goddess Through the Great Bliss-Path",
     "category": "Dissolution",
     "summary": "By following and abiding in this Goddess along the pathway filled with great bliss, one becomes absorbed in her and attains supreme Bhairava.",
@@ -5813,6 +6278,9 @@
   },
   {
     "verse_number": 156,
+    "page": 68,
+    "speaker": "Bhairava",
+    "sanskrit": "सकारेण िवहयाधवत हकारेण विशेत् ऩुन् ।\nहंसहंसेत्यमुं मन्त्रं जीिो जऩवत वनत्यश् ॥ १५५\n॥\nषट्शतावन वदिा रािौ सहस्राण्येकविम्शवत् ।\nजऩो देव्या् समुवद्दष्ट् सुऱभो दुऱधभो जडै् ॥ १५६ ॥",
     "method_name": "Natural Hamsa Mantra of the Breath",
     "category": "Sound",
     "summary": "With the outgoing breath sounding 'sa' and the incoming breath 'ha,' the living being constantly recites the Hamsa mantra day and night, though only the aware recognize this easy yet rare practice.",
@@ -5852,6 +6320,9 @@
   },
   {
     "verse_number": 157,
+    "page": 68,
+    "speaker": "Bhairava",
+    "sanskrit": "इत्येतिवथतं देवि ऩरमामृतमुत्तमम् ।\nएतच्च नैि कस्यावऩ प्रकाश्यं तु कदाचन ॥ १५७ ॥",
     "method_name": "Bhairava's Warning on Guarding the Supreme Nectar",
     "category": "Dialogue",
     "summary": "Bhairava declares that this teaching is the supreme nectar and should not be disclosed indiscriminately to just anyone.",
@@ -5886,6 +6357,9 @@
   },
   {
     "verse_number": 158,
+    "page": 69,
+    "speaker": "Bhairava",
+    "sanskrit": "ऩरवशष्ये खऱे क्रूरे अभिे गुरुऩादयो् ।\nवनविधकल्पमतीनां तु िीराणां उन्नतात्मनाम् ॥ १५८ ॥",
     "method_name": "Criteria for a Worthy Recipient",
     "category": "Dialogue",
     "summary": "The teaching is not for the wicked, cruel, or faithless, but for a supreme disciple devoted to the guru and possessed of elevated heroic understanding.",
@@ -5922,6 +6396,9 @@
   },
   {
     "verse_number": 159,
+    "page": 69,
+    "speaker": "Bhairava",
+    "sanskrit": "भिानां गुरुिगधस्य दातव्यं वनविधशङ्कया ।\nग्रामो राज्यं ऩुरं देश् ऩुिदारकुटुम्बकम् ॥ १५९ ॥",
     "method_name": "Transmission to the Guru-Lineage and the Devoted",
     "category": "Dialogue",
     "summary": "This teaching should be given without hesitation to those of the Bhairava path and the guru-lineage who are genuinely fit recipients.",
@@ -5957,6 +6434,9 @@
   },
   {
     "verse_number": 160,
+    "page": 70,
+    "speaker": "Bhairava",
+    "sanskrit": "सिधमेतत्पवरत्यज्य ग्राह्यमेतन्मृगेऺणे ।\nवकमेवभरवस्थरैदेवि वस्थरं ऩरवमदं धनम् ॥ १६० ॥",
     "method_name": "Renouncing the Unstable for the Supreme Wealth",
     "category": "Dialogue",
     "summary": "One should abandon all lesser possessions—village, kingdom, city, land, and family attachments—to take hold of this stable supreme treasure.",
@@ -5993,6 +6473,9 @@
   },
   {
     "verse_number": 161,
+    "page": 70,
+    "speaker": "Devi",
+    "sanskrit": "प्राणा अवऩ प्रदातव्या न देयं ऩरमामृतम् ।\nदेिदेि माहदेि ऩवरतृप्तावस्म शङ्कर ॥ १६१ ॥",
     "method_name": "Devi Declares the Teaching Not to Be Given Indiscriminately",
     "category": "Dialogue",
     "summary": "Devi says that even one's life-breath may be given away, but this supreme nectar of teaching should not be offered indiscriminately, and she declares herself fully satisfied, O Shankara.",
@@ -6033,6 +6516,9 @@
   },
   {
     "verse_number": 162,
+    "page": 71,
+    "speaker": "Devi",
+    "sanskrit": "रुद्रयामऱतन्त्रस्य सारमद्यािधावरतम् ।\nसिधशविप्रभेदानां हृदयं ऻातमद्य च ॥ १६२ ॥",
     "method_name": "Devi Recognizes the Heart of the Rudrayamala",
     "category": "Dialogue",
     "summary": "Devi declares that today she has understood the essence of the Rudrayamala Tantra and the heart of all the divisions of the powers.",
@@ -6073,6 +6559,9 @@
   },
   {
     "verse_number": 163,
+    "page": 71,
+    "speaker": "Devi",
+    "sanskrit": "इत्युक्त्वानवन्दता देवि कण्ठे ऱिा वशिस्य तु ॥ १६३ ॥",
     "method_name": "Devi Rejoices and Embraces Shiva",
     "category": "Dialogue",
     "summary": "Having spoken thus, the Goddess rejoiced and embraced Shiva around the neck.",
