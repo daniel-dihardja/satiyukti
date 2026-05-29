@@ -15,7 +15,7 @@ export default function VidyaLayout({
     <SidebarProvider>
       <VerseSidebar groups={groups} />
       <SidebarInset className="min-h-0 flex-1">
-        <header className="flex h-12 shrink-0 items-center border-b px-4">
+        <header className="sticky top-0 z-10 flex h-12 shrink-0 items-center border-b bg-background px-4">
           <SidebarTrigger className="-ml-1" />
         </header>
         <div className="h-full overflow-y-auto">
