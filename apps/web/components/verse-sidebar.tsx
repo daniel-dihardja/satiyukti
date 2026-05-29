@@ -127,8 +127,8 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
   return (
     <Sidebar>
       <SidebarHeader>
-        <div className="px-2 pt-1 pb-0.5">
-          <p className="text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
+        <div className="px-2 pt-2 pb-1">
+          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
             Vijñāna Bhairava Tantra
           </p>
         </div>
@@ -281,17 +281,17 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
 
       <SidebarFooter>
         <SidebarSeparator />
-        <div className="px-2 py-1.5">
-          <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-widest text-muted-foreground">
+        <div className="px-2 py-2.5">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
             Level
           </p>
-          <div className="flex flex-wrap gap-1">
+          <div className="flex flex-wrap gap-1.5">
             {(['all', 'beginner', 'intermediate', 'advanced'] as const).map(level => (
               <button
                 key={level}
                 onClick={() => setDifficultyFilter(level)}
                 className={cn(
-                  'rounded-md px-2 py-0.5 text-xs capitalize transition-colors',
+                  'rounded-md px-3 py-1.5 text-xs capitalize transition-colors',
                   difficultyFilter === level
                     ? 'bg-sidebar-primary text-sidebar-primary-foreground'
                     : 'text-muted-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground'

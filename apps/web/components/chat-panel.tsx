@@ -11,10 +11,10 @@ export function ChatPanel() {
   const [input, setInput] = useState('')
 
   return (
-    <div className="flex flex-col h-full p-4">
-      <div className="flex-1 overflow-y-auto mb-4 space-y-4">
+    <div className="flex flex-col h-full p-5 md:p-6">
+      <div className="flex-1 overflow-y-auto mb-5 space-y-5">
         {messages.length === 0 && (
-          <p className="text-sm text-muted-foreground text-center mt-8">
+          <p className="text-sm text-muted-foreground text-center mt-10 md:text-base">
             Select a verse, then ask anything about it.
           </p>
         )}
@@ -24,7 +24,7 @@ export function ChatPanel() {
             className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
           >
             <div
-              className={`max-w-xs px-4 py-2 rounded-lg text-sm ${
+              className={`max-w-[80%] px-4 py-3 rounded-xl text-sm leading-relaxed md:text-base ${
                 message.role === 'user'
                   ? 'bg-primary text-primary-foreground'
                   : 'bg-muted text-foreground'
@@ -48,19 +48,19 @@ export function ChatPanel() {
             setInput('')
           }
         }}
-        className="flex gap-2"
+        className="flex gap-2.5"
       >
         <input
           value={input}
           onChange={e => setInput(e.target.value)}
           disabled={status !== 'ready'}
           placeholder="Ask about this verse…"
-          className="flex-1 px-4 py-2 border rounded-lg text-sm bg-background disabled:opacity-50"
+          className="flex-1 px-4 py-3 border rounded-xl text-sm bg-background disabled:opacity-50 md:text-base"
         />
         <button
           type="submit"
           disabled={status !== 'ready'}
-          className="px-4 py-2 rounded-lg text-sm bg-primary text-primary-foreground disabled:opacity-50"
+          className="px-5 py-3 rounded-xl text-sm bg-primary text-primary-foreground disabled:opacity-50 md:text-base"
         >
           Send
         </button>
