@@ -13,6 +13,7 @@ def main() -> None:
 
     pages = extract_pages(PDF_PATH)
     write_pages(pages, PAGES_OUTPUT)
+    write_pages(pages, VERSES_OUTPUT_DIR / "output.json")
 
     verses = extract_verses(pages)
     report = validate_verses(verses)
