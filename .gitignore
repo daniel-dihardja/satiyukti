@@ -38,3 +38,8 @@ npm-debug.log*
 # Packages (not yet committed)
 packages/scriptures/
 packages/ui-mocks/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
