@@ -115,7 +115,7 @@ def validate_verses(verses: list[Verse]) -> ValidationReport:
 def write_output(verses: list[Verse], report: ValidationReport, output_dir: Path) -> None:
     output_dir.mkdir(exist_ok=True)
     try:
-        with open(output_dir / "verses.json", "w") as f:
+        with open(output_dir / "vbt-verses.json", "w") as f:
             json.dump([asdict(v) for v in verses], f, indent=2, ensure_ascii=False)
         with open(output_dir / "extraction-report.json", "w") as f:
             json.dump(asdict(report), f, indent=2)

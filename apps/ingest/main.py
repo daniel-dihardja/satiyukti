@@ -4,7 +4,6 @@ from pathlib import Path
 from extraction import extract_pages, extract_verses, validate_verses, write_output, write_pages
 
 PDF_PATH = Path(__file__).parent.parent.parent / "packages/scriptures/Vijnana-Bhairava-Tantra-Sanskrit-Text-English-Translation.pdf"
-PAGES_OUTPUT = Path(__file__).parent / "output.json"
 VERSES_OUTPUT_DIR = Path(__file__).parent / "output"
 
 
@@ -12,7 +11,6 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO)
 
     pages = extract_pages(PDF_PATH)
-    write_pages(pages, PAGES_OUTPUT)
     write_pages(pages, VERSES_OUTPUT_DIR / "output.json")
 
     verses = extract_verses(pages)

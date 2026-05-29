@@ -9,7 +9,7 @@ from enrichment import build_report, enrich_verses, write_enrichment
 
 load_dotenv()
 
-VERSES_INPUT = Path(__file__).parent / "output/verses.json"
+VERSES_INPUT = Path(__file__).parent / "output/vbt-verses.json"
 OUTPUT_DIR = Path(__file__).parent / "output"
 
 
