@@ -38,6 +38,7 @@ import {
 import { cn } from '@workspace/ui/lib/utils'
 import type { Category, Difficulty, EnrichedVerse } from '@/lib/types/verse'
 import { DHARANA_CATEGORIES, type VerseGroups } from '@/lib/data/verses'
+import { useLanguage } from '@/lib/context/language-context'
 
 const CATEGORY_ICONS: Record<Category, React.ElementType> = {
   Breath: Wind,
@@ -80,9 +81,12 @@ function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
 
 interface VerseSidebarProps {
   groups: VerseGroups
+  groupsDe: VerseGroups
 }
 
-export function VerseSidebar({ groups }: VerseSidebarProps) {
+export function VerseSidebar({ groups, groupsDe }: VerseSidebarProps) {
+  const { language } = useLanguage()
+  const activeGroups = language === 'de' ? groupsDe : groups
   const pathname = usePathname()
   const { setOpenMobile } = useSidebar()
   const [query, setQuery] = useState('')
@@ -107,17 +111,17 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
     }
 
     const dharanas: Partial<Record<Category, EnrichedVerse[]>> = {}
-    for (const [cat, verses] of Object.entries(groups.dharanas) as [Category, EnrichedVerse[]][]) {
+    for (const [cat, verses] of Object.entries(activeGroups.dharanas) as [Category, EnrichedVerse[]][]) {
       const filtered = verses.filter(matchVerse)
       if (filtered.length > 0) dharanas[cat] = filtered
     }
 
     return {
-      opening: groups.opening.filter(matchVerse),
+      opening: activeGroups.opening.filter(matchVerse),
       dharanas,
-      closing: groups.closing.filter(matchVerse),
+      closing: activeGroups.closing.filter(matchVerse),
     }
-  }, [groups, query, difficultyFilter])
+  }, [activeGroups, query, difficultyFilter])
 
   // Auto-expand sections that have results when a filter is active
   useEffect(() => {

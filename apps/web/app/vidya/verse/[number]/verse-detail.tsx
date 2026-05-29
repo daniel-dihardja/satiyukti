@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { cn } from '@workspace/ui/lib/utils'
 import type { Difficulty, EnrichedVerse } from '@/lib/types/verse'
+import { useLanguage } from '@/lib/context/language-context'
 
 const DIFFICULTY_LEVEL: Record<Difficulty, number> = {
   beginner: 1,
@@ -27,8 +28,10 @@ function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
 
 const CATEGORY_STYLES = 'bg-secondary text-secondary-foreground'
 
-export function VerseDetail({ verse }: { verse: EnrichedVerse }) {
+export function VerseDetail({ verseEn, verseDe }: { verseEn: EnrichedVerse; verseDe?: EnrichedVerse }) {
   const [tab, setTab] = useState<'beginner' | 'scholar'>('beginner')
+  const { language } = useLanguage()
+  const verse = (language === 'de' && verseDe) ? verseDe : verseEn
 
   return (
     <div className="mx-auto w-full max-w-2xl px-6 pb-14 pt-4 md:px-10 md:pb-16 md:pt-6">

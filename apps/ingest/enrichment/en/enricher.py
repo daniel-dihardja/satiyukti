@@ -12,6 +12,8 @@ from enrichment.models import EnrichedVerse, EnrichmentReport
 
 logger = logging.getLogger(__name__)
 
+LANG = "en"
+
 _SYSTEM_PROMPT = """\
 You are a scholar of Kashmir Shaivism and the Vijñāna Bhairava Tantra (VBT), a non-dual Tantric text containing 112 dharanas (meditation methods) presented as a dialogue between Bhairava and Devi.
 
@@ -22,6 +24,8 @@ Text structure:
 - Verses 136-163 (approx): Concluding dialogue and blessings
 
 The Sanskrit may contain OCR artifacts but retains its structural meaning.
+
+Produce ALL output fields in English.
 
 For each verse produce ALL of the following fields:
 
@@ -204,10 +208,10 @@ def write_enrichment(
 ) -> None:
     output_dir.mkdir(exist_ok=True)
 
-    with open(output_dir / "vbt-enrichment.json", "w") as f:
+    with open(output_dir / f"vbt-enrichment-{LANG}.json", "w") as f:
         json.dump([asdict(e) for e in enriched], f, indent=2, ensure_ascii=False)
 
-    with open(output_dir / "vbt-enrichment-report.json", "w") as f:
+    with open(output_dir / f"vbt-enrichment-{LANG}-report.json", "w") as f:
         json.dump(
             {
                 "total_verses": report.total_verses,

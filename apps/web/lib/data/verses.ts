@@ -1,7 +1,9 @@
 import type { Category, EnrichedVerse } from '@/lib/types/verse'
 import rawData from './vbt-enrichment.json'
+import rawDataDe from './vbt-enrichment-de.json'
 
 export const allVerses: EnrichedVerse[] = rawData as EnrichedVerse[]
+export const allVersesDe: EnrichedVerse[] = rawDataDe as EnrichedVerse[]
 
 export const DHARANA_CATEGORIES: Category[] = [
   'Breath',
@@ -21,17 +23,17 @@ export interface VerseGroups {
   closing: EnrichedVerse[]
 }
 
-export function getVerseGroups(): VerseGroups {
-  const opening = allVerses.filter((v) => v.verse_number <= 23)
-  const closing = allVerses.filter((v) => v.verse_number >= 139)
-  const dharanaVerses = allVerses.filter(
+export function getVerseGroups(verses: EnrichedVerse[] = allVerses): VerseGroups {
+  const opening = verses.filter((v) => v.verse_number <= 23)
+  const closing = verses.filter((v) => v.verse_number >= 139)
+  const dharanaVerses = verses.filter(
     (v) => v.verse_number >= 24 && v.verse_number <= 138
   )
 
   const dharanas: Partial<Record<Category, EnrichedVerse[]>> = {}
   for (const cat of DHARANA_CATEGORIES) {
-    const verses = dharanaVerses.filter((v) => v.category === cat)
-    if (verses.length > 0) dharanas[cat] = verses
+    const filtered = dharanaVerses.filter((v) => v.category === cat)
+    if (filtered.length > 0) dharanas[cat] = filtered
   }
 
   return { opening, dharanas, closing }
@@ -39,6 +41,10 @@ export function getVerseGroups(): VerseGroups {
 
 export function getVerse(number: number): EnrichedVerse | undefined {
   return allVerses.find((v) => v.verse_number === number)
+}
+
+export function getVerseDe(number: number): EnrichedVerse | undefined {
+  return allVersesDe.find((v) => v.verse_number === number)
 }
 
 export function getAllVerseNumbers(): number[] {
