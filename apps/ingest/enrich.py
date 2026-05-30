@@ -6,7 +6,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from extraction.models import Verse
-from enrichment import LANGUAGES
+from enrichment import LANGUAGES, build_report, enrich_verses, write_enrichment
 
 load_dotenv()
 
@@ -35,10 +35,10 @@ def main() -> None:
     verses = _load_verses(VERSES_INPUT)
     logging.info("loaded %d verses from %s", len(verses), VERSES_INPUT)
 
-    lang_module = LANGUAGES[args.lang]
-    enriched = lang_module.enrich_verses(verses)
-    report = lang_module.build_report(enriched, verses)
-    lang_module.write_enrichment(enriched, report, OUTPUT_DIR)
+    config = LANGUAGES[args.lang]
+    enriched = enrich_verses(verses, config)
+    report = build_report(enriched, verses)
+    write_enrichment(enriched, report, config, OUTPUT_DIR)
 
     if report.warnings:
         for w in report.warnings:

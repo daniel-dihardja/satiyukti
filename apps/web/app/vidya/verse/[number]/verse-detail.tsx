@@ -3,28 +3,8 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { cn } from '@workspace/ui/lib/utils'
-import type { Difficulty, EnrichedVerse } from '@/lib/types/verse'
+import type { EnrichedVerse } from '@/lib/types/verse'
 import { useLanguage } from '@/lib/context/language-context'
-
-const DIFFICULTY_LEVEL: Record<Difficulty, number> = {
-  beginner: 1,
-  intermediate: 2,
-  advanced: 3,
-}
-
-function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
-  const level = DIFFICULTY_LEVEL[difficulty]
-  return (
-    <span className="flex gap-0.5">
-      {[1, 2, 3].map(i => (
-        <span
-          key={i}
-          className={cn('size-1 rounded-full', i <= level ? 'bg-foreground/35' : 'bg-foreground/10')}
-        />
-      ))}
-    </span>
-  )
-}
 
 const CATEGORY_STYLES = 'bg-secondary text-secondary-foreground'
 
@@ -41,37 +21,40 @@ export function VerseDetail({ verseEn, verseDe, verseId }: { verseEn: EnrichedVe
           <span className="text-xs font-mono text-muted-foreground md:text-sm">
             Verse {verse.verse_number}
           </span>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-muted px-2.5 py-1 text-xs font-medium capitalize text-muted-foreground md:text-sm">
-            <DifficultyDots difficulty={verse.difficulty} />
-            {verse.difficulty}
-          </span>
           <span className={cn('rounded-full px-2.5 py-1 text-xs font-medium md:text-sm', CATEGORY_STYLES)}>
             {verse.category}
-          </span>
-          <span className="rounded-full bg-muted px-2.5 py-1 text-xs text-muted-foreground capitalize md:text-sm">
-            {verse.practice_type}
           </span>
         </div>
 
         <h1 className="text-2xl font-bold leading-snug tracking-tight md:text-3xl">
-          {verse.method_name}
+          {verse.title}
         </h1>
 
         <p className="text-sm text-muted-foreground md:text-base">
-          {verse.speaker} · p.{verse.page}
+          {verse.speaker}
         </p>
       </div>
 
       {/* Sanskrit */}
-      <div className="mb-8 rounded-xl bg-muted/60 px-5 py-5 md:px-7 md:py-6">
+      <div className="mb-6 rounded-xl bg-muted/60 px-5 py-5 md:px-7 md:py-6">
         <p className="font-serif text-lg leading-relaxed whitespace-pre-line text-foreground md:text-xl md:leading-loose">
           {verse.sanskrit}
         </p>
       </div>
 
-      {/* Summary */}
+      {/* Translation */}
+      <div className="mb-8">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground md:text-sm">
+          Translation
+        </p>
+        <p className="text-sm leading-relaxed text-foreground md:text-base md:leading-loose">
+          {verse.translation}
+        </p>
+      </div>
+
+      {/* Intent summary */}
       <p className="mb-8 text-sm leading-relaxed text-muted-foreground md:text-base md:leading-loose">
-        {verse.summary}
+        {verse.intent_summary}
       </p>
 
       {/* Explanation tabs */}
@@ -102,17 +85,28 @@ export function VerseDetail({ verseEn, verseDe, verseId }: { verseEn: EnrichedVe
         </div>
 
         <p className="text-sm leading-relaxed text-foreground md:text-base md:leading-loose">
-          {tab === 'beginner' ? verse.beginner_explanation : verse.developer_explanation}
+          {tab === 'beginner' ? verse.beginner_explanation : verse.scholar_explanation}
         </p>
       </div>
 
-      {/* Focus object */}
-      <div className="mb-8">
-        <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground md:text-sm">
-          Focus Object
-        </p>
-        <p className="text-sm text-foreground md:text-base">{verse.focus_object}</p>
-      </div>
+      {/* Concepts */}
+      {verse.concepts.length > 0 && (
+        <div className="mb-8">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground md:text-sm">
+            Concepts
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {verse.concepts.map(concept => (
+              <span
+                key={concept}
+                className="rounded-full bg-muted px-3 py-1 text-xs text-muted-foreground md:text-sm"
+              >
+                {concept}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Related verses */}
       {verse.related_verses.length > 0 && (

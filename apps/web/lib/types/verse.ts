@@ -1,5 +1,3 @@
-export type Difficulty = 'beginner' | 'intermediate' | 'advanced'
-
 export type Category =
   | 'Breath'
   | 'Sound'
@@ -12,23 +10,16 @@ export type Category =
   | 'Nonduality'
   | 'Dialogue'
 
-export type PracticeType = 'contemplation' | 'meditation' | 'breathwork' | 'visualization'
-
 export interface EnrichedVerse {
   verse_number: number
-  page: number
   speaker: string
-  sanskrit: string
-  method_name: string
+  title: string
   category: Category
-  summary: string
-  difficulty: Difficulty
-  practice_type: PracticeType
-  focus_object: string
-  primary_concepts: string[]
-  secondary_concepts: string[]
-  related_verses: number[]
+  sanskrit: string
+  translation: string
+  intent_summary: string
   beginner_explanation: string
-  developer_explanation: string
-  tags: string[]
+  scholar_explanation: string
+  concepts: string[]
+  related_verses: number[]
 }

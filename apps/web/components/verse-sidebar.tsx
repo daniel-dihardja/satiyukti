@@ -36,7 +36,7 @@ import {
   useSidebar,
 } from '@workspace/ui/components/sidebar'
 import { cn } from '@workspace/ui/lib/utils'
-import type { Category, Difficulty, EnrichedVerse } from '@/lib/types/verse'
+import type { Category, EnrichedVerse } from '@/lib/types/verse'
 import { DHARANA_CATEGORIES, type VerseGroups } from '@/lib/data/verses'
 import { useLanguage } from '@/lib/context/language-context'
 
@@ -59,26 +59,6 @@ function shortName(name: string, words = 4): string {
   return parts.slice(0, words).join(' ') + '…'
 }
 
-const DIFFICULTY_LEVEL: Record<Difficulty, number> = {
-  beginner: 1,
-  intermediate: 2,
-  advanced: 3,
-}
-
-function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
-  const level = DIFFICULTY_LEVEL[difficulty]
-  return (
-    <span className="ml-auto flex shrink-0 gap-0.5">
-      {[1, 2, 3].map(i => (
-        <span
-          key={i}
-          className={cn('size-1 rounded-full', i <= level ? 'bg-foreground/35' : 'bg-foreground/10')}
-        />
-      ))}
-    </span>
-  )
-}
-
 interface VerseSidebarProps {
   groups: VerseGroups
   groupsDe: VerseGroups
@@ -97,7 +77,6 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
     closing: false,
   })
   const [openCategories, setOpenCategories] = useState<Set<Category>>(new Set())
-  const [difficultyFilter, setDifficultyFilter] = useState<Difficulty | 'all'>('all')
 
   const activeVerse = pathname.startsWith('/vidya/verse/')
     ? parseInt(pathname.split('/').pop() ?? '0', 10)
@@ -105,11 +84,7 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
 
   const filteredGroups = useMemo(() => {
     const q = query.trim().toLowerCase()
-    const matchVerse = (v: EnrichedVerse) => {
-      const matchesQuery = !q || v.method_name.toLowerCase().includes(q)
-      const matchesDifficulty = difficultyFilter === 'all' || v.difficulty === difficultyFilter
-      return matchesQuery && matchesDifficulty
-    }
+    const matchVerse = (v: EnrichedVerse) => !q || v.title.toLowerCase().includes(q)
 
     const dharanas: Partial<Record<Category, EnrichedVerse[]>> = {}
     for (const [cat, verses] of Object.entries(activeGroups.dharanas) as [Category, EnrichedVerse[]][]) {
@@ -122,11 +97,10 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
       dharanas,
       closing: activeGroups.closing.filter(matchVerse),
     }
-  }, [activeGroups, query, difficultyFilter])
+  }, [activeGroups, query])
 
-  // Auto-expand sections that have results when a filter is active
   useEffect(() => {
-    const isFiltering = query.trim() !== '' || difficultyFilter !== 'all'
+    const isFiltering = query.trim() !== ''
     if (!isFiltering) return
 
     setOpenSections(prev => ({
@@ -139,7 +113,7 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
       for (const cat of Object.keys(filteredGroups.dharanas)) next.add(cat as Category)
       return next
     })
-  }, [query, difficultyFilter, filteredGroups])
+  }, [query, filteredGroups])
 
   const toggleSection = (section: keyof typeof openSections) =>
     setOpenSections(prev => ({ ...prev, [section]: !prev[section] }))
@@ -252,8 +226,7 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
                                   <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
                                     {verse.verse_number}
                                   </span>
-                                  <span className="flex-1 truncate">{shortName(verse.method_name)}</span>
-                                  <DifficultyDots difficulty={verse.difficulty} />
+                                  <span className="flex-1 truncate">{shortName(verse.title)}</span>
                                 </Link>
                               </SidebarMenuSubButton>
                             </SidebarMenuSubItem>
@@ -301,30 +274,7 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
         </SidebarGroup>
       </SidebarContent>
 
-      <SidebarFooter>
-        <SidebarSeparator />
-        <div className="px-2 py-2.5">
-          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-            Level
-          </p>
-          <div className="flex flex-wrap gap-1.5">
-            {(['all', 'beginner', 'intermediate', 'advanced'] as const).map(level => (
-              <button
-                key={level}
-                onClick={() => setDifficultyFilter(level)}
-                className={cn(
-                  'rounded-md px-3 py-1.5 text-xs capitalize transition-colors',
-                  difficultyFilter === level
-                    ? 'bg-sidebar-primary text-sidebar-primary-foreground'
-                    : 'text-muted-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground'
-                )}
-              >
-                {level === 'all' ? 'All' : level.charAt(0).toUpperCase() + level.slice(1)}
-              </button>
-            ))}
-          </div>
-        </div>
-      </SidebarFooter>
+      <SidebarFooter />
 
       <SidebarRail />
     </Sidebar>
@@ -340,8 +290,7 @@ function VerseItem({ verse, isActive }: { verse: EnrichedVerse; isActive: boolea
           <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
             {verse.verse_number}
           </span>
-          <span className="flex-1 truncate">{shortName(verse.method_name)}</span>
-          <DifficultyDots difficulty={verse.difficulty} />
+          <span className="flex-1 truncate">{shortName(verse.title)}</span>
         </Link>
       </SidebarMenuButton>
     </SidebarMenuItem>
