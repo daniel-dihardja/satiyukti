@@ -82,11 +82,12 @@ function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
 interface VerseSidebarProps {
   groups: VerseGroups
   groupsDe: VerseGroups
+  groupsId: VerseGroups
 }
 
-export function VerseSidebar({ groups, groupsDe }: VerseSidebarProps) {
+export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) {
   const { language } = useLanguage()
-  const activeGroups = language === 'de' ? groupsDe : groups
+  const activeGroups = language === 'de' ? groupsDe : language === 'id' ? groupsId : groups
   const pathname = usePathname()
   const { setOpenMobile } = useSidebar()
   const [query, setQuery] = useState('')

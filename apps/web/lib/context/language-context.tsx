@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState, useEffect } from 'react'
 
-export type Language = 'en' | 'de'
+export type Language = 'en' | 'de' | 'id'
 
 interface LanguageContextValue {
   language: Language
@@ -19,7 +19,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const stored = localStorage.getItem('vidya-language')
-    if (stored === 'en' || stored === 'de') setLanguageState(stored)
+    if (stored === 'en' || stored === 'de' || stored === 'id') setLanguageState(stored)
   }, [])
 
   const setLanguage = (lang: Language) => {

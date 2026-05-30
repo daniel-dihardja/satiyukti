@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { getAllVerseNumbers, getVerse, getVerseDe } from '@/lib/data/verses'
+import { getAllVerseNumbers, getVerse, getVerseDe, getVerseId } from '@/lib/data/verses'
 import { VerseDetail } from './verse-detail'
 
 export function generateStaticParams() {
@@ -17,6 +17,7 @@ export default async function VersePage({
   if (!verseEn) notFound()
 
   const verseDe = getVerseDe(n)
+  const verseId = getVerseId(n)
 
-  return <VerseDetail verseEn={verseEn} verseDe={verseDe} />
+  return <VerseDetail verseEn={verseEn} verseDe={verseDe} verseId={verseId} />
 }

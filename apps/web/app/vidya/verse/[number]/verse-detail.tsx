@@ -28,10 +28,10 @@ function DifficultyDots({ difficulty }: { difficulty: Difficulty }) {
 
 const CATEGORY_STYLES = 'bg-secondary text-secondary-foreground'
 
-export function VerseDetail({ verseEn, verseDe }: { verseEn: EnrichedVerse; verseDe?: EnrichedVerse }) {
+export function VerseDetail({ verseEn, verseDe, verseId }: { verseEn: EnrichedVerse; verseDe?: EnrichedVerse; verseId?: EnrichedVerse }) {
   const [tab, setTab] = useState<'beginner' | 'scholar'>('beginner')
   const { language } = useLanguage()
-  const verse = (language === 'de' && verseDe) ? verseDe : verseEn
+  const verse = language === 'de' && verseDe ? verseDe : language === 'id' && verseId ? verseId : verseEn
 
   return (
     <div className="mx-auto w-full max-w-2xl px-6 pb-14 pt-4 md:px-10 md:pb-16 md:pt-6">
@@ -105,25 +105,6 @@ export function VerseDetail({ verseEn, verseDe }: { verseEn: EnrichedVerse; vers
           {tab === 'beginner' ? verse.beginner_explanation : verse.developer_explanation}
         </p>
       </div>
-
-      {/* Primary concepts */}
-      {verse.primary_concepts.length > 0 && (
-        <div className="mb-8">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground md:text-sm">
-            Key Concepts
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {verse.primary_concepts.map(c => (
-              <span
-                key={c}
-                className="rounded-md border border-border bg-background px-2.5 py-1 font-mono text-xs text-foreground md:text-sm"
-              >
-                {c}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
 
       {/* Focus object */}
       <div className="mb-8">

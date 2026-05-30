@@ -1,9 +1,11 @@
 import type { Category, EnrichedVerse } from '@/lib/types/verse'
 import rawData from './vbt-enrichment.json'
 import rawDataDe from './vbt-enrichment-de.json'
+import rawDataId from './vbt-enrichment-id.json'
 
 export const allVerses: EnrichedVerse[] = rawData as EnrichedVerse[]
 export const allVersesDe: EnrichedVerse[] = rawDataDe as EnrichedVerse[]
+export const allVersesId: EnrichedVerse[] = rawDataId as EnrichedVerse[]
 
 export const DHARANA_CATEGORIES: Category[] = [
   'Breath',
@@ -45,6 +47,10 @@ export function getVerse(number: number): EnrichedVerse | undefined {
 
 export function getVerseDe(number: number): EnrichedVerse | undefined {
   return allVersesDe.find((v) => v.verse_number === number)
+}
+
+export function getVerseId(number: number): EnrichedVerse | undefined {
+  return allVersesId.find((v) => v.verse_number === number)
 }
 
 export function getAllVerseNumbers(): number[] {
