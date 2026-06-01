@@ -1,10 +1,15 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Lato, Cormorant_Garamond } from "next/font/google"
 import { GoogleAnalytics } from "@next/third-parties/google"
 
 import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@workspace/ui/lib/utils"
+
+export const viewport: Viewport = {
+  viewportFit: "cover",
+  themeColor: "#0a0a0a",
+}
 
 export const metadata: Metadata = {
   title: "Satiyukti",
