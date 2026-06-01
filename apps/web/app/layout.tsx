@@ -1,9 +1,22 @@
+import type { Metadata } from "next"
 import { Lato, Cormorant_Garamond } from "next/font/google"
 import { GoogleAnalytics } from "@next/third-parties/google"
 
 import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@workspace/ui/lib/utils"
+
+export const metadata: Metadata = {
+  title: "Satiyukti",
+  description: "112 Doorways to Pure Awareness — Vijñāna Bhairava Tantra",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Satiyukti",
+  },
+  formatDetection: { telephone: false },
+}
 
 const lato = Lato({
   subsets: ["latin"],
