@@ -1,8 +1,8 @@
-'use client'
+"use client"
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import { useMemo, useState, useEffect } from 'react'
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { useMemo, useState, useEffect } from "react"
 import {
   ChevronRight,
   Droplets,
@@ -15,7 +15,7 @@ import {
   Scan,
   Waves,
   Wind,
-} from 'lucide-react'
+} from "lucide-react"
 import {
   Sidebar,
   SidebarContent,
@@ -34,11 +34,11 @@ import {
   SidebarRail,
   SidebarSeparator,
   useSidebar,
-} from '@workspace/ui/components/sidebar'
-import { cn } from '@workspace/ui/lib/utils'
-import type { Category, EnrichedVerse } from '@/lib/types/verse'
-import { DHARANA_CATEGORIES, type VerseGroups } from '@/lib/data/verses'
-import { useLanguage } from '@/lib/context/language-context'
+} from "@workspace/ui/components/sidebar"
+import { cn } from "@workspace/ui/lib/utils"
+import type { Category, EnrichedVerse } from "@/lib/types/verse"
+import { DHARANA_CATEGORIES, type VerseGroups } from "@/lib/data/verses"
+import { useLanguage } from "@/lib/context/language-context"
 
 const CATEGORY_ICONS: Record<Category, React.ElementType> = {
   Breath: Wind,
@@ -54,9 +54,9 @@ const CATEGORY_ICONS: Record<Category, React.ElementType> = {
 }
 
 function shortName(name: string, words = 4): string {
-  const parts = name.split(' ')
+  const parts = name.split(" ")
   if (parts.length <= words) return name
-  return parts.slice(0, words).join(' ') + '…'
+  return parts.slice(0, words).join(" ") + "…"
 }
 
 interface VerseSidebarProps {
@@ -65,12 +65,17 @@ interface VerseSidebarProps {
   groupsId: VerseGroups
 }
 
-export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) {
+export function VerseSidebar({
+  groups,
+  groupsDe,
+  groupsId,
+}: VerseSidebarProps) {
   const { language } = useLanguage()
-  const activeGroups = language === 'de' ? groupsDe : language === 'id' ? groupsId : groups
+  const activeGroups =
+    language === "de" ? groupsDe : language === "id" ? groupsId : groups
   const pathname = usePathname()
   const { setOpenMobile } = useSidebar()
-  const [query, setQuery] = useState('')
+  const [query, setQuery] = useState("")
   const [openSections, setOpenSections] = useState({
     opening: false,
     dharanas: false,
@@ -78,16 +83,20 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
   })
   const [openCategories, setOpenCategories] = useState<Set<Category>>(new Set())
 
-  const activeVerse = pathname.startsWith('/vidya/verse/')
-    ? parseInt(pathname.split('/').pop() ?? '0', 10)
+  const activeVerse = pathname.startsWith("/vidya/verse/")
+    ? parseInt(pathname.split("/").pop() ?? "0", 10)
     : null
 
   const filteredGroups = useMemo(() => {
     const q = query.trim().toLowerCase()
-    const matchVerse = (v: EnrichedVerse) => !q || v.title.toLowerCase().includes(q)
+    const matchVerse = (v: EnrichedVerse) =>
+      !q || v.title.toLowerCase().includes(q)
 
     const dharanas: Partial<Record<Category, EnrichedVerse[]>> = {}
-    for (const [cat, verses] of Object.entries(activeGroups.dharanas) as [Category, EnrichedVerse[]][]) {
+    for (const [cat, verses] of Object.entries(activeGroups.dharanas) as [
+      Category,
+      EnrichedVerse[],
+    ][]) {
       const filtered = verses.filter(matchVerse)
       if (filtered.length > 0) dharanas[cat] = filtered
     }
@@ -100,26 +109,28 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
   }, [activeGroups, query])
 
   useEffect(() => {
-    const isFiltering = query.trim() !== ''
+    const isFiltering = query.trim() !== ""
     if (!isFiltering) return
 
-    setOpenSections(prev => ({
+    setOpenSections((prev) => ({
       opening: prev.opening || filteredGroups.opening.length > 0,
-      dharanas: prev.dharanas || Object.keys(filteredGroups.dharanas).length > 0,
+      dharanas:
+        prev.dharanas || Object.keys(filteredGroups.dharanas).length > 0,
       closing: prev.closing || filteredGroups.closing.length > 0,
     }))
-    setOpenCategories(prev => {
+    setOpenCategories((prev) => {
       const next = new Set(prev)
-      for (const cat of Object.keys(filteredGroups.dharanas)) next.add(cat as Category)
+      for (const cat of Object.keys(filteredGroups.dharanas))
+        next.add(cat as Category)
       return next
     })
   }, [query, filteredGroups])
 
   const toggleSection = (section: keyof typeof openSections) =>
-    setOpenSections(prev => ({ ...prev, [section]: !prev[section] }))
+    setOpenSections((prev) => ({ ...prev, [section]: !prev[section] }))
 
   const toggleCategory = (cat: Category) =>
-    setOpenCategories(prev => {
+    setOpenCategories((prev) => {
       const next = new Set(prev)
       next.has(cat) ? next.delete(cat) : next.add(cat)
       return next
@@ -129,14 +140,14 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
     <Sidebar>
       <SidebarHeader>
         <div className="px-2 pt-2 pb-1">
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+          <p className="text-xs font-semibold tracking-widest text-muted-foreground uppercase">
             Vijñāna Bhairava Tantra
           </p>
         </div>
         <SidebarInput
           placeholder="Search verses…"
           value={query}
-          onChange={e => setQuery(e.target.value)}
+          onChange={(e) => setQuery(e.target.value)}
         />
       </SidebarHeader>
 
@@ -144,11 +155,14 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
         {/* ── Opening Inquiry ─────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
-            onClick={() => toggleSection('opening')}
-            className="cursor-pointer select-none hover:bg-sidebar-accent hover:text-sidebar-foreground rounded-md transition-colors"
+            onClick={() => toggleSection("opening")}
+            className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
-              className={cn('transition-transform duration-200', openSections.opening && 'rotate-90')}
+              className={cn(
+                "transition-transform duration-200",
+                openSections.opening && "rotate-90"
+              )}
             />
             Opening Inquiry
             <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
@@ -159,7 +173,7 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
           {openSections.opening && filteredGroups.opening.length > 0 && (
             <SidebarGroupContent>
               <SidebarMenu>
-                {filteredGroups.opening.map(verse => (
+                {filteredGroups.opening.map((verse) => (
                   <VerseItem
                     key={verse.verse_number}
                     verse={verse}
@@ -176,11 +190,14 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
         {/* ── The 112 Dharanas ────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
-            onClick={() => toggleSection('dharanas')}
-            className="cursor-pointer select-none hover:bg-sidebar-accent hover:text-sidebar-foreground rounded-md transition-colors"
+            onClick={() => toggleSection("dharanas")}
+            className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
-              className={cn('transition-transform duration-200', openSections.dharanas && 'rotate-90')}
+              className={cn(
+                "transition-transform duration-200",
+                openSections.dharanas && "rotate-90"
+              )}
             />
             The 112 Dharanas
             <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
@@ -191,7 +208,7 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
           {openSections.dharanas && (
             <SidebarGroupContent>
               <SidebarMenu>
-                {DHARANA_CATEGORIES.map(cat => {
+                {DHARANA_CATEGORIES.map((cat) => {
                   const verses = filteredGroups.dharanas[cat]
                   if (!verses || verses.length === 0) return null
                   const Icon = CATEGORY_ICONS[cat]
@@ -203,11 +220,13 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
                         <Icon />
                         <span>{cat}</span>
                         <span className="ml-auto flex items-center gap-1.5 text-muted-foreground">
-                          <span className="text-xs tabular-nums">{verses.length}</span>
+                          <span className="text-xs tabular-nums">
+                            {verses.length}
+                          </span>
                           <ChevronRight
                             className={cn(
-                              'transition-transform duration-200',
-                              isOpen && 'rotate-90'
+                              "transition-transform duration-200",
+                              isOpen && "rotate-90"
                             )}
                           />
                         </span>
@@ -215,18 +234,23 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
 
                       {isOpen && (
                         <SidebarMenuSub>
-                          {verses.map(verse => (
+                          {verses.map((verse) => (
                             <SidebarMenuSubItem key={verse.verse_number}>
                               <SidebarMenuSubButton
                                 asChild
                                 isActive={activeVerse === verse.verse_number}
                                 size="sm"
                               >
-                                <Link href={`/vidya/verse/${verse.verse_number}`} onClick={() => setOpenMobile(false)}>
-                                  <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
+                                <Link
+                                  href={`/vidya/verse/${verse.verse_number}`}
+                                  onClick={() => setOpenMobile(false)}
+                                >
+                                  <span className="w-5 shrink-0 text-right text-xs text-muted-foreground tabular-nums">
                                     {verse.verse_number}
                                   </span>
-                                  <span className="flex-1 truncate">{shortName(verse.title)}</span>
+                                  <span className="flex-1 truncate">
+                                    {shortName(verse.title)}
+                                  </span>
                                 </Link>
                               </SidebarMenuSubButton>
                             </SidebarMenuSubItem>
@@ -246,11 +270,14 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
         {/* ── Closing Dialogue ────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
-            onClick={() => toggleSection('closing')}
-            className="cursor-pointer select-none hover:bg-sidebar-accent hover:text-sidebar-foreground rounded-md transition-colors"
+            onClick={() => toggleSection("closing")}
+            className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
-              className={cn('transition-transform duration-200', openSections.closing && 'rotate-90')}
+              className={cn(
+                "transition-transform duration-200",
+                openSections.closing && "rotate-90"
+              )}
             />
             Closing Dialogue
             <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
@@ -261,7 +288,7 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
           {openSections.closing && filteredGroups.closing.length > 0 && (
             <SidebarGroupContent>
               <SidebarMenu>
-                {filteredGroups.closing.map(verse => (
+                {filteredGroups.closing.map((verse) => (
                   <VerseItem
                     key={verse.verse_number}
                     verse={verse}
@@ -281,13 +308,22 @@ export function VerseSidebar({ groups, groupsDe, groupsId }: VerseSidebarProps) 
   )
 }
 
-function VerseItem({ verse, isActive }: { verse: EnrichedVerse; isActive: boolean }) {
+function VerseItem({
+  verse,
+  isActive,
+}: {
+  verse: EnrichedVerse
+  isActive: boolean
+}) {
   const { setOpenMobile } = useSidebar()
   return (
     <SidebarMenuItem>
       <SidebarMenuButton asChild isActive={isActive} size="sm">
-        <Link href={`/vidya/verse/${verse.verse_number}`} onClick={() => setOpenMobile(false)}>
-          <span className="w-5 shrink-0 text-right text-xs tabular-nums text-muted-foreground">
+        <Link
+          href={`/vidya/verse/${verse.verse_number}`}
+          onClick={() => setOpenMobile(false)}
+        >
+          <span className="w-5 shrink-0 text-right text-xs text-muted-foreground tabular-nums">
             {verse.verse_number}
           </span>
           <span className="flex-1 truncate">{shortName(verse.title)}</span>

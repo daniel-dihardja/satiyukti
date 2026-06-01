@@ -4,7 +4,7 @@ export default function VidyaPage() {
       <p className="text-sm font-medium text-foreground">
         Select a verse to begin
       </p>
-      <p className="max-w-xs text-xs text-muted-foreground leading-relaxed">
+      <p className="max-w-xs text-xs leading-relaxed text-muted-foreground">
         Browse the 163 verses of the Vijñāna Bhairava Tantra in the sidebar,
         then discuss them with the assistant.
       </p>

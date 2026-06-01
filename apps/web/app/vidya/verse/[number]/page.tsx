@@ -1,9 +1,14 @@
-import { notFound } from 'next/navigation'
-import { getAllVerseNumbers, getVerse, getVerseDe, getVerseId } from '@/lib/data/verses'
-import { VerseDetail } from './verse-detail'
+import { notFound } from "next/navigation"
+import {
+  getAllVerseNumbers,
+  getVerse,
+  getVerseDe,
+  getVerseId,
+} from "@/lib/data/verses"
+import { VerseDetail } from "./verse-detail"
 
 export function generateStaticParams() {
-  return getAllVerseNumbers().map(n => ({ number: String(n) }))
+  return getAllVerseNumbers().map((n) => ({ number: String(n) }))
 }
 
 export default async function VersePage({

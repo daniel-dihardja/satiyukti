@@ -1,3 +1,3 @@
 # Satiyukti
 
-Exploring ancient scriptures
+Exploring ancient scriptures.

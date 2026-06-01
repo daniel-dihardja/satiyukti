@@ -1,14 +1,14 @@
 export type Category =
-  | 'Breath'
-  | 'Sound'
-  | 'Visualization'
-  | 'Space'
-  | 'Body'
-  | 'Emotion'
-  | 'Dissolution'
-  | 'Awareness'
-  | 'Nonduality'
-  | 'Dialogue'
+  | "Breath"
+  | "Sound"
+  | "Visualization"
+  | "Space"
+  | "Body"
+  | "Emotion"
+  | "Dissolution"
+  | "Awareness"
+  | "Nonduality"
+  | "Dialogue"
 
 export interface EnrichedVerse {
   verse_number: number

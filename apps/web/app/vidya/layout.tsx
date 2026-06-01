@@ -2,11 +2,11 @@ import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from '@workspace/ui/components/sidebar'
-import { VerseSidebar } from '@/components/verse-sidebar'
-import { LanguageProvider } from '@/lib/context/language-context'
-import { LanguageSelector } from '@/components/language-selector'
-import { getVerseGroups, allVersesDe, allVersesId } from '@/lib/data/verses'
+} from "@workspace/ui/components/sidebar"
+import { VerseSidebar } from "@/components/verse-sidebar"
+import { LanguageProvider } from "@/lib/context/language-context"
+import { LanguageSelector } from "@/components/language-selector"
+import { getVerseGroups, allVersesDe, allVersesId } from "@/lib/data/verses"
 
 export default function VidyaLayout({
   children,
@@ -24,9 +24,7 @@ export default function VidyaLayout({
             <SidebarTrigger className="-ml-1" />
             <LanguageSelector />
           </header>
-          <div className="h-full overflow-y-auto">
-            {children}
-          </div>
+          <div className="h-full overflow-y-auto">{children}</div>
         </SidebarInset>
       </SidebarProvider>
     </LanguageProvider>
