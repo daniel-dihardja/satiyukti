@@ -317,7 +317,9 @@ function VerseItem({
           <span className="w-5 shrink-0 text-right text-xs text-muted-foreground tabular-nums">
             {verse.verse_number}
           </span>
-          <span className="flex-1 truncate">{shortName(verse.title ?? "")}</span>
+          <span className="flex-1 truncate">
+            {shortName(verse.title ?? "")}
+          </span>
         </Link>
       </SidebarMenuButton>
     </SidebarMenuItem>

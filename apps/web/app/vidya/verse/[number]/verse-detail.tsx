@@ -63,7 +63,7 @@ export function VerseDetail({
       {/* Transliteration */}
       {verse.transliteration && (
         <div className="mb-6 px-1">
-          <p className="font-mono text-xs italic leading-relaxed whitespace-pre-line text-muted-foreground md:text-sm md:leading-loose">
+          <p className="font-mono text-xs leading-relaxed whitespace-pre-line text-muted-foreground italic md:text-sm md:leading-loose">
             {verse.transliteration}
           </p>
         </div>
