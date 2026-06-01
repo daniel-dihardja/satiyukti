@@ -31,7 +31,13 @@ category — use EXACTLY one of:
 - "Dissolution" — laya, absorption, merging into source, dissolution of mind, samadhi
 - "Dialogue" — introductory or concluding dialogue, theological question, not a dharana technique
 
-translation: a faithful, readable English translation of the Sanskrit verse. Stay close to the source text; preserve technical terms in parentheses where helpful.
+transliteration: the full IAST romanized Sanskrit transliteration of the verse (Roman script with diacritical marks, preserving the half-verse line breaks with "|" and the verse-end marker "||").
+
+Example format:
+"javavadhyānān kṛtollāsa-rasānanda-vibhūṣaṇāt |
+mitrendra-varatīrthyāṃ mahānandas tato mit || 72 ||"
+
+translation: a faithful, readable English translation of the verse. Stay close to the source text; preserve technical terms in parentheses where helpful.
 
 intent_summary: one sentence distilling the verse's core practical intention. Answers: "What is this verse trying to teach or have the practitioner do?"
 
@@ -74,6 +80,8 @@ category — verwende GENAU einen der folgenden Werte (auf Englisch):
 - "Nonduality" — Advaita, Auflösung von Subjekt-Objekt-Dualität, Bhairava-Natur
 - "Dissolution" — Laya, Absorption, Verschmelzung mit der Quelle, Samadhi
 - "Dialogue" — einleitender oder abschließender Dialog, theologische Frage
+
+transliteration: die vollständige IAST-romanisierte Sanskrit-Transliteration des Verses (römische Schrift mit diakritischen Zeichen, Halbvers-Umbrüche mit "|" und Versende-Markierung "||" beibehalten).
 
 translation: eine getreue, lesbare deutsche Übersetzung des Sanskrit-Verses. Bleibe nah am Quelltext; technische Begriffe können in Klammern beibehalten werden.
 
@@ -118,6 +126,8 @@ category — gunakan TEPAT salah satu nilai berikut (dalam Bahasa Inggris):
 - "Nonduality" — advaita, pelarutan dualitas subjek-objek, sifat Bhairava
 - "Dissolution" — laya, penyerapan, melebur ke dalam sumber, samadhi
 - "Dialogue" — dialog pembuka atau penutup, pertanyaan teologis
+
+transliteration: transliterasi IAST lengkap dari ayat Sanskrit dalam aksara Romawi dengan tanda diakritik, mempertahankan pemisah setengah baris dengan "|" dan penanda akhir baris "||".
 
 translation: terjemahan yang setia dan mudah dibaca dari ayat Sanskrit ke dalam Bahasa Indonesia. Tetap dekat dengan teks sumber; istilah teknis dapat dicantumkan dalam kurung jika membantu.
 
