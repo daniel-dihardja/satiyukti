@@ -135,7 +135,7 @@ export function VerseDetail({
             {verse.related_verses.map((n) => (
               <Link
                 key={n}
-                href={`/vidya/verse/${n}`}
+                href={`/vbt/verse/${n}`}
                 className="flex h-10 w-12 items-center justify-center rounded-md border border-border bg-background font-mono text-xs text-muted-foreground transition-colors hover:border-foreground hover:text-foreground md:h-11 md:w-14 md:text-sm"
               >
                 {n}
@@ -153,7 +153,7 @@ export function VerseDetail({
             {/* Prev */}
             {prev ? (
               <Link
-                href={`/vidya/verse/${prev.number}`}
+                href={`/vbt/verse/${prev.number}`}
                 className="group flex items-center gap-3 px-6 py-5 transition-colors hover:bg-muted/50 md:px-8 md:py-6"
               >
                 <ChevronLeft className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-foreground" />
@@ -173,7 +173,7 @@ export function VerseDetail({
             {/* Next */}
             {next ? (
               <Link
-                href={`/vidya/verse/${next.number}`}
+                href={`/vbt/verse/${next.number}`}
                 className="group flex items-center justify-end gap-3 border-l border-border px-6 py-5 text-right transition-colors hover:bg-muted/50 md:px-8 md:py-6"
               >
                 <div className="min-w-0">
@@ -198,7 +198,7 @@ export function VerseDetail({
           <div className="grid grid-cols-2">
             {prev ? (
               <Link
-                href={`/vidya/verse/${prev.number}`}
+                href={`/vbt/verse/${prev.number}`}
                 className="group flex items-center gap-2.5 px-4 py-3.5 active:bg-muted/50"
               >
                 <ChevronLeft className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-active:text-foreground" />
@@ -217,7 +217,7 @@ export function VerseDetail({
 
             {next ? (
               <Link
-                href={`/vidya/verse/${next.number}`}
+                href={`/vbt/verse/${next.number}`}
                 className="group flex items-center justify-end gap-2.5 border-l border-border px-4 py-3.5 text-right active:bg-muted/50"
               >
                 <div className="min-w-0">

@@ -36,12 +36,12 @@ export default function Page() {
         </p>
 
         {/* CTA */}
-        <Link href="/vidya">
-          <Button size="lg" className="mt-2 gap-2 px-8">
+        <Button asChild size="lg" className="mt-2 gap-2 px-8">
+          <Link href="/vbt">
             Begin Exploring
             <ArrowRight className="h-4 w-4" />
-          </Button>
-        </Link>
+          </Link>
+        </Button>
       </div>
     </div>
   )
