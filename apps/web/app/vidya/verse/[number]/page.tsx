@@ -37,8 +37,16 @@ export default async function VersePage({
       verseEn={verseEn}
       verseDe={verseDe}
       verseId={verseId}
-      prev={prevVerse ? { number: prevVerse.verse_number, title: prevVerse.title } : null}
-      next={nextVerse ? { number: nextVerse.verse_number, title: nextVerse.title } : null}
+      prev={
+        prevVerse
+          ? { number: prevVerse.verse_number, title: prevVerse.title }
+          : null
+      }
+      next={
+        nextVerse
+          ? { number: nextVerse.verse_number, title: nextVerse.title }
+          : null
+      }
     />
   )
 }

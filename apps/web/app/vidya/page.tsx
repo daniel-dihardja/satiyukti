@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation'
+import { redirect } from "next/navigation"
 
 export default function VidyaPage() {
-  redirect('/vidya/verse/1')
+  redirect("/vidya/verse/1")
 }

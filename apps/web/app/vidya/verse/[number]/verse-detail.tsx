@@ -147,7 +147,7 @@ export function VerseDetail({
 
       {/* Prev / Next navigation — desktop only (mobile uses fixed bar below) */}
       {(prev || next) && (
-        <div className="mt-12 -mx-6 md:-mx-10 hidden md:block">
+        <div className="-mx-6 mt-12 hidden md:-mx-10 md:block">
           <div className="h-px bg-border" />
           <div className="grid grid-cols-2">
             {/* Prev */}
@@ -161,7 +161,7 @@ export function VerseDetail({
                   <p className="mb-0.5 text-xs text-muted-foreground">
                     Verse {prev.number}
                   </p>
-                  <p className="truncate text-sm font-medium leading-snug text-foreground">
+                  <p className="truncate text-sm leading-snug font-medium text-foreground">
                     {prev.title}
                   </p>
                 </div>
@@ -180,7 +180,7 @@ export function VerseDetail({
                   <p className="mb-0.5 text-xs text-muted-foreground">
                     Verse {next.number}
                   </p>
-                  <p className="truncate text-sm font-medium leading-snug text-foreground">
+                  <p className="truncate text-sm leading-snug font-medium text-foreground">
                     {next.title}
                   </p>
                 </div>
@@ -194,7 +194,7 @@ export function VerseDetail({
       )}
       {/* Prev / Next navigation — mobile fixed bottom bar */}
       {(prev || next) && (
-        <div className="fixed bottom-0 left-0 right-0 z-10 border-t border-border bg-background md:hidden">
+        <div className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background md:hidden">
           <div className="grid grid-cols-2">
             {prev ? (
               <Link
@@ -206,7 +206,7 @@ export function VerseDetail({
                   <p className="text-[10px] text-muted-foreground">
                     Verse {prev.number}
                   </p>
-                  <p className="truncate text-xs font-medium leading-snug text-foreground">
+                  <p className="truncate text-xs leading-snug font-medium text-foreground">
                     {prev.title}
                   </p>
                 </div>
@@ -224,7 +224,7 @@ export function VerseDetail({
                   <p className="text-[10px] text-muted-foreground">
                     Verse {next.number}
                   </p>
-                  <p className="truncate text-xs font-medium leading-snug text-foreground">
+                  <p className="truncate text-xs leading-snug font-medium text-foreground">
                     {next.title}
                   </p>
                 </div>

@@ -104,7 +104,9 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
 
     if (activeGroups.opening.some((v) => v.verse_number === activeVerse)) {
       setOpenSections((prev) => ({ ...prev, opening: true }))
-    } else if (activeGroups.closing.some((v) => v.verse_number === activeVerse)) {
+    } else if (
+      activeGroups.closing.some((v) => v.verse_number === activeVerse)
+    ) {
       setOpenSections((prev) => ({ ...prev, closing: true }))
     } else {
       setOpenSections((prev) => ({ ...prev, dharanas: true }))

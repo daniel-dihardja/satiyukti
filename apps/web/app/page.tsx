@@ -18,22 +18,20 @@ export default function Page() {
   return (
     <div className="flex min-h-svh items-center justify-center px-6 py-16">
       <div className="mx-auto flex w-full max-w-2xl flex-col items-center gap-8 text-center">
-
         {/* Eyebrow */}
         <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
           Kashmir Shaivism · ~8th Century CE
         </p>
 
         {/* Sanskrit title */}
-        <p className="font-serif text-sm italic tracking-wide text-muted-foreground/70 md:text-base">
+        <p className="font-serif text-sm tracking-wide text-muted-foreground/70 italic md:text-base">
           विज्ञान भैरव तन्त्र
         </p>
 
         {/* Headline */}
-        <h1 className="text-5xl font-semibold leading-tight tracking-tight sm:text-6xl md:text-7xl">
+        <h1 className="text-5xl leading-tight font-semibold tracking-tight sm:text-6xl md:text-7xl">
           <span className="text-primary">112</span> Doorways
-          <br className="hidden sm:block" />
-          {" "}to Pure Awareness
+          <br className="hidden sm:block" /> to Pure Awareness
         </h1>
 
         {/* Description */}
@@ -63,7 +61,6 @@ export default function Page() {
             <ArrowRight className="h-4 w-4" />
           </Button>
         </Link>
-
       </div>
     </div>
   )
