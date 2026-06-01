@@ -76,7 +76,6 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
     ? parseInt(pathname.split("/").pop() ?? "0", 10)
     : null
 
-
   useEffect(() => {
     if (activeVerse === null) return
 
@@ -104,7 +103,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
     }
   }, [activeVerse, activeGroups])
 
-const toggleSection = (section: keyof typeof openSections) =>
+  const toggleSection = (section: keyof typeof openSections) =>
     setOpenSections((prev) => ({ ...prev, [section]: !prev[section] }))
 
   const toggleCategory = (cat: Category) =>
