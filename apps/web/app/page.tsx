@@ -2,18 +2,6 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@workspace/ui/components/button"
 
-const TOPICS = [
-  "Breath",
-  "Sound",
-  "Visualization",
-  "Space",
-  "Body",
-  "Emotion",
-  "Dissolution",
-  "Awareness",
-  "Non-duality",
-]
-
 export default function Page() {
   return (
     <div className="flex min-h-svh items-center justify-center px-6 py-16">
@@ -24,9 +12,14 @@ export default function Page() {
         </p>
 
         {/* Sanskrit title */}
-        <p className="font-serif text-sm tracking-wide text-muted-foreground/70 italic md:text-base">
-          विज्ञान भैरव तन्त्र
-        </p>
+        <div className="flex flex-col items-center gap-1">
+          <p className="font-serif text-sm tracking-wide text-muted-foreground/70 italic md:text-base">
+            विज्ञान भैरव तन्त्र
+          </p>
+          <p className="text-sm text-muted-foreground/70">
+            Vijñāna Bhairava Tantra
+          </p>
+        </div>
 
         {/* Headline */}
         <h1 className="text-5xl leading-tight font-semibold tracking-tight sm:text-6xl md:text-7xl">
@@ -41,18 +34,6 @@ export default function Page() {
           dissolution of self — with a guide who meets you wherever you are on
           the path.
         </p>
-
-        {/* Topic chips */}
-        <div className="flex flex-wrap justify-center gap-2">
-          {TOPICS.map((topic) => (
-            <span
-              key={topic}
-              className="rounded-full border border-border bg-secondary px-3.5 py-1 text-xs font-medium text-secondary-foreground"
-            >
-              {topic}
-            </span>
-          ))}
-        </div>
 
         {/* CTA */}
         <Link href="/vidya">
