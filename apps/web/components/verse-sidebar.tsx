@@ -130,7 +130,11 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         {/* ── Opening Inquiry ─────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
+            role="button"
+            tabIndex={0}
             onClick={() => toggleSection("opening")}
+            onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleSection("opening") } }}
+            aria-expanded={openSections.opening}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
@@ -165,7 +169,11 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         {/* ── The 112 Dharanas ────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
+            role="button"
+            tabIndex={0}
             onClick={() => toggleSection("dharanas")}
+            onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleSection("dharanas") } }}
+            aria-expanded={openSections.dharanas}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
@@ -192,7 +200,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
                   return (
                     <SidebarMenuItem key={cat}>
                       <SidebarMenuButton onClick={() => toggleCategory(cat)}>
-                        <Icon />
+                        <Icon aria-hidden="true" />
                         <span>{cat}</span>
                         <span className="ml-auto flex items-center gap-1.5 text-muted-foreground">
                           <span className="text-xs tabular-nums">
@@ -245,7 +253,11 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         {/* ── Closing Dialogue ────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
+            role="button"
+            tabIndex={0}
             onClick={() => toggleSection("closing")}
+            onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleSection("closing") } }}
+            aria-expanded={openSections.closing}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight

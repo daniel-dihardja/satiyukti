@@ -62,11 +62,13 @@ export function VerseDetail({
 
       {/* Explanation tabs */}
       <div className="mb-8">
-        <div className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1">
+        <div role="tablist" className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1">
           <button
+            role="tab"
+            aria-selected={tab === "beginner"}
             onClick={() => setTab("beginner")}
             className={cn(
-              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors md:px-5 md:py-2",
+              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none md:px-5 md:py-2",
               tab === "beginner"
                 ? "bg-background text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -75,9 +77,11 @@ export function VerseDetail({
             Simple
           </button>
           <button
+            role="tab"
+            aria-selected={tab === "scholar"}
             onClick={() => setTab("scholar")}
             className={cn(
-              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors md:px-5 md:py-2",
+              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none md:px-5 md:py-2",
               tab === "scholar"
                 ? "bg-background text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -136,6 +140,7 @@ export function VerseDetail({
               <Link
                 key={n}
                 href={`/vbt/verse/${n}`}
+                aria-label={`Verse ${n}`}
                 className="flex h-10 w-12 items-center justify-center rounded-md border border-border bg-background font-mono text-xs text-muted-foreground transition-colors hover:border-foreground hover:text-foreground md:h-11 md:w-14 md:text-sm"
               >
                 {n}
@@ -147,7 +152,7 @@ export function VerseDetail({
 
       {/* Prev / Next navigation — desktop only (mobile uses fixed bar below) */}
       {(prev || next) && (
-        <div className="-mx-6 mt-12 hidden md:-mx-10 md:block">
+        <nav aria-label="Verse navigation" className="-mx-6 mt-12 hidden md:-mx-10 md:block">
           <div className="h-px bg-border" />
           <div className="grid grid-cols-2">
             {/* Prev */}
@@ -190,11 +195,11 @@ export function VerseDetail({
               <div className="border-l border-border" />
             )}
           </div>
-        </div>
+        </nav>
       )}
       {/* Prev / Next navigation — mobile tab bar */}
       {(prev || next) && (
-        <div className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background shadow-[0_-4px_16px_rgba(0,0,0,0.08)] md:hidden">
+        <nav aria-label="Verse navigation" className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background shadow-[0_-4px_16px_rgba(0,0,0,0.08)] md:hidden">
           <div className="grid grid-cols-2">
             {prev ? (
               <Link
@@ -249,7 +254,7 @@ export function VerseDetail({
               />
             )}
           </div>
-        </div>
+        </nav>
       )}
     </div>
   )
