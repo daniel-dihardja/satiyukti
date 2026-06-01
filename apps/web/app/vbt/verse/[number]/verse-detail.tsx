@@ -38,12 +38,12 @@ export function VerseDetail({
       {/* Header */}
       <div className="mb-8 space-y-4">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="font-mono text-xs text-muted-foreground md:text-sm">
+          <span className="font-mono text-sm text-muted-foreground">
             Verse {verse.verse_number}
           </span>
           <span
             className={cn(
-              "rounded-full px-2.5 py-1 text-xs font-medium md:text-sm",
+              "rounded-full px-2.5 py-1 text-sm font-medium",
               CATEGORY_STYLES
             )}
           >
@@ -66,7 +66,7 @@ export function VerseDetail({
           <button
             onClick={() => setTab("beginner")}
             className={cn(
-              "rounded-md px-4 py-1.5 text-xs font-medium transition-colors md:px-5 md:py-2 md:text-sm",
+              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors md:px-5 md:py-2",
               tab === "beginner"
                 ? "bg-background text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -77,7 +77,7 @@ export function VerseDetail({
           <button
             onClick={() => setTab("scholar")}
             className={cn(
-              "rounded-md px-4 py-1.5 text-xs font-medium transition-colors md:px-5 md:py-2 md:text-sm",
+              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors md:px-5 md:py-2",
               tab === "scholar"
                 ? "bg-background text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -87,7 +87,7 @@ export function VerseDetail({
           </button>
         </div>
 
-        <p className="text-sm leading-relaxed text-foreground md:text-base md:leading-loose">
+        <p className="text-base leading-relaxed text-foreground md:leading-loose">
           {tab === "beginner"
             ? verse.beginner_explanation
             : verse.scholar_explanation}
@@ -104,7 +104,7 @@ export function VerseDetail({
       {/* Transliteration */}
       {verse.transliteration && (
         <div className="mb-6 px-1">
-          <p className="font-mono text-xs leading-relaxed whitespace-pre-line text-muted-foreground italic md:text-sm md:leading-loose">
+          <p className="font-mono text-sm leading-relaxed whitespace-pre-line text-muted-foreground italic md:leading-loose">
             {verse.transliteration}
           </p>
         </div>
@@ -115,13 +115,13 @@ export function VerseDetail({
         <p className="mb-2 text-xs font-semibold tracking-widest text-muted-foreground uppercase md:text-sm">
           Translation
         </p>
-        <p className="text-sm leading-relaxed text-foreground md:text-base md:leading-loose">
+        <p className="text-base leading-relaxed text-foreground md:leading-loose">
           {verse.translation}
         </p>
       </div>
 
       {/* Intent summary */}
-      <p className="mb-8 text-sm leading-relaxed text-muted-foreground md:text-base md:leading-loose">
+      <p className="mb-8 text-base leading-relaxed text-muted-foreground md:leading-loose">
         {verse.intent_summary}
       </p>
 
@@ -194,7 +194,7 @@ export function VerseDetail({
       )}
       {/* Prev / Next navigation — mobile fixed bottom bar */}
       {(prev || next) && (
-        <div className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background md:hidden">
+        <div className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background shadow-[0_-4px_16px_rgba(0,0,0,0.08)] md:hidden">
           <div className="grid grid-cols-2">
             {prev ? (
               <Link
@@ -203,10 +203,10 @@ export function VerseDetail({
               >
                 <ChevronLeft className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-active:text-foreground" />
                 <div className="min-w-0">
-                  <p className="text-[10px] text-muted-foreground">
+                  <p className="text-[11px] text-muted-foreground">
                     Verse {prev.number}
                   </p>
-                  <p className="truncate text-xs leading-snug font-medium text-foreground">
+                  <p className="truncate text-sm leading-snug font-medium text-foreground">
                     {prev.title}
                   </p>
                 </div>
@@ -221,10 +221,10 @@ export function VerseDetail({
                 className="group flex items-center justify-end gap-2.5 border-l border-border px-4 py-3.5 text-right active:bg-muted/50"
               >
                 <div className="min-w-0">
-                  <p className="text-[10px] text-muted-foreground">
+                  <p className="text-[11px] text-muted-foreground">
                     Verse {next.number}
                   </p>
-                  <p className="truncate text-xs leading-snug font-medium text-foreground">
+                  <p className="truncate text-sm leading-snug font-medium text-foreground">
                     {next.title}
                   </p>
                 </div>
