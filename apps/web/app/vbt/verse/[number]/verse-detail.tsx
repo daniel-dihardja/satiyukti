@@ -62,11 +62,18 @@ export function VerseDetail({
 
       {/* Explanation tabs */}
       <div className="mb-8">
-        <div className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1">
+        <div
+          role="tablist"
+          className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1"
+        >
           <button
+            id="tab-beginner"
+            role="tab"
+            aria-selected={tab === "beginner"}
+            aria-controls="panel-beginner"
             onClick={() => setTab("beginner")}
             className={cn(
-              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors md:px-5 md:py-2",
+              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none md:px-5 md:py-2",
               tab === "beginner"
                 ? "bg-background text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -75,9 +82,13 @@ export function VerseDetail({
             Simple
           </button>
           <button
+            id="tab-scholar"
+            role="tab"
+            aria-selected={tab === "scholar"}
+            aria-controls="panel-scholar"
             onClick={() => setTab("scholar")}
             className={cn(
-              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors md:px-5 md:py-2",
+              "rounded-md px-4 py-1.5 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none md:px-5 md:py-2",
               tab === "scholar"
                 ? "bg-background text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -87,11 +98,19 @@ export function VerseDetail({
           </button>
         </div>
 
-        <p className="text-base leading-relaxed text-foreground md:leading-loose">
-          {tab === "beginner"
-            ? verse.beginner_explanation
-            : verse.scholar_explanation}
-        </p>
+        <div
+          id={tab === "beginner" ? "panel-beginner" : "panel-scholar"}
+          role="tabpanel"
+          aria-labelledby={tab === "beginner" ? "tab-beginner" : "tab-scholar"}
+          tabIndex={0}
+          className="focus-visible:outline-none"
+        >
+          <p className="text-base leading-relaxed text-foreground md:leading-loose">
+            {tab === "beginner"
+              ? verse.beginner_explanation
+              : verse.scholar_explanation}
+          </p>
+        </div>
       </div>
 
       {/* Sanskrit */}
@@ -136,6 +155,7 @@ export function VerseDetail({
               <Link
                 key={n}
                 href={`/vbt/verse/${n}`}
+                aria-label={`Verse ${n}`}
                 className="flex h-10 w-12 items-center justify-center rounded-md border border-border bg-background font-mono text-xs text-muted-foreground transition-colors hover:border-foreground hover:text-foreground md:h-11 md:w-14 md:text-sm"
               >
                 {n}
@@ -147,7 +167,10 @@ export function VerseDetail({
 
       {/* Prev / Next navigation — desktop only (mobile uses fixed bar below) */}
       {(prev || next) && (
-        <div className="-mx-6 mt-12 hidden md:-mx-10 md:block">
+        <nav
+          aria-label="Verse navigation"
+          className="-mx-6 mt-12 hidden md:-mx-10 md:block"
+        >
           <div className="h-px bg-border" />
           <div className="grid grid-cols-2">
             {/* Prev */}
@@ -190,51 +213,69 @@ export function VerseDetail({
               <div className="border-l border-border" />
             )}
           </div>
-        </div>
+        </nav>
       )}
-      {/* Prev / Next navigation — mobile fixed bottom bar */}
+      {/* Prev / Next navigation — mobile tab bar */}
       {(prev || next) && (
-        <div className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background shadow-[0_-4px_16px_rgba(0,0,0,0.08)] md:hidden">
+        <nav
+          aria-label="Verse navigation"
+          className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background shadow-[0_-4px_16px_rgba(0,0,0,0.08)] md:hidden"
+        >
           <div className="grid grid-cols-2">
             {prev ? (
               <Link
                 href={`/vbt/verse/${prev.number}`}
-                className="group flex items-center gap-2.5 px-4 py-3.5 active:bg-muted/50"
+                className="flex items-start gap-2.5 px-4 pt-4 transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
+                style={{
+                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                }}
               >
-                <ChevronLeft className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-active:text-foreground" />
+                <ChevronLeft className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
                 <div className="min-w-0">
-                  <p className="text-[11px] text-muted-foreground">
-                    Verse {prev.number}
+                  <p className="text-[10px] font-medium tracking-wide text-muted-foreground uppercase">
+                    Previous
                   </p>
-                  <p className="truncate text-sm leading-snug font-medium text-foreground">
+                  <p className="truncate text-xs font-medium text-foreground">
                     {prev.title}
                   </p>
                 </div>
               </Link>
             ) : (
-              <div />
+              <div
+                style={{
+                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                }}
+              />
             )}
 
             {next ? (
               <Link
                 href={`/vbt/verse/${next.number}`}
-                className="group flex items-center justify-end gap-2.5 border-l border-border px-4 py-3.5 text-right active:bg-muted/50"
+                className="flex items-start justify-end gap-2.5 border-l border-border px-4 pt-4 text-right transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
+                style={{
+                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                }}
               >
                 <div className="min-w-0">
-                  <p className="text-[11px] text-muted-foreground">
-                    Verse {next.number}
+                  <p className="text-[10px] font-medium tracking-wide text-muted-foreground uppercase">
+                    Next
                   </p>
-                  <p className="truncate text-sm leading-snug font-medium text-foreground">
+                  <p className="truncate text-xs font-medium text-foreground">
                     {next.title}
                   </p>
                 </div>
-                <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-active:text-foreground" />
+                <ChevronRight className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
               </Link>
             ) : (
-              <div className="border-l border-border" />
+              <div
+                className="border-l border-border"
+                style={{
+                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                }}
+              />
             )}
           </div>
-        </div>
+        </nav>
       )}
     </div>
   )

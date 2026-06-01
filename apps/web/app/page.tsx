@@ -13,10 +13,10 @@ export default function Page() {
 
         {/* Sanskrit title */}
         <div className="flex flex-col items-center gap-1">
-          <p className="font-serif text-sm tracking-wide text-muted-foreground/70 italic md:text-base">
+          <p className="font-serif text-sm tracking-wide text-muted-foreground italic md:text-base">
             विज्ञान भैरव तन्त्र
           </p>
-          <p className="text-sm text-muted-foreground/70">
+          <p className="text-sm text-muted-foreground">
             Vijñāna Bhairava Tantra
           </p>
         </div>

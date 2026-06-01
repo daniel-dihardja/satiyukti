@@ -130,17 +130,26 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         {/* ── Opening Inquiry ─────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
+            role="button"
+            tabIndex={0}
             onClick={() => toggleSection("opening")}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault()
+                toggleSection("opening")
+              }
+            }}
+            aria-expanded={openSections.opening}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
               className={cn(
-                "transition-transform duration-200",
+                "transition-transform duration-200 motion-reduce:transition-none",
                 openSections.opening && "rotate-90"
               )}
             />
             Opening Inquiry
-            <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
+            <span className="ml-auto font-normal text-muted-foreground tabular-nums">
               1–23
             </span>
           </SidebarGroupLabel>
@@ -165,17 +174,26 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         {/* ── The 112 Dharanas ────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
+            role="button"
+            tabIndex={0}
             onClick={() => toggleSection("dharanas")}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault()
+                toggleSection("dharanas")
+              }
+            }}
+            aria-expanded={openSections.dharanas}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
               className={cn(
-                "transition-transform duration-200",
+                "transition-transform duration-200 motion-reduce:transition-none",
                 openSections.dharanas && "rotate-90"
               )}
             />
             The 112 Dharanas
-            <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
+            <span className="ml-auto font-normal text-muted-foreground tabular-nums">
               24–138
             </span>
           </SidebarGroupLabel>
@@ -192,7 +210,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
                   return (
                     <SidebarMenuItem key={cat}>
                       <SidebarMenuButton onClick={() => toggleCategory(cat)}>
-                        <Icon />
+                        <Icon aria-hidden="true" />
                         <span>{cat}</span>
                         <span className="ml-auto flex items-center gap-1.5 text-muted-foreground">
                           <span className="text-xs tabular-nums">
@@ -200,7 +218,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
                           </span>
                           <ChevronRight
                             className={cn(
-                              "transition-transform duration-200",
+                              "transition-transform duration-200 motion-reduce:transition-none",
                               isOpen && "rotate-90"
                             )}
                           />
@@ -245,17 +263,26 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         {/* ── Closing Dialogue ────────────────────────────── */}
         <SidebarGroup>
           <SidebarGroupLabel
+            role="button"
+            tabIndex={0}
             onClick={() => toggleSection("closing")}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault()
+                toggleSection("closing")
+              }
+            }}
+            aria-expanded={openSections.closing}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
             <ChevronRight
               className={cn(
-                "transition-transform duration-200",
+                "transition-transform duration-200 motion-reduce:transition-none",
                 openSections.closing && "rotate-90"
               )}
             />
             Closing Dialogue
-            <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
+            <span className="ml-auto font-normal text-muted-foreground tabular-nums">
               139–163
             </span>
           </SidebarGroupLabel>
