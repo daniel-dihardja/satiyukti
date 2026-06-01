@@ -1,22 +1,22 @@
-import type { Category, EnrichedVerse } from '@/lib/types/verse'
-import rawData from './vbt-enrichment.json'
-import rawDataDe from './vbt-enrichment-de.json'
-import rawDataId from './vbt-enrichment-id.json'
+import type { Category, EnrichedVerse } from "@/lib/types/verse"
+import rawData from "./vbt-enrichment.json"
+import rawDataDe from "./vbt-enrichment-de.json"
+import rawDataId from "./vbt-enrichment-id.json"
 
 export const allVerses: EnrichedVerse[] = rawData as EnrichedVerse[]
 export const allVersesDe: EnrichedVerse[] = rawDataDe as EnrichedVerse[]
 export const allVersesId: EnrichedVerse[] = rawDataId as EnrichedVerse[]
 
 export const DHARANA_CATEGORIES: Category[] = [
-  'Breath',
-  'Sound',
-  'Visualization',
-  'Space',
-  'Body',
-  'Emotion',
-  'Dissolution',
-  'Awareness',
-  'Nonduality',
+  "Breath",
+  "Sound",
+  "Visualization",
+  "Space",
+  "Body",
+  "Emotion",
+  "Dissolution",
+  "Awareness",
+  "Nonduality",
 ]
 
 export interface VerseGroups {
@@ -25,7 +25,9 @@ export interface VerseGroups {
   closing: EnrichedVerse[]
 }
 
-export function getVerseGroups(verses: EnrichedVerse[] = allVerses): VerseGroups {
+export function getVerseGroups(
+  verses: EnrichedVerse[] = allVerses
+): VerseGroups {
   const opening = verses.filter((v) => v.verse_number <= 23)
   const closing = verses.filter((v) => v.verse_number >= 139)
   const dharanaVerses = verses.filter(

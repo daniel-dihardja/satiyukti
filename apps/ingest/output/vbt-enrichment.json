@@ -10,22 +10,13 @@
     "difficulty": "beginner",
     "practice_type": "contemplation",
     "focus_object": "the received tantric teaching",
-    "primary_concepts": [
-      "Rudrayāmala",
-      "sāra",
-      "bheda",
-      "śruti"
-    ],
+    "primary_concepts": ["Rudrayāmala", "sāra", "bheda", "śruti"],
     "secondary_concepts": [
       "tantra",
       "scriptural study",
       "doctrinal classification"
     ],
-    "related_verses": [
-      2,
-      7,
-      8
-    ],
+    "related_verses": [2, 7, 8],
     "beginner_explanation": "Devi begins by saying she has already heard profound spiritual teachings. Even so, hearing many teachings is not the same as having all doubt removed. This sets up her deeper question about what is ultimately true.",
     "developer_explanation": "This opening frames the inquiry within the revealed Tantric corpus, specifically the Rudrayāmala, whose manifold bhedas have already been heard in summary and detail. The verse establishes that scriptural sāra-vibhāga is insufficient without direct recognition of Bhairava-tattva, preparing the movement from śāstra to immediate realization.",
     "tags": [
@@ -48,33 +39,12 @@
     "difficulty": "beginner",
     "practice_type": "contemplation",
     "focus_object": "Bhairava's true nature",
-    "primary_concepts": [
-      "saṃśaya",
-      "Parameśvara",
-      "rūpa",
-      "śabda"
-    ],
-    "secondary_concepts": [
-      "kalā",
-      "metaphysical inquiry",
-      "ultimate reality"
-    ],
-    "related_verses": [
-      3,
-      4,
-      7,
-      11
-    ],
+    "primary_concepts": ["saṃśaya", "Parameśvara", "rūpa", "śabda"],
+    "secondary_concepts": ["kalā", "metaphysical inquiry", "ultimate reality"],
+    "related_verses": [3, 4, 7, 11],
     "beginner_explanation": "Devi is asking a very direct question: what is the real nature of the divine? She is not satisfied with symbols or descriptions and wants to know what is true at the deepest level. This is like asking what fire really is, not just what it looks like.",
     "developer_explanation": "The verse articulates unresolved saṃśaya regarding the tattvataḥ-rūpa of Bhairava. By invoking śabda and kalā-like modalities, Devi probes whether the absolute is to be identified with manifest vibratory structures or whether these are only partial pedagogical indicators.",
-    "tags": [
-      "dialogue",
-      "bhairava",
-      "devi",
-      "question",
-      "sound",
-      "metaphysics"
-    ]
+    "tags": ["dialogue", "bhairava", "devi", "question", "sound", "metaphysics"]
   },
   {
     "verse_number": 3,
@@ -87,23 +57,9 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "possible ontological forms of Bhairava",
-    "primary_concepts": [
-      "ātma-bheda",
-      "Bhairava",
-      "Bhairavī",
-      "śakti"
-    ],
-    "secondary_concepts": [
-      "duality",
-      "divine polarity",
-      "ontology"
-    ],
-    "related_verses": [
-      2,
-      4,
-      5,
-      12
-    ],
+    "primary_concepts": ["ātma-bheda", "Bhairava", "Bhairavī", "śakti"],
+    "secondary_concepts": ["duality", "divine polarity", "ontology"],
+    "related_verses": [2, 4, 5, 12],
     "beginner_explanation": "Here Devi explores several ways people might imagine the divine: as male and female, as different powers, or as separate forms. She is testing whether ultimate reality is really made of parts and distinctions. The deeper issue is whether truth is divided or whole.",
     "developer_explanation": "This verse moves into core Trika categories: whether Bhairava is grasped through ātma-bheda, through the Bhairava-Bhairavī polarity, or through śakti-vibhāga. The inquiry anticipates Bhairava's rejection of segmented ontologies in favor of an akhaṇḍa, nondual understanding in which such distinctions are upāyas rather than final tattva.",
     "tags": [
@@ -126,36 +82,12 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "esoteric symbols associated with Bhairava",
-    "primary_concepts": [
-      "nāda",
-      "bindu",
-      "candra",
-      "cakra",
-      "śakti-svarūpa"
-    ],
-    "secondary_concepts": [
-      "subtle body",
-      "mantra",
-      "tantric cosmology"
-    ],
-    "related_verses": [
-      2,
-      3,
-      5,
-      39,
-      40,
-      41
-    ],
+    "primary_concepts": ["nāda", "bindu", "candra", "cakra", "śakti-svarūpa"],
+    "secondary_concepts": ["subtle body", "mantra", "tantric cosmology"],
+    "related_verses": [2, 3, 5, 39, 40, 41],
     "beginner_explanation": "Devi now asks about subtle spiritual ideas like inner sound, point of origin, energy centers, and divine energy. These are important in tantra, but she wants to know whether they are the ultimate truth or only expressions of it. It is like asking whether a map is the place itself.",
     "developer_explanation": "The verse clusters major Tantric signifiers—nāda, bindu, lunar phases or energies, cakra, and śakti-svarūpa—as possible identifications of Bhairava. In VBT's logic, these become contemplative supports, yet Bhairava will shortly relativize them as provisional for dhyānārtha rather than paramārtha.",
-    "tags": [
-      "dialogue",
-      "nada",
-      "bindu",
-      "chakra",
-      "shakti",
-      "tantra"
-    ]
+    "tags": ["dialogue", "nada", "bindu", "chakra", "shakti", "tantra"]
   },
   {
     "verse_number": 5,
@@ -168,22 +100,9 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the relation between transcendent and immanent reality",
-    "primary_concepts": [
-      "parā",
-      "aparā",
-      "sakala",
-      "paratva"
-    ],
-    "secondary_concepts": [
-      "immanence",
-      "transcendence",
-      "integral nonduality"
-    ],
-    "related_verses": [
-      6,
-      12,
-      15
-    ],
+    "primary_concepts": ["parā", "aparā", "sakala", "paratva"],
+    "secondary_concepts": ["immanence", "transcendence", "integral nonduality"],
+    "related_verses": [6, 12, 15],
     "beginner_explanation": "Devi is asking whether the highest reality includes the world or stands apart from it. If the divine were only beyond everything, then it would not fully include all that exists. This is an important non-dual question about whether the sacred is both beyond and within life.",
     "developer_explanation": "This verse presses a subtle doctrinal issue: if Bhairava is only parā, then paratva risks becoming a merely exclusive transcendence. The Trika resolution tends toward a non-reductive inclusion of parāparā and aparā within the fullness of consciousness, preserving paratva without denying manifestation.",
     "tags": [
@@ -206,23 +125,13 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the inadequacy of differentiated forms to define the supreme",
-    "primary_concepts": [
-      "varṇa",
-      "deha-bheda",
-      "paratva",
-      "niṣkala",
-      "sakala"
-    ],
+    "primary_concepts": ["varṇa", "deha-bheda", "paratva", "niṣkala", "sakala"],
     "secondary_concepts": [
       "formlessness",
       "embodiment",
       "metaphysical critique"
     ],
-    "related_verses": [
-      5,
-      11,
-      12
-    ],
+    "related_verses": [5, 11, 12],
     "beginner_explanation": "Devi says the highest truth cannot be limited by outer divisions, labels, or bodily forms. Something truly ultimate cannot depend on parts. She is clearing away mistaken ideas before the real answer can be given.",
     "developer_explanation": "The verse contrasts paratva with varṇa-vibhāga, deha-bheda, and the tension between niṣkala and sakala. Devi's reasoning is philosophically sharp: if the supreme were only a formed, segmented entity, it would fail as the absolute; this anticipates Bhairava's transconceptual response.",
     "tags": [
@@ -245,22 +154,13 @@
     "difficulty": "beginner",
     "practice_type": "contemplation",
     "focus_object": "the significance of the inquiry itself",
-    "primary_concepts": [
-      "praśna",
-      "tantra-sāra",
-      "prasāda",
-      "saṃśaya"
-    ],
+    "primary_concepts": ["praśna", "tantra-sāra", "prasāda", "saṃśaya"],
     "secondary_concepts": [
       "guru response",
       "revelation",
       "worthiness of inquiry"
     ],
-    "related_verses": [
-      1,
-      2,
-      8
-    ],
+    "related_verses": [1, 2, 8],
     "beginner_explanation": "Bhairava first honors the question instead of answering immediately. This shows that asking the right question is itself part of spiritual understanding. Good inquiry opens the door to deeper truth.",
     "developer_explanation": "Bhairava's response validates the inquiry as tantra-sāra, implying that the heart of the teaching lies not in ritual multiplicity but in resolving the ontological doubt concerning Bhairava. The request to remove saṃśaya also signals the transition from conceptual ambiguity to liberating recognition.",
     "tags": [
@@ -294,12 +194,7 @@
       "symbolic form",
       "teaching method"
     ],
-    "related_verses": [
-      7,
-      9,
-      10,
-      11
-    ],
+    "related_verses": [7, 9, 10, 11],
     "beginner_explanation": "Bhairava says the teaching he is about to give is very secret, meaning very deep and subtle. He hints that the many forms people speak of are not the final truth. Outer descriptions may help, but they are not the whole reality.",
     "developer_explanation": "The verse marks a hermeneutic shift: the 'forms' of Bhairava that are widely proclaimed belong to the domain of pedagogical expression, while the forthcoming instruction points beyond representational theology. Gūhanīyatama here denotes not secrecy for exclusion, but subtlety requiring adhikāra and direct insight.",
     "tags": [
@@ -322,33 +217,12 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the illusory nature of conceptualized forms",
-    "primary_concepts": [
-      "asāra",
-      "māyā",
-      "svapna",
-      "gandharva-nagara"
-    ],
-    "secondary_concepts": [
-      "appearance",
-      "phenomenality",
-      "epistemic illusion"
-    ],
-    "related_verses": [
-      8,
-      10,
-      11,
-      15
-    ],
+    "primary_concepts": ["asāra", "māyā", "svapna", "gandharva-nagara"],
+    "secondary_concepts": ["appearance", "phenomenality", "epistemic illusion"],
+    "related_verses": [8, 10, 11, 15],
     "beginner_explanation": "Bhairava says the forms people imagine are not the solid truth they seem to be. He compares them to dreams or mirages—appearing real for a time, but lacking lasting substance. This does not mean they are useless, only that they are not ultimate.",
     "developer_explanation": "The imagery of māyā, svapna, and gandharva-nagara functions as a classic non-realist critique of reified forms. Bhairava is not denying manifestation per se, but denying ultimate substantiality to conceptual and symbolic constructions of the divine; this aligns with Pratyabhijñā-style distinctions between appearance and self-luminous consciousness.",
-    "tags": [
-      "dialogue",
-      "maya",
-      "dream",
-      "illusion",
-      "bhairava",
-      "nondual"
-    ]
+    "tags": ["dialogue", "maya", "dream", "illusion", "bhairava", "nondual"]
   },
   {
     "verse_number": 10,
@@ -367,18 +241,8 @@
       "kriyā-āḍambara",
       "vikalpa"
     ],
-    "secondary_concepts": [
-      "upāya",
-      "ritualism",
-      "conceptual mind"
-    ],
-    "related_verses": [
-      4,
-      8,
-      9,
-      11,
-      24
-    ],
+    "secondary_concepts": ["upāya", "ritualism", "conceptual mind"],
+    "related_verses": [4, 8, 9, 11, 24],
     "beginner_explanation": "Bhairava explains that forms, symbols, and rituals are helpful starting points for people who need something concrete to focus on. They are not condemned; they are training tools. Like using a ladder, they help you rise, but they are not the final destination.",
     "developer_explanation": "This verse is crucial for VBT's pedagogy: iconic forms and ritual elaborations are dhyānārtham, provisional upāyas for those not yet free from vikalpa. Bhairava thereby reframes much of Tantric apparatus as skillful means, anticipating the direct, often non-conceptual dhāraṇās that begin later in the text.",
     "tags": [
@@ -413,14 +277,7 @@
       "conceptual negation",
       "theological deconstruction"
     ],
-    "related_verses": [
-      12,
-      13,
-      14,
-      16,
-      18,
-      19
-    ],
+    "related_verses": [12, 13, 14, 16, 18, 19],
     "beginner_explanation": "This verse says the deepest reality cannot be captured by names, sounds, or pictures of a god. It asks you to look past outer ideas and symbols. Like realizing that a map is not the land, Bhairava is more than any description of him.",
     "developer_explanation": "Verse 11 begins an apophatic clarification: Bhairava is not, tattvataḥ, reducible to śabda, sonic manifestation, iconographic devahood, or a merely differentiated śakti-identity. The movement is neti-neti in a Trika register, rejecting lower supports as ultimate without necessarily denying their provisional soteriological value. It prepares the critique of nāda-bindu-candra schemas in verse 12.",
     "tags": [
@@ -455,13 +312,7 @@
       "mantric cosmology",
       "transcendence of upāyas"
     ],
-    "related_verses": [
-      11,
-      13,
-      14,
-      18,
-      20
-    ],
+    "related_verses": [11, 13, 14, 18, 20],
     "beginner_explanation": "Even subtle spiritual ideas like inner sound, energy points, or chakra systems are not the final truth by themselves. They may help, but they are still methods and models. Bhairava is pointing to something larger than any spiritual diagram.",
     "developer_explanation": "The verse explicitly relativizes standard tantric categories—nāda, bindu, candra/nirodhikā, and cakra-krama—refusing to let the absolute be identified with any single esoteric map. In non-dual Śaiva hermeneutics, such structures remain valid as upāya but not as the final svarūpa of Bhairava. This anticipates verse 13, where these are framed as pedagogical devices for the aprabuddha.",
     "tags": [
@@ -491,18 +342,8 @@
       "mātṛ-modaka",
       "pravṛtty-artham"
     ],
-    "secondary_concepts": [
-      "upāya",
-      "pedagogy",
-      "adhikāra-bheda"
-    ],
-    "related_verses": [
-      11,
-      12,
-      14,
-      19,
-      20
-    ],
+    "secondary_concepts": ["upāya", "pedagogy", "adhikāra-bheda"],
+    "related_verses": [11, 12, 14, 19, 20],
     "beginner_explanation": "Bhairava says many spiritual descriptions are teaching tools, not the final truth itself. A teacher may simplify things to help someone begin. Just like giving a child a sweet to encourage learning, symbolic practices help the mind start moving inward.",
     "developer_explanation": "This is an important hermeneutic verse: nāda-bindu-cakra discourse is not dismissed as false simpliciter but contextualized as pravṛtty-artham for aprabuddha aspirants. The metaphors of bāla-bibhīṣikā and mātṛ-modaka indicate intentional pedagogical shaping according to capacity. This is consistent with Trika's graded upāyas and the distinction between provisional support and anuttara realization.",
     "tags": [
@@ -532,18 +373,8 @@
       "uddeśa-aviśeṣiṇī",
       "akathyā paramārthataḥ"
     ],
-    "secondary_concepts": [
-      "anirdeśyatā",
-      "transconceptuality",
-      "nonlocality"
-    ],
-    "related_verses": [
-      11,
-      12,
-      15,
-      16,
-      17
-    ],
+    "secondary_concepts": ["anirdeśyatā", "transconceptuality", "nonlocality"],
+    "related_verses": [11, 12, 15, 16, 17],
     "beginner_explanation": "Ultimate reality is not somewhere else, not in one direction, and not trapped in time. Because language usually points to things with boundaries, it struggles here. This verse invites you to sense what is present everywhere, rather than look for a special place.",
     "developer_explanation": "The verse negates dik, kāla, and deśa as limiting coordinates and affirms the paramārthic as aviśeṣiṇī and akathyā. Such language resonates with the anuttara of Trika: nonlocal, beyond temporal succession, and resistant to vikalpa-based predication. It sets up verse 15's positive turn toward svānubhava-ānanda as the only viable access.",
     "tags": [
@@ -579,13 +410,7 @@
       "nondual fullness",
       "experiential realization"
     ],
-    "related_verses": [
-      14,
-      16,
-      17,
-      18,
-      20
-    ],
+    "related_verses": [14, 16, 17, 18, 20],
     "beginner_explanation": "Here the teaching turns from saying what the truth is not to hinting at how it feels. When the mind quiets and a deep inner fullness shines by itself, that living presence is called Bhairavī. It is not an emotion you create, but a completeness you notice.",
     "developer_explanation": "Verse 15 offers a cataphatic correction to prior negations: the sought reality is svānubhava-ānanda, a vikalpātīta or at least vikalponmukha-transcending avasthā of bharitā, plenitude. Identifying this with Bhairavī within Bhairavātman expresses the inseparability of prakāśa and vimarśa. It is a crucial bridge from apophatic theology to direct recognition (pratyabhijñā).",
     "tags": [
@@ -621,13 +446,7 @@
       "all-pervasion",
       "collapse of subject-object"
     ],
-    "related_verses": [
-      14,
-      15,
-      17,
-      18,
-      19
-    ],
+    "related_verses": [14, 15, 17, 18, 19],
     "beginner_explanation": "If the divine fills everything completely, then there is no absolute separation between you and what you worship. This verse does not reject devotion; it deepens it. It points toward seeing all of life as already within the divine presence.",
     "developer_explanation": "The term vapuḥ is expanded beyond anthropomorphic form into a vimala, viśva-pūraṇa ontology. The rhetorical question—who worships whom in such a paratattva?—undoes dualistic pūjā at the highest level while not invalidating relative ritual. This accords with Trika's movement from bheda-upacāra toward nondual recognition of all phenomena as Bhairava's body.",
     "tags": [
@@ -662,12 +481,7 @@
       "theological identity",
       "transcendent immanence"
     ],
-    "related_verses": [
-      15,
-      16,
-      18,
-      20
-    ],
+    "related_verses": [15, 16, 18, 20],
     "beginner_explanation": "This verse says the highest state of Bhairava and the highest Goddess are not two different realities. Consciousness and its living power belong together. It is like fire and its warmth: different words, one reality.",
     "developer_explanation": "Parā Devī is here not an external goddess but the very avasthā of Bhairava described in the preceding verses. This identifies the supreme śakti with the dynamic self-revelation of the absolute, preserving the Trika emphasis that Śiva is never without vimarśa. Verse 18 then makes that non-separability explicit through the dharma-dharmin analogy.",
     "tags": [
@@ -702,12 +516,7 @@
       "ontological inseparability",
       "śiva-śakti"
     ],
-    "related_verses": [
-      16,
-      17,
-      19,
-      20
-    ],
+    "related_verses": [16, 17, 19, 20],
     "beginner_explanation": "The verse explains that consciousness and its power cannot be split apart. You cannot have sunlight without shining, or fire without heat. In the same way, the supreme Self is always together with its living energy.",
     "developer_explanation": "The dharma-dharmin relation is employed pedagogically, though ultimately Trika often radicalizes this beyond ordinary substance-property metaphysics. Śakti is not an external adjunct to parātman but its intrinsic expressive potency, the vimarśa aspect inseparable from prakāśa. This doctrinal point grounds verse 20's claim that entry into śakti leads to śivarūpatā.",
     "tags": [
@@ -742,11 +551,7 @@
       "inherent power",
       "ontological non-separation"
     ],
-    "related_verses": [
-      13,
-      18,
-      20
-    ],
+    "related_verses": [13, 18, 20],
     "beginner_explanation": "Here Bhairava uses a simple example: fire and its power to burn are not two different things. In the same way, consciousness and its power are one reality. The explanation is only a doorway to help the mind begin to understand.",
     "developer_explanation": "The fire-burning analogy restates verse 18 in more phenomenological and pedagogical terms. Jñāna-sattā suggests the living fact of consciousness-being, and the present discourse is framed as a prārambha or praveśa, not the final capture of the real in language. This continues the text's self-aware movement from doctrinal exposition toward direct realization.",
     "tags": [
@@ -781,12 +586,7 @@
       "absorption",
       "śāmbhava orientation"
     ],
-    "related_verses": [
-      15,
-      17,
-      18,
-      19
-    ],
+    "related_verses": [15, 17, 18, 19],
     "beginner_explanation": "If you rest deeply and fully in the living energy of awareness, the sense of separation begins to dissolve. Then you do not just think about the divine—you become one with it. This verse describes that shift as entering through the doorway of Śakti.",
     "developer_explanation": "The phrase nirvibhāgena bhāvanā is crucial: contemplation devoid of division matures into identity, not mere conceptual worship. To enter śakty-avasthā is to abide in the dynamic pulsation of consciousness until śiva-rūpatā becomes evident; hence this is termed the śaivī mukha, a gateway into direct recognition. The verse effectively transitions from doctrinal nonduality to operative sādhanā.",
     "tags": [
@@ -821,23 +621,10 @@
       "nondual theology",
       "appearance and ground"
     ],
-    "related_verses": [
-      7,
-      8,
-      20,
-      22,
-      23
-    ],
+    "related_verses": [7, 8, 20, 22, 23],
     "beginner_explanation": "This verse says that pure reality is known through its power to appear and express itself. Just as a lamp helps you see things in a dark room, Shakti is the power that lets the hidden truth of Shiva become recognizable. It is less a meditation instruction than a key idea for understanding the teachings that follow.",
     "developer_explanation": "The verse presents Shakti as the revelatory function through which Shiva becomes experientially accessible, much as aloka discloses bheda-vibhaga. In Trika terms, prakasha is not inert luminosity but is inseparable from vimarsha-shakti, the self-manifesting power of consciousness. This prepares Devi's next question about the upaya by which Bhairava's para state may be realized.",
-    "tags": [
-      "dialogue",
-      "shakti",
-      "shiva",
-      "revelation",
-      "nondual",
-      "theology"
-    ]
+    "tags": ["dialogue", "shakti", "shiva", "revelation", "nondual", "theology"]
   },
   {
     "verse_number": 22,
@@ -861,23 +648,10 @@
       "form and formlessness",
       "apophatic description"
     ],
-    "related_verses": [
-      1,
-      2,
-      7,
-      21,
-      23
-    ],
+    "related_verses": [1, 2, 7, 21, 23],
     "beginner_explanation": "Devi is saying that Bhairava cannot be limited by any image or label. Even if he is pictured with skulls or a trident, his real nature is beyond place, time, and description. This helps shift attention from outer symbols to inner reality.",
     "developer_explanation": "The verse contrasts Bhairava's mythic-iconic form with his transcendence of dik, desha, and kala, indicating a move from murti to anuttara. Vyapadesha-vivarjita suggests that the ultimate cannot be adequately captured by linguistic predication. Theologically this bridges ritual Shaiva imagery and the non-conceptual absolute central to the VBT.",
-    "tags": [
-      "dialogue",
-      "bhairava",
-      "formless",
-      "space",
-      "time",
-      "apophatic"
-    ]
+    "tags": ["dialogue", "bhairava", "formless", "space", "time", "apophatic"]
   },
   {
     "verse_number": 23,
@@ -901,12 +675,7 @@
       "soteriology",
       "practice transmission"
     ],
-    "related_verses": [
-      20,
-      21,
-      22,
-      24
-    ],
+    "related_verses": [20, 21, 22, 24],
     "beginner_explanation": "Here Devi asks the practical question: if Bhairava is beyond ordinary description, how can someone actually experience that state? This is the turning point where philosophy becomes practice. The meditation methods begin in response to this question.",
     "developer_explanation": "This verse explicitly requests the upaya for the realization of Bhairava's para-avastha, marking the transition from ontological exposition to sadhana. The concern is not doctrinal assent but samyag-upalabdhi, direct and valid recognition. It serves as the formal gateway into the dharana section of the text.",
     "tags": [
@@ -929,35 +698,17 @@
     "difficulty": "advanced",
     "practice_type": "breathwork",
     "focus_object": "junction of the breaths",
-    "primary_concepts": [
-      "prana",
-      "jiva/apana",
-      "visarga",
-      "utpatti-sthana"
-    ],
+    "primary_concepts": ["prana", "jiva/apana", "visarga", "utpatti-sthana"],
     "secondary_concepts": [
       "breath polarity",
       "kumbhaka",
       "death of mind",
       "central channel"
     ],
-    "related_verses": [
-      25,
-      26,
-      27,
-      31,
-      32
-    ],
+    "related_verses": [25, 26, 27, 31, 32],
     "beginner_explanation": "This practice pays attention to the natural turning points of the breath. There is a tiny pause when the inhale ends and another when the exhale ends; the verse says these moments are powerful gateways. By resting awareness there, the mind can become very still.",
     "developer_explanation": "The verse hinges on the dynamic of urdhva-prana and adho-jiva, often read through the prana-apana polarity, with visarga as the emission principle. The 'two places' are the transitional junctures where the movement of breath resolves into a momentary suspension, opening bharita sthiti, the plenum of Bhairava-consciousness. This is among the foundational VBT kumbhaka-based dharanas and resonates with madhya-oriented Trika praxis.",
-    "tags": [
-      "breath",
-      "kumbhaka",
-      "junction",
-      "prana",
-      "apana",
-      "advanced"
-    ]
+    "tags": ["breath", "kumbhaka", "junction", "prana", "apana", "advanced"]
   },
   {
     "verse_number": 25,
@@ -970,35 +721,17 @@
     "difficulty": "advanced",
     "practice_type": "breathwork",
     "focus_object": "the turning point of inhalation and exhalation",
-    "primary_concepts": [
-      "marut",
-      "antar",
-      "bahir",
-      "nivartana"
-    ],
+    "primary_concepts": ["marut", "antar", "bahir", "nivartana"],
     "secondary_concepts": [
       "breath reversal",
       "manifestation of Bhairava",
       "stillness",
       "madhya"
     ],
-    "related_verses": [
-      24,
-      26,
-      27,
-      31,
-      32
-    ],
+    "related_verses": [24, 26, 27, 31, 32],
     "beginner_explanation": "Normally the breath is always moving in or out. This verse points to the brief instant when that movement changes direction. If you notice that quiet turning point carefully, it can reveal a deep inner stillness.",
     "developer_explanation": "Marut here denotes the vital wind whose inward and outward pravritti is interrupted at nivartana, the reversal point. Bhairavya shakti reveals Bhairava's vapus precisely in this non-kinetic interval, where vikalpa weakens and the madhya becomes evident. This is closely allied with the previous verse but emphasizes the phenomenology of transition rather than the polarity of prana and jiva.",
-    "tags": [
-      "breath",
-      "transition",
-      "marut",
-      "madhya",
-      "stillness",
-      "advanced"
-    ]
+    "tags": ["breath", "transition", "marut", "madhya", "stillness", "advanced"]
   },
   {
     "verse_number": 26,
@@ -1023,13 +756,7 @@
       "nonconceptuality",
       "Bhairava-rupata"
     ],
-    "related_verses": [
-      24,
-      25,
-      27,
-      50,
-      79
-    ],
+    "related_verses": [24, 25, 27, 50, 79],
     "beginner_explanation": "This verse focuses on the still middle point where breath is not moving either inward or outward. In that tiny pause, there is nothing to do and nothing to chase. The teaching says that if the mind also becomes quiet there, a deeper awareness is revealed.",
     "developer_explanation": "The operative condition is the non-movement of shakti in its marut-form, neither outgoing nor incoming, which discloses the madhya. Nirvikalpataya indicates not mere respiratory arrest but the collapse of conceptual construction, allowing Bhairava-rupata to shine unobstructed. The verse exemplifies the Trika valorization of the interval as a privileged locus of recognition.",
     "tags": [
@@ -1052,35 +779,17 @@
     "difficulty": "intermediate",
     "practice_type": "breathwork",
     "focus_object": "the end of each breath phase",
-    "primary_concepts": [
-      "kumbhita",
-      "rechita",
-      "purita",
-      "shanta"
-    ],
+    "primary_concepts": ["kumbhita", "rechita", "purita", "shanta"],
     "secondary_concepts": [
       "phase-end awareness",
       "breath cycle",
       "Shakti",
       "inner peace"
     ],
-    "related_verses": [
-      24,
-      25,
-      26,
-      32,
-      33
-    ],
+    "related_verses": [24, 25, 26, 32, 33],
     "beginner_explanation": "This instruction says that every part of breathing can become a doorway: after inhaling, after exhaling, or during holding. At the end of each phase there is a calm moment. If you relax into that calm instead of rushing past it, the mind can settle deeply.",
     "developer_explanation": "The verse broadens the earlier kumbhaka-centered teaching by including kumbhita, rechita, and purita as valid phases whose anta yields shanta-nama avastha. Shakti is again the revealing factor: not the mechanical breath itself but the luminous stillness disclosed at its completion. This makes the practice more universal while preserving its madhya-oriented structure.",
-    "tags": [
-      "breath",
-      "kumbhaka",
-      "rechaka",
-      "puraka",
-      "peace",
-      "intermediate"
-    ]
+    "tags": ["breath", "kumbhaka", "rechaka", "puraka", "peace", "intermediate"]
   },
   {
     "verse_number": 28,
@@ -1093,24 +802,14 @@
     "difficulty": "advanced",
     "practice_type": "visualization",
     "focus_object": "subtle ascending energy current",
-    "primary_concepts": [
-      "a-mula",
-      "sukshma",
-      "dvadasanta",
-      "Bhairavodaya"
-    ],
+    "primary_concepts": ["a-mula", "sukshma", "dvadasanta", "Bhairavodaya"],
     "secondary_concepts": [
       "kundalini-like ascent",
       "inner radiance",
       "cessation above",
       "Shakti movement"
     ],
-    "related_verses": [
-      29,
-      30,
-      31,
-      57
-    ],
+    "related_verses": [29, 30, 31, 57],
     "beginner_explanation": "This practice imagines a very fine current of energy or light rising upward through the body. You follow it from the base toward a high inner point until it becomes still. The instruction says that this stilling reveals a deeper awakening.",
     "developer_explanation": "The verse points to a subtle ascending shakti, beginning at the root and resolving in the dvisatkanta or dvadasanta region, a significant locus in Tantric subtle-body praxis. The apparent tension between bhasa and shyamyanti suggests a luminosity that culminates in quiescence rather than sensory brilliance. Bhairavodaya occurs where the current attenuates into supra-mental stillness.",
     "tags": [
@@ -1145,12 +844,7 @@
       "sequential elevation",
       "inner illumination"
     ],
-    "related_verses": [
-      28,
-      30,
-      57,
-      58
-    ],
+    "related_verses": [28, 30, 57, 58],
     "beginner_explanation": "Here the inner energy is pictured as a flash of lightning moving upward step by step through the body's centers. You mentally follow that rising movement all the way up. The final point is said to open into a powerful spiritual awakening.",
     "developer_explanation": "This dharana employs a tadit-rupa visualization of ascending shakti through successive cakras, emphasizing krama rather than instantaneous transcendence. The culmination in mahodaya aligns with the eruptive disclosure of higher consciousness as kundalini reaches its terminal locus. It belongs to the VBT's subtle-body stream while remaining oriented toward direct Bhairava-realization rather than elaborate ritual physiology.",
     "tags": [
@@ -1185,22 +879,10 @@
       "mantric subtle body",
       "ultimate release"
     ],
-    "related_verses": [
-      28,
-      29,
-      31,
-      42
-    ],
+    "related_verses": [28, 29, 31, 42],
     "beginner_explanation": "This verse describes moving through a complete inner sequence and then letting go of every level of experience, even very refined ones. It is like climbing a ladder and then leaving the ladder behind. The final aim is direct resting in the deepest reality, beyond all stages.",
     "developer_explanation": "Krama-dvadasaka likely refers to a twelvefold progression associated with dvadasanta or a twelve-syllable mantric/subtle sequence, though recensional variation leaves room for interpretive nuance. The critical instruction is not fixation on the stages but their successive relinquishment: sthula, sukshma, and even para are to be transcended. Thus the verse culminates in a laya into Shiva beyond structured process, 'antat antah' as the exhaustion of all supports.",
-    "tags": [
-      "dissolution",
-      "dvadasa",
-      "sequence",
-      "shiva",
-      "laya",
-      "advanced"
-    ]
+    "tags": ["dissolution", "dvadasa", "sequence", "shiva", "laya", "advanced"]
   },
   {
     "verse_number": 31,
@@ -1225,12 +907,7 @@
       "dhāraṇā",
       "mental suspension"
     ],
-    "related_verses": [
-      34,
-      35,
-      36,
-      37
-    ],
+    "related_verses": [34, 35, 36, 37],
     "beginner_explanation": "This verse points to the space between the eyebrows as a kind of inner doorway. By placing attention there and letting thoughts quiet down, the mind can feel as if it is rising into something open and vast. The instruction is less about forcing an image and more about using this point as a bridge beyond ordinary thinking.",
     "developer_explanation": "The verse appears to use the bhrūkṣepa or bhrūmadhya region as a setu, a bridge for transcending vikalpa into an ūrdhva or ascending expansion of consciousness. In Trika terms this is a subtle localization of awareness that becomes a launch point into vyāpakatā, not merely a cakra-visualization but a shift from contracted mentation toward Bhairava-consciousness. It is closely related to other bhrūmadhya and suṣumnā-oriented dhāraṇās.",
     "tags": [
@@ -1265,21 +942,10 @@
       "heart center",
       "transcendence"
     ],
-    "related_verses": [
-      33,
-      39,
-      40
-    ],
+    "related_verses": [33, 39, 40],
     "beginner_explanation": "This teaching asks you to meditate on emptiness, not as something bleak, but as a subtle openness. By resting deeply in that openness, awareness is said to enter the heart's deepest center. The 'fivefold' aspect suggests several layers or dimensions of inner space.",
     "developer_explanation": "Śūnya-pañcaka likely refers to a structured contemplation of five voids or five spatialized subtle fields, culminating in anuttara-śūnya. The hṛdaya here is not merely the emotional heart but the core locus of spanda-consciousness where transcendence becomes immanent. This dhāraṇā aligns with VBT's recurrent movement from externalized subtle support to entry into the non-objectifiable heart-space.",
-    "tags": [
-      "space",
-      "void",
-      "heart",
-      "anuttara",
-      "advanced",
-      "meditation"
-    ]
+    "tags": ["space", "void", "heart", "anuttara", "advanced", "meditation"]
   },
   {
     "verse_number": 33,
@@ -1292,23 +958,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the void within any thought-object",
-    "primary_concepts": [
-      "krama",
-      "cintanā",
-      "śūnya",
-      "laya"
-    ],
+    "primary_concepts": ["krama", "cintanā", "śūnya", "laya"],
     "secondary_concepts": [
       "objectless awareness",
       "deconstruction of thought",
       "self-dissolution",
       "grace"
     ],
-    "related_verses": [
-      32,
-      39,
-      40
-    ],
+    "related_verses": [32, 39, 40],
     "beginner_explanation": "This verse says that almost any thought or perceived thing can become a doorway. If you look deeply enough, instead of following the content, you notice an open space around and within it. Resting there, the thought naturally fades and awareness settles into stillness.",
     "developer_explanation": "The instruction universalizes the prior śūnya-dhāraṇā: yatra kutrāpi cintanā can be traced into its śūnya-ground. This is a paradigmatic Trika move wherein vikalpa is neither suppressed nor indulged but resolved into its own non-substantial basis, yielding svayaṃ-līnatā. The mention of para-pāra/śūnya-like transition suggests the collapse of epistemic fixation into anuttara.",
     "tags": [
@@ -1343,12 +1000,7 @@
       "subtle perception",
       "upper center"
     ],
-    "related_verses": [
-      31,
-      35,
-      36,
-      37
-    ],
+    "related_verses": [31, 35, 36, 37],
     "beginner_explanation": "Close the eyes and place attention at the top front region of the head or forehead area. By staying steady there, the mind becomes more stable and clear. Over time, this leads to noticing a deeper inner reality that is usually missed.",
     "developer_explanation": "Kapālānta may indicate the cranial extremity, often linked to an upper internal focal region used to consolidate citta-dārḍhya. The movement from support-based concentration to the revelation of the uttama-lakṣya reflects the classical tantric use of a localized bindu-field as a gateway to supra-mental awareness. The emphasis is not mere concentration but the maturation of attention into self-revelation.",
     "tags": [
@@ -1383,12 +1035,7 @@
       "inner luminosity",
       "subtle body"
     ],
-    "related_verses": [
-      31,
-      34,
-      36,
-      37
-    ],
+    "related_verses": [31, 34, 36, 37],
     "beginner_explanation": "This practice imagines a very fine inner channel running through the center of the body, delicate like the thread inside a lotus stem. By sensing it as open, spacious, and alive, the practitioner becomes aware of a deeper inner light. The verse describes this inner space as the Goddess herself.",
     "developer_explanation": "The madhya-nāḍī here is the central subtle axis, envisioned as visatantu-like, extremely fine and interiorly spacious. Identifying antaḥ-vyoma with Devī reflects the Śākta-Trika insight that the central channel is not merely energetic anatomy but the manifest pathway of consciousness-power. Illumination arises when attention stabilizes in the madhya, where prāṇa and cit converge.",
     "tags": [
@@ -1411,25 +1058,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the inner bindu revealed by sensory withdrawal",
-    "primary_concepts": [
-      "kara-ruddha",
-      "dvāra-rodhana",
-      "bhrū-bheda",
-      "bindu"
-    ],
+    "primary_concepts": ["kara-ruddha", "dvāra-rodhana", "bhrū-bheda", "bindu"],
     "secondary_concepts": [
       "pratyāhāra",
       "inner light",
       "dissolution",
       "paramā sthiti"
     ],
-    "related_verses": [
-      31,
-      34,
-      35,
-      37,
-      38
-    ],
+    "related_verses": [31, 34, 35, 37, 38],
     "beginner_explanation": "This is a practice of turning attention inward by closing off outer distractions. When the senses quiet down, a tiny inner point or light may appear. Resting steadily with it, the point seems to dissolve into a deeper state of stillness.",
     "developer_explanation": "This verse evokes a yoni-mudrā-like pratyāhāric method: sense-gates are restrained, attention is directed through the bhrūmadhya, and an inner bindu becomes apparent. As the bindu dissolves sequentially, one enters paramā sthiti, suggesting the transition from subtle objectification to objectless awareness. The bindu functions as both phenomenological sign and ontological threshold.",
     "tags": [
@@ -1452,24 +1088,9 @@
     "difficulty": "advanced",
     "practice_type": "visualization",
     "focus_object": "the subtle tilaka-like bindu",
-    "primary_concepts": [
-      "kṣobha",
-      "sūkṣma",
-      "tilaka-ākṛti",
-      "bindu"
-    ],
-    "secondary_concepts": [
-      "śikhānta",
-      "hṛdaya",
-      "layānta",
-      "spanda"
-    ],
-    "related_verses": [
-      31,
-      34,
-      35,
-      36
-    ],
+    "primary_concepts": ["kṣobha", "sūkṣma", "tilaka-ākṛti", "bindu"],
+    "secondary_concepts": ["śikhānta", "hṛdaya", "layānta", "spanda"],
+    "related_verses": [31, 34, 35, 36],
     "beginner_explanation": "The verse suggests meditating on a very small, subtle point, like a tiny mark of light. This point can be sensed at the crown, in the heart, or wherever the mind feels it is fading into stillness. Staying with that subtle point leads the mind into deep absorption.",
     "developer_explanation": "The bindu here is described as arising from kṣobha, a subtle vibratory stirring akin to spanda, and taking a minute tilaka-form. Its placement at śikhānta, hṛdaya, or layānta indicates that the same principle may be accessed through multiple psycho-energetic loci. The fruition is laya, not as inert blankness but as absorptive remergence into the pulsation-source of awareness.",
     "tags": [
@@ -1493,22 +1114,9 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the anāhata inner sound",
-    "primary_concepts": [
-      "anāhata",
-      "śabda",
-      "śabda-brahman",
-      "para-brahman"
-    ],
-    "secondary_concepts": [
-      "hṛdaya",
-      "nāda",
-      "absorption",
-      "inner audition"
-    ],
-    "related_verses": [
-      39,
-      40
-    ],
+    "primary_concepts": ["anāhata", "śabda", "śabda-brahman", "para-brahman"],
+    "secondary_concepts": ["hṛdaya", "nāda", "absorption", "inner audition"],
+    "related_verses": [39, 40],
     "beginner_explanation": "This practice listens inwardly for a subtle sound that is not made by two things striking together, like an inner hum or resonance. By becoming deeply absorbed in this sound, the practitioner moves beyond ordinary hearing into profound stillness and presence. The verse says that through this inner sound, one reaches the highest reality.",
     "developer_explanation": "The anāhata-śabda is a classic nāda-yogic support, but in the VBT context immersion in śabda-brahman culminates in para-brahman, showing the transcendence of even subtle sonic manifestation. The heart-associated localization may be phenomenological rather than anatomical, indicating the resonance-field of consciousness itself. The verse preserves the tantric continuity between sonic vibration and its trans-phenomenal source.",
     "tags": [
@@ -1531,34 +1139,17 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "the silence at the end of mantra",
-    "primary_concepts": [
-      "praṇava",
-      "samuccāra",
-      "plutānta",
-      "śūnya-bhāvana"
-    ],
+    "primary_concepts": ["praṇava", "samuccāra", "plutānta", "śūnya-bhāvana"],
     "secondary_concepts": [
       "mantra",
       "parā-śakti",
       "sonic cessation",
       "absorption"
     ],
-    "related_verses": [
-      32,
-      33,
-      38,
-      40
-    ],
+    "related_verses": [32, 33, 38, 40],
     "beginner_explanation": "Chant a sacred sound such as Om and pay special attention to what happens at the very end, when the sound fades away. Instead of moving on quickly, rest in the silence that follows. That silence is treated here as a living doorway into a deeper state.",
     "developer_explanation": "The practice hinges on samuccāra and especially the plutānta, the elongated terminal phase of praṇava or mantra, where manifest sound resolves into śūnya. This is not mere acoustic cessation but entry through parā-śakti into the unmanifest source of phonemic emergence. It resonates with Trika phonocentrism, wherein varṇa collapses back into anuttara through its terminal evanescence.",
-    "tags": [
-      "sound",
-      "mantra",
-      "om",
-      "silence",
-      "void",
-      "intermediate"
-    ]
+    "tags": ["sound", "mantra", "om", "silence", "void", "intermediate"]
   },
   {
     "verse_number": 40,
@@ -1571,24 +1162,14 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "the beginning and end of any sound",
-    "primary_concepts": [
-      "varṇa",
-      "pūrvānta",
-      "anubhava",
-      "śūnya"
-    ],
+    "primary_concepts": ["varṇa", "pūrvānta", "anubhava", "śūnya"],
     "secondary_concepts": [
       "auditory mindfulness",
       "sonic arising and fading",
       "emptiness",
       "subtle listening"
     ],
-    "related_verses": [
-      32,
-      33,
-      38,
-      39
-    ],
+    "related_verses": [32, 33, 38, 39],
     "beginner_explanation": "Listen carefully to any sound, especially how it starts and how it disappears. Those edges of sound can reveal a quiet openness that is usually overlooked. By resting in that openness, the mind itself begins to feel spacious and light.",
     "developer_explanation": "This dhāraṇā extends the prior praṇava-based method to any varṇa or sound-event, emphasizing experiential apprehension of its origin and termination. The practitioner attends not to semantic content but to the liminal thresholds where śabda emerges from and returns to śūnya. Such threshold-awareness deconstructs phenomenal solidity and reconfigures the practitioner as śūnyākāra, spaciously non-contracted consciousness.",
     "tags": [
@@ -1611,24 +1192,9 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "the vanishing end of sound",
-    "primary_concepts": [
-      "śabda",
-      "anta",
-      "ananyacetāḥ",
-      "paravyoman"
-    ],
-    "secondary_concepts": [
-      "nāda",
-      "laya",
-      "ekāgratā"
-    ],
-    "related_verses": [
-      38,
-      39,
-      40,
-      42,
-      49
-    ],
+    "primary_concepts": ["śabda", "anta", "ananyacetāḥ", "paravyoman"],
+    "secondary_concepts": ["nāda", "laya", "ekāgratā"],
+    "related_verses": [38, 39, 40, 42, 49],
     "beginner_explanation": "Listen carefully to a long sound, like a ringing tone or musical note, and stay with it as it fades away. Instead of following thoughts, keep attention on the very last trace of the sound. In that quiet ending, the mind can open into a deep inner stillness.",
     "developer_explanation": "This dhāraṇā uses dīrgha-śabda as an entry into paravyoman through attention to the प्रत्यन्त, the terminal phase of resonance. The practice resembles nādānusandhāna, but the emphasis is not on the sound as object alone; it is on the liminal dissolution of śabda into śūnya/ākāśa. Ananyacetas here indicates non-distracted absorption in the transition from manifest vibration to the unstruck ground.",
     "tags": [
@@ -1665,13 +1231,7 @@
       "Bhairava",
       "phonemic dissolution"
     ],
-    "related_verses": [
-      39,
-      40,
-      41,
-      63,
-      73
-    ],
+    "related_verses": [39, 40, 41, 63, 73],
     "beginner_explanation": "This verse says that a sacred sound can be followed from its obvious spoken form into subtler and subtler levels. As the sound becomes quieter and more refined, it leads into silence. Resting in that silence is said to reveal the deepest reality.",
     "developer_explanation": "The verse points to the classic tantric reduction of mantra from sthūla articulation into the subtle sequence of ardhendu, bindu, and nādānta, culminating in śūnyoccāra. This is not mere recitation but the contemplative tracing of vāc back toward parāvāk, where mantra resolves into Bhairava-consciousness. The language of siddha-mantra suggests a charged or realized mantra whose phonemic body serves as a ladder into non-phonemic awareness.",
     "tags": [
@@ -1695,25 +1255,9 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the body's spatial extension in all directions",
-    "primary_concepts": [
-      "deha",
-      "dik",
-      "yugapat",
-      "viyat",
-      "nirvikalpa"
-    ],
-    "secondary_concepts": [
-      "ākāśa",
-      "deha-śūnyatā",
-      "nonlocal embodiment"
-    ],
-    "related_verses": [
-      44,
-      45,
-      47,
-      48,
-      50
-    ],
+    "primary_concepts": ["deha", "dik", "yugapat", "viyat", "nirvikalpa"],
+    "secondary_concepts": ["ākāśa", "deha-śūnyatā", "nonlocal embodiment"],
+    "related_verses": [44, 45, 47, 48, 50],
     "beginner_explanation": "Feel your body not as a solid block, but as open in every direction at once. Instead of focusing on one part, sense the whole body as floating in space and made of space. This can loosen rigid thinking and bring a feeling of openness.",
     "developer_explanation": "Though the OCR is unstable, the sense points toward a yugapat-bhāvanā of the body's directional field as viyat-svarūpa. The fruit is the subsiding of vikalpa and the emergence of a spacious, non-conceptual embodiment. This aligns with Bhairava-tantric methods in which deha is de-solidified into ākāśic extension rather than rejected.",
     "tags": [
@@ -1744,18 +1288,8 @@
       "śakti",
       "śūnya-manas"
     ],
-    "secondary_concepts": [
-      "deha-awareness",
-      "ākāśa",
-      "nirālambana"
-    ],
-    "related_verses": [
-      43,
-      45,
-      46,
-      47,
-      48
-    ],
+    "secondary_concepts": ["deha-awareness", "ākāśa", "nirālambana"],
+    "related_verses": [43, 45, 46, 47, 48],
     "beginner_explanation": "Imagine open space behind you and also at the base of your body at the same time. Let attention rest in both areas together without strain. This can make the mind feel less crowded and more spacious.",
     "developer_explanation": "The dhāraṇā uses paired loci—pṛṣṭha and mūla—as supports for yugapat śūnya-bhāvanā, inducing śūnya-manastā. The mention of śakti implies that the body's own energetic structure becomes the vehicle of de-objectification. Rather than visual emptiness as abstraction, this is a somatic ākāśa-practice working through subtle bodily orientation.",
     "tags": [
@@ -1786,18 +1320,8 @@
       "yugapat",
       "nirvikalpa"
     ],
-    "secondary_concepts": [
-      "hṛdaya",
-      "śūnya-bhāvanā",
-      "triadic support"
-    ],
-    "related_verses": [
-      43,
-      44,
-      46,
-      48,
-      49
-    ],
+    "secondary_concepts": ["hṛdaya", "śūnya-bhāvanā", "triadic support"],
+    "related_verses": [43, 44, 46, 48, 49],
     "beginner_explanation": "Bring attention to three places at once: behind the body, the base of the body, and the heart center. Sense all three as open and empty rather than solid. This broad, gentle attention can interrupt ordinary mental chatter.",
     "developer_explanation": "This extends the previous śūnya-dhāraṇā into a triadic topology that includes hṛd, a central locus in Trika contemplative anatomy. The result is nirvikalpodaya: non-conceptual awareness emerging from the collapse of localized fixation. The heart here is not merely emotional center but the hṛdaya as the seat of consciousness.",
     "tags": [
@@ -1821,23 +1345,13 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "emptiness within a chosen body part",
-    "primary_concepts": [
-      "tanūdeśa",
-      "śūnyatā",
-      "kṣaṇa",
-      "nirvikalpa"
-    ],
+    "primary_concepts": ["tanūdeśa", "śūnyatā", "kṣaṇa", "nirvikalpa"],
     "secondary_concepts": [
       "body as gateway",
       "instant absorption",
       "localized contemplation"
     ],
-    "related_verses": [
-      44,
-      45,
-      47,
-      48
-    ],
+    "related_verses": [44, 45, 47, 48],
     "beginner_explanation": "Choose one area of the body—such as the hand, chest, or forehead—and imagine it as open, spacious, and empty inside. Even a brief moment of clearly sensing this can shift the mind into quietness. The point is not to analyze, but to directly feel openness.",
     "developer_explanation": "This verse democratizes the śūnya-dhāraṇā: any tanūdeśa can function as a portal into nirvikalpa if śūnyatā is vividly intuited, even kṣaṇamātra. It reflects the Trika principle that any finite point can disclose the whole when conceptual superimposition relaxes. The culmination is not bodily negation but identification with nirvikalpa-svarūpa.",
     "tags": [
@@ -1861,24 +1375,13 @@
     "difficulty": "beginner",
     "practice_type": "meditation",
     "focus_object": "the body's contents as filled with space",
-    "primary_concepts": [
-      "dehadravya",
-      "viyat-vyāpta",
-      "bhāvanā",
-      "sthiratā"
-    ],
+    "primary_concepts": ["dehadravya", "viyat-vyāpta", "bhāvanā", "sthiratā"],
     "secondary_concepts": [
       "internal spaciousness",
       "de-solidification",
       "ākāśa"
     ],
-    "related_verses": [
-      43,
-      44,
-      46,
-      48,
-      50
-    ],
+    "related_verses": [43, 44, 46, 48, 50],
     "beginner_explanation": "Feel that everything inside the body—bones, flesh, organs, breath—is gently filled with open space. This softens the sense that the body is heavy and tightly packed. As that feeling grows, attention becomes more stable and calm.",
     "developer_explanation": "The dhāraṇā reframes dehagata-dravya as viyat-vyāpta, replacing material density with ākāśic pervasion. This stabilizing bhāvanā weakens the ordinary compactness of embodiment and supports sustained attentional steadiness. The technique is structurally related to internal-void practices but is more accessible because it proceeds through total pervasion rather than abrupt negation.",
     "tags": [
@@ -1913,12 +1416,7 @@
       "inner ākāśa",
       "subject-object collapse"
     ],
-    "related_verses": [
-      43,
-      45,
-      47,
-      49
-    ],
+    "related_verses": [43, 45, 47, 49],
     "beginner_explanation": "Sense the inside of the body as one continuous open space, not divided into many separate parts. Then notice there is nothing inside that needs to be singled out or grasped. As this becomes clear, the usual feeling of 'I am meditating on something' can begin to relax.",
     "developer_explanation": "The contemplative move here is from avibhāga within dehāntara to the transcendence of the dyad of dhyātṛ and dhyeya, hinted by 'not meditating on anything whatsoever within.' Bhitti-bhūta suggests the body's interior as a foundational field rather than an assemblage of objects. This is a subtle transition from spatial contemplation to adhyeya-bhāga-lessness, i.e., nondual absorption.",
     "tags": [
@@ -1948,18 +1446,8 @@
       "ananyacetāḥ",
       "param saubhāgya"
     ],
-    "secondary_concepts": [
-      "hṛdaya",
-      "lotus symbolism",
-      "inner center"
-    ],
-    "related_verses": [
-      41,
-      45,
-      48,
-      50,
-      74
-    ],
+    "secondary_concepts": ["hṛdaya", "lotus symbolism", "inner center"],
+    "related_verses": [41, 45, 48, 50, 74],
     "beginner_explanation": "Bring attention gently into the center of the chest and imagine a subtle open space there, like the quiet center of a flower. Rest your mind there steadily and simply. This practice is said to bring deep inner beauty, balance, and grace.",
     "developer_explanation": "Hṛdyākāśa is a major contemplative locus in Śaiva and Upaniṣadic traditions, here framed as the madhya of the inner lotus enclosure. The fruit, parama-saubhāgya, may be read not merely as worldly auspiciousness but as the unfolding of śakti, radiance, and refined interiorization. The method combines ākāśa-dhāraṇā with hṛdaya-centric absorption characteristic of Trika praxis.",
     "tags": [
@@ -1994,13 +1482,7 @@
       "upper center",
       "transcendent locus"
     ],
-    "related_verses": [
-      24,
-      25,
-      43,
-      47,
-      49
-    ],
+    "related_verses": [24, 25, 43, 47, 49],
     "beginner_explanation": "Place attention at the subtle point just beyond the usual boundary of the breath or body, traditionally called dvadashanta. Let the mind become very quiet there, as if it melts into that point. With steady practice, this is said to reveal a deeper truth about who you are.",
     "developer_explanation": "Dvādaśānta in Trika sources can denote the terminal point of prāṇic extension, often twelve aṅgulas from a bodily center, and functions as a crucial locus of uccāra and laya. Here the emphasis is less on active respiration than on mano-laya at that subtle limit, yielding manifestation of tattva-lakṣya to a stabilized intellect. The verse bridges breath-topography and nondual realization, hence its placement near ākāśa-oriented methods while retaining a prāṇic valence.",
     "tags": [
@@ -2024,24 +1506,9 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "dvādaśānta",
-    "primary_concepts": [
-      "dvādaśānta",
-      "manas",
-      "kṣīṇa-vṛtti",
-      "vilakṣaṇya"
-    ],
-    "secondary_concepts": [
-      "ākāśa",
-      "uccāra",
-      "subtle ascent"
-    ],
-    "related_verses": [
-      24,
-      25,
-      26,
-      55,
-      58
-    ],
+    "primary_concepts": ["dvādaśānta", "manas", "kṣīṇa-vṛtti", "vilakṣaṇya"],
+    "secondary_concepts": ["ākāśa", "uccāra", "subtle ascent"],
+    "related_verses": [24, 25, 26, 55, 58],
     "beginner_explanation": "This practice asks you to rest attention in a subtle inner point called the dvādaśānta, often understood as a point beyond the usual breath or body boundary. If attention stays there gently and repeatedly, the mind’s usual chatter starts to thin out. What appears is a quieter and more unusual kind of awareness.",
     "developer_explanation": "The verse points to fixation of manas in the dvādaśānta, a crucial locus in Trika praxis associated with the terminal extension of prāṇa/uccāra. Through pravakṣaṇam or repeated placement, vṛtti-kṣaya occurs, yielding a vilakṣaṇa state distinct from ordinary mentation. This is allied to the subtle spatial dhāraṇās where externalized cognition is reabsorbed into higher awareness.",
     "tags": [
@@ -2075,12 +1542,7 @@
       "dehātma-bhāva",
       "transformative vision"
     ],
-    "related_verses": [
-      53,
-      58,
-      61,
-      62
-    ],
+    "related_verses": [53, 58, 61, 62],
     "beginner_explanation": "Imagine your whole body and personal world as if it were a city being burned away by time itself. This is not meant to frighten you, but to loosen your grip on what feels permanent. When that clinging relaxes, a calm and clear presence can shine through.",
     "developer_explanation": "The body as pura recalls the psycho-cosmic city motif; Kāla here functions as the devouring principle dissolving finite identity. By vividly contemplating the self-structure as consumed, attachment to nāma-rūpa weakens, and śāntābhāsa—peaceful luminosity—manifests. The method aligns with tantric memento mori and laya through visualization rather than mere philosophical reflection.",
     "tags": [
@@ -2103,23 +1565,9 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the dissolving universe",
-    "primary_concepts": [
-      "jagat",
-      "dhyāna",
-      "vikalpa-kṣaya",
-      "parama"
-    ],
-    "secondary_concepts": [
-      "laya",
-      "ananya-cetas",
-      "cosmic withdrawal"
-    ],
-    "related_verses": [
-      52,
-      54,
-      56,
-      58
-    ],
+    "primary_concepts": ["jagat", "dhyāna", "vikalpa-kṣaya", "parama"],
+    "secondary_concepts": ["laya", "ananya-cetas", "cosmic withdrawal"],
+    "related_verses": [52, 54, 56, 58],
     "beginner_explanation": "Here the instruction is to imagine the whole world melting back into silence, not just your personal concerns. If the mind stays with that fully, without getting pulled into side thoughts, it can open into a vast and profound stillness. The point is to experience what remains when all mental constructions fall away.",
     "developer_explanation": "This dhāraṇā universalizes laya: not merely the body or thought-stream, but sarva-jagat is held as undergoing dissolution. The phrase ananya-cetas indicates non-dispersed attention free from vikalpa, leading to parama-bhāva. It reflects the Trika principle that collapse of manifest differentiation reveals Bhairava as the substrative and transcendent reality.",
     "tags": [
@@ -2142,24 +1590,13 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "tattvas within body and cosmos",
-    "primary_concepts": [
-      "svadeha",
-      "jagat",
-      "sūkṣma",
-      "tattva",
-      "parā"
-    ],
+    "primary_concepts": ["svadeha", "jagat", "sūkṣma", "tattva", "parā"],
     "secondary_concepts": [
       "microcosm-macrocosm",
       "śaiva ontology",
       "manifestation"
     ],
-    "related_verses": [
-      56,
-      57,
-      63,
-      64
-    ],
+    "related_verses": [56, 57, 63, 64],
     "beginner_explanation": "This verse says that the same basic principles that make up the universe also exist within your own body and mind. By deeply reflecting on that, you begin to see that you are not separate from the whole. In that recognition, a higher reality becomes clear.",
     "developer_explanation": "The verse invokes the Śaiva tattva-schema as present both in piṇḍa and brahmāṇḍa, body and cosmos. Tracing the sūkṣma and sūkṣmatara principles to their ground yields manifestation of parā, the supreme Śakti/Bhairava reality. This is a classic nondual hermeneutic of identity between individual embodiment and universal ontological procession.",
     "tags": [
@@ -2189,18 +1626,8 @@
       "mukti",
       "svātantrya"
     ],
-    "secondary_concepts": [
-      "inner descent",
-      "spanda",
-      "centering"
-    ],
-    "related_verses": [
-      24,
-      25,
-      51,
-      56,
-      74
-    ],
+    "secondary_concepts": ["inner descent", "spanda", "centering"],
+    "related_verses": [24, 25, 51, 56, 74],
     "beginner_explanation": "This practice works with a subtle sense of inner energy or presence. You first become aware of it in a refined inner space, then let that awareness settle into the heart. The verse says that by doing this, you can discover a deep kind of inner freedom.",
     "developer_explanation": "The verse appears to direct meditation on śakti in the dvādaśa-gochara, likely related to dvādaśānta, followed by entry into hṛdaya, the central locus of recognition. The movement suggests the integration of transcendent extension and immanent core, culminating in mukti as svātantrya, the autonomous freedom of Bhairava-consciousness. It resonates with Trika's recurrent polarity of upward expansion and heart-centered reabsorption.",
     "tags": [
@@ -2231,17 +1658,8 @@
       "parāvasthā",
       "mano-laya"
     ],
-    "secondary_concepts": [
-      "adhvan",
-      "cosmic hierarchy",
-      "reabsorption"
-    ],
-    "related_verses": [
-      54,
-      57,
-      53,
-      63
-    ],
+    "secondary_concepts": ["adhvan", "cosmic hierarchy", "reabsorption"],
+    "related_verses": [54, 57, 53, 63],
     "beginner_explanation": "This method reflects on reality in layers, from the obvious physical level to subtler and deeper levels. By following this chain carefully, the mind eventually runs out of things to grasp and becomes still. It is like tracing a river back to its source until only the source remains.",
     "developer_explanation": "The verse explicitly employs krama through the adhvanic unfoldment, likely beginning with bhuvanādhva and extending through gross, subtle, and para states. Such sequential contemplation deconstructs manifestation by retracing emanation to its source, resulting in mano-laya. This is ontological meditation rooted in Śaiva cosmography rather than purely experiential phenomenology.",
     "tags": [
@@ -2276,22 +1694,10 @@
       "cosmic mapping",
       "recognition"
     ],
-    "related_verses": [
-      54,
-      56,
-      63,
-      64
-    ],
+    "related_verses": [54, 56, 63, 64],
     "beginner_explanation": "This practice looks at the structure of the whole universe and asks what underlying reality runs through all of it. By tracing everything back to that deepest principle, a powerful inner awakening can happen. It is less about belief and more about seeing the one reality behind all appearances.",
     "developer_explanation": "The adhva-prakriyā refers to the sixfold pathways or ordered modalities of manifestation recognized in Śaiva Tantra. Meditating on the śaiva-tattva across the universe’s extremities and extensions yields mahodaya, a great arising akin to pratyabhijñā. The verse connects cosmological analysis with nondual realization by revealing the one consciousness permeating all levels of adhvan.",
-    "tags": [
-      "shaiva",
-      "adhva",
-      "nonduality",
-      "cosmos",
-      "awakening",
-      "advanced"
-    ]
+    "tags": ["shaiva", "adhva", "nonduality", "cosmos", "awakening", "advanced"]
   },
   {
     "verse_number": 58,
@@ -2304,23 +1710,9 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "emptiness of the universe",
-    "primary_concepts": [
-      "viśva",
-      "śūnya-bhūta",
-      "mano-laya",
-      "laya"
-    ],
-    "secondary_concepts": [
-      "ākāśa",
-      "detachment from forms",
-      "void-awareness"
-    ],
-    "related_verses": [
-      51,
-      53,
-      59,
-      60
-    ],
+    "primary_concepts": ["viśva", "śūnya-bhūta", "mano-laya", "laya"],
+    "secondary_concepts": ["ākāśa", "detachment from forms", "void-awareness"],
+    "related_verses": [51, 53, 59, 60],
     "beginner_explanation": "Look at the world as open and insubstantial rather than solid and tightly fixed. As the mind rests in that sense of spacious emptiness, it begins to relax and merge into the same openness. The practice is about discovering space-like awareness behind appearances.",
     "developer_explanation": "The verse frames the cosmos as śūnya-bhūta, not sheer nihilistic absence but a contemplative emptiness that undermines reified objecthood. Mind, when merged into that śūnyatā, becomes a vessel of laya. In Kashmir Shaiva terms, such void is often a threshold to the luminous fullness of consciousness rather than a final negation.",
     "tags": [
@@ -2343,33 +1735,16 @@
     "difficulty": "beginner",
     "practice_type": "meditation",
     "focus_object": "a pot or vessel",
-    "primary_concepts": [
-      "ghaṭa",
-      "dṛṣṭi",
-      "ekāgratā",
-      "laya",
-      "tanmayatā"
-    ],
+    "primary_concepts": ["ghaṭa", "dṛṣṭi", "ekāgratā", "laya", "tanmayatā"],
     "secondary_concepts": [
       "trāṭaka-like fixation",
       "object absorption",
       "steady attention"
     ],
-    "related_verses": [
-      60,
-      79,
-      80
-    ],
+    "related_verses": [60, 79, 80],
     "beginner_explanation": "Choose a simple object like a pot, bowl, or cup and keep your gaze steadily on it. Do not let your attention wander to the background or nearby details. As attention becomes very steady, the sense of separation between you and the object can briefly soften.",
     "developer_explanation": "This dhāraṇā resembles a trāṭaka-like dṛṣṭi-niyama, though its purpose is not mere ocular steadiness but laya through exclusive fixation. By abandoning contextual supports (bhitti etc.) and isolating the object-field, cognition narrows into tanmayatā, becoming 'of the nature of that.' It demonstrates how one-pointed perception can collapse subject-object differentiation.",
-    "tags": [
-      "gaze",
-      "object",
-      "trataka",
-      "absorption",
-      "beginner",
-      "body"
-    ]
+    "tags": ["gaze", "object", "trataka", "absorption", "beginner", "body"]
   },
   {
     "verse_number": 60,
@@ -2394,11 +1769,7 @@
       "open attention",
       "sensory simplification"
     ],
-    "related_verses": [
-      58,
-      59,
-      79
-    ],
+    "related_verses": [58, 59, 79],
     "beginner_explanation": "Rest your gaze on a plain or spacious scene, such as an empty wall, open sky-like surface, or a broad still landscape. Because there is little to grab onto, the mind starts to quiet down on its own. Over time, the usual stream of thoughts becomes weaker.",
     "developer_explanation": "The verse recommends dṛṣṭi-viniveśa in minimally differentiated locales, allowing the associated mānasa-bhāva to dissolve. Such perceptual sparseness reduces vṛtti-production and induces kṣaya of discursivity. This is a visual analog to śūnya-dhāraṇā, employing sensory field simplification as a gateway to absorptive stillness.",
     "tags": [
@@ -2421,25 +1792,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the middle between two thoughts or states",
-    "primary_concepts": [
-      "madhya",
-      "dvaya",
-      "tattva",
-      "dhyana"
-    ],
+    "primary_concepts": ["madhya", "dvaya", "tattva", "dhyana"],
     "secondary_concepts": [
       "vikalpa",
       "non-grasping",
       "centered awareness",
       "revealed consciousness"
     ],
-    "related_verses": [
-      24,
-      58,
-      62,
-      64,
-      79
-    ],
+    "related_verses": [24, 58, 62, 64, 79],
     "beginner_explanation": "When your mind swings between two sides, like liking and disliking or yes and no, do not cling to either side. Instead, notice the quiet point in between them. That middle space is treated here as a doorway to a deeper kind of awareness.",
     "developer_explanation": "This verse is a classic madhya-upaya instruction: the yogin attends to the interval or center between ubhaya-buddhis, relinquishing both poles of dual cognition simultaneously. When dvaya is dropped, tattva self-reveals as the non-conceptual middle, resonant with Trika emphasis on madhya as the locus of Bhairava-consciousness. It closely aligns with other VBT methods that exploit transitional junctures rather than stable objects.",
     "tags": [
@@ -2463,24 +1823,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the gap between thoughts",
-    "primary_concepts": [
-      "bhava",
-      "madhyabhava",
-      "nirodha",
-      "bhavana"
-    ],
+    "primary_concepts": ["bhava", "madhyabhava", "nirodha", "bhavana"],
     "secondary_concepts": [
       "thought cessation",
       "mental interval",
       "laya",
       "nonconceptual awareness"
     ],
-    "related_verses": [
-      61,
-      79,
-      80,
-      95
-    ],
+    "related_verses": [61, 79, 80, 95],
     "beginner_explanation": "Notice the tiny pause after one thought ends and before the next begins. Usually this gap is missed because the mind quickly moves on. This verse says that if you rest there, something open and alive begins to reveal itself.",
     "developer_explanation": "The instruction turns on the liminal state in which a prior bhava has been relinquished and the citta has not yet entered another bhavantara. Abidance in this tan-madhya-bhava permits bhavana to 'blossom' not as imaginative construction but as the expansion of reflexive awareness freed from sequential vikalpa. This is an important laya-oriented recognition practice akin to observing the interstice between cognitions.",
     "tags": [
@@ -2504,24 +1854,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "body or world as consciousness",
-    "primary_concepts": [
-      "cinmaya",
-      "deha",
-      "jagat",
-      "nirvikalpa"
-    ],
+    "primary_concepts": ["cinmaya", "deha", "jagat", "nirvikalpa"],
     "secondary_concepts": [
       "sarvam cit",
       "identity of microcosm and macrocosm",
       "nondual reflection",
       "paramodaya"
     ],
-    "related_verses": [
-      45,
-      65,
-      84,
-      101
-    ],
+    "related_verses": [45, 65, 84, 101],
     "beginner_explanation": "Try feeling that your whole body is made of awareness, not just flesh and bone. Or feel that the whole world is also made of that same awareness. When this is deeply sensed, the usual separation between 'me' and 'everything else' begins to soften.",
     "developer_explanation": "The verse directs paribhavana of either the entire deha or the jagat as cinmaya, culminating through yugapad-nirvikalpa orientation in paramodaya. This is a distinctly Trika move: the body and cosmos are not negated but re-read as consciousness-manifestation, collapsing subject-object bifurcation. The simultaneous application points toward the non-difference of pinda and brahmanda within cit.",
     "tags": [
@@ -2545,25 +1885,9 @@
     "difficulty": "intermediate",
     "practice_type": "breathwork",
     "focus_object": "the meeting point of inhalation and exhalation",
-    "primary_concepts": [
-      "vayudvaya",
-      "sanghatta",
-      "antar",
-      "bahih"
-    ],
-    "secondary_concepts": [
-      "sandhi",
-      "samatva",
-      "prana",
-      "breath junction"
-    ],
-    "related_verses": [
-      24,
-      25,
-      26,
-      27,
-      67
-    ],
+    "primary_concepts": ["vayudvaya", "sanghatta", "antar", "bahih"],
+    "secondary_concepts": ["sandhi", "samatva", "prana", "breath junction"],
+    "related_verses": [24, 25, 26, 27, 67],
     "beginner_explanation": "Pay attention to the moment when the in-breath changes into the out-breath, and when the out-breath changes into the in-breath. These turning points are very still and easy to miss. The verse says that by noticing them, a deep sense of balance can arise.",
     "developer_explanation": "This is a sandhi-based pranopaya centered on the samghatta of the two vayus, apprehended at the inner and outer junctions. From this subtle pause emerges samatva-vijnana, the gnosis of equilibrium beyond respiratory polarity. It closely parallels the early kumbhaka-oriented dharanas while emphasizing epistemic evenness rather than forceful retention.",
     "tags": [
@@ -2587,24 +1911,14 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "innate bliss pervading body or world",
-    "primary_concepts": [
-      "svananda",
-      "amrita",
-      "jagat",
-      "deha"
-    ],
+    "primary_concepts": ["svananda", "amrita", "jagat", "deha"],
     "secondary_concepts": [
       "pervasion",
       "bhairavic bliss",
       "inner nectar",
       "expansive feeling"
     ],
-    "related_verses": [
-      63,
-      69,
-      70,
-      109
-    ],
+    "related_verses": [63, 69, 70, 109],
     "beginner_explanation": "Imagine that your body, or even the whole world, is filled with a quiet happiness that comes from deep within. Not excitement, but a gentle fullness. Staying with that feeling can gradually turn into a much deeper joy.",
     "developer_explanation": "Here the practitioner recollects either the cosmos or the body as replete with svananda, simultaneously suffused by sva-amrita, leading to paranandamayata. The verse bridges contemplative nondual revaluation with rasa-based practice: bliss is not imported from outside but recognized as the innate affective tone of consciousness. It is related to Trika's affirmation of ananda as intrinsic to cit-shakti.",
     "tags": [
@@ -2628,23 +1942,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "sudden arising of great bliss",
-    "primary_concepts": [
-      "kuhana-prayoga",
-      "mahananda",
-      "tattva",
-      "sadyah"
-    ],
+    "primary_concepts": ["kuhana-prayoga", "mahananda", "tattva", "sadyah"],
     "secondary_concepts": [
       "esoteric method",
       "shakta upaya",
       "shock of recognition",
       "bliss as revelation"
     ],
-    "related_verses": [
-      69,
-      70,
-      72
-    ],
+    "related_verses": [69, 70, 72],
     "beginner_explanation": "This verse hints that certain direct methods can trigger a sudden wave of deep joy. That joy is not only pleasant; it can reveal something fundamental about reality. The instruction is intentionally secretive, so the main point is that intense awakened bliss can become a doorway.",
     "developer_explanation": "The reference to kuhana-prayoga suggests an intentionally concealed or initiatory technique, likely oral/esoteric in transmission, by which mahananda manifests immediately. In VBT idiom, such bliss is not merely hedonic but revelatory: tattva-prakasha occurs through the intensity of awakened shakti. The verse serves as a transitional pointer to the subsequent bliss- and eros-related dharanas.",
     "tags": [
@@ -2680,12 +1985,7 @@
       "nadi restraint",
       "parama sukha"
     ],
-    "related_verses": [
-      64,
-      68,
-      81,
-      82
-    ],
+    "related_verses": [64, 68, 81, 82],
     "beginner_explanation": "This describes a more advanced yogic practice where energy is gently gathered and drawn upward. Practitioners may feel a subtle tingling or crawling sensation, like an ant moving. The verse says that if this unfolds correctly, it opens into deep happiness.",
     "developer_explanation": "The verse employs a technical haṭha-tantric register: through sarva-srotas-nibandha and the gradual urdhva-dhaya of prana-shakti, the yogin experiences pipilika-sparsha, a classic marker of subtle energetic ascent. This culminates in parama-sukha, indicating not merely somatic sensation but the awakening of upward-moving consciousness-power. The practice presupposes considerable somatic and pranic refinement.",
     "tags": [
@@ -2709,24 +2009,14 @@
     "difficulty": "advanced",
     "practice_type": "visualization",
     "focus_object": "the blissful center of fire or air-filled inner space",
-    "primary_concepts": [
-      "vahni",
-      "madhya",
-      "citta",
-      "vayu-purna"
-    ],
+    "primary_concepts": ["vahni", "madhya", "citta", "vayu-purna"],
     "secondary_concepts": [
       "inner element meditation",
       "tejas",
       "subtle absorption",
       "smarananda"
     ],
-    "related_verses": [
-      49,
-      67,
-      84,
-      98
-    ],
+    "related_verses": [49, 67, 84, 98],
     "beginner_explanation": "This verse uses elemental imagery. You place attention either in a living inner fire or in a space filled only with breath or air, and let the mind settle there. Done deeply, this becomes less imagination and more a direct feeling of inner joy.",
     "developer_explanation": "The yogin is instructed to project or deposit citta into the sukhamaya madhya of fire, or alternatively into a kevala-vayu-purna state, leading to union with smarananda. This likely encodes subtle bhuta-based internal visualization in which elemental concentration becomes a vehicle for absorption. The polarity of fire and air also resonates with internal yogic psychophysiology, especially in relation to pranic intensification.",
     "tags": [
@@ -2762,12 +2052,7 @@
       "peak experience",
       "ananda"
     ],
-    "related_verses": [
-      65,
-      66,
-      70,
-      71
-    ],
+    "related_verses": [65, 66, 70, 71],
     "beginner_explanation": "This verse says that a very intense form of joy, especially when energy builds and then resolves, can reveal something sacred. Instead of seeing such bliss as merely physical or emotional, it can be recognized as a doorway to the deepest reality. The key is awareness at the culminating moment.",
     "developer_explanation": "The verse identifies the sukha arising at the avasana of shakti-sangama-induced sankshobha and shaktyavesha with brahma-tattva itself. In nondual Tantra, the climax of energetic intensification is not rejected but recognized as a flash of universal ananda when freed from contraction and object-fixation. This is a paradigmatic example of transmuting embodied eros into brahmic recognition.",
     "tags": [
@@ -2803,12 +2088,7 @@
       "rasa",
       "subtle erotic recollection"
     ],
-    "related_verses": [
-      65,
-      66,
-      69,
-      71
-    ],
+    "related_verses": [65, 66, 69, 71],
     "beginner_explanation": "This verse points out that even memory can carry strong energy. If a feeling of deep pleasure is remembered clearly, without chasing the outer situation, that feeling itself can expand into a powerful inner joy. The practice is to stay with the energy of the feeling, not the story around it.",
     "developer_explanation": "The verse radicalizes the prior erotic-ananda methods by asserting that through smriti of the plenitude of stri-sukha, bliss may arise even in shaktyabhava, i.e., without the immediate presence of the partner or catalytic condition. This interiorization is crucial: the object is secondary, while the savoring consciousness of bliss becomes the true locus of practice. In Trika terms, remembered rasa can be universalized into ananda-samplava.",
     "tags": [
@@ -2832,22 +2112,13 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "surging joy",
-    "primary_concepts": [
-      "ānanda",
-      "udgata-ānanda",
-      "laya",
-      "tanmanas"
-    ],
+    "primary_concepts": ["ānanda", "udgata-ānanda", "laya", "tanmanas"],
     "secondary_concepts": [
       "emotional transmutation",
       "recognition",
       "absorption"
     ],
-    "related_verses": [
-      72,
-      73,
-      74
-    ],
+    "related_verses": [72, 73, 74],
     "beginner_explanation": "If a strong feeling of happiness suddenly appears, do not rush past it. Instead, stay with the feeling itself and let your attention melt into it. The teaching says that deep joy can become a doorway to a deeper state of being.",
     "developer_explanation": "This verse treats mahad-ānanda not as a distraction but as an upāya. The yogin attends to the very emergence of bliss (ānandam udgatam dhyātvā), allowing citta to enter laya and become tanmaya; this reflects the Trika principle that intensified experience, when non-grasped, can reveal Bhairava-consciousness.",
     "tags": [
@@ -2870,32 +2141,16 @@
     "difficulty": "beginner",
     "practice_type": "meditation",
     "focus_object": "felt delight after taste",
-    "primary_concepts": [
-      "rasa",
-      "ānanda",
-      "ullāsa",
-      "mahānanda"
-    ],
+    "primary_concepts": ["rasa", "ānanda", "ullāsa", "mahānanda"],
     "secondary_concepts": [
       "sensory enjoyment",
       "embodied presence",
       "expansion of feeling"
     ],
-    "related_verses": [
-      71,
-      73,
-      74
-    ],
+    "related_verses": [71, 73, 74],
     "beginner_explanation": "After enjoying a pleasant taste or drink, notice the feeling of satisfaction that spreads through you. Instead of chasing more pleasure, rest in the fullness already present. The verse says this ordinary enjoyment can open into a much deeper happiness.",
     "developer_explanation": "The verse uses gustatory rasa as a contemplative trigger: vivid enjoyment (ullāsa-rasa-ānanda-vijṛmbhaṇa) is extended into a bharita-avasthā, a state of inward fullness. As in other VBT methods, viṣaya is not rejected; its distilled affective essence becomes the means for mahānanda.",
-    "tags": [
-      "emotion",
-      "rasa",
-      "taste",
-      "bliss",
-      "beginner",
-      "meditation"
-    ]
+    "tags": ["emotion", "rasa", "taste", "bliss", "beginner", "meditation"]
   },
   {
     "verse_number": 73,
@@ -2914,26 +2169,11 @@
       "saukhyeka-tātman",
       "tadātmatā"
     ],
-    "secondary_concepts": [
-      "rasa",
-      "tanmayatva",
-      "absorption through art"
-    ],
-    "related_verses": [
-      71,
-      72,
-      74
-    ],
+    "secondary_concepts": ["rasa", "tanmayatva", "absorption through art"],
+    "related_verses": [71, 72, 74],
     "beginner_explanation": "Music, beauty, and other deeply enjoyable experiences can sometimes make you forget yourself for a moment. This teaching says to notice that self-forgetting absorption and rest in it. In that complete immersion, a deeper identity can shine through.",
     "developer_explanation": "Here aesthetic or sensory savoring (gītādi-viṣayāsvāda) becomes a mode of tanmayatva. The phrase samasaukhyaika-tātman suggests a non-fragmented field of enjoyment in which mind, object, and enjoyment converge, yielding tadātmatā—identity with the deeper Self rather than mere sensory fixation.",
-    "tags": [
-      "emotion",
-      "music",
-      "rasa",
-      "aesthetic",
-      "tanmaya",
-      "intermediate"
-    ]
+    "tags": ["emotion", "music", "rasa", "aesthetic", "tanmaya", "intermediate"]
   },
   {
     "verse_number": 74,
@@ -2946,22 +2186,13 @@
     "difficulty": "beginner",
     "practice_type": "meditation",
     "focus_object": "point of mental contentment",
-    "primary_concepts": [
-      "tuṣṭi",
-      "dhāraṇā",
-      "parānanda",
-      "svarūpa"
-    ],
+    "primary_concepts": ["tuṣṭi", "dhāraṇā", "parānanda", "svarūpa"],
     "secondary_concepts": [
       "stability of mind",
       "natural concentration",
       "inner fulfillment"
     ],
-    "related_verses": [
-      71,
-      72,
-      73
-    ],
+    "related_verses": [71, 72, 73],
     "beginner_explanation": "Whenever your mind naturally settles and feels quietly satisfied, stay there for a while. Do not immediately move on to the next thought or distraction. The verse says that calm contentment can grow into a deeper joy.",
     "developer_explanation": "This is a remarkably inclusive dhāraṇā: yatra yatra manas-tuṣṭi, tatraiva dhārayet. Rather than prescribing a fixed object, it identifies tuṣṭi itself as the sign of a suitable support, through which parānanda-svarūpa progressively manifests; compare this with spontaneous samāveśa in Krama/Trika praxis.",
     "tags": [
@@ -2995,11 +2226,7 @@
       "hypnagogic transition",
       "inner luminosity"
     ],
-    "related_verses": [
-      24,
-      25,
-      79
-    ],
+    "related_verses": [24, 25, 79],
     "beginner_explanation": "There is a brief moment before sleep when the outer world fades but you are not fully asleep yet. If you can gently notice that transition, it can reveal a quiet inner clarity. The verse treats this in-between state as spiritually important.",
     "developer_explanation": "This dhāraṇā targets the hypnagogic interval: anāgatāyāṃ nidrāyām, praṇaṣṭe bāhya-gocare. The practitioner maintains subtle manasic recognition in the collapse of sensory objectivity, where Parā Devī as pure prakāśa becomes evident; this aligns with Trika attention to transitional junctions (sandhi).",
     "tags": [
@@ -3022,22 +2249,13 @@
     "difficulty": "intermediate",
     "practice_type": "visualization",
     "focus_object": "luminous space",
-    "primary_concepts": [
-      "tejas",
-      "ākāśa",
-      "dṛṣṭi-niveśa",
-      "svātma-rūpa"
-    ],
+    "primary_concepts": ["tejas", "ākāśa", "dṛṣṭi-niveśa", "svātma-rūpa"],
     "secondary_concepts": [
       "light-gazing",
       "inner revelation",
       "visual absorption"
     ],
-    "related_verses": [
-      60,
-      80,
-      82
-    ],
+    "related_verses": [60, 80, 82],
     "beginner_explanation": "Look into open space illuminated by sunlight or a lamp, and keep your attention steady. Instead of focusing on objects, notice the bright openness itself. The teaching says this can help reveal your deeper nature.",
     "developer_explanation": "The support here is not the luminary as object but ākāśa made manifest through tejas. By dṛṣṭi-niveśa into illuminated space, ordinary object-perception attenuates and svātma-rūpa discloses itself; this has affinities with visual śāmbhavopāya methods and with practices of unsupported seeing.",
     "tags": [
@@ -3072,11 +2290,7 @@
       "shakti-vision",
       "transformative shock"
     ],
-    "related_verses": [
-      76,
-      80,
-      118
-    ],
+    "related_verses": [76, 80, 118],
     "beginner_explanation": "This verse points to a powerful inner image of a fierce goddess whose presence is intense and overwhelming. By fully meeting that intensity instead of shrinking from it, a breakthrough can happen. It is an advanced method because it uses strong symbolic energy.",
     "developer_explanation": "The imagery of karaṅkiṇī/krodhanā Bhairavī lelihānā evokes an ugra-śakti epiphany, likely functioning as a shock-method of sudden samāveśa. The crucial moment is dṛṣṭi-kāla, the instant of direct visionary contact, in which parā-prāpti manifests; this resonates with Trika valorization of Bhairavī as dynamic cit-śakti beyond conventional affect.",
     "tags": [
@@ -3110,11 +2324,7 @@
       "lightness",
       "embodied absorption"
     ],
-    "related_verses": [
-      79,
-      80,
-      93
-    ],
+    "related_verses": [79, 80, 93],
     "beginner_explanation": "Sit comfortably and notice the subtle feeling of your hands and feet being relaxed and lightly placed, almost without effort. Stay with that feeling of ease and supportlessness. The verse says this can lead the mind into a sense of spacious fullness.",
     "developer_explanation": "Though textually difficult, the operative cue is nirāśraya—hands and feet placed so that awareness catches a reduced sense of bodily support. Through sustained attunement to this peculiar proprioceptive suspension, mati expands into parā-pūrṇatā; the method exemplifies embodiment as a gateway to non-objective fullness.",
     "tags": [
@@ -3149,21 +2359,10 @@
       "nervous stilling",
       "somatic gateway"
     ],
-    "related_verses": [
-      75,
-      78,
-      80
-    ],
+    "related_verses": [75, 78, 80],
     "beginner_explanation": "This verse describes a special seated posture using the arms and side-body to create a particular inner effect. The point is not gymnastics, but using posture to quiet the mind deeply. Through steady stillness in the body, mental calm can arise.",
     "developer_explanation": "The verse appears to prescribe a mudrā-like configuration of the arms and axillary/side space (kakṣa-vyoma), inducing śama through somatic containment. Such corporeal manipulations in the VBT often function by interrupting habitual prāṇic and mental patterning, leading to laya and absorptive quietude.",
-    "tags": [
-      "body",
-      "posture",
-      "laya",
-      "shama",
-      "advanced",
-      "somatic"
-    ]
+    "tags": ["body", "posture", "laya", "shama", "advanced", "somatic"]
   },
   {
     "verse_number": 80,
@@ -3187,11 +2386,7 @@
       "object to objectless transition",
       "mental supportlessness"
     ],
-    "related_verses": [
-      76,
-      78,
-      79
-    ],
+    "related_verses": [76, 78, 79],
     "beginner_explanation": "Choose a visible object and look at it without moving your eyes much. After the gaze becomes steady, let attention release from the object into open stillness. The practice moves from concentration on something seen to resting in something beyond all objects.",
     "developer_explanation": "This is a classic progression from support to supportlessness: the gaze is immobilized on a sthūla-rūpa, then mind is rendered nirādhāra. The visual support functions only as an initial stabilizer; once objectifying vṛtti subsides, the practitioner 'attains Śiva,' i.e., abides in ungrounded, non-conceptual awareness.",
     "tags": [
@@ -3227,12 +2422,7 @@
       "manas-japa",
       "Bhairava-consciousness"
     ],
-    "related_verses": [
-      39,
-      40,
-      41,
-      90
-    ],
+    "related_verses": [39, 40, 41, 90],
     "beginner_explanation": "Bring your attention to the roof of the mouth, especially the subtle inner center there, and silently feel a sound arising in the mind rather than speaking it out loud. Let the sound and attention become very quiet. The verse says that when this becomes steady, the mind settles into deep peace.",
     "developer_explanation": "This verse points to a subtle uccāra-based dhāraṇā centered in the madhya of the palate, likely involving the inner emergence of phonemic vibration rather than gross articulation. The instruction suggests mentalized ho/uccāra leading into śānta-laya, akin to practices where varṇa dissolves into nāda and then into Bhairava. It is technically related to the VBT’s sound-current methods and to the Kaula valuation of the cranial-palatal axis as a locus of ascent.",
     "tags": [
@@ -3269,12 +2459,7 @@
       "mental deconstruction",
       "witnessing"
     ],
-    "related_verses": [
-      46,
-      47,
-      89,
-      104
-    ],
+    "related_verses": [46, 47, 89, 104],
     "beginner_explanation": "Sit or lie down and imagine your body not resting on anything at all. Instead of feeling held up by the floor or bed, sense it as floating in open awareness. This loosens deep mental habits and can create a surprisingly spacious feeling.",
     "developer_explanation": "The crucial term is nirādhāra: the body is to be conceived without support, not merely physically but phenomenologically, as lacking any ultimate ground. Through this bhāvana, āśayas or latent psychic deposits are weakened because embodiment is no longer reified in the usual subject-object frame. The technique resonates with Śaiva strategies of undermining adhāra-based cognition to reveal cidākāśa.",
     "tags": [
@@ -3311,12 +2496,7 @@
       "somatic settling",
       "absorption"
     ],
-    "related_verses": [
-      63,
-      64,
-      79,
-      84
-    ],
+    "related_verses": [63, 64, 79, 84],
     "beginner_explanation": "You can gently rock or sway the body and then slowly let the movement come to rest. As the motion fades, keep noticing the quiet that appears in the mind. The teaching says that this moment of settling can open into a subtle, elevated state.",
     "developer_explanation": "This dhāraṇā exploits the liminal phase between movement and stasis: deha-cālana is intentionally reduced śanaiḥ until the manas becomes praśānta. The promised divyaugha suggests an influx of higher śakti or supranormal interior luminosity arising when kinetic identification collapses. It parallels other VBT methods that use sensory transition-points as gateways to spanda-consciousness.",
     "tags": [
@@ -3353,13 +2533,7 @@
       "inner stillness",
       "Bhairava-form"
     ],
-    "related_verses": [
-      85,
-      86,
-      87,
-      88,
-      97
-    ],
+    "related_verses": [85, 86, 87, 88, 97],
     "beginner_explanation": "Look steadily at a clear open sky without constantly shifting your attention. As you relax and become inwardly still, the vastness outside can help you feel vastness inside. The verse says this can reveal the state called Bhairava.",
     "developer_explanation": "The external ākāśa serves as an immediate support for recognition of inner akāśic consciousness; vimala underscores its unstained, contentless quality. Through uninterrupted dṛṣṭi and a stabdha interiority, the practitioner shifts from object-space to the non-dual expanse identified with Bhairava-vapuḥ. This is a classic outer-to-inner transference of akasha-bhāvana.",
     "tags": [
@@ -3396,13 +2570,7 @@
       "luminous totality",
       "nondual expansion"
     ],
-    "related_verses": [
-      84,
-      86,
-      97,
-      98,
-      109
-    ],
+    "related_verses": [84, 86, 97, 98, 109],
     "beginner_explanation": "Instead of seeing space as empty and separate from you, imagine that the whole open expanse is alive with sacred presence. Let everything appearing in that space be part of one shining reality. This shifts the mind from separation toward unity.",
     "developer_explanation": "Here ākāśa is no longer a mere visual support but the all-inclusive field to be apprehended as Bhairavatva itself. The culmination is samāveśa into the tejas-tattva in which the totality is reconfigured as bhairavākāra. The verse reflects the Pratyabhijñā move from objective expanse to the universalized luminous Self.",
     "tags": [
@@ -3439,13 +2607,7 @@
       "subject-object duality",
       "recognition"
     ],
-    "related_verses": [
-      7,
-      15,
-      21,
-      85,
-      89
-    ],
+    "related_verses": [7, 15, 21, 85, 89],
     "beginner_explanation": "Ordinarily we know things in small pieces, and that makes the world seem divided into 'me' and 'that.' This verse asks you to notice that habit and then sense the whole world as one living field of awareness. In that shift, consciousness feels open and bright rather than fragmented.",
     "developer_explanation": "The verse diagnoses duality as arising from contracted cognition—kiñcit-jñāta—and from outwardized perception, bāhyāloka. Through recognizing viśva itself as Bhairava-rūpa, the practitioner abides as ananta-prakāśabhṛt, a direct echo of non-dual Śaiva ontology where all manifestation is the self-luminous expansion of consciousness. The method is more pratyabhijñā than procedural dhyāna, requiring subtle insight into epistemic limitation.",
     "tags": [
@@ -3482,12 +2644,7 @@
       "sensory minimization",
       "absorption into the unmanifest"
     ],
-    "related_verses": [
-      88,
-      89,
-      97,
-      103
-    ],
+    "related_verses": [88, 89, 97, 103],
     "beginner_explanation": "Sit quietly in the dark and let yourself really notice the darkness instead of resisting it. Over time, darkness stops feeling like just 'nothing' and starts feeling deep and alive. The practice uses that openness to bring the mind beyond ordinary distraction.",
     "developer_explanation": "Timira here functions not as mere absence of light but as a support for entry into the unmanifest aspect of consciousness. The recommendation of prolonged practice in kṛṣṇapakṣa underscores the tantric use of diminishing luminosity as an aid to Bhairava-identification. This is adjacent to void-practices, though framed through sustained bhāvana of darkness rather than explicit śūnya terminology.",
     "tags": [
@@ -3524,12 +2681,7 @@
       "subtle perception",
       "absorption"
     ],
-    "related_verses": [
-      87,
-      89,
-      103,
-      104
-    ],
+    "related_verses": [87, 89, 103, 104],
     "beginner_explanation": "Close your eyes and notice the dark space you see inside. Instead of ignoring it, rest your attention there as if it were meaningful and alive. The verse says that this simple dark field can become a doorway into deep absorption.",
     "developer_explanation": "The practice uses the intrinsic kṛṣṇābha of the closed-eye visual field as a direct meditative support. The instruction to regard this appearing darkness as Bhairava-rūpa transforms an ordinary percept into a locus of tanmayībhāva, dissolving the distinction between seer and seen. It is a minimal-support internalization of the prior verse’s darkness contemplation.",
     "tags": [
@@ -3566,13 +2718,7 @@
       "self-revelation",
       "nondual void"
     ],
-    "related_verses": [
-      24,
-      74,
-      82,
-      88,
-      101
-    ],
+    "related_verses": [24, 74, 82, 88, 101],
     "beginner_explanation": "If a sense suddenly stops getting its usual input—like a sound ending or the eyes closing—there is a brief open pause. Instead of rushing past it, rest in that pause. The verse says that in this kind of gap, a deeper sense of self can reveal itself.",
     "developer_explanation": "The dhāraṇā hinges on indriya-vyāghāta or nirodha, where the collapse of ordinary sensory functioning opens onto advaya-śūnya. Rather than treating this as blankness, the text insists that ātman shines precisely there, in line with the Śaiva understanding that consciousness is self-revealing when vikalpic structuring ceases. This verse generalizes multiple sensory-gap techniques into a single principle.",
     "tags": [
@@ -3596,26 +2742,14 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "the sound 'A'",
-    "primary_concepts": [
-      "akāra",
-      "bindu",
-      "visarga",
-      "japa",
-      "jñānaugha"
-    ],
+    "primary_concepts": ["akāra", "bindu", "visarga", "japa", "jñānaugha"],
     "secondary_concepts": [
       "mātṛkā",
       "anuttara",
       "phonemic source",
       "Parameśvara"
     ],
-    "related_verses": [
-      14,
-      41,
-      42,
-      81,
-      95
-    ],
+    "related_verses": [14, 41, 42, 81, 95],
     "beginner_explanation": "Silently or softly repeat the simple sound 'A,' not adding nasalization or extra ending sounds. Stay with the pure openness of that sound. The teaching says that this basic vibration can suddenly open into deep insight.",
     "developer_explanation": "Akāra, especially 'without bindu and visarga,' points toward the primordial undifferentiated phoneme, often associated in non-dual Śaivism with anuttara, the unsurpassable. Its japa is not merely verbal repetition but a tracing back of articulated sound to its source, from varṇa to pure consciousness. The resulting jñānaugha reflects the revelation of Parameśvara through the matrix of sound itself.",
     "tags": [
@@ -3639,27 +2773,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the visarga at the end of sound",
-    "primary_concepts": [
-      "visarga",
-      "śabda",
-      "uccāra",
-      "brahman",
-      "sanātana"
-    ],
+    "primary_concepts": ["visarga", "śabda", "uccāra", "brahman", "sanātana"],
     "secondary_concepts": [
       "haḥ resonance",
       "phonemic yoga",
       "transition point",
       "spanda"
     ],
-    "related_verses": [
-      42,
-      43,
-      44,
-      89,
-      90,
-      92
-    ],
+    "related_verses": [42, 43, 44, 89, 90, 92],
     "beginner_explanation": "This verse points to the tiny fading sound or breath-release at the end of a spoken syllable. Instead of focusing on the word's meaning, you notice the final soft release and rest your attention there. The teaching says that this subtle ending can open into something vast and timeless.",
     "developer_explanation": "The verse appears to center on sa-visarga/vīsargānta-vāc, using the exhalatory phonemic release as an upāya. In Trika terms, the terminal emission of sound functions as a liminal śakti-point where articulated speech resolves toward parā-vāk; by entering that endpoint, the yogin 'touches' sanātana-brahman. It closely relates to nāda- and varṇa-based dhāraṇās where uccāra culminates in nonconceptual absorption.",
     "tags": [
@@ -3696,13 +2817,7 @@
       "identity with consciousness",
       "subtle body transcendence"
     ],
-    "related_verses": [
-      48,
-      63,
-      85,
-      86,
-      100
-    ],
+    "related_verses": [48, 63, 85, 86, 100],
     "beginner_explanation": "Imagine that your real nature is not a small solid person, but open like the sky. The sky holds everything without being disturbed by anything. Resting in that feeling of openness helps reveal a deeper sense of self.",
     "developer_explanation": "This dhāraṇā invokes vyomākāratā of the ātman, a classic Trika move from contracted embodiment to cidākāśa-recognition. The verse's second hemistich suggests that through such nirāśraya-like expansion, one discerns the true svarūpa of Śakti as nonlocal consciousness. It resonates with practices of deha-transcendence through spatial infinitude while retaining the nondual identity of Self and Bhairava.",
     "tags": [
@@ -3726,25 +2841,14 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "the precise point of sharp sensation",
-    "primary_concepts": [
-      "aṅga",
-      "tīkṣṇa-sūcī",
-      "vedanā",
-      "cetanā",
-      "bhairava"
-    ],
+    "primary_concepts": ["aṅga", "tīkṣṇa-sūcī", "vedanā", "cetanā", "bhairava"],
     "secondary_concepts": [
       "pain as gateway",
       "one-pointedness",
       "sensory shock",
       "nirvikalpa interruption"
     ],
-    "related_verses": [
-      52,
-      58,
-      80,
-      81
-    ],
+    "related_verses": [52, 58, 80, 81],
     "beginner_explanation": "This verse uses a very strong physical sensation as a way to focus the mind completely. When attention becomes total at one exact point, ordinary thinking can stop for a moment. The teaching is not about harming yourself, but about seeing how intense sensation can reveal pure awareness.",
     "developer_explanation": "The dhāraṇā employs acute tactile puncture to gather cetanā into a single vedanā-kṣetra, interrupting discursivity through intensity. As in other VBT methods using shock, pain, or suddenness, the aim is not ascetic mortification but the exploitation of a vikalpa-collapse at the peak of sensation. The 'vimalā gati' of Bhairava indicates entry into the stainless, preconceptual awareness underlying sensory cognition.",
     "tags": [
@@ -3768,26 +2872,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the gap before and after thought",
-    "primary_concepts": [
-      "citta",
-      "ādi-anta",
-      "vikalpa",
-      "abhāva",
-      "udita"
-    ],
+    "primary_concepts": ["citta", "ādi-anta", "vikalpa", "abhāva", "udita"],
     "secondary_concepts": [
       "thought gap",
       "witnessing mind",
       "nirvikalpa",
       "mental arising and subsiding"
     ],
-    "related_verses": [
-      24,
-      25,
-      62,
-      96,
-      97
-    ],
+    "related_verses": [24, 25, 62, 96, 97],
     "beginner_explanation": "Thoughts seem continuous, but each one has a start and an end. If you notice those edges carefully, there is a brief quiet space around them. Resting in that quiet helps you experience a mind that is not trapped in constant thinking.",
     "developer_explanation": "This verse targets the ādi and anta of citta-kṛti or vikalpa, directing practice toward the interstitial absence that reveals nirvikalpaka awareness. The paradoxical close—that one becomes 'raised by vikalpas through the absence of vikalpas'—suggests using the observation of conceptual movement itself to transcend conceptuality. It aligns with Trika analyses of cognition where the spanda underlying thought is more fundamental than the thought-content.",
     "tags": [
@@ -3811,27 +2903,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "māyā as the source of differentiation",
-    "primary_concepts": [
-      "māyā",
-      "kalā",
-      "tattva",
-      "bheda",
-      "pṛthagbhāva"
-    ],
+    "primary_concepts": ["māyā", "kalā", "tattva", "bheda", "pṛthagbhāva"],
     "secondary_concepts": [
       "kañcukas",
       "limitation",
       "metaphysics",
       "non-separation"
     ],
-    "related_verses": [
-      7,
-      8,
-      21,
-      22,
-      99,
-      100
-    ],
+    "related_verses": [7, 8, 21, 22, 99, 100],
     "beginner_explanation": "This verse says that separateness is produced by a limiting power called māyā. When you understand that division is constructed rather than ultimate, you begin to see life as more connected and unified. The practice is a deep reflection on what makes things seem separate.",
     "developer_explanation": "Here Bhairava gives a distinctly doctrinal dhāraṇā: māyā, along with kalā, is contemplated as the differentiating mechanism within the tattvic unfoldment. Recognizing bheda as an imposed condition rather than ultimate reality undermines pṛthagbhāva and supports pratyabhijñā of nondual Śiva-consciousness. This is an explicitly philosophical upāya rooted in Trika cosmology rather than immediate sensory technique.",
     "tags": [
@@ -3855,25 +2934,14 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "the arising and subsiding of desire",
-    "primary_concepts": [
-      "icchā",
-      "samutpatti",
-      "śama",
-      "source",
-      "laya"
-    ],
+    "primary_concepts": ["icchā", "samutpatti", "śama", "source", "laya"],
     "secondary_concepts": [
       "urge observation",
       "energy reversal",
       "emotional alchemy",
       "spanda"
     ],
-    "related_verses": [
-      71,
-      72,
-      97,
-      98
-    ],
+    "related_verses": [71, 72, 97, 98],
     "beginner_explanation": "Instead of immediately following a strong desire, pause and watch it carefully. See where it rises from in you, and notice that if you do not feed it, it settles back down. The verse teaches that this whole movement can reveal a deeper stillness underneath desire.",
     "developer_explanation": "The method treats icchā not as an obstacle but as a śakti-wave whose utpatti and laya disclose its ground. By observing the energized emergence of desire and guiding it into śama, the practitioner follows the spanda back to its source in consciousness. This is a subtle redirection of affective force, comparable to other VBT techniques that invert psychological movement into recognition.",
     "tags": [
@@ -3897,25 +2965,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the state prior to desire and knowledge",
-    "primary_concepts": [
-      "icchā",
-      "jñāna",
-      "aham",
-      "tattvataḥ",
-      "līnatā"
-    ],
+    "primary_concepts": ["icchā", "jñāna", "aham", "tattvataḥ", "līnatā"],
     "secondary_concepts": [
       "preconceptual self",
       "self-inquiry",
       "pure I-consciousness",
       "absorption"
     ],
-    "related_verses": [
-      94,
-      96,
-      98,
-      101
-    ],
+    "related_verses": [94, 96, 98, 101],
     "beginner_explanation": "Ask yourself: before I want something, and before I think about something, what am I? This question points to a very simple sense of being that comes before mental activity. Resting there helps you discover a quieter and deeper identity.",
     "developer_explanation": "This verse is a refined ātmavicāra framed in Trika terms: prior to the emergence of icchā and jñāna-vṛtti, what is the ontological status of aham? The instruction is not merely analytical but absorptive—having discerned that tathābhūta state, one becomes tanmaya and līna in it. It points toward the primordial aham-vimarśa preceding functional modalities of cognition and volition.",
     "tags": [
@@ -3952,12 +3009,7 @@
       "vṛtti as śakti",
       "undivided attention"
     ],
-    "related_verses": [
-      96,
-      97,
-      99,
-      100
-    ],
+    "related_verses": [96, 97, 99, 100],
     "beginner_explanation": "This verse says that even ordinary moments of wanting or knowing can become meditation. When a thought, wish, or insight appears, do not get lost in its story; instead, notice the living awareness inside it. By staying with that directly, you begin to see reality more clearly.",
     "developer_explanation": "Unlike verse 97, which turns to the pre-emergent state, this dhāraṇā enters icchā or jñāna at the moment of manifestation. Through citta-niveśa accompanied by ātma-buddhi and ananyacetas, the practitioner recognizes each cognitive or volitional vṛtti as a mode of Self-revelation rather than an object opposed to consciousness. This is quintessential pratyabhijñā: the reclaiming of mental events as Śakti's own display.",
     "tags": [
@@ -3994,11 +3046,7 @@
       "appearance",
       "Śiva-consciousness"
     ],
-    "related_verses": [
-      95,
-      98,
-      100
-    ],
+    "related_verses": [95, 98, 100],
     "beginner_explanation": "Sometimes experiences or insights seem to appear out of nowhere, as if they stand on their own. This verse says they do not truly belong to a separate individual or exist independently. Reflecting on this helps loosen the sense of 'my mind' as something isolated.",
     "developer_explanation": "The verse deconstructs apparently autonomous jñāna: even when cognition seems nirnimitta and nirādhāra, its status as an independent event is bhramātmaka. 'Tattvataḥ kasyacin na etat' points to the non-ownership and non-separateness of cognition, which in Trika belongs ultimately to the self-luminous cit of Śiva rather than an individuated knower. This complements verses on māyā and universal consciousness by undermining epistemic individuation.",
     "tags": [
@@ -4035,14 +3083,7 @@
       "liberative vision",
       "immanence"
     ],
-    "related_verses": [
-      20,
-      21,
-      22,
-      92,
-      95,
-      99
-    ],
+    "related_verses": [20, 21, 22, 92, 95, 99],
     "beginner_explanation": "The awareness that knows your experience is not fundamentally different from the awareness in others. This verse invites you to reflect on that shared inner light in all beings. Seeing life this way softens separation and opens a sense of unity.",
     "developer_explanation": "This is a direct contemplative articulation of samāna-caitanya across embodied loci: cid-dharma is universally present, with no ultimate viśeṣa among bodies. Through tanmayī-bhāvanā of all as consciousness-pervaded, the practitioner shifts from dehābhimāna to a nondual vision consonant with Pratyabhijñā's universal aham. The verse functions as both ontology and soteriological method.",
     "tags": [
@@ -4080,12 +3121,7 @@
       "essence beyond emotion",
       "śakti"
     ],
-    "related_verses": [
-      98,
-      100,
-      103,
-      108
-    ],
+    "related_verses": [98, 100, 103, 108],
     "beginner_explanation": "This verse suggests looking deeply into strong emotions instead of immediately acting them out or suppressing them. If you notice the raw energy inside desire or anger without the story around it, something more basic and alive can be felt. That deeper core is what the verse points toward.",
     "developer_explanation": "The cluster kāma-krodha-lobha-moha-mada-mātsarya here functions not merely as moral afflictions but as intensified śakti-configurations. The instruction is to render them nirvikalpa or avikalpa in their core, so that the emotional vṛtti is stripped of discursive overlay and its residual tattva alone 'remains' (avaśiṣyate). This aligns with VBT's recurrent strategy of using heightened states as entryways into Bhairava-consciousness.",
     "tags": [
@@ -4122,12 +3158,7 @@
       "detachment",
       "wonder"
     ],
-    "related_verses": [
-      95,
-      103,
-      109,
-      110
-    ],
+    "related_verses": [95, 103, 109, 110],
     "beginner_explanation": "Imagine the world as something like a dream, a magic trick, or a picture. This does not mean nothing exists, but that things may not be as solid as they seem. Seeing life this way can bring lightness and a surprising sense of joy.",
     "developer_explanation": "Indrajālamayaṃ viśvam evokes a classic tantric and pratyabhijñā motif: the universe as wondrous appearance, real as manifestation yet deceptive when grasped as independently solid. The comparison to a painted or projected image loosens ontological reification and opens aesthetic-cognitive wonder (camatkāra), from which sukhodgama arises. The verse therefore occupies a liminal space between contemplative deconstruction and direct recognition.",
     "tags": [
@@ -4150,25 +3181,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the middle state between sorrow and pleasure",
-    "primary_concepts": [
-      "duḥkha",
-      "sukha",
-      "madhya",
-      "citta",
-      "tattva"
-    ],
+    "primary_concepts": ["duḥkha", "sukha", "madhya", "citta", "tattva"],
     "secondary_concepts": [
       "equanimity",
       "non-reactivity",
       "balance",
       "centered awareness"
     ],
-    "related_verses": [
-      24,
-      58,
-      61,
-      101
-    ],
+    "related_verses": [24, 58, 61, 101],
     "beginner_explanation": "Usually the mind rushes away from pain and clings to pleasure. This verse says to do neither. Stay steady in the balanced middle, and a deeper kind of awareness becomes noticeable.",
     "developer_explanation": "The instruction not to project citta into duḥkha nor disperse it in sukha points to madhya-vikāsa, a quintessential Trika method. The 'middle' is not mere psychological neutrality but the uncontracted locus where oppositional affective movements resolve, revealing the residual tattva. This is structurally linked to other VBT madhya practices involving junctions, pauses, and non-preferential awareness.",
     "tags": [
@@ -4205,12 +3225,7 @@
       "nonlocal awareness",
       "Śiva-identification"
     ],
-    "related_verses": [
-      105,
-      107,
-      109,
-      110
-    ],
+    "related_verses": [105, 107, 109, 110],
     "beginner_explanation": "Instead of feeling 'I am only this body,' try contemplating 'my being is not confined here.' With steady conviction, your sense of self can feel more open and spacious. That shift is said to bring deep peace and happiness.",
     "developer_explanation": "Vihāya nijadehasthaṃ ... sarvadhī/asmi iti bhāvayan indicates a deliberate deconstruction of dehābhimāna and replacement with vyāpakatā-bhāvanā. The practice hinges on dṛḍha-manas and stabilized dṛṣṭi, not on imaginative fantasy alone. It closely echoes Śaiva recognition formulas in which limited ahaṃ is expanded into the all-pervading I-consciousness of Bhairava.",
     "tags": [
@@ -4246,12 +3261,7 @@
       "universal awareness",
       "pratyabhijñā"
     ],
-    "related_verses": [
-      104,
-      106,
-      107,
-      109
-    ],
+    "related_verses": [104, 106, 107, 109],
     "beginner_explanation": "Awareness seems to be inside 'me' and separate from things outside. This verse asks you to question that habit. The same knowing presence is to be seen as not trapped inside any person or object, but present everywhere.",
     "developer_explanation": "The verse undermines localized theories of consciousness by contrasting cognition associated with external objects (ghaṭādi) and the apparent interior subject ('mamāntare'). The instruction that it is not 'born' there but is sarvagata reflects a pratyabhijñā ontology: cit is not contained in loci but manifests through them. The bhāvana thus reverses subject-object enclosure and supports universalized awareness.",
     "tags": [
@@ -4287,11 +3297,7 @@
       "embodiment",
       "yogic attentiveness"
     ],
-    "related_verses": [
-      105,
-      107,
-      108
-    ],
+    "related_verses": [105, 107, 108],
     "beginner_explanation": "Everyone experiences a 'me here' and a 'thing there.' This verse says the yogi pays close attention to that connection itself. When you notice the meeting point between seeing and seen, ordinary experience becomes a doorway to insight.",
     "developer_explanation": "Grāhya-grāhaka-saṃvitti names the triadic cognitive structure operative for all dehins, but the yogin's viśeṣa is sāvadhānatā with respect to the sambandha. This anticipates the collapse of dual epistemic poles into self-revealing saṃvit. The verse is methodologically important because it redirects attention from objects or subjects separately to their relational emergence.",
     "tags": [
@@ -4327,12 +3333,7 @@
       "shared consciousness",
       "tantric identity expansion"
     ],
-    "related_verses": [
-      104,
-      105,
-      106,
-      109
-    ],
+    "related_verses": [104, 105, 106, 109],
     "beginner_explanation": "Try feeling that awareness is present in others just as it is in you. As attachment to 'my body only' loosens, your sense of self can begin to feel wider and less separate. The verse says this gradually opens into a more expansive state.",
     "developer_explanation": "The practice radicalizes the prior inquiry into saṃvitti by extending it across bodily boundaries: svād anye śarīre'pi saṃvittim anubhāvayet. Through relinquishing apekṣā toward one's own body, the practitioner moves toward vyāpitva, a direct experiential corollary of non-dual Śaiva metaphysics. This is not metaphorical empathy alone but expansion of ahaṃ-vimarśa beyond individual embodiment.",
     "tags": [
@@ -4368,11 +3369,7 @@
       "self-supreme self identity",
       "mental suspension"
     ],
-    "related_verses": [
-      101,
-      106,
-      109
-    ],
+    "related_verses": [101, 106, 109],
     "beginner_explanation": "Usually the mind leans on something: a thought, image, memory, or plan. This verse says to let the mind rest without holding onto any support and without making new mental stories. In that open stillness, a deeper identity can reveal itself.",
     "developer_explanation": "Nirādhāraṃ manaḥ kṛtvā vikalpān na vikalpayet is a classic avikalpa instruction, cutting the mind off from both support (ālambana) and conceptual proliferation. The result, tadātma-paramātmatve, is not merger of two separate entities but recognition that individual consciousness was never other than Bhairava. The verse distills the transition from manas-bound cognition to pure vimarśa.",
     "tags": [
@@ -4409,12 +3406,7 @@
       "mahāvākya-like affirmation",
       "dārḍhya"
     ],
-    "related_verses": [
-      104,
-      105,
-      107,
-      110
-    ],
+    "related_verses": [104, 105, 107, 110],
     "beginner_explanation": "This verse gives a powerful meditation sentence: 'My deepest self is not small or helpless, but one with the universal consciousness.' Repeating and feeling this deeply can change the way you experience yourself. The point is not ego inflation, but seeing beyond the limited personal self.",
     "developer_explanation": "Sarvajñaḥ sarvakartā ca vyāpakaḥ parameśvaraḥ sa evāham expresses a recognition-formula central to Trika and Pratyabhijñā: the finite subject reclaims its identity with universal agency and omniscience. The stress on dārḍhya indicates stabilized certitude rather than discursive assertion. 'Śaivadharmī/śivo bhavet' marks existential conformity to Śiva through recognition, not ontic transformation into something previously absent.",
     "tags": [
@@ -4451,11 +3443,7 @@
       "unity-in-diversity",
       "cosmic radiation"
     ],
-    "related_verses": [
-      102,
-      104,
-      109
-    ],
+    "related_verses": [102, 104, 109],
     "beginner_explanation": "Think of the many forms in the world as rays from one light source. People, objects, and events may look separate, but they all come from one deeper reality. This view helps the mind move from division toward unity.",
     "developer_explanation": "The imagery of radiance from lamp, fire, moon, or sun illustrates differentiated manifestation without severance from source. Viśva-bhaṅgyaḥ/vibheditāḥ are the articulated modes of appearance, yet all are 'mine' as Bhairava's own emission, resonant with the Śaiva doctrine of ābhāsa. Thus diversity is neither denied nor absolutized; it is read as self-expression of non-dual consciousness.",
     "tags": [
@@ -4490,10 +3478,7 @@
       "sudden stillness",
       "embodied threshold"
     ],
-    "related_verses": [
-      112,
-      118
-    ],
+    "related_verses": [112, 118],
     "beginner_explanation": "This verse points to the strange calm that can appear after intense movement suddenly stops. If the body is strongly stirred and then becomes still, the mind can briefly lose its usual grip and something deeper may appear. The instruction is not casual and should be approached carefully, since it uses physical shock as a doorway.",
     "developer_explanation": "The dhāraṇā uses kṣobha followed by virāma: agitation of embodied cognition is intentionally induced so that the ordinary vikalpa-structure collapses in the aftermath. Like other liminal methods in the VBT, the opening lies not in the movement itself but in the interval after disturbance, where parā sañjāyate daśā. It is thematically linked with verses exploiting shock, affective rupture, and transition-states.",
     "tags": [
@@ -4524,16 +3509,8 @@
       "kṣobha-anta (end of agitation)",
       "bhairava-vapuḥ"
     ],
-    "secondary_concepts": [
-      "subtle body",
-      "energetic awakening",
-      "absorption"
-    ],
-    "related_verses": [
-      111,
-      114,
-      116
-    ],
+    "secondary_concepts": ["subtle body", "energetic awakening", "absorption"],
+    "related_verses": [111, 114, 116],
     "beginner_explanation": "Sometimes a strong inner energy or emotional charge rises and then settles. This verse says that the moment just after that surge ends can reveal a deep, open presence. The key is to notice the settling point, not to chase the intensity itself.",
     "developer_explanation": "The verse appears to refer to śakti-samāveśa in the ādhāras, with the crucial access point being kṣobhānte rather than during the excitation. Bhairava-vapuḥ emerges when the movement of contracted cognition releases into its source. This is consistent with Trika use of heightened śakti as a means to nondual recognition, provided one attends to the resolving phase.",
     "tags": [
@@ -4569,10 +3546,7 @@
       "cessation of mental movement",
       "direct awakening"
     ],
-    "related_verses": [
-      120,
-      115
-    ],
+    "related_verses": [120, 115],
     "beginner_explanation": "If the eyes stop wandering, the mind often becomes quieter too. This verse says that making the gaze deeply still can lead very quickly into inner silence. It works because seeing and thinking are often closely tied together.",
     "developer_explanation": "The verse frames the practice as sampradāya, a received method, and links ocular stasis to sadyo-kaivalya. Netra-stabdhata implies suspension of the extroverting visual-vṛtti, allowing citta to settle into its unfragmented ground. The relation between gaze-fixity and manonirodha is echoed in other tantric and haṭha sources.",
     "tags": [
@@ -4608,10 +3582,7 @@
       "suṣumnā",
       "upward containment of energy"
     ],
-    "related_verses": [
-      112,
-      121
-    ],
+    "related_verses": [112, 121],
     "beginner_explanation": "This verse describes using physical locks in the body to gather attention inward. By gently containing energy above and below, awareness is drawn toward a quiet inner center. It is a subtle practice and usually needs guidance, since the body actions are not merely symbolic.",
     "developer_explanation": "The instruction resembles a bandha-based internalization: kaṇṭha-saṃkoca and closure at the adhodvāra imply containment of prāṇic flow so awareness can enter the central axis. The object of dhyāna is an inner opening or non-constructed middle, through which one 'enters' brahma sanātanam. This aligns with Tantric subtle-body praxis where embodied seals precipitate entry into the madhya.",
     "tags": [
@@ -4647,10 +3618,7 @@
       "spatial vastness",
       "fear-transcendence"
     ],
-    "related_verses": [
-      118,
-      120
-    ],
+    "related_verses": [118, 120],
     "beginner_explanation": "Looking into a vast depth can briefly stop ordinary thinking. This verse uses that moment of wordless openness as a doorway into meditation. The point is the sudden drop into silence, not thrill-seeking or danger.",
     "developer_explanation": "The abyss functions as a spatial support for avikalpa-mati: perceptual confrontation with depth interrupts habitual conceptual structuring. The phrase suggests a sudden citta-laya or citta-lavaṇa-like collapse of discursivity through vast downward extension. As with other VBT methods, the external support is only a trigger for recognition of non-conceptual awareness.",
     "tags": [
@@ -4686,10 +3654,7 @@
       "deconstruction of inside/outside",
       "recognition"
     ],
-    "related_verses": [
-      117,
-      119
-    ],
+    "related_verses": [117, 119],
     "beginner_explanation": "This verse says you do not need to find a special place for the sacred. Whatever your mind notices—inside thoughts or outside objects—exists within one vast awareness. If nothing is outside that awareness, every moment can become part of practice.",
     "developer_explanation": "A classic Trika recognition teaching: the distinction between bāhya and ābhyantara collapses in light of Śiva's vyāpakatva. The mind's movement does not depart from śivāvasthā because there is no 'elsewhere' outside consciousness. This dhāraṇā thus converts wandering attention into pratyabhijñā by re-reading every cognitive act as a modulation of the all-pervading.",
     "tags": [
@@ -4726,10 +3691,7 @@
       "reduction to consciousness",
       "fullness"
     ],
-    "related_verses": [
-      116,
-      120
-    ],
+    "related_verses": [116, 120],
     "beginner_explanation": "Whenever you see, hear, or feel something, this verse asks you to notice the knowing itself behind the experience. Instead of getting caught only in the object, turn toward the fact that it is appearing in awareness. Resting there, you feel less fragmented and more whole.",
     "developer_explanation": "The sensory routes (akṣa-mārga) are not obstacles but disclosures of caitanya. By recognizing each appearance as having no independent status apart from its manifestation in consciousness, one moves toward cit-laya and bharitātmatā, the plenitude of Bhairava. This reflects the Pratyabhijñā move from objectivity to the self-revelatory luminosity underlying all pramāṇa.",
     "tags": [
@@ -4765,10 +3727,7 @@
       "liminal states",
       "transforming emotion into practice"
     ],
-    "related_verses": [
-      111,
-      115
-    ],
+    "related_verses": [111, 115],
     "beginner_explanation": "Strong feelings can momentarily strip away routine thinking. This verse says the edge of such moments—fear, sorrow, hunger, urgency, or wonder—can reveal a deeper reality. The practice is to notice the raw openness inside the feeling, rather than being completely swept away by the story around it.",
     "developer_explanation": "This is a liminality-based dhāraṇā: at the anta of affective or instinctual intensities, conceptual superstructure may briefly collapse, revealing brahma-sattā-mayī daśā. The verse includes both painful and neutral-exalted states, indicating that the crucial factor is not valence but rupture in ordinary mentation. It is cognate with VBT methods using kṣobha, vismaya, or extremity as portals to nondual recognition.",
     "tags": [
@@ -4799,16 +3758,8 @@
       "śarīra nirādhāra",
       "prasara of prabhu"
     ],
-    "secondary_concepts": [
-      "de-objectification",
-      "bodilessness",
-      "expansion"
-    ],
-    "related_verses": [
-      116,
-      117,
-      120
-    ],
+    "secondary_concepts": ["de-objectification", "bodilessness", "expansion"],
+    "related_verses": [116, 117, 120],
     "beginner_explanation": "This verse suggests dropping the usual habit of mentally leaning on things you remember, see, or identify with. Even the sense of 'my body as my base' is released for a moment. What remains is a more open, spacious kind of presence.",
     "developer_explanation": "The practice cuts both mnemonic and perceptual object-supports, then extends the gesture to deconstructing bodily ādhāra itself. Nirādhāra here indicates unsupported awareness rather than dissociation: when manas no longer anchors itself in object or body, prabhu 'expands' as uncontracted consciousness. The method resonates strongly with nirālamba and anāśrita modes in Trika contemplative language.",
     "tags": [
@@ -4844,11 +3795,7 @@
       "withdrawal of perception",
       "emptiness"
     ],
-    "related_verses": [
-      113,
-      115,
-      119
-    ],
+    "related_verses": [113, 115, 119],
     "beginner_explanation": "Choose one thing to look at steadily, then slowly let the seeing relax inward. As attention withdraws from the object, both the object and the thinking around it can fade into quiet emptiness. It is like letting your eyes teach your mind how to become still.",
     "developer_explanation": "This dhāraṇā resembles a trāṭaka-derived procedure but culminates not in visual siddhi but in śūnyālaya. The object is first stabilized as a support, then both taj-jñāna and citta are retracted together, revealing the emptiness underlying perceptual cognition. It bridges sensory fixation and laya, and is closely related to the ocular stilling of verse 113.",
     "tags": [
@@ -4872,25 +3819,14 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "surging devotion",
-    "primary_concepts": [
-      "bhakti",
-      "udreka",
-      "Śāṅkarī",
-      "vaśībhāva"
-    ],
+    "primary_concepts": ["bhakti", "udreka", "Śāṅkarī", "vaśībhāva"],
     "secondary_concepts": [
       "śakti",
       "absorption",
       "grace",
       "heart-centered practice"
     ],
-    "related_verses": [
-      73,
-      74,
-      118,
-      120,
-      122
-    ],
+    "related_verses": [73, 74, 118, 120, 122],
     "beginner_explanation": "Sometimes deep love or reverence suddenly fills the heart. Instead of treating that as just emotion, this verse says to rest fully in it. If you do, the feeling can open into a sacred state that quiets the ordinary mind and draws you toward spiritual absorption.",
     "developer_explanation": "The verse points to bhaktyudreka, an intensified devotional eruption, as a direct upāya. The term Śāṅkarī suggests the state or power of Śakti inseparable from Śaṅkara/Bhairava; entering it transforms affect into samāveśa rather than dualistic worship. The vaśībhāva implied here is not worldly control but being seized by divine consciousness.",
     "tags": [
@@ -4913,25 +3849,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "inner gap of emptiness",
-    "primary_concepts": [
-      "śūnyatā",
-      "antara",
-      "manas",
-      "praśama"
-    ],
+    "primary_concepts": ["śūnyatā", "antara", "manas", "praśama"],
     "secondary_concepts": [
       "gap between thoughts",
       "cessation",
       "mental quieting",
       "laya"
     ],
-    "related_verses": [
-      43,
-      61,
-      97,
-      103,
-      128
-    ],
+    "related_verses": [43, 61, 97, 103, 128],
     "beginner_explanation": "Notice the tiny quiet space between one thought and the next. Instead of chasing the thoughts, gently pay attention to that brief emptiness. That silent gap can calm the mind in a very deep way.",
     "developer_explanation": "This dhāraṇā exploits the antare śūnyatā disclosed when mental content subsides or becomes discontinuous. The instruction is not nihilistic but phenomenological: manas is turned toward the interval itself, allowing vikalpa to self-pacify. It resonates with the VBT's recurrent use of sandhi, the liminal junction, as a portal to Bhairava-consciousness.",
     "tags": [
@@ -4955,25 +3880,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "freedom from purity-impurity concepts",
-    "primary_concepts": [
-      "śuddhi",
-      "Śambhu-darśana",
-      "aśuci",
-      "nirvikalpa"
-    ],
+    "primary_concepts": ["śuddhi", "Śambhu-darśana", "aśuci", "nirvikalpa"],
     "secondary_concepts": [
       "ritual transcendence",
       "nonconceptual ease",
       "advaya",
       "inner purity"
     ],
-    "related_verses": [
-      15,
-      51,
-      84,
-      124,
-      126
-    ],
+    "related_verses": [15, 51, 84, 124, 126],
     "beginner_explanation": "We often divide life into clean and unclean, sacred and unsacred. This verse says the deepest kind of purity is not about those outer labels, but about seeing from a deeper awareness beyond mental judging. When that happens, a person becomes naturally peaceful and happy.",
     "developer_explanation": "The verse relativizes conventional śuci/aśuci distinctions in favor of the higher śuddhi of Śambhu-darśana. This reflects the Trika critique of merely ritual purity when unsupported by recognition (pratyabhijñā) of the all-pervasive divine. Nirvikalpatā here is practical freedom from dualizing constructs rather than mere absence of cognition.",
     "tags": [
@@ -4997,25 +3911,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "Bhairava in all appearances",
-    "primary_concepts": [
-      "Bhairava",
-      "sāmānya",
-      "gocara",
-      "advayā gati"
-    ],
+    "primary_concepts": ["Bhairava", "sāmānya", "gocara", "advayā gati"],
     "secondary_concepts": [
       "immanence",
       "recognition",
       "all-pervasiveness",
       "non-separation"
     ],
-    "related_verses": [
-      17,
-      18,
-      24,
-      123,
-      127
-    ],
+    "related_verses": [17, 18, 24, 123, 127],
     "beginner_explanation": "This verse says the sacred is not somewhere else. Even ordinary things you see every day can be understood as expressions of the same divine reality. When nothing is felt to be separate from that, life becomes a path into unity.",
     "developer_explanation": "The instruction extends Bhairava beyond exceptional mystical states into sāmānya-gocara, the field of ordinary cognition. The claim that nothing exists vyatirekeṇa apart from Him aligns with radical nondual Śaiva ontology, where manifestation is not other than cit-śakti. Thus advayā gati is attained through recognition of immanence, not withdrawal alone.",
     "tags": [
@@ -5038,24 +3941,14 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "equanimity amid opposites",
-    "primary_concepts": [
-      "samatā",
-      "mitra",
-      "śatru",
-      "mānāpamāna",
-      "pūrṇatva"
-    ],
+    "primary_concepts": ["samatā", "mitra", "śatru", "mānāpamāna", "pūrṇatva"],
     "secondary_concepts": [
       "Brahman",
       "equipoise",
       "freedom from reactivity",
       "inner contentment"
     ],
-    "related_verses": [
-      126,
-      129,
-      143
-    ],
+    "related_verses": [126, 129, 143],
     "beginner_explanation": "People usually feel pulled around by praise and blame, liking and disliking. This verse teaches staying balanced in all those opposites. That balance comes from sensing an inner completeness that outer events cannot add to or take away from.",
     "developer_explanation": "This is a classical samatā-dhāraṇā framed through the recognition of brahmaṇaḥ paripūrṇatva. The operative move is not indifference but deconditioning affective asymmetry toward dvandvas such as śatru/mitra and māna/apamāna. In Trika terms, fullness (pūrṇatā) undercuts dependence on relational valuation.",
     "tags": [
@@ -5078,24 +3971,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the middle free of like and dislike",
-    "primary_concepts": [
-      "rāga",
-      "dveṣa",
-      "madhya",
-      "Brahman"
-    ],
+    "primary_concepts": ["rāga", "dveṣa", "madhya", "Brahman"],
     "secondary_concepts": [
       "freedom from conditioning",
       "non-reactivity",
       "centeredness",
       "advaya"
     ],
-    "related_verses": [
-      55,
-      75,
-      125,
-      129
-    ],
+    "related_verses": [55, 75, 125, 129],
     "beginner_explanation": "Usually the mind keeps leaning toward what it wants and pushing away what it dislikes. This verse points to a calm middle place between those two habits. In that balanced center, a deeper reality becomes easier to notice.",
     "developer_explanation": "The verse explicitly identifies the Brahmic disclosure with the madhya revealed when rāga and dveṣa are relinquished. This middle is not mediocrity but the dynamic center central to many VBT upāyas, where polarized vikalpas collapse. It can be read as both ethical instruction and direct phenomenological method.",
     "tags": [
@@ -5119,26 +4002,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "all possible experience as Bhairava",
-    "primary_concepts": [
-      "jñeya",
-      "agrāhya",
-      "śūnya",
-      "abhāvaga",
-      "Bhairava"
-    ],
+    "primary_concepts": ["jñeya", "agrāhya", "śūnya", "abhāvaga", "Bhairava"],
     "secondary_concepts": [
       "total inclusion",
       "transconceptuality",
       "bodha",
       "absolute reality"
     ],
-    "related_verses": [
-      17,
-      18,
-      124,
-      128,
-      130
-    ],
+    "related_verses": [17, 18, 124, 128, 130],
     "beginner_explanation": "This verse teaches a very wide view: everything you can know, cannot know, or even think of as empty is part of the same divine reality. Instead of dividing reality into spiritual and non-spiritual, it asks you to include everything. That complete inclusion opens into understanding.",
     "developer_explanation": "The range from jñeya to agrāhya, from śūnya to abhāvaga, marks an exhaustive sweep across epistemic and ontological categories. Bhāvana of all such modes as Bhairava enacts non-exclusive recognition, collapsing any residual outside to the Absolute. The promised bodha is therefore pratyabhijñā through totalized contemplative inclusion.",
     "tags": [
@@ -5170,18 +4041,8 @@
       "bāhyākāśa",
       "nirākāśa"
     ],
-    "secondary_concepts": [
-      "ākāśa",
-      "transcendence",
-      "expansion",
-      "absorption"
-    ],
-    "related_verses": [
-      85,
-      86,
-      97,
-      122
-    ],
+    "secondary_concepts": ["ākāśa", "transcendence", "expansion", "absorption"],
+    "related_verses": [85, 86, 97, 122],
     "beginner_explanation": "Look at open space, like the sky, and let the mind rest in its vastness. Then notice that even this physical space points to something subtler: a kind of openness with no edges at all. The practice is to move from seeing outer space to sensing boundless inner openness.",
     "developer_explanation": "The verse uses bāhyākāśa as an initial support for entry into nirākāśa, the trans-phenomenal 'space' beyond objectifiable extension. The qualifiers nitya, nirāśraya, śūnya, and vyāpaka indicate a shift from gross ākāśa to the all-pervasive openness of consciousness. This is a classic Trika move from external support to supportless absorption.",
     "tags": [
@@ -5205,24 +4066,14 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "non-abiding awareness",
-    "primary_concepts": [
-      "manas",
-      "anavasthiti",
-      "parityāga",
-      "nistaranga"
-    ],
+    "primary_concepts": ["manas", "anavasthiti", "parityāga", "nistaranga"],
     "secondary_concepts": [
       "letting go",
       "de-fixation",
       "thought release",
       "stillness"
     ],
-    "related_verses": [
-      61,
-      75,
-      122,
-      126
-    ],
+    "related_verses": [61, 75, 122, 126],
     "beginner_explanation": "The mind keeps moving from one thing to another. This verse does not ask you to force it to stop, but to not settle on any thought or object it lands on. When you keep releasing each mental movement, the mind gradually becomes still like water without ripples.",
     "developer_explanation": "This instruction radicalizes non-grasping: yatra yatra mano yāti, tatra tatra immediate parityāga. Anavasthiti here is a deliberate refusal of mental emplacement, yielding nistarangatā, the wave-free condition akin to vikalpa-kṣaya. It is closely aligned with direct awareness practices that neither suppress nor elaborate arising cognitions.",
     "tags": [
@@ -5246,24 +4097,14 @@
     "difficulty": "beginner",
     "practice_type": "meditation",
     "focus_object": "the sound 'Bhairava'",
-    "primary_concepts": [
-      "Bhairava-śabda",
-      "uccāraṇa",
-      "vyāpakatva",
-      "Śiva"
-    ],
+    "primary_concepts": ["Bhairava-śabda", "uccāraṇa", "vyāpakatva", "Śiva"],
     "secondary_concepts": [
       "mantra-japa",
       "sound contemplation",
       "divine presence",
       "remembrance"
     ],
-    "related_verses": [
-      16,
-      39,
-      40,
-      131
-    ],
+    "related_verses": [16, 39, 40, 131],
     "beginner_explanation": "Repeat the name 'Bhairava' again and again with feeling and attention. While doing it, remember that this divine presence fills everything and is never absent. The name then becomes more than a word; it becomes a way to feel connected to the sacred.",
     "developer_explanation": "This verse treats the very phoneme-body of 'Bhairava' as efficacious through santatoccāraṇa joined with contemplation of universal pervasion. Unlike merely mechanical japa, the recitation is informed by the semantic insight that Bhairava is sarvavyāpaka. The culmination 'acchiv' in the OCR likely points toward śivatva or union with Śiva through mantra-infused recognition.",
     "tags": [
@@ -5287,24 +4128,13 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "supportless mind",
-    "primary_concepts": [
-      "nirādhāra",
-      "manas",
-      "dhyāna",
-      "śama"
-    ],
+    "primary_concepts": ["nirādhāra", "manas", "dhyāna", "śama"],
     "secondary_concepts": [
       "akāśa-like openness",
       "objectless attention",
       "stilling of vṛttis"
     ],
-    "related_verses": [
-      104,
-      118,
-      133,
-      134,
-      138
-    ],
+    "related_verses": [104, 118, 133, 134, 138],
     "beginner_explanation": "Usually the mind is busy holding onto something: a thought, feeling, memory, or goal. This verse suggests gently letting the mind rest without leaning on anything at all. When it stops grabbing for support, it naturally becomes quiet, like muddy water settling on its own.",
     "developer_explanation": "The key term nirādhāra points to an objectless condition of mind, free from dependence on prameya or conceptual supports. This is not mere blankness but the śānta condition induced by dhyāna-preraṇā, where manas ceases its outward projection and approaches Bhairava through unsupported repose. It closely aligns with non-conceptual upāyas in which the mind is stilled by absence of ālambana.",
     "tags": [
@@ -5327,25 +4157,14 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "the all-pervading Lord",
-    "primary_concepts": [
-      "nitya",
-      "vibhu",
-      "dharādhāra",
-      "vyāpaka"
-    ],
+    "primary_concepts": ["nitya", "vibhu", "dharādhāra", "vyāpaka"],
     "secondary_concepts": [
       "īśvara",
       "identity through contemplation",
       "sarvavyāpti",
       "kṛtārthatā"
     ],
-    "related_verses": [
-      7,
-      15,
-      19,
-      137,
-      140
-    ],
+    "related_verses": [7, 15, 19, 137, 140],
     "beginner_explanation": "Think again and again about the deepest reality as something present everywhere, holding everything together, never absent. Over time, this changes how you feel and see yourself. Instead of feeling small and separate, you begin to sense that same vastness in your own being.",
     "developer_explanation": "This verse uses affirmational contemplation of Bhairava as nitya, vibhu, adhāra, and vyāpaka, reflecting classical Śaiva theology of the all-pervasive Self. The phrase suggesting constant contemplation points toward bhāvanā that matures into tādrūpya, becoming of the same form as the contemplated reality. The movement is from conceptual recognition of universal support to embodied nondual identity.",
     "tags": [
@@ -5368,25 +4187,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the insubstantiality of appearances",
-    "primary_concepts": [
-      "atattva",
-      "indrajāla",
-      "idam",
-      "dārḍhya-śama"
-    ],
+    "primary_concepts": ["atattva", "indrajāla", "idam", "dārḍhya-śama"],
     "secondary_concepts": [
       "māyā",
       "phenomenal illusion",
       "inquiry",
       "disidentification"
     ],
-    "related_verses": [
-      27,
-      122,
-      131,
-      134,
-      135
-    ],
+    "related_verses": [27, 122, 131, 134, 135],
     "beginner_explanation": "This verse compares the world of appearances to a magic show. Things seem solid and convincing, but if you look more deeply, they do not stand on their own in the way you first assume. By questioning what is truly real, the mind becomes less trapped and more peaceful.",
     "developer_explanation": "Indrajāla here functions as a classic metaphor for the projected and deceptive solidity of phenomenal manifestation. The practitioner interrogates the ontological status of idam as atattva, not to deny manifestation absolutely, but to loosen reification and enter niścala-śama. In Trika terms this is a contemplative deconstruction of māyīya differentiation that prepares recognition of the underlying cit.",
     "tags": [
@@ -5409,25 +4217,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the illuminating Self",
-    "primary_concepts": [
-      "ātman",
-      "jñāna",
-      "kriyā",
-      "śūnya"
-    ],
+    "primary_concepts": ["ātman", "jñāna", "kriyā", "śūnya"],
     "secondary_concepts": [
       "prakāśa",
       "epistemic dependence",
       "bahirbhāva",
       "emptiness of world"
     ],
-    "related_verses": [
-      15,
-      21,
-      133,
-      135,
-      137
-    ],
+    "related_verses": [15, 21, 133, 135, 137],
     "beginner_explanation": "This verse asks you to notice that everything you know appears only within awareness. If all experience depends on knowing, then the world you take to be fully outside and separate becomes less solid than it seems. What remains central is the clear presence in which everything shows up.",
     "developer_explanation": "The verse pivots on the primacy of ātman as prakāśaka, before the dual division of jñāna and kriyā as discrete categories. Since bahirbhāva is jñānāyatta, dependent upon cognition, jagat is termed śūnya: empty of independent self-standing objectivity, not absent as appearance. This resonates with Pratyabhijñā epistemology, where manifest reality is grounded in self-luminous consciousness.",
     "tags": [
@@ -5450,26 +4247,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the Self beyond bondage and liberation",
-    "primary_concepts": [
-      "bandha",
-      "mokṣa",
-      "pratibimba",
-      "buddhi"
-    ],
+    "primary_concepts": ["bandha", "mokṣa", "pratibimba", "buddhi"],
     "secondary_concepts": [
       "fear",
       "reflection metaphor",
       "nondual freedom",
       "appearance"
     ],
-    "related_verses": [
-      20,
-      21,
-      133,
-      134,
-      137,
-      140
-    ],
+    "related_verses": [20, 21, 133, 134, 137, 140],
     "beginner_explanation": "This verse says that from the deepest point of view, both being trapped and being set free are ideas created by fear. Reality itself is already free. The world is like a reflection in a mirror: it appears clearly, but it does not bind the mirror.",
     "developer_explanation": "The denial of both bandha and mokṣa is a hallmark of radical nondual Śaivism, where limitation belongs to contracted awareness, not to Bhairava-consciousness itself. The phrase comparing the world to pratibimba in buddhi evokes appearance without substantial separateness, preserving manifestation while denying bondage-producing reification. This is closely aligned with anupāya-style recognition of intrinsic freedom.",
     "tags": [
@@ -5492,25 +4277,14 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "sense withdrawal",
-    "primary_concepts": [
-      "indriya",
-      "dvāra",
-      "sukha-duḥkha",
-      "svātman"
-    ],
+    "primary_concepts": ["indriya", "dvāra", "sukha-duḥkha", "svātman"],
     "secondary_concepts": [
       "pratyāhāra",
       "self-abidance",
       "detachment from contact",
       "inner resting"
     ],
-    "related_verses": [
-      50,
-      87,
-      100,
-      137,
-      138
-    ],
+    "related_verses": [50, 87, 100, 137, 138],
     "beginner_explanation": "Pleasure and pain usually enter through seeing, hearing, touching, tasting, and smelling. This verse advises turning attention away from chasing these inputs for a while and resting inwardly. Like closing the doors of a noisy house, inner quiet becomes easier to notice.",
     "developer_explanation": "Indriya-dvāra is framed as the locus of saṅgama with sukha and duḥkha, implying the conditioned oscillation of empirical experience. By relinquishing fixation on sensory traffic, the practitioner enters a form of pratyāhāra leading to svastha or self-established repose in svātman. Though practical in tone, the verse points beyond yogic withdrawal toward intrinsic autonomy of consciousness.",
     "tags": [
@@ -5533,25 +4307,14 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "the illuminating unity of knower and known",
-    "primary_concepts": [
-      "jñāna",
-      "jñeya",
-      "ātman",
-      "prakāśaka"
-    ],
+    "primary_concepts": ["jñāna", "jñeya", "ātman", "prakāśaka"],
     "secondary_concepts": [
       "unity of subject-object",
       "self-luminosity",
       "cit",
       "epistemic nonduality"
     ],
-    "related_verses": [
-      15,
-      19,
-      21,
-      134,
-      135
-    ],
+    "related_verses": [15, 19, 21, 134, 135],
     "beginner_explanation": "Everything you experience is known because awareness lights it up. This verse says the one who knows and the thing known are not truly separate in the deepest sense. Both appear within the same field of consciousness, like waves in one ocean.",
     "developer_explanation": "The verse asserts ātman as the universal prakāśaka and resolves the duality of jñāna and jñeya through ekasvabhāvatva. This is quintessential Trika epistemic nondualism: subject, process of knowing, and object are differentiated expressions of a single self-revealing cit. It forms a succinct contemplative gateway into pratyabhijñā, recognition of consciousness as both revealer and revealed.",
     "tags": [
@@ -5587,23 +4350,10 @@
       "laya",
       "beyond mental operations"
     ],
-    "related_verses": [
-      131,
-      136,
-      137,
-      139,
-      140
-    ],
+    "related_verses": [131, 136, 137, 139, 140],
     "beginner_explanation": "This verse points to a very deep stillness where the usual inner machinery stops operating. Thoughts, personal identity, and even the sense of 'I am doing this' fade away. What remains is described as Bhairava's own presence.",
     "developer_explanation": "The fourfold set mānasa-cetanā-śakti-ātman likely indicates progressively subtler structures of individualized experience as apprehended in practice. Their pari-kṣaya is not annihilation of consciousness but cessation of contracted modalities, revealing Bhairava-vapuḥ as the nondual ground. This verse stands near the culmination of the dhāraṇā section, articulating laya into the transpersonal core of awareness-power.",
-    "tags": [
-      "dissolution",
-      "bhairava",
-      "mind",
-      "shakti",
-      "advanced",
-      "laya"
-    ]
+    "tags": ["dissolution", "bhairava", "mind", "shakti", "advanced", "laya"]
   },
   {
     "verse_number": 139,
@@ -5616,23 +4366,14 @@
     "difficulty": "beginner",
     "practice_type": "contemplation",
     "focus_object": "the corpus of 112 teachings",
-    "primary_concepts": [
-      "upadeśa",
-      "śataṃ dvādaśādhikam",
-      "jñāna",
-      "devi"
-    ],
+    "primary_concepts": ["upadeśa", "śataṃ dvādaśādhikam", "jñāna", "devi"],
     "secondary_concepts": [
       "summary statement",
       "transmission",
       "spiritual mastery",
       "completion of methods"
     ],
-    "related_verses": [
-      24,
-      140,
-      163
-    ],
+    "related_verses": [24, 140, 163],
     "beginner_explanation": "Here Bhairava says he has given 112 meditation teachings in brief form. The point is not just to collect methods, but to truly understand and practice them. Doing so makes a person genuinely wise, not merely informed.",
     "developer_explanation": "Nistaranga or 'wave-less' suggests these upadeśas aim at the cessation of mental fluctuation and direct entry into unmodified awareness. The verse formally closes the dhāraṇā section by numbering the teachings and linking their assimilation to jñānavijjana, realized knowing rather than scholastic accumulation. It functions as both colophon and validation of the preceding methods.",
     "tags": [
@@ -5655,23 +4396,14 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "full union with a single method",
-    "primary_concepts": [
-      "eka",
-      "yukta",
-      "bhairava",
-      "anugraha"
-    ],
+    "primary_concepts": ["eka", "yukta", "bhairava", "anugraha"],
     "secondary_concepts": [
       "siddhi",
       "speech power",
       "śāpa",
       "transformative assimilation"
     ],
-    "related_verses": [
-      139,
-      141,
-      142
-    ],
+    "related_verses": [139, 141, 142],
     "beginner_explanation": "You do not need to master all 112 methods. Bhairava says that deeply entering even one genuine practice can transform a person completely. The verse expresses this dramatically by saying such a person becomes one with Bhairava.",
     "developer_explanation": "The emphasis on ekatame yuktah underscores intensity and completeness of assimilation over multiplicity of techniques. Becoming Bhairava here implies tādātmya with the awakened state, from which vāc and karma participate in śāpa-anugraha śakti, the potency of liberated speech and action. The verse bridges meditative accomplishment and the siddha's spontaneous efficacy.",
     "tags": [
@@ -5694,22 +4426,9 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "the liberated state",
-    "primary_concepts": [
-      "ajara",
-      "amaratā",
-      "nirguṇa",
-      "siddhi"
-    ],
-    "secondary_concepts": [
-      "jīvanmukti",
-      "Bhairava-state",
-      "transcendence"
-    ],
-    "related_verses": [
-      142,
-      143,
-      150
-    ],
+    "primary_concepts": ["ajara", "amaratā", "nirguṇa", "siddhi"],
+    "secondary_concepts": ["jīvanmukti", "Bhairava-state", "transcendence"],
+    "related_verses": [142, 143, 150],
     "beginner_explanation": "This verse points to what spiritual freedom looks like. It says the realized person is not defined by aging, fear, or fixed qualities in the usual way. The point is not that the body literally never changes, but that awareness is discovered as deeper than change.",
     "developer_explanation": "Despite OCR corruption, the verse clearly signals the lakṣaṇa of the siddha/yogin as ajara-amara and avarṇa/agūṇa-like, evoking the trans-empirical status of liberated consciousness. In Kashmiri Shaiva terms, this is not crude bodily immortality but recognition (pratyabhijñā) of one's identity with Bhairava beyond guṇa, kāla, and dehābhimāna.",
     "tags": [
@@ -5732,23 +4451,13 @@
     "difficulty": "beginner",
     "practice_type": "contemplation",
     "focus_object": "nonattachment in action",
-    "primary_concepts": [
-      "jīvanmukta",
-      "vimukta",
-      "karma",
-      "alepatā"
-    ],
+    "primary_concepts": ["jīvanmukta", "vimukta", "karma", "alepatā"],
     "secondary_concepts": [
       "actionlessness in action",
       "liberation",
       "world-engagement"
     ],
-    "related_verses": [
-      141,
-      143,
-      144,
-      150
-    ],
+    "related_verses": [141, 143, 144, 150],
     "beginner_explanation": "Devi asks a practical question: if someone is truly free, how do they live and act in everyday life? How can they do things without getting emotionally or spiritually stuck to them? This is a question many people have about meditation and real life.",
     "developer_explanation": "The verse turns from ontological description to soteriological praxis: how does the jīvanmukta remain na lipyate amid embodied conduct? The concern mirrors wider Indian discussions of akartṛtva and alepatā, here to be resolved through Bhairava's reinterpretation of ritual and practice as inner processes.",
     "tags": [
@@ -5771,34 +4480,16 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "the true agent of spiritual practice",
-    "primary_concepts": [
-      "japa",
-      "dhyāna",
-      "pūjā",
-      "tṛpti"
-    ],
+    "primary_concepts": ["japa", "dhyāna", "pūjā", "tṛpti"],
     "secondary_concepts": [
       "kartṛ",
       "ritual interiorization",
       "liberated practice"
     ],
-    "related_verses": [
-      144,
-      145,
-      146,
-      147,
-      148
-    ],
+    "related_verses": [144, 145, 146, 147, 148],
     "beginner_explanation": "Devi is asking what spiritual practice really means once someone knows the deeper truth. If everything is rooted in one awareness, then who is chanting, meditating, and worshipping? The verse opens the door to a more inward understanding of practice.",
     "developer_explanation": "This is a pivotal hermeneutic question: in the state of nondual realization, what becomes of japa, dhyāna, pūjā, and tṛpti? The verse prepares Bhairava's move from laukika/vaidika externality toward antaryāga, where practitioner, practice, and deity collapse into cit.",
-    "tags": [
-      "dialogue",
-      "japa",
-      "dhyana",
-      "puja",
-      "nondual-ritual",
-      "inquiry"
-    ]
+    "tags": ["dialogue", "japa", "dhyana", "puja", "nondual-ritual", "inquiry"]
   },
   {
     "verse_number": 144,
@@ -5811,23 +4502,9 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "the distinction between outer and inner ritual",
-    "primary_concepts": [
-      "homa",
-      "yāga",
-      "bāhya-prakriyā",
-      "sthūla"
-    ],
-    "secondary_concepts": [
-      "antaryāga",
-      "ritual critique",
-      "adhikāra"
-    ],
-    "related_verses": [
-      143,
-      145,
-      147,
-      149
-    ],
+    "primary_concepts": ["homa", "yāga", "bāhya-prakriyā", "sthūla"],
+    "secondary_concepts": ["antaryāga", "ritual critique", "adhikāra"],
+    "related_verses": [143, 145, 147, 149],
     "beginner_explanation": "Bhairava says outer rituals have their place, but they are not the deepest teaching here. They help people who need visible forms and actions. He is about to explain a more inward kind of practice.",
     "developer_explanation": "The verse explicitly relegates homa/yāga as bāhyā prakriyā for the sthūla-adhikārin. This accords with Trika's recurrent interiorization of ritual, where external sacrificial forms are subordinated to subtle and supreme worship enacted within consciousness itself.",
     "tags": [
@@ -5850,34 +4527,12 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "spontaneous inner sound",
-    "primary_concepts": [
-      "para-bhāva",
-      "bhāvanā",
-      "nāda",
-      "mantrātman"
-    ],
-    "secondary_concepts": [
-      "ajapa-japa",
-      "spanda",
-      "inner resonance"
-    ],
-    "related_verses": [
-      39,
-      40,
-      41,
-      143,
-      146
-    ],
+    "primary_concepts": ["para-bhāva", "bhāvanā", "nāda", "mantrātman"],
+    "secondary_concepts": ["ajapa-japa", "spanda", "inner resonance"],
+    "related_verses": [39, 40, 41, 143, 146],
     "beginner_explanation": "This verse says real chanting is not only repeating words with the mouth. When the mind rests deeply again and again in a higher stillness, a natural inner vibration or hum may be felt. Staying with that living inner resonance becomes the true mantra.",
     "developer_explanation": "Bhūyo bhūyaḥ pare bhāve suggests repeated absorption into para-bhāva until bhāritākāratā or resonant saturation emerges as self-sounding nāda. This is quintessential ajapa-japa: mantra no longer as deliberate phonation but as the mantrātman, the autonomous pulsation of consciousness (spanda) itself.",
-    "tags": [
-      "sound",
-      "nada",
-      "mantra",
-      "ajapa",
-      "spanda",
-      "advanced"
-    ]
+    "tags": ["sound", "nada", "mantra", "ajapa", "spanda", "advanced"]
   },
   {
     "verse_number": 146,
@@ -5890,24 +4545,13 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "formless steady awareness",
-    "primary_concepts": [
-      "dhyāna",
-      "niścalā buddhi",
-      "nirākāra",
-      "nirāśraya"
-    ],
+    "primary_concepts": ["dhyāna", "niścalā buddhi", "nirākāra", "nirāśraya"],
     "secondary_concepts": [
       "formless meditation",
       "nonconceptuality",
       "pure awareness"
     ],
-    "related_verses": [
-      17,
-      18,
-      145,
-      147,
-      150
-    ],
+    "related_verses": [17, 18, 145, 147, 150],
     "beginner_explanation": "This verse says meditation is not mainly about making pictures in the mind. Real meditation is a quiet, steady awareness that does not lean on an object, image, or story. It is like resting in clear stillness itself.",
     "developer_explanation": "Here dhyāna is defined apophatically: niścalā buddhi, nirākāra, nirāśraya. Bhairava rejects body-based imaginative constructs as lower supports, privileging objectless awareness aligned with the Trika recognition of cit as self-luminous and nonrepresentational.",
     "tags": [
@@ -5930,23 +4574,9 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the vast unsupported expanse",
-    "primary_concepts": [
-      "pūjā",
-      "nirvikalpa",
-      "mahāvyoman",
-      "laya"
-    ],
-    "secondary_concepts": [
-      "inner worship",
-      "absorption",
-      "nondual devotion"
-    ],
-    "related_verses": [
-      144,
-      146,
-      148,
-      149
-    ],
+    "primary_concepts": ["pūjā", "nirvikalpa", "mahāvyoman", "laya"],
+    "secondary_concepts": ["inner worship", "absorption", "nondual devotion"],
+    "related_verses": [144, 146, 148, 149],
     "beginner_explanation": "This verse redefines worship in a very inward way. Instead of focusing on external offerings, it says the deepest worship is resting completely in boundless inner openness. In that openness, the usual busy mind softens and dissolves.",
     "developer_explanation": "Pūjā is here internalized as dṛḍha mati in the nirvikalpa mahāvyoman, culminating in adara-laya or reverential dissolution. This preserves devotional valence while transmuting ritual worship into nondual immersion, consistent with Trika's fusion of bhakti and jñāna.",
     "tags": [
@@ -5969,22 +4599,9 @@
     "difficulty": "intermediate",
     "practice_type": "meditation",
     "focus_object": "expanding inner fullness",
-    "primary_concepts": [
-      "ekatā",
-      "yukti",
-      "bhāritākāratā",
-      "tṛpti"
-    ],
-    "secondary_concepts": [
-      "integration",
-      "fullness",
-      "contentment"
-    ],
-    "related_verses": [
-      145,
-      147,
-      150
-    ],
+    "primary_concepts": ["ekatā", "yukti", "bhāritākāratā", "tṛpti"],
+    "secondary_concepts": ["integration", "fullness", "contentment"],
+    "related_verses": [145, 147, 150],
     "beginner_explanation": "This verse says deep practice gradually creates a feeling of inner completeness. Over time, less seems missing, and one feels quietly full rather than hungry for constant stimulation. That deep contentment is the real fulfillment being described.",
     "developer_explanation": "The verse describes the phenomenology of stabilized integration: from abiding in ekatā or unified alignment there emerges, dīnād dīnam, an intensifying bhāritākāratā. Tṛpti is thus not sensory satiation but the plenary fullness (pūrṇatā) of consciousness reposing in itself.",
     "tags": [
@@ -6007,22 +4624,9 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "the inner fire of the great void",
-    "primary_concepts": [
-      "mahāśūnya",
-      "vahni",
-      "homa",
-      "cetanā"
-    ],
-    "secondary_concepts": [
-      "antaryāga",
-      "sense-offering",
-      "laya"
-    ],
-    "related_verses": [
-      144,
-      147,
-      150
-    ],
+    "primary_concepts": ["mahāśūnya", "vahni", "homa", "cetanā"],
+    "secondary_concepts": ["antaryāga", "sense-offering", "laya"],
+    "related_verses": [144, 147, 150],
     "beginner_explanation": "This verse turns fire ritual into an inner practice. Instead of putting physical offerings into an outer fire, you mentally offer sensations, thoughts, and the world of experience into a vast inner emptiness. Awareness itself becomes the tool of offering.",
     "developer_explanation": "A classic antaryāga formulation: bhūtākṣa-viṣayādikam is mentally oblated into the vahni of mahāśūnyālaya, with cetanā as sruva. The sacrificial field is consciousness, and homa becomes the reabsorption of manifest tattvas into their unbounded source.",
     "tags": [
@@ -6045,23 +4649,13 @@
     "difficulty": "advanced",
     "practice_type": "meditation",
     "focus_object": "blissful all-consuming satisfaction",
-    "primary_concepts": [
-      "yāga",
-      "tuṣṭi",
-      "ānanda",
-      "kṣapaṇa"
-    ],
+    "primary_concepts": ["yāga", "tuṣṭi", "ānanda", "kṣapaṇa"],
     "secondary_concepts": [
       "purification",
       "nondual sacrifice",
       "pāpa dissolution"
     ],
-    "related_verses": [
-      141,
-      146,
-      148,
-      149
-    ],
+    "related_verses": [141, 146, 148, 149],
     "beginner_explanation": "This verse says the highest sacrifice is not an outer ceremony but a deep state of joy and fulfillment. In that joy, guilt, heaviness, and inner fragmentation are burned away. It is a cleansing through direct inner wholeness.",
     "developer_explanation": "Yāga is recast as ānanda-lakṣaṇā tuṣṭi: a nondual sacrificial consummation in which pāpa is kṣapita, not by juridical expiation but by the blazing fullness of recognized consciousness. In Trika terms, limitation is annulled through the expansion of one's identity into Parameśvara's bliss-nature.",
     "tags": [
@@ -6096,13 +4690,7 @@
       "nondual devotion",
       "essence beyond ritual"
     ],
-    "related_verses": [
-      152,
-      153,
-      23,
-      143,
-      146
-    ],
+    "related_verses": [152, 153, 23, 143, 146],
     "beginner_explanation": "This verse says real worship is not just offering things from the outside. The deepest form of worship is to become inwardly absorbed in the divine presence itself. It is like the difference between looking at fire and actually feeling its warmth.",
     "developer_explanation": "The verse identifies puja with samavesha into Rudra-Shakti rather than dravya-based ritualism. This reflects the Trika revaluation of external worship into para-bhavana, where the tattva of Bhairava is not appeased by dualistic action but by recognition-participation in one's own consciousness-power. It resonates with nondual Shaiva interiorization of yajna and puja.",
     "tags": [
@@ -6137,13 +4725,7 @@
       "inner purification",
       "sacred interiority"
     ],
-    "related_verses": [
-      151,
-      153,
-      20,
-      47,
-      122
-    ],
+    "related_verses": [151, 153, 20, 47, 122],
     "beginner_explanation": "This verse redefines spiritual cleansing. Instead of thinking purity comes mainly from outer washing, it says the deepest cleansing happens by resting in your own deepest nature, which is already aware and alive. It is like discovering that the light you were seeking outside is already shining within.",
     "developer_explanation": "The Self is described as svatantra-ananda-cinmaya and sarvagata, marking the specifically Shaiva understanding of consciousness as autonomous, blissful, and all-pervasive. Snana here is avesha into one's svarupa, an internalized sacrament akin to pratyabhijna: purification through recognition rather than ablution. The verse continues the transmutation of ritual categories into contemplative ontology.",
     "tags": [
@@ -6166,34 +4748,16 @@
     "difficulty": "advanced",
     "practice_type": "contemplation",
     "focus_object": "unity of worshipper and worshipped",
-    "primary_concepts": [
-      "pujya",
-      "dravya",
-      "pujaka",
-      "sarvata",
-      "eka"
-    ],
+    "primary_concepts": ["pujya", "dravya", "pujaka", "sarvata", "eka"],
     "secondary_concepts": [
       "ritual nonduality",
       "identity-in-difference",
       "sacral immanence"
     ],
-    "related_verses": [
-      151,
-      152,
-      134,
-      144
-    ],
+    "related_verses": [151, 152, 134, 144],
     "beginner_explanation": "Usually we think of worship as involving three parts: the person praying, the offering, and the divine being. This verse says that at the deepest level these are not separate. Real worship happens when this division softens and everything is seen as expressions of one sacred reality.",
     "developer_explanation": "This is a direct collapse of triputi: pujaka, pujya, and dravya are all resolved into one sarvavyapin principle. The verse articulates a distinctly nondual Shaiva hermeneutic of ritual in which external pujana is valid only insofar as it is grounded in abheda-darshana. It echoes broader Trika themes of the universe as the self-expression of Bhairava.",
-    "tags": [
-      "nonduality",
-      "worship",
-      "triputi",
-      "unity",
-      "advanced",
-      "ritual"
-    ]
+    "tags": ["nonduality", "worship", "triputi", "unity", "advanced", "ritual"]
   },
   {
     "verse_number": 154,
@@ -6206,35 +4770,16 @@
     "difficulty": "advanced",
     "practice_type": "breathwork",
     "focus_object": "coiled movement of prana",
-    "primary_concepts": [
-      "prana",
-      "jiva",
-      "iccha",
-      "kutila-akriti",
-      "Mahadevi"
-    ],
+    "primary_concepts": ["prana", "jiva", "iccha", "kutila-akriti", "Mahadevi"],
     "secondary_concepts": [
       "kundalini",
       "inhalation-exhalation",
       "para-apara shakti"
     ],
-    "related_verses": [
-      24,
-      25,
-      29,
-      55,
-      156
-    ],
+    "related_verses": [24, 25, 29, 55, 156],
     "beginner_explanation": "This verse points to the subtle movement of breath and life-energy as something sacred. The breath goes out and comes back in, and this living movement is described as the Goddess herself. By paying close attention to this subtle current, ordinary breathing becomes a doorway to deeper awareness.",
     "developer_explanation": "The text shifts to the subtle physiology of prana, whose outgoing and incoming movement is said to operate through iccha and in kutila-akriti, suggestive of kundalini's coiled dynamism. Identifying this with the dirghatma Mahadevi and para-apara situates respiratory flux within the Trika Shakti cosmology, where pranic pulsation is a manifestation of universal spanda.",
-    "tags": [
-      "breath",
-      "prana",
-      "kundalini",
-      "shakti",
-      "advanced",
-      "spanda"
-    ]
+    "tags": ["breath", "prana", "kundalini", "shakti", "advanced", "spanda"]
   },
   {
     "verse_number": 155,
@@ -6254,17 +4799,8 @@
       "samavishta",
       "para Bhairava"
     ],
-    "secondary_concepts": [
-      "kundalini ascent",
-      "shakti-union",
-      "absorption"
-    ],
-    "related_verses": [
-      154,
-      74,
-      75,
-      148
-    ],
+    "secondary_concepts": ["kundalini ascent", "shakti-union", "absorption"],
+    "related_verses": [154, 74, 75, 148],
     "beginner_explanation": "The verse says that if you stay with this inner current of living energy carefully and steadily, it leads into deep joy. By following it all the way, the meditator is absorbed into something vast and sacred. It is like letting a river carry you back to the ocean.",
     "developer_explanation": "Anucarana of the Devi described in the prior verse culminates in samavesha through mahanandamaya pathing, likely implying ascent through the subtle channel or sustained entrainment to Shakti-spanda. The attainment of para-bhairava through Devi-samavishta expresses the Trika axiom that Shakti is the operative means and Bhairava the realized ground. The verse sits naturally in the kula/kundalini interpretive stream of the VBT.",
     "tags": [
@@ -6287,36 +4823,17 @@
     "difficulty": "beginner",
     "practice_type": "breathwork",
     "focus_object": "hamsa breath-mantra",
-    "primary_concepts": [
-      "sa",
-      "ha",
-      "hamsa",
-      "japa",
-      "jiva"
-    ],
+    "primary_concepts": ["sa", "ha", "hamsa", "japa", "jiva"],
     "secondary_concepts": [
       "ajapa japa",
       "natural mantra",
       "breath awareness",
       "So'ham"
     ],
-    "related_verses": [
-      24,
-      25,
-      26,
-      54,
-      154
-    ],
+    "related_verses": [24, 25, 26, 54, 154],
     "beginner_explanation": "This verse teaches that your breath is already repeating a mantra on its own. As the breath goes out and comes in, it naturally makes a subtle sound pattern called hamsa. The practice is simply to notice this ever-present inner recitation rather than forcing anything.",
     "developer_explanation": "This is the classic ajapa-gayatri of hamsa/so'ham, where exhalation and inhalation are phonemically mapped as sa and ha. The numerical reference to the daily breath count underscores uninterrupted mantra-process as an intrinsic function of embodied consciousness, though obscured to the jadah. The verse links mantra-shastra, prana-vijnana, and spontaneous recognition of ever-occurring japa.",
-    "tags": [
-      "sound",
-      "breath",
-      "hamsa",
-      "ajapa",
-      "mantra",
-      "beginner"
-    ]
+    "tags": ["sound", "breath", "hamsa", "ajapa", "mantra", "beginner"]
   },
   {
     "verse_number": 157,
@@ -6329,31 +4846,16 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "sacred secrecy of the teaching",
-    "primary_concepts": [
-      "paramamrita",
-      "uttama",
-      "na prakashyam",
-      "rahasya"
-    ],
+    "primary_concepts": ["paramamrita", "uttama", "na prakashyam", "rahasya"],
     "secondary_concepts": [
       "initiation",
       "esoteric transmission",
       "protection of doctrine"
     ],
-    "related_verses": [
-      158,
-      159,
-      160
-    ],
+    "related_verses": [158, 159, 160],
     "beginner_explanation": "Here the teaching is described as precious and powerful. Because deep practices can be misunderstood or misused, they are meant to be shared carefully. This is less about exclusion and more about respect, readiness, and proper guidance.",
     "developer_explanation": "The verse marks the transition into the rahasya-protection motif common in Tantric literature. Paramamrita is not to be made public indiscriminately because adhikara conditions the efficacy of upadesha; transmission depends on preparedness, not mere access. This reflects initiatory ethics rather than simple secrecy for its own sake.",
-    "tags": [
-      "dialogue",
-      "secrecy",
-      "rahasya",
-      "transmission",
-      "intermediate"
-    ]
+    "tags": ["dialogue", "secrecy", "rahasya", "transmission", "intermediate"]
   },
   {
     "verse_number": 158,
@@ -6373,26 +4875,11 @@
       "unnatatman",
       "adhikara"
     ],
-    "secondary_concepts": [
-      "discipleship",
-      "devotion",
-      "ethical fitness"
-    ],
-    "related_verses": [
-      157,
-      159,
-      160
-    ],
+    "secondary_concepts": ["discipleship", "devotion", "ethical fitness"],
+    "related_verses": [157, 159, 160],
     "beginner_explanation": "This verse says that deep spiritual teachings work best in someone who is sincere, respectful, and inwardly mature. It warns against giving them to people who are hostile or careless. In simple terms, powerful methods need the right hands and heart.",
     "developer_explanation": "The recipient is defined through adhikara: not khala, krura, or abhakta, but guru-padabhakta, vira, and unnatatman. The use of vira is significant in Tantric discourse, indicating not merely courage but capacity to withstand and assimilate transformative nondual teachings. The verse encodes both ethical and initiatory qualifications.",
-    "tags": [
-      "dialogue",
-      "adhikara",
-      "disciple",
-      "guru",
-      "vira",
-      "intermediate"
-    ]
+    "tags": ["dialogue", "adhikara", "disciple", "guru", "vira", "intermediate"]
   },
   {
     "verse_number": 159,
@@ -6405,22 +4892,13 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "proper transmission within lineage",
-    "primary_concepts": [
-      "bhairava",
-      "guru-varga",
-      "datavya",
-      "nishshankaya"
-    ],
+    "primary_concepts": ["bhairava", "guru-varga", "datavya", "nishshankaya"],
     "secondary_concepts": [
       "lineage",
       "authorized instruction",
       "esoteric trust"
     ],
-    "related_verses": [
-      157,
-      158,
-      160
-    ],
+    "related_verses": [157, 158, 160],
     "beginner_explanation": "After warning against careless sharing, this verse says there are people to whom the teaching should indeed be given. These are sincere practitioners connected to a trustworthy line of guidance. Good teaching is protected, but it is also meant to be passed on rightly.",
     "developer_explanation": "The verse balances restriction with positive injunction: upadesha is datavya to bhairavas and the guru-varga, i.e., within a living initiatory and practical context. Nishshankaya suggests confident transmission when adhikara is established. Tantric secrecy here preserves continuity, not hoarding.",
     "tags": [
@@ -6450,16 +4928,8 @@
       "sthira",
       "param idam dhanam"
     ],
-    "secondary_concepts": [
-      "renunciation",
-      "spiritual value",
-      "dispassion"
-    ],
-    "related_verses": [
-      157,
-      158,
-      159
-    ],
+    "secondary_concepts": ["renunciation", "spiritual value", "dispassion"],
+    "related_verses": [157, 158, 159],
     "beginner_explanation": "This verse says that worldly things are unstable compared to direct spiritual realization. It does not always mean physically abandoning everything, but it does mean seeing what is truly lasting and valuable. The point is to choose the deeper treasure over temporary distractions.",
     "developer_explanation": "The rhetoric of parityaga contrasts unstable worldly holdings with the sthira param dhanam of liberating knowledge or realization. In a Kashmir Shaiva framework this need not imply crude world-denial; rather, it establishes a hierarchy of value in which all finite possessions are secondary to Bhairava-samavesha. The verse closes the section by affirming the incomparable worth of the teaching.",
     "tags": [
@@ -6482,26 +4952,14 @@
     "difficulty": "intermediate",
     "practice_type": "contemplation",
     "focus_object": "the supreme teaching as sacred nectar",
-    "primary_concepts": [
-      "paramamritam",
-      "prana",
-      "guhya-upadesha",
-      "tripti"
-    ],
+    "primary_concepts": ["paramamritam", "prana", "guhya-upadesha", "tripti"],
     "secondary_concepts": [
       "adhikara",
       "guru-shishya transmission",
       "esoteric restraint",
       "reverence"
     ],
-    "related_verses": [
-      136,
-      137,
-      158,
-      159,
-      160,
-      162
-    ],
+    "related_verses": [136, 137, 158, 159, 160, 162],
     "beginner_explanation": "This verse says the teaching is precious and should be shared carefully, not casually. The image is strong: even something as valuable as breath could be given, but not this deepest wisdom without discernment. It also shows that Devi feels deeply fulfilled by what she has heard.",
     "developer_explanation": "The contrast between prana and paramamrita marks the upadesha as a supreme, initiatory essence rather than public doctrine. This reflects Tantric concerns with adhikara and the guarded transmission of liberating knowledge, especially where the teaching points directly to Bhairava-consciousness beyond conventional means. Devi's statement of tripti also signals the completion of shravana at the culmination of the VBT's revelatory arc.",
     "tags": [
@@ -6537,14 +4995,7 @@
       "unity of methods",
       "recognition"
     ],
-    "related_verses": [
-      1,
-      7,
-      24,
-      160,
-      161,
-      163
-    ],
+    "related_verses": [1, 7, 24, 160, 161, 163],
     "beginner_explanation": "Here Devi says she now understands the core meaning of the whole teaching. Instead of being lost in many different practices or categories, she sees their common heart. It is like finally understanding the main idea behind many separate lessons.",
     "developer_explanation": "The verse presents the VBT as the sara and hridaya of the Rudrayamala, reducing manifold shakti-prabhedas to an essential insight. This is consistent with the text's architecture: diverse dharanas culminate not in multiplicity of means but in recognition of their single non-dual ground. The language of hridaya also resonates with Trika understandings of the Heart as the locus of Bhairava's self-revelation.",
     "tags": [
@@ -6568,25 +5019,14 @@
     "difficulty": "beginner",
     "practice_type": "contemplation",
     "focus_object": "the union of Devi and Shiva",
-    "primary_concepts": [
-      "ananda",
-      "Devi",
-      "Shiva",
-      "embrace"
-    ],
+    "primary_concepts": ["ananda", "Devi", "Shiva", "embrace"],
     "secondary_concepts": [
       "union",
       "completion",
       "devotional intimacy",
       "nondual symbolism"
     ],
-    "related_verses": [
-      1,
-      2,
-      160,
-      161,
-      162
-    ],
+    "related_verses": [1, 2, 160, 161, 162],
     "beginner_explanation": "This closing image is simple and beautiful: after hearing the teaching, the Goddess is joyful and embraces Shiva. On the surface it is a loving ending, but it also hints that wisdom ends in union, not argument. The teaching has done its work.",
     "developer_explanation": "The narrative closure through ananda and alingana is not merely ornamental; it encodes the re-union of Shiva and Shakti after doctrinal and soteriological clarification. In a Trika reading, the embrace symbolizes the inseparability of prakasha and vimarsha, the consummation of recognition in affective and ontological unity. Thus the text ends with embodied non-dual iconography rather than abstract conclusion.",
     "tags": [
