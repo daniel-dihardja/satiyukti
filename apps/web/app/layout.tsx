@@ -1,4 +1,5 @@
 import { Lato, Cormorant_Garamond } from "next/font/google"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -30,6 +31,9 @@ export default function RootLayout({
       <body>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
+      {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+      )}
     </html>
   )
 }
