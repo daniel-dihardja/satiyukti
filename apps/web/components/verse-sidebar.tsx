@@ -133,7 +133,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
             role="button"
             tabIndex={0}
             onClick={() => toggleSection("opening")}
-            onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleSection("opening") } }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault()
+                toggleSection("opening")
+              }
+            }}
             aria-expanded={openSections.opening}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
@@ -172,7 +177,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
             role="button"
             tabIndex={0}
             onClick={() => toggleSection("dharanas")}
-            onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleSection("dharanas") } }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault()
+                toggleSection("dharanas")
+              }
+            }}
             aria-expanded={openSections.dharanas}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >
@@ -256,7 +266,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
             role="button"
             tabIndex={0}
             onClick={() => toggleSection("closing")}
-            onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleSection("closing") } }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault()
+                toggleSection("closing")
+              }
+            }}
             aria-expanded={openSections.closing}
             className="cursor-pointer rounded-md transition-colors select-none hover:bg-sidebar-accent hover:text-sidebar-foreground"
           >

@@ -12,7 +12,12 @@ export function ChatPanel() {
 
   return (
     <div className="flex h-full flex-col p-5 md:p-6">
-      <div role="log" aria-label="Chat messages" aria-live="polite" className="mb-5 flex-1 space-y-5 overflow-y-auto">
+      <div
+        role="log"
+        aria-label="Chat messages"
+        aria-live="polite"
+        className="mb-5 flex-1 space-y-5 overflow-y-auto"
+      >
         {messages.length === 0 && (
           <p className="mt-10 text-center text-base text-muted-foreground">
             Select a verse, then ask anything about it.
@@ -67,7 +72,7 @@ export function ChatPanel() {
         <button
           type="submit"
           disabled={status !== "ready"}
-          className="rounded-xl bg-primary px-5 py-3 text-base text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50 disabled:opacity-50"
+          className="rounded-xl bg-primary px-5 py-3 text-base text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none disabled:opacity-50"
         >
           Send
         </button>

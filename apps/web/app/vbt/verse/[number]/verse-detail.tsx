@@ -62,7 +62,10 @@ export function VerseDetail({
 
       {/* Explanation tabs */}
       <div className="mb-8">
-        <div role="tablist" className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1">
+        <div
+          role="tablist"
+          className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1"
+        >
           <button
             id="tab-beginner"
             role="tab"
@@ -164,7 +167,10 @@ export function VerseDetail({
 
       {/* Prev / Next navigation — desktop only (mobile uses fixed bar below) */}
       {(prev || next) && (
-        <nav aria-label="Verse navigation" className="-mx-6 mt-12 hidden md:-mx-10 md:block">
+        <nav
+          aria-label="Verse navigation"
+          className="-mx-6 mt-12 hidden md:-mx-10 md:block"
+        >
           <div className="h-px bg-border" />
           <div className="grid grid-cols-2">
             {/* Prev */}
@@ -211,12 +217,15 @@ export function VerseDetail({
       )}
       {/* Prev / Next navigation — mobile tab bar */}
       {(prev || next) && (
-        <nav aria-label="Verse navigation" className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background shadow-[0_-4px_16px_rgba(0,0,0,0.08)] md:hidden">
+        <nav
+          aria-label="Verse navigation"
+          className="fixed right-0 bottom-0 left-0 z-10 border-t border-border bg-background shadow-[0_-4px_16px_rgba(0,0,0,0.08)] md:hidden"
+        >
           <div className="grid grid-cols-2">
             {prev ? (
               <Link
                 href={`/vbt/verse/${prev.number}`}
-                className="flex items-start gap-2.5 px-4 pt-4 transition-colors hover:bg-muted/50 active:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring/50"
+                className="flex items-start gap-2.5 px-4 pt-4 transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
                 style={{
                   paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
                 }}
@@ -242,7 +251,7 @@ export function VerseDetail({
             {next ? (
               <Link
                 href={`/vbt/verse/${next.number}`}
-                className="flex items-start justify-end gap-2.5 border-l border-border px-4 pt-4 text-right transition-colors hover:bg-muted/50 active:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring/50"
+                className="flex items-start justify-end gap-2.5 border-l border-border px-4 pt-4 text-right transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
                 style={{
                   paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
                 }}
