@@ -74,7 +74,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
   })
   const [openCategories, setOpenCategories] = useState<Set<Category>>(new Set())
 
-  const activeVerse = pathname.startsWith("/vidya/verse/")
+  const activeVerse = pathname.startsWith("/vbt/verse/")
     ? parseInt(pathname.split("/").pop() ?? "0", 10)
     : null
 
@@ -98,6 +98,33 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
       closing: activeGroups.closing.filter(matchVerse),
     }
   }, [activeGroups, query])
+
+  useEffect(() => {
+    if (activeVerse === null) return
+
+    if (activeGroups.opening.some((v) => v.verse_number === activeVerse)) {
+      setOpenSections((prev) => ({ ...prev, opening: true }))
+    } else if (
+      activeGroups.closing.some((v) => v.verse_number === activeVerse)
+    ) {
+      setOpenSections((prev) => ({ ...prev, closing: true }))
+    } else {
+      setOpenSections((prev) => ({ ...prev, dharanas: true }))
+      for (const [cat, verses] of Object.entries(activeGroups.dharanas) as [
+        Category,
+        EnrichedVerse[],
+      ][]) {
+        if (verses.some((v) => v.verse_number === activeVerse)) {
+          setOpenCategories((prev) => {
+            const next = new Set(prev)
+            next.add(cat)
+            return next
+          })
+          break
+        }
+      }
+    }
+  }, [activeVerse, activeGroups])
 
   useEffect(() => {
     const isFiltering = query.trim() !== ""
@@ -131,9 +158,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
     <Sidebar>
       <SidebarHeader>
         <div className="px-2 pt-2 pb-1">
-          <p className="text-xs font-semibold tracking-widest text-muted-foreground uppercase">
+          <Link
+            href="/"
+            className="text-xs font-semibold tracking-widest text-muted-foreground uppercase transition-colors hover:text-foreground"
+          >
             Vijñāna Bhairava Tantra
-          </p>
+          </Link>
         </div>
         <SidebarInput
           placeholder="Search verses…"
@@ -233,7 +263,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
                                 size="sm"
                               >
                                 <Link
-                                  href={`/vidya/verse/${verse.verse_number}`}
+                                  href={`/vbt/verse/${verse.verse_number}`}
                                   onClick={() => setOpenMobile(false)}
                                 >
                                   <span className="w-5 shrink-0 text-right text-xs text-muted-foreground tabular-nums">
@@ -311,7 +341,7 @@ function VerseItem({
     <SidebarMenuItem>
       <SidebarMenuButton asChild isActive={isActive} size="sm">
         <Link
-          href={`/vidya/verse/${verse.verse_number}`}
+          href={`/vbt/verse/${verse.verse_number}`}
           onClick={() => setOpenMobile(false)}
         >
           <span className="w-5 shrink-0 text-right text-xs text-muted-foreground tabular-nums">

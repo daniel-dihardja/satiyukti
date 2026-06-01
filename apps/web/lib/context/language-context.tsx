@@ -18,14 +18,14 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguageState] = useState<Language>("en")
 
   useEffect(() => {
-    const stored = localStorage.getItem("vidya-language")
+    const stored = localStorage.getItem("vbt-language")
     if (stored === "en" || stored === "de" || stored === "id")
       setLanguageState(stored)
   }, [])
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang)
-    localStorage.setItem("vidya-language", lang)
+    localStorage.setItem("vbt-language", lang)
   }
 
   return (

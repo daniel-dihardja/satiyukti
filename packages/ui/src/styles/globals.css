@@ -83,7 +83,7 @@
     --chart-3: oklch(0.75 0.09 75);
     --chart-4: oklch(0.55 0.08 28);
     --chart-5: oklch(0.40 0.10 40);
-    --radius: 0.5rem;
+    --radius: 0rem;
     /* Sidebar slightly deeper than page */
     --sidebar: oklch(0.955 0.018 68);
     --sidebar-foreground: oklch(0.185 0.035 45);
