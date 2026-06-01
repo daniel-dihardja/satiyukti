@@ -12,30 +12,28 @@ export default function Icon({ id }: { id: string }) {
   const fontSize = size * 0.48
 
   return new ImageResponse(
-    (
-      <div
+    <div
+      style={{
+        width: size,
+        height: size,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        background: "#0a0a0a",
+        borderRadius: size * 0.2,
+      }}
+    >
+      <span
         style={{
-          width: size,
-          height: size,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          background: "#0a0a0a",
-          borderRadius: size * 0.2,
+          fontSize,
+          color: "#e8d5b7",
+          fontFamily: "serif",
+          lineHeight: 1,
         }}
       >
-        <span
-          style={{
-            fontSize,
-            color: "#e8d5b7",
-            fontFamily: "serif",
-            lineHeight: 1,
-          }}
-        >
-          ॐ
-        </span>
-      </div>
-    ),
+        ॐ
+      </span>
+    </div>,
     { width: size, height: size }
   )
 }
