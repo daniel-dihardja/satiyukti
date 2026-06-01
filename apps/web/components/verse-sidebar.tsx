@@ -100,6 +100,31 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
   }, [activeGroups, query])
 
   useEffect(() => {
+    if (activeVerse === null) return
+
+    if (activeGroups.opening.some((v) => v.verse_number === activeVerse)) {
+      setOpenSections((prev) => ({ ...prev, opening: true }))
+    } else if (activeGroups.closing.some((v) => v.verse_number === activeVerse)) {
+      setOpenSections((prev) => ({ ...prev, closing: true }))
+    } else {
+      setOpenSections((prev) => ({ ...prev, dharanas: true }))
+      for (const [cat, verses] of Object.entries(activeGroups.dharanas) as [
+        Category,
+        EnrichedVerse[],
+      ][]) {
+        if (verses.some((v) => v.verse_number === activeVerse)) {
+          setOpenCategories((prev) => {
+            const next = new Set(prev)
+            next.add(cat)
+            return next
+          })
+          break
+        }
+      }
+    }
+  }, [activeVerse, activeGroups])
+
+  useEffect(() => {
     const isFiltering = query.trim() !== ""
     if (!isFiltering) return
 

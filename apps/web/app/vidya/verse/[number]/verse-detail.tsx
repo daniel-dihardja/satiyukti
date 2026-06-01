@@ -2,20 +2,27 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import { cn } from "@workspace/ui/lib/utils"
 import type { EnrichedVerse } from "@/lib/types/verse"
 import { useLanguage } from "@/lib/context/language-context"
 
 const CATEGORY_STYLES = "bg-secondary text-secondary-foreground"
 
+type NavVerse = { number: number; title: string }
+
 export function VerseDetail({
   verseEn,
   verseDe,
   verseId,
+  prev,
+  next,
 }: {
   verseEn: EnrichedVerse
   verseDe?: EnrichedVerse
   verseId?: EnrichedVerse
+  prev?: NavVerse | null
+  next?: NavVerse | null
 }) {
   const [tab, setTab] = useState<"beginner" | "scholar">("beginner")
   const { language } = useLanguage()
@@ -27,7 +34,7 @@ export function VerseDetail({
         : verseEn
 
   return (
-    <div className="mx-auto w-full max-w-2xl px-6 pt-4 pb-14 md:px-10 md:pt-6 md:pb-16">
+    <div className="mx-auto w-full max-w-2xl px-6 pt-4 pb-28 md:px-10 md:pt-6 md:pb-16">
       {/* Header */}
       <div className="mb-8 space-y-4">
         <div className="flex flex-wrap items-center gap-2">
@@ -96,7 +103,7 @@ export function VerseDetail({
                 : "text-muted-foreground hover:text-foreground"
             )}
           >
-            Beginner
+            Simple
           </button>
           <button
             onClick={() => setTab("scholar")}
@@ -134,6 +141,98 @@ export function VerseDetail({
                 {n}
               </Link>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Prev / Next navigation — desktop only (mobile uses fixed bar below) */}
+      {(prev || next) && (
+        <div className="mt-12 -mx-6 md:-mx-10 hidden md:block">
+          <div className="h-px bg-border" />
+          <div className="grid grid-cols-2">
+            {/* Prev */}
+            {prev ? (
+              <Link
+                href={`/vidya/verse/${prev.number}`}
+                className="group flex items-center gap-3 px-6 py-5 transition-colors hover:bg-muted/50 md:px-8 md:py-6"
+              >
+                <ChevronLeft className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-foreground" />
+                <div className="min-w-0">
+                  <p className="mb-0.5 text-xs text-muted-foreground">
+                    Verse {prev.number}
+                  </p>
+                  <p className="truncate text-sm font-medium leading-snug text-foreground">
+                    {prev.title}
+                  </p>
+                </div>
+              </Link>
+            ) : (
+              <div />
+            )}
+
+            {/* Next */}
+            {next ? (
+              <Link
+                href={`/vidya/verse/${next.number}`}
+                className="group flex items-center justify-end gap-3 border-l border-border px-6 py-5 text-right transition-colors hover:bg-muted/50 md:px-8 md:py-6"
+              >
+                <div className="min-w-0">
+                  <p className="mb-0.5 text-xs text-muted-foreground">
+                    Verse {next.number}
+                  </p>
+                  <p className="truncate text-sm font-medium leading-snug text-foreground">
+                    {next.title}
+                  </p>
+                </div>
+                <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-foreground" />
+              </Link>
+            ) : (
+              <div className="border-l border-border" />
+            )}
+          </div>
+        </div>
+      )}
+      {/* Prev / Next navigation — mobile fixed bottom bar */}
+      {(prev || next) && (
+        <div className="fixed bottom-0 left-0 right-0 z-10 border-t border-border bg-background md:hidden">
+          <div className="grid grid-cols-2">
+            {prev ? (
+              <Link
+                href={`/vidya/verse/${prev.number}`}
+                className="group flex items-center gap-2.5 px-4 py-3.5 active:bg-muted/50"
+              >
+                <ChevronLeft className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-active:text-foreground" />
+                <div className="min-w-0">
+                  <p className="text-[10px] text-muted-foreground">
+                    Verse {prev.number}
+                  </p>
+                  <p className="truncate text-xs font-medium leading-snug text-foreground">
+                    {prev.title}
+                  </p>
+                </div>
+              </Link>
+            ) : (
+              <div />
+            )}
+
+            {next ? (
+              <Link
+                href={`/vidya/verse/${next.number}`}
+                className="group flex items-center justify-end gap-2.5 border-l border-border px-4 py-3.5 text-right active:bg-muted/50"
+              >
+                <div className="min-w-0">
+                  <p className="text-[10px] text-muted-foreground">
+                    Verse {next.number}
+                  </p>
+                  <p className="truncate text-xs font-medium leading-snug text-foreground">
+                    {next.title}
+                  </p>
+                </div>
+                <ChevronRight className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-active:text-foreground" />
+              </Link>
+            ) : (
+              <div className="border-l border-border" />
+            )}
           </div>
         </div>
       )}

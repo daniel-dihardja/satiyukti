@@ -24,5 +24,21 @@ export default async function VersePage({
   const verseDe = getVerseDe(n)
   const verseId = getVerseId(n)
 
-  return <VerseDetail verseEn={verseEn} verseDe={verseDe} verseId={verseId} />
+  const all = getAllVerseNumbers()
+  const idx = all.indexOf(n)
+  const prevNumber = idx > 0 ? all[idx - 1] : null
+  const nextNumber = idx < all.length - 1 ? all[idx + 1] : null
+
+  const prevVerse = prevNumber != null ? getVerse(prevNumber) : null
+  const nextVerse = nextNumber != null ? getVerse(nextNumber) : null
+
+  return (
+    <VerseDetail
+      verseEn={verseEn}
+      verseDe={verseDe}
+      verseId={verseId}
+      prev={prevVerse ? { number: prevVerse.verse_number, title: prevVerse.title } : null}
+      next={nextVerse ? { number: nextVerse.verse_number, title: nextVerse.title } : null}
+    />
+  )
 }
