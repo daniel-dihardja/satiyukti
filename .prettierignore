@@ -10,3 +10,4 @@ pnpm-lock.yaml
 .claude/
 **/.venv/
 apps/ingest/output/
+**/next-env.d.ts

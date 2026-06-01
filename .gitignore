@@ -43,3 +43,9 @@ packages/ui-mocks/
 __pycache__/
 *.py[cod]
 *.pyo
+
+# PWA / Serwist generated files
+apps/web/public/sw.js
+apps/web/public/sw.js.map
+apps/web/public/workbox-*.js
+apps/web/public/workbox-*.js.map
