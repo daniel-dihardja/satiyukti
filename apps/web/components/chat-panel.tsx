@@ -67,7 +67,7 @@ export function ChatPanel() {
         <button
           type="submit"
           disabled={status !== "ready"}
-          className="rounded-xl bg-primary px-5 py-3 text-base text-primary-foreground disabled:opacity-50"
+          className="rounded-xl bg-primary px-5 py-3 text-base text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50 disabled:opacity-50"
         >
           Send
         </button>

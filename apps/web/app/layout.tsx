@@ -8,7 +8,10 @@ import { cn } from "@workspace/ui/lib/utils"
 
 export const viewport: Viewport = {
   viewportFit: "cover",
-  themeColor: "#0a0a0a",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f9f3ec" },
+    { media: "(prefers-color-scheme: dark)", color: "#241a13" },
+  ],
 }
 
 export const metadata: Metadata = {

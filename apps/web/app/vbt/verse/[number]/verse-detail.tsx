@@ -64,8 +64,10 @@ export function VerseDetail({
       <div className="mb-8">
         <div role="tablist" className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1">
           <button
+            id="tab-beginner"
             role="tab"
             aria-selected={tab === "beginner"}
+            aria-controls="panel-beginner"
             onClick={() => setTab("beginner")}
             className={cn(
               "rounded-md px-4 py-1.5 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none md:px-5 md:py-2",
@@ -77,8 +79,10 @@ export function VerseDetail({
             Simple
           </button>
           <button
+            id="tab-scholar"
             role="tab"
             aria-selected={tab === "scholar"}
+            aria-controls="panel-scholar"
             onClick={() => setTab("scholar")}
             className={cn(
               "rounded-md px-4 py-1.5 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none md:px-5 md:py-2",
@@ -91,11 +95,19 @@ export function VerseDetail({
           </button>
         </div>
 
-        <p className="text-base leading-relaxed text-foreground md:leading-loose">
-          {tab === "beginner"
-            ? verse.beginner_explanation
-            : verse.scholar_explanation}
-        </p>
+        <div
+          id={tab === "beginner" ? "panel-beginner" : "panel-scholar"}
+          role="tabpanel"
+          aria-labelledby={tab === "beginner" ? "tab-beginner" : "tab-scholar"}
+          tabIndex={0}
+          className="focus-visible:outline-none"
+        >
+          <p className="text-base leading-relaxed text-foreground md:leading-loose">
+            {tab === "beginner"
+              ? verse.beginner_explanation
+              : verse.scholar_explanation}
+          </p>
+        </div>
       </div>
 
       {/* Sanskrit */}
@@ -204,7 +216,7 @@ export function VerseDetail({
             {prev ? (
               <Link
                 href={`/vbt/verse/${prev.number}`}
-                className="flex items-start gap-2.5 px-4 pt-4 active:bg-muted/50"
+                className="flex items-start gap-2.5 px-4 pt-4 transition-colors hover:bg-muted/50 active:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring/50"
                 style={{
                   paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
                 }}
@@ -230,7 +242,7 @@ export function VerseDetail({
             {next ? (
               <Link
                 href={`/vbt/verse/${next.number}`}
-                className="flex items-start justify-end gap-2.5 border-l border-border px-4 pt-4 text-right active:bg-muted/50"
+                className="flex items-start justify-end gap-2.5 border-l border-border px-4 pt-4 text-right transition-colors hover:bg-muted/50 active:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring/50"
                 style={{
                   paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
                 }}

@@ -52,6 +52,7 @@
 
 /* Satiyukti — warm saffron & sandalwood palette */
 :root {
+    color-scheme: light;
     /* Sandalwood cream background */
     --background: oklch(0.975 0.013 68);
     --foreground: oklch(0.185 0.035 45);
@@ -68,7 +69,7 @@
     --secondary-foreground: oklch(0.25 0.04 47);
     /* Soft sand muted */
     --muted: oklch(0.92 0.022 68);
-    --muted-foreground: oklch(0.52 0.03 50);
+    --muted-foreground: oklch(0.42 0.03 50);
     /* Pale lotus-pink accent */
     --accent: oklch(0.88 0.038 28);
     --accent-foreground: oklch(0.32 0.09 28);
@@ -97,6 +98,7 @@
 
 /* Dark mode — deep terracotta night */
 .dark {
+    color-scheme: dark;
     --background: oklch(0.14 0.025 35);
     --foreground: oklch(0.95 0.018 68);
     --card: oklch(0.19 0.03 38);
@@ -109,7 +111,7 @@
     --secondary: oklch(0.24 0.04 38);
     --secondary-foreground: oklch(0.95 0.018 68);
     --muted: oklch(0.24 0.04 38);
-    --muted-foreground: oklch(0.65 0.04 55);
+    --muted-foreground: oklch(0.70 0.04 55);
     --accent: oklch(0.26 0.045 38);
     --accent-foreground: oklch(0.92 0.02 68);
     --destructive: oklch(0.704 0.191 22.216);

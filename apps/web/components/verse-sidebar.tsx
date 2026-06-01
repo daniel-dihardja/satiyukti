@@ -139,12 +139,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
           >
             <ChevronRight
               className={cn(
-                "transition-transform duration-200",
+                "transition-transform duration-200 motion-reduce:transition-none",
                 openSections.opening && "rotate-90"
               )}
             />
             Opening Inquiry
-            <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
+            <span className="ml-auto font-normal text-muted-foreground tabular-nums">
               1–23
             </span>
           </SidebarGroupLabel>
@@ -178,12 +178,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
           >
             <ChevronRight
               className={cn(
-                "transition-transform duration-200",
+                "transition-transform duration-200 motion-reduce:transition-none",
                 openSections.dharanas && "rotate-90"
               )}
             />
             The 112 Dharanas
-            <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
+            <span className="ml-auto font-normal text-muted-foreground tabular-nums">
               24–138
             </span>
           </SidebarGroupLabel>
@@ -208,7 +208,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
                           </span>
                           <ChevronRight
                             className={cn(
-                              "transition-transform duration-200",
+                              "transition-transform duration-200 motion-reduce:transition-none",
                               isOpen && "rotate-90"
                             )}
                           />
@@ -262,12 +262,12 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
           >
             <ChevronRight
               className={cn(
-                "transition-transform duration-200",
+                "transition-transform duration-200 motion-reduce:transition-none",
                 openSections.closing && "rotate-90"
               )}
             />
             Closing Dialogue
-            <span className="ml-auto font-normal text-muted-foreground/60 tabular-nums">
+            <span className="ml-auto font-normal text-muted-foreground tabular-nums">
               139–163
             </span>
           </SidebarGroupLabel>
