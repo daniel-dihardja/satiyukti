@@ -3,9 +3,11 @@ import rawData from "./vbt-enrichment.json"
 import rawDataDe from "./vbt-enrichment-de.json"
 import rawDataId from "./vbt-enrichment-id.json"
 
-export const allVerses: EnrichedVerse[] = rawData as EnrichedVerse[]
-export const allVersesDe: EnrichedVerse[] = rawDataDe as EnrichedVerse[]
-export const allVersesId: EnrichedVerse[] = rawDataId as EnrichedVerse[]
+export const allVerses: EnrichedVerse[] = rawData as unknown as EnrichedVerse[]
+export const allVersesDe: EnrichedVerse[] =
+  rawDataDe as unknown as EnrichedVerse[]
+export const allVersesId: EnrichedVerse[] =
+  rawDataId as unknown as EnrichedVerse[]
 
 export const DHARANA_CATEGORIES: Category[] = [
   "Breath",
