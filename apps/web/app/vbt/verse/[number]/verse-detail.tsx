@@ -60,37 +60,6 @@ export function VerseDetail({
         </p>
       </div>
 
-      {/* Sanskrit */}
-      <div className="mb-4 rounded-xl bg-muted/60 px-5 py-5 md:px-7 md:py-6">
-        <p className="font-serif text-lg leading-relaxed whitespace-pre-line text-foreground md:text-xl md:leading-loose">
-          {verse.sanskrit}
-        </p>
-      </div>
-
-      {/* Transliteration */}
-      {verse.transliteration && (
-        <div className="mb-6 px-1">
-          <p className="font-mono text-xs leading-relaxed whitespace-pre-line text-muted-foreground italic md:text-sm md:leading-loose">
-            {verse.transliteration}
-          </p>
-        </div>
-      )}
-
-      {/* Translation */}
-      <div className="mb-8">
-        <p className="mb-2 text-xs font-semibold tracking-widest text-muted-foreground uppercase md:text-sm">
-          Translation
-        </p>
-        <p className="text-sm leading-relaxed text-foreground md:text-base md:leading-loose">
-          {verse.translation}
-        </p>
-      </div>
-
-      {/* Intent summary */}
-      <p className="mb-8 text-sm leading-relaxed text-muted-foreground md:text-base md:leading-loose">
-        {verse.intent_summary}
-      </p>
-
       {/* Explanation tabs */}
       <div className="mb-8">
         <div className="mb-4 flex w-fit gap-1 rounded-lg bg-muted p-1">
@@ -124,6 +93,37 @@ export function VerseDetail({
             : verse.scholar_explanation}
         </p>
       </div>
+
+      {/* Sanskrit */}
+      <div className="mb-4 rounded-xl bg-muted/60 px-5 py-5 md:px-7 md:py-6">
+        <p className="font-serif text-lg leading-relaxed whitespace-pre-line text-foreground md:text-xl md:leading-loose">
+          {verse.sanskrit}
+        </p>
+      </div>
+
+      {/* Transliteration */}
+      {verse.transliteration && (
+        <div className="mb-6 px-1">
+          <p className="font-mono text-xs leading-relaxed whitespace-pre-line text-muted-foreground italic md:text-sm md:leading-loose">
+            {verse.transliteration}
+          </p>
+        </div>
+      )}
+
+      {/* Translation */}
+      <div className="mb-8">
+        <p className="mb-2 text-xs font-semibold tracking-widest text-muted-foreground uppercase md:text-sm">
+          Translation
+        </p>
+        <p className="text-sm leading-relaxed text-foreground md:text-base md:leading-loose">
+          {verse.translation}
+        </p>
+      </div>
+
+      {/* Intent summary */}
+      <p className="mb-8 text-sm leading-relaxed text-muted-foreground md:text-base md:leading-loose">
+        {verse.intent_summary}
+      </p>
 
       {/* Related verses */}
       {verse.related_verses.length > 0 && (
