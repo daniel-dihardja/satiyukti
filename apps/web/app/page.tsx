@@ -29,10 +29,9 @@ export default function Page() {
 
         {/* Description */}
         <p className="max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg">
-          One of humanity&apos;s oldest maps of consciousness. Explore 112
-          meditation techniques spanning breath, sound, visualization, and the
-          dissolution of self — with a guide who meets you wherever you are on
-          the path.
+          Explore the Vijñāna Bhairava Tantra — one of humanity&apos;s oldest
+          maps of consciousness — through 112 meditation techniques spanning
+          breath, sound, visualization, and the dissolution of self.
         </p>
 
         {/* CTA */}

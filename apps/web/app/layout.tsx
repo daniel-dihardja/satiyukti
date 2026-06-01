@@ -15,8 +15,9 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Satiyukti",
-  description: "112 Doorways to Pure Awareness — Vijñāna Bhairava Tantra",
+  title: "Satiyukti — Ancient Scriptures, Modern Exploration",
+  description:
+    "Explore the Vijñāna Bhairava Tantra — 112 ancient meditation techniques from Kashmir Shaivism. One of humanity's oldest maps of consciousness, now accessible in a modern interface.",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,

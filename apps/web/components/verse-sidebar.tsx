@@ -116,6 +116,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
   return (
     <Sidebar>
       <SidebarHeader>
+        <div style={{ height: "env(safe-area-inset-top)" }} />
         <div className="px-2 pt-2 pb-1">
           <Link
             href="/"
