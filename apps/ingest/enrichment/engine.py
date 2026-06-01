@@ -40,6 +40,7 @@ class _VerseEnrichment(BaseModel):
     verse_number: int
     title: str
     category: str
+    transliteration: str
     translation: str
     intent_summary: str
     beginner_explanation: str
@@ -99,6 +100,7 @@ def enrich_verses(
                     title=item.title,
                     category=item.category,
                     sanskrit=source.sanskrit if source else "",
+                    transliteration=item.transliteration,
                     translation=item.translation,
                     intent_summary=item.intent_summary,
                     beginner_explanation=item.beginner_explanation,

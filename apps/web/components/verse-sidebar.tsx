@@ -38,7 +38,6 @@ import {
 import { cn } from "@workspace/ui/lib/utils"
 import type { Category, EnrichedVerse } from "@/lib/types/verse"
 import { DHARANA_CATEGORIES, type VerseGroups } from "@/lib/data/verses"
-import { useLanguage } from "@/lib/context/language-context"
 
 const CATEGORY_ICONS: Record<Category, React.ElementType> = {
   Breath: Wind,
@@ -61,18 +60,10 @@ function shortName(name: string, words = 4): string {
 
 interface VerseSidebarProps {
   groups: VerseGroups
-  groupsDe: VerseGroups
-  groupsId: VerseGroups
 }
 
-export function VerseSidebar({
-  groups,
-  groupsDe,
-  groupsId,
-}: VerseSidebarProps) {
-  const { language } = useLanguage()
-  const activeGroups =
-    language === "de" ? groupsDe : language === "id" ? groupsId : groups
+export function VerseSidebar({ groups }: VerseSidebarProps) {
+  const activeGroups = groups
   const pathname = usePathname()
   const { setOpenMobile } = useSidebar()
   const [query, setQuery] = useState("")
@@ -326,7 +317,9 @@ function VerseItem({
           <span className="w-5 shrink-0 text-right text-xs text-muted-foreground tabular-nums">
             {verse.verse_number}
           </span>
-          <span className="flex-1 truncate">{shortName(verse.title)}</span>
+          <span className="flex-1 truncate">
+            {shortName(verse.title ?? "")}
+          </span>
         </Link>
       </SidebarMenuButton>
     </SidebarMenuItem>

@@ -54,11 +54,20 @@ export function VerseDetail({
       </div>
 
       {/* Sanskrit */}
-      <div className="mb-6 rounded-xl bg-muted/60 px-5 py-5 md:px-7 md:py-6">
+      <div className="mb-4 rounded-xl bg-muted/60 px-5 py-5 md:px-7 md:py-6">
         <p className="font-serif text-lg leading-relaxed whitespace-pre-line text-foreground md:text-xl md:leading-loose">
           {verse.sanskrit}
         </p>
       </div>
+
+      {/* Transliteration */}
+      {verse.transliteration && (
+        <div className="mb-6 px-1">
+          <p className="font-mono text-xs leading-relaxed whitespace-pre-line text-muted-foreground italic md:text-sm md:leading-loose">
+            {verse.transliteration}
+          </p>
+        </div>
+      )}
 
       {/* Translation */}
       <div className="mb-8">
@@ -108,25 +117,6 @@ export function VerseDetail({
             : verse.scholar_explanation}
         </p>
       </div>
-
-      {/* Concepts */}
-      {verse.concepts.length > 0 && (
-        <div className="mb-8">
-          <p className="mb-3 text-xs font-semibold tracking-widest text-muted-foreground uppercase md:text-sm">
-            Concepts
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {verse.concepts.map((concept) => (
-              <span
-                key={concept}
-                className="rounded-full bg-muted px-3 py-1 text-xs text-muted-foreground md:text-sm"
-              >
-                {concept}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
 
       {/* Related verses */}
       {verse.related_verses.length > 0 && (

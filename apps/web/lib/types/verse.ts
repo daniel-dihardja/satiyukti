@@ -16,6 +16,7 @@ export interface EnrichedVerse {
   title: string
   category: Category
   sanskrit: string
+  transliteration: string
   translation: string
   intent_summary: string
   beginner_explanation: string

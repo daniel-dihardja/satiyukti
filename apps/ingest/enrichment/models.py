@@ -27,7 +27,11 @@ class EnrichedVerse:
     # Original Sanskrit text of the verse.
     sanskrit: str
 
-    # Faithful translation of the Sanskrit verse.
+    # IAST romanized Sanskrit transliteration of the verse.
+    # Uses diacritical marks; preserves half-verse breaks (|) and verse-end markers (||).
+    transliteration: str
+
+    # Faithful translation of the Sanskrit verse in the target language.
     # This should remain close to the source text.
     translation: str
 
