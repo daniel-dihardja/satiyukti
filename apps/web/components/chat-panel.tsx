@@ -14,7 +14,7 @@ export function ChatPanel() {
     <div className="flex h-full flex-col p-5 md:p-6">
       <div className="mb-5 flex-1 space-y-5 overflow-y-auto">
         {messages.length === 0 && (
-          <p className="mt-10 text-center text-sm text-muted-foreground md:text-base">
+          <p className="mt-10 text-center text-base text-muted-foreground">
             Select a verse, then ask anything about it.
           </p>
         )}
@@ -24,7 +24,7 @@ export function ChatPanel() {
             className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}
           >
             <div
-              className={`max-w-[80%] rounded-xl px-4 py-3 text-sm leading-relaxed md:text-base ${
+              className={`max-w-[80%] rounded-xl px-4 py-3 text-base leading-relaxed ${
                 message.role === "user"
                   ? "bg-primary text-primary-foreground"
                   : "bg-muted text-foreground"
@@ -57,12 +57,12 @@ export function ChatPanel() {
           onChange={(e) => setInput(e.target.value)}
           disabled={status !== "ready"}
           placeholder="Ask about this verse…"
-          className="flex-1 rounded-xl border bg-background px-4 py-3 text-sm disabled:opacity-50 md:text-base"
+          className="flex-1 rounded-xl border bg-background px-4 py-3 text-base disabled:opacity-50"
         />
         <button
           type="submit"
           disabled={status !== "ready"}
-          className="rounded-xl bg-primary px-5 py-3 text-sm text-primary-foreground disabled:opacity-50 md:text-base"
+          className="rounded-xl bg-primary px-5 py-3 text-base text-primary-foreground disabled:opacity-50"
         >
           Send
         </button>

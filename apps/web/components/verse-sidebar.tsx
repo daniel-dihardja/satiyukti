@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { useMemo, useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import {
   ChevronRight,
   Droplets,
@@ -24,7 +24,6 @@ import {
   SidebarGroupContent,
   SidebarGroupLabel,
   SidebarHeader,
-  SidebarInput,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
@@ -66,7 +65,6 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
   const activeGroups = groups
   const pathname = usePathname()
   const { setOpenMobile } = useSidebar()
-  const [query, setQuery] = useState("")
   const [openSections, setOpenSections] = useState({
     opening: false,
     dharanas: false,
@@ -78,26 +76,6 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
     ? parseInt(pathname.split("/").pop() ?? "0", 10)
     : null
 
-  const filteredGroups = useMemo(() => {
-    const q = query.trim().toLowerCase()
-    const matchVerse = (v: EnrichedVerse) =>
-      !q || v.title.toLowerCase().includes(q)
-
-    const dharanas: Partial<Record<Category, EnrichedVerse[]>> = {}
-    for (const [cat, verses] of Object.entries(activeGroups.dharanas) as [
-      Category,
-      EnrichedVerse[],
-    ][]) {
-      const filtered = verses.filter(matchVerse)
-      if (filtered.length > 0) dharanas[cat] = filtered
-    }
-
-    return {
-      opening: activeGroups.opening.filter(matchVerse),
-      dharanas,
-      closing: activeGroups.closing.filter(matchVerse),
-    }
-  }, [activeGroups, query])
 
   useEffect(() => {
     if (activeVerse === null) return
@@ -126,25 +104,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
     }
   }, [activeVerse, activeGroups])
 
-  useEffect(() => {
-    const isFiltering = query.trim() !== ""
-    if (!isFiltering) return
-
-    setOpenSections((prev) => ({
-      opening: prev.opening || filteredGroups.opening.length > 0,
-      dharanas:
-        prev.dharanas || Object.keys(filteredGroups.dharanas).length > 0,
-      closing: prev.closing || filteredGroups.closing.length > 0,
-    }))
-    setOpenCategories((prev) => {
-      const next = new Set(prev)
-      for (const cat of Object.keys(filteredGroups.dharanas))
-        next.add(cat as Category)
-      return next
-    })
-  }, [query, filteredGroups])
-
-  const toggleSection = (section: keyof typeof openSections) =>
+const toggleSection = (section: keyof typeof openSections) =>
     setOpenSections((prev) => ({ ...prev, [section]: !prev[section] }))
 
   const toggleCategory = (cat: Category) =>
@@ -160,16 +120,11 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         <div className="px-2 pt-2 pb-1">
           <Link
             href="/"
-            className="text-xs font-semibold tracking-widest text-muted-foreground uppercase transition-colors hover:text-foreground"
+            className="text-sm font-semibold tracking-widest text-muted-foreground uppercase transition-colors hover:text-foreground"
           >
             Vijñāna Bhairava Tantra
           </Link>
         </div>
-        <SidebarInput
-          placeholder="Search verses…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
       </SidebarHeader>
 
       <SidebarContent>
@@ -191,10 +146,10 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
             </span>
           </SidebarGroupLabel>
 
-          {openSections.opening && filteredGroups.opening.length > 0 && (
+          {openSections.opening && activeGroups.opening.length > 0 && (
             <SidebarGroupContent>
               <SidebarMenu>
-                {filteredGroups.opening.map((verse) => (
+                {activeGroups.opening.map((verse) => (
                   <VerseItem
                     key={verse.verse_number}
                     verse={verse}
@@ -230,7 +185,7 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
             <SidebarGroupContent>
               <SidebarMenu>
                 {DHARANA_CATEGORIES.map((cat) => {
-                  const verses = filteredGroups.dharanas[cat]
+                  const verses = activeGroups.dharanas[cat]
                   if (!verses || verses.length === 0) return null
                   const Icon = CATEGORY_ICONS[cat]
                   const isOpen = openCategories.has(cat)
@@ -306,10 +261,10 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
             </span>
           </SidebarGroupLabel>
 
-          {openSections.closing && filteredGroups.closing.length > 0 && (
+          {openSections.closing && activeGroups.closing.length > 0 && (
             <SidebarGroupContent>
               <SidebarMenu>
-                {filteredGroups.closing.map((verse) => (
+                {activeGroups.closing.map((verse) => (
                   <VerseItem
                     key={verse.verse_number}
                     verse={verse}
