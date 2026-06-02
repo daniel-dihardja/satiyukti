@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
@@ -54,7 +55,7 @@ class _BatchEnrichment(BaseModel):
 
 
 def _make_chain(config: LanguageConfig):
-    llm = ChatOpenAI(model="gpt-5.4", temperature=0)
+    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL", "gpt-5.4"), temperature=0)
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", config.system_prompt),

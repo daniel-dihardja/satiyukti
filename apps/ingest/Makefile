@@ -1,6 +1,9 @@
 extract:
 	uv run python main.py
 
+check:
+	uv run python check.py
+
 # Enrich verses for a given language. Usage: make enrich lang=en|de|id
 lang ?= en
 

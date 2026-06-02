@@ -1,0 +1,544 @@
+{
+  "total_pages": 71,
+  "pages_ok": 12,
+  "pages_with_issues": 59,
+  "issues": [
+    {
+      "page": 3,
+      "issues": [
+        "OCR substitutions in header and verses (e.g., विऻानभैरि→विज्ञानभैरव, देव्युिाच→देव्युवाच, रुद्रयामऱ→रुद्रयामल, ऩरमेश्वर→परमेश्वर, ऱ→ल, ऩ→प, ऻ→ज्ञ).",
+        "Missing/wrong diacritics and character errors across multiple words: सर्वं, अद्यापि, निवृत्तो, संशयः, किं, रूपं, शब्दराशिकलामयम्.",
+        "Speaker marker in text is OCR-corrupted and needed correction to श्री देव्युवाच ।."
+      ]
+    },
+    {
+      "page": 4,
+      "issues": [
+        "OCR substitutions and diacritic errors in the first verse line (`वकं`, `िा`, `निात्मभेदेन`, `विवशरोभेदवभन्नं`, `शविियात्मकम्`).",
+        "OCR substitutions and diacritic errors in the second verse line (`नादविन्दुमयं`, `िावप`, `चन्द्राधधवनरोवधका्`, `चक्रारूढमनच्कं`, `शविस्वरूऩकम्`).",
+        "Header OCR in the page text is corrupted (`विऻानभैरि तन्त्रम्`) though the Sanskrit extraction has the correct header."
+      ]
+    },
+    {
+      "page": 5,
+      "issues": [
+        "Title OCR mismatch: विऻानभैरव → विज्ञानभैरव.",
+        "OCR substitution mismatch in first verse: सकलम् does not match inline सकऱम्.",
+        "Speaker/tag and verse markers are present and well-formed; no additional marker issues found."
+      ]
+    },
+    {
+      "page": 6,
+      "issues": [
+        "Header OCR mismatch: 'विऻानभैरि तन्त्रम्' should be 'विज्ञानभैरव तन्त्रम्'.",
+        "'ऩृष्टं' should be 'पृष्टं'.",
+        "'तथावऩ' should be 'तथावप'.",
+        "'यविंवचत्सकऱम्' should be 'यविंवचत्सकलम्'.",
+        "'भैरिस्य' should be 'भैरवस्य'.",
+        "'प्रकीवतधतम्' should be corrected to the intended Sanskrit form 'प्रकीर्तितम्'.",
+        "'विऻेयं' should be 'विज्ञेयं'.",
+        "'शक्रजाऱित्' should be 'शक्रजालित्'.",
+        "'मायास्वप्नोऩमं' should be 'मायास्वप्नोपमं'.",
+        "'चैि' should be 'चैव'.",
+        "'गन्धिधनगरभ्रमम्' should be 'गन्धर्वनगरभ्रमम्'.",
+        "Need to preserve the header form as seen in the source if keeping strict OCR, but corrected Sanskrit should normalize it."
+      ]
+    },
+    {
+      "page": 7,
+      "issues": [
+        "OCR corruption in header: विऻानभैरि → विज्ञानभैरव.",
+        "OCR substitution: ऱ → ल in केवलं.",
+        "OCR substitution: ऩ → प in पुंसां.",
+        "Multiple garbled words/diacritics in verses 10–12 (e.g. भ्रान्तिुद्धीनाम्, वक्रयाडम्बरिवतधनाम्, निात्मासौ, शब्दरावशनध, विवशरा, शविियात्मक्, नादविन्दुमयो िावप, चन्द्राधधवनरोवधका्, शविस्वरूऩक्)."
+      ]
+    },
+    {
+      "page": 8,
+      "issues": [
+        "Header in text is OCR-corrupted as 'विऻानभैरि' but Sanskrit should be 'विज्ञानभैरव तन्त्रम्'.",
+        "OCR substitution present in text: ऻ→ज्ञ and ऱ→ल in header/body; also ऩ→प in 'व्यऩदेष्टु...' and 'ऩरमाथधत्'.",
+        "Need to preserve corrected Sanskrit reading from extracted text rather than OCR-corrupted inline forms."
+      ]
+    },
+    {
+      "page": 10,
+      "issues": [
+        "OCR substitutions and spelling mismatches detected between page text and extracted Sanskrit, including header spelling and multiple ऩ→प corrections.",
+        "The token वस्थत् is likely an OCR error and appears corrupted compared with the surrounding Sanskrit.",
+        "Need to preserve exact Sanskrit as in source text while correcting obvious OCR substitutions."
+      ]
+    },
+    {
+      "page": 12,
+      "issues": [
+        "OCR/header mismatch: text shows विऻानभैरि तन्त्रम्; extracted Sanskrit has विज्ञानभैरव तन्त्रम्.",
+        "OCR speaker-tag mismatch: text shows श्री देव्य् उिाच ।; extracted Sanskrit has श्री देव्युवाच ।.",
+        "Several OCR substitutions appear in inline text and are normalized in Sanskrit: विशूऱाङ्क→विशूलाङ्क, कऩाऱकृतभूषण→कपालकृतभूषण, व्यऩदेश...→व्यपदेश..., भैरिस्योऩऱभ्यते→भैरवस्योपलभ्यते.",
+        "Several missing/wrong diacritics/letters in inline text are normalized in Sanskrit: वदवदेशकाऱशून्या→वदवदेशकालशून्या, व्यऩदेशवििवजधता→व्यपदेशविवजधता/विवर्जिता, यािस्था→यावस्था, भवरताकारा→भैरवाकारा, कैरुऩायैमुधखम्→कैरुपायैर्मुखम्, तथा मे ब्रूवह भैरि→तथा मे ब्रूवह भैरव.",
+        "The Sanskrit extraction does not preserve the exact visible inline orthography from the page text in several places."
+      ]
+    },
+    {
+      "page": 13,
+      "issues": [
+        "Header OCR mismatch in text: 'विऻानभैरि तन्त्रम्' vs extracted 'विज्ञानभैरव तन्त्रम्' — should preserve source as visible.",
+        "Speaker tag visible in text is 'श्री भैरि उिाच ।' but extracted uses normalized 'श्री भैरव उवाच ।'.",
+        "Need to preserve visible OCR spellings where they occur in source; check especially 'भैरि'/'भैरव', 'उिाच'/'उवाच'.",
+        "Visible line includes 'परोच्चरेत्' and extracted matches, but OCR substitution check passed for ऩ→प in source context.",
+        "Possible OCR issue in final word of verse 25: visible text shows 'िऩु्' while extracted has 'वपुः'; confirm against source and preserve exact source reading if needed."
+      ]
+    },
+    {
+      "page": 14,
+      "issues": [
+        "Header OCR mismatch in text ('विऻानभैरि') versus extracted Sanskrit ('विज्ञानभैरव').",
+        "Verse 26: 'रुद्रूऩा' should be 'रुद्रूपा' (OCR ऩ→प).",
+        "Verse 26: 'भैरिरूऩता' should be 'भैरिरूपता' (OCR ऩ→प).",
+        "Verse 27: 'िा' should be 'वा' in 'पूर्वता वा'.",
+        "Verse 27: 'शान्त्' should be 'शान्तः'.",
+        "Verse 28: 'भैरिोदय्' should be 'भैरवोदयः' (missing व and visarga)."
+      ]
+    },
+    {
+      "page": 15,
+      "issues": [
+        "OCR substitutions in visible text: तवडद्रूऩाम् should correspond to तवडद्रूपाम्; द्वादशाऺरभेवदतम् should correspond to द्वादशाक्षरभेवदतम्; स्थूऱसूक्ष्मऩरवस्थत्या should correspond to स्थूलसूक्ष्मपरवस्थत्या.",
+        "Possible diacritic/OCR issues in visible text: मुवष्टियं, याित्, तािदन्ते, वशि् appear corrupted relative to the extracted Sanskrit.",
+        "Header spelling in text is OCR-corrupted as विऻानभैरि, while extracted Sanskrit correctly has विज्ञानभैरव तन्त्रम्."
+      ]
+    },
+    {
+      "page": 16,
+      "issues": [
+        "Header OCR corruption: विऻानभैरि should be विज्ञानभैरव.",
+        "Verse 31 contains multiple OCR substitutions: तयाऩूयाधशु should be तयापूर्ध्वशु; भ्रूऺेऩसेतुना should be भ्रूक्षेपसेतुना; वनविधकल्पं मन् should be वनविधकल्पं मन्; सिोर्ध्वे should be सर्वोर्ध्वे; सिधगोद्गम् should be सिद्धगोद्गम्.",
+        "Verse 32 contains OCR errors: वशवखऩऺैवश्चिरूऩैमधण्डऱै् should be शिखिपक्षैवचित्ररूपैमण्डलैः; प्रिेशो should be प्रवेशो; भिेत् should be भवेत्.",
+        "Verse 33 contains OCR errors: ऱीना should be लीना."
+      ]
+    },
+    {
+      "page": 17,
+      "issues": [
+        "Header OCR mismatch: 'विऻानभैरि' should align with 'विज्ञानभैरव/विज्ञानभैरि' as seen in text.",
+        "OCR substitutions in verse 34: ऩ→प in 'कपालान्त...', ऱ→ल in 'वतिष्ठन्...','लक्षयेत्','लष्यम्'.",
+        "Missing/wrong diacritics and letterforms in verse 34: 'मीवऱतऱोचन्' differs from text 'मीवलतलोचन्'.",
+        "Verse 35 has OCR discrepancy: 'विससूिाभरूऩया' should match the text's inline Sanskrit more closely (notably ऩ→प and related matra/letter issues)."
+      ]
+    },
+    {
+      "page": 18,
+      "issues": [
+        "OCR substitutions in the Sanskrit extraction: 'ऩरमा' should be 'परमा' (or as visible in context, part of 'परमा वस्थवत्').",
+        "OCR substitutions in the Sanskrit extraction: 'ऺोभ' should be 'क्षोभ'.",
+        "OCR substitutions in the Sanskrit extraction: 'विवतऱकाकृवतम्' should be 'विवतलकाकृवतम्'.",
+        "OCR substitutions in the Sanskrit extraction: 'ऱयान्ते' and 'ऱय्' should be 'लयान्ते' and 'लय्'.",
+        "Header OCR mismatch visible in text: 'विऻानभैरि तन्त्रम्' appears in the page image/text, while extracted Sanskrit normalizes to 'विज्ञानभैरि तन्त्रम्'. Please preserve the exact visible header if that is intended in this batch."
+      ]
+    },
+    {
+      "page": 19,
+      "issues": [
+        "Source page header is OCR-corrupted (विऻानभैरि तन्त्रम्) and should be विज्ञानभैरव तन्त्रम्.",
+        "OCR substitutions and diacritic errors are present in the source and have been normalized in the extracted Sanskrit."
+      ]
+    },
+    {
+      "page": 20,
+      "issues": [
+        "OCR substitution: वऩण्डमन्त्रस्य → पण्डमन्त्रस्य",
+        "OCR substitution: स्थूऱिणधक्रमेण → स्थूलिणधक्रमेण",
+        "OCR substitution in extracted line: परव्योमिऩुभधिेत् should be checked against the inline OCR context; likely परव्योमिनुभावेत्/परव्योमिनुभावेत्?",
+        "Header spelling in text shows 'विऻानभैरि' (OCR), while extracted Sanskrit has correct 'विज्ञानभैरव तन्त्रम्'"
+      ]
+    },
+    {
+      "page": 21,
+      "issues": [
+        "Header OCR error: विऻानभैरि in text should be विज्ञानभैरव, and the page header should read 'विज्ञानभैरव तन्त्रम्'.",
+        "Verse 43 has OCR-corrupted words in the source text needing normalization against extracted Sanskrit: वनजदेहे → वनजदेहे (check against inline OCR), सिधवदक्कम्, युगऩद्भाियेवद्वयत् → युगपद्भाियेवद्वयत्, वनविधकल्पमनास्तस्य, वियत्सिधम्, प्रितधते.",
+        "Verse 44 OCR substitutions: ऩृष्टशून्यम् → पृष्टशून्यम्, मूऱशून्यम् → मूलशून्यम्, शरीरवनरऩेवऺण्या → शरीरवनरपेवक्षण्या.",
+        "Verse 45 OCR substitution/diacritic issues: युगऩवन्नविधकल्पत्वावन्नविधकल्पोदयस्तत् → युगपवन्नविधकल्पत्वावन्नविधकल्पोदयस्तत्; also भाियेविरम् requires verification against the inline source."
+      ]
+    },
+    {
+      "page": 23,
+      "issues": [
+        "Header OCR error: 'विऻानभैरि' -> 'विज्ञानभैरव'.",
+        "OCR substitution ऱ→ल in 'मनोऱयात्' -> 'मनोलयात्'.",
+        "OCR substitution ऱ→ल in 'तत्त्वऱक्ष्यं' -> 'तत्त्वलक्ष्यं'.",
+        "OCR substitution ऩ→प in 'ऩिसम्पुटमध्यग्' -> 'पिसम्पुटमध्यग्'.",
+        "OCR substitution ऺ→क्ष in 'वनऱीनाऺ्' / corrected reading 'वनलीनाक्ष्' from source context."
+      ]
+    },
+    {
+      "page": 24,
+      "issues": [
+        "OCR substitution: वऺऩेत् → वक्षेपेत्",
+        "OCR substitution: ऺीणिृत्तेिैऱऺण्यं → क्षीणवृत्तेर्वैलक्षण्यं",
+        "OCR substitution: काऱाविना → कालाविना",
+        "OCR substitution: काऱऩदादुवत्थतेन → कालपदादुवत्थतेन",
+        "Possible OCR/spacing issue: मन् in text likely मन्; preserved as Sanskrit source form in fixed text by context of verse",
+        "Possible OCR issue in end of verse 52: भिेत् may be भवेत्, but the provided source image/text inline is insufficient to alter with certainty"
+      ]
+    },
+    {
+      "page": 25,
+      "issues": [
+        "Header OCR error: विऻानभैरि → विज्ञानभैरव",
+        "OCR substitutions in verse 53: ऩुम्स्/ऩुम्भाि् → पुम्स्/पुम्भाि् (preserve प)",
+        "OCR substitution in verse 54: वनऱयं → वनलयं"
+      ]
+    },
+    {
+      "page": 26,
+      "issues": [
+        "Header OCR error: विऻानभैरि तन्त्रम् should be विज्ञानभैरव तन्त्रम्.",
+        "OCR substitutions in verse 55: ऩीनां→पीनां, दुिधऱां→दुर्बलां/दुःखिलां? (word in source is distorted), शविं→शक्ति.",
+        "OCR substitutions in verse 56: भुिनार्ध्वावदरूऩेण→भुवनार्ध्वावदरूपेण, अवखऱम्→अवखिलम्, स्थूऱसूक्ष्मऩरवस्थत्या→स्थूलसूक्ष्मपरवस्थित्या, मनोऱय्→मनोलयः.",
+        "Missing/wrong diacritics and OCR damage in multiple words; extracted Sanskrit is not faithful to the visible source."
+      ]
+    },
+    {
+      "page": 27,
+      "issues": [
+        "Header OCR error: विऻानभैरि तन्त्रम् should be विज्ञानभैरव तन्त्रम्.",
+        "OCR substitution in verse 57: ऩयधन्तेषु should be पर्यधन्तेषु.",
+        "OCR substitution in verse 58: ऱीनं should be लीनं.",
+        "OCR substitution in verse 59: विवनवऺऩेत् should be विनिक्षेपेत्."
+      ]
+    },
+    {
+      "page": 28,
+      "issues": [
+        "OCR substitution ऺ→क्ष: वनिृधऺवगवरवभत्त्यावददेशे → वनिृधक्षवगवरवभत्त्यावददेशे",
+        "OCR substitution ऺ→क्ष: विवनवऺऩेत् → विवनवक्षपेत्",
+        "OCR substitution ऱ→ल: विऱीने → विलीने",
+        "OCR substitution ऻ→ज्ञ: उभयोभाधियोऻाधने → उभयोभाधियोज्ञाधने"
+      ]
+    },
+    {
+      "page": 29,
+      "issues": [
+        "Header OCR error: ‘विऻानभैरि’ -> ‘विज्ञानभैरव’.",
+        "OCR substitution ऩ→प in ‘ऩवरभाियेत्’ and ‘ऩरमोदय्’.",
+        "Possible diacritic/OCR corruption in ‘वचन् नैि’ and ‘भािे त्यिे वनरुद्धा वचन् नैि भािान्तरम् व्रजेत्’; verse text likely needs normalization."
+      ]
+    },
+    {
+      "page": 30,
+      "issues": [
+        "Header OCR corruption in text: विऻानभैरि तन्त्रम् should be विज्ञानभैरव तन्त्रम्.",
+        "OCR substitutions corrected in verses: िायुद्वयस्य→वायुद्वयस्य, िा→वा, िवहरन्तत्→वहिरन्ति, ऩरानन्दमयो→परानन्दमयो, मृगेऺणे→मृगेक्षणे."
+      ]
+    },
+    {
+      "page": 31,
+      "issues": [
+        "Header OCR mismatch: text shows 'विऻानभैरि तन्त्रम्' while extracted Sanskrit has 'विज्ञानभैरि तन्त्रम्'.",
+        "OCR substitution and diacritic issue in 'वपपीलस्पशधिेलायां' / inline 'वऩऩीऱस्पशधिेऱायां'; should preserve correct reading 'वपपीलस्पर्शद्वेलायां' as visible in the source context.",
+        "OCR substitution in 'वक्षपेत्' (text shows 'वऺऩेत्' in the page image/text; extracted has 'वक्षपेत्').",
+        "OCR substitution in 'केिलं' vs likely source 'केिऱं'; normalize to the correct Sanskrit spelling 'केवलं'.",
+        "Minor token-level discrepancy around 'ih्नेविधषस्य' indicating the extracted Sanskrit does not fully match the visible inline Devanagari around that word."
+      ]
+    },
+    {
+      "page": 33,
+      "issues": [
+        "OCR substitution detected: 'जववधऩानकृतोल्लासरसानन्दविजृम्भणात्' should read 'जववधपानकृतोल्लासरसानन्दविजृम्भणात्' based on the inline text."
+      ]
+    },
+    {
+      "page": 34,
+      "issues": [
+        "Header OCR error: विऻानभैरि → विज्ञानभैरव",
+        "OCR substitution in extracted text: ऩरानन्दस्वारूऩं → परानन्दस्वरूपं",
+        "OCR substitution in extracted text: शिऱीकृते → शिलीकृते",
+        "Possible diacritic/OCR issue in सम्प्रितधते; compare with source inline text"
+      ]
+    },
+    {
+      "page": 35,
+      "issues": [
+        "Header OCR mismatch: text shows \"विऻानभैरि तन्त्रम्\" while Sanskrit should read \"विज्ञानभैरव तन्त्रम्\".",
+        "OCR substitution present in verse 77: \"लेवलहानया\" should match text's inline \"ऱेवऱहानया\" (common ऱ→ल issue).",
+        "OCR substitution present in verse 77: \"परािावप्त्\" should match text's inline \"ऩरािावप्त्\" (common ऩ→प issue).",
+        "Diacritic/character consistency issue in verse 77: text has \"दृवष्टकाऱे\" and extracted Sanskrit has \"दृवष्टकाले\".",
+        "Diacritic/character consistency issue in verse 78: text has \"हस्तऩादौ\" and extracted Sanskrit has \"हस्तपादौ\"."
+      ]
+    },
+    {
+      "page": 36,
+      "issues": [
+        "Header OCR error: विऻानभैरि → विज्ञानभैरव",
+        "Verse 79 OCR/substitution errors: उऩविश्यासने → उपविश्यासने",
+        "Verse 79 OCR/substitution errors: सम्यविाहू → सम्यग्बाहू",
+        "Verse 79 OCR/substitution errors: कऺव्योवि is corrupted and does not match the inline Sanskrit reliably",
+        "Verse 79 OCR/substitution errors: वनऩात्य → वनपात्य",
+        "Verse 79 likely error: कुिधन् → कुर्वन्",
+        "Verse 81 OCR/substitution error: वनवऺप्य → वनवक्षप्य",
+        "Verse 81 OCR substitution error: प्रऱीयते → प्रलीयते"
+      ]
+    },
+    {
+      "page": 37,
+      "issues": [
+        "Header in text appears as 'विऻानभैरि तन्त्रम्' rather than 'विज्ञानभैरव तन्त्रम्' as in the extracted Sanskrit.",
+        "Inline OCR substitutions in the page text include ऻ/ऱ/ऺ characters that need normalization when comparing against Sanskrit."
+      ]
+    },
+    {
+      "page": 38,
+      "issues": [
+        "Header OCR error: 'विऻानभैरव तन्त्रम्' should be 'विज्ञानभैरव तन्त्रम्'.",
+        "Verse 84 has OCR substitution/missing character: 'िभुराप्नुयात्' / 'िपुराप्नुयात्' should be 'भैरिं पुराप्नुयात्'? The inline text shows 'भैरिं िऩुराप्नुयात्', indicating the OCR has merged/misread 'ऩ' as 'प' and lost the intended spacing/letters; the Sanskrit extraction does not match the inline verse.",
+        "Verse 85 has OCR substitution: 'ऱीनं' should be 'लीनं'.",
+        "Verse 85 contains multiple vowel-mark/character OCR issues in 'मूवनध' / 'वियत्सिधम्' / 'भाियेत्' compared with the inline text; corrected reading should preserve the intended Sanskrit from the page."
+      ]
+    },
+    {
+      "page": 39,
+      "issues": [
+        "OCR/header mismatch: 'विऻानभैरि' should be 'विज्ञानभैरव' per the page heading and standard title.",
+        "OCR substitution: 'िाह्याऱोकस्तम्' contains wrong character(s); expected 'बाह्यलोकस्तं'.",
+        "OCR substitution: 'ऩुन्' should be 'पुनः'.",
+        "OCR substitution: 'ऻात्वा' should be 'ज्ञात्वा'.",
+        "Potential punctuation/diacritic issues in 'दुवनधशायां' and surrounding words should be verified against the source image."
+      ]
+    },
+    {
+      "page": 40,
+      "issues": [
+        "Header OCR error in visible text: विऻानभैरि तन्त्रम् should be विज्ञानभैरव तन्त्रम्.",
+        "Line 1 OCR mismatch: व्याघाताच्च निरोधत् is correct in extracted Sanskrit, but visible text shows वनरोधत्/possible OCR confusion; verify source alignment.",
+        "Line 2 OCR mismatch: अविसर्गम् should be अविसगधम् or vice versa; diacritic/character error present between text and extracted Sanskrit.",
+        "ऩ substitution in जऩतो should be जपतो.",
+        "ऻ substitution in ऻानौघ् should be ज्ञानौघ्.",
+        "ऩ substitution in ऩरमेश्वर् should be परमेश्वर्."
+      ]
+    },
+    {
+      "page": 42,
+      "issues": [
+        "OCR substitution in visible text: ‘कऱाया्’ should be ‘कलायाः’.",
+        "OCR substitution in visible text: ‘ऩृथग्भिेत्’ should be ‘पृथग्भवेत्’ or at least preserve the source reading; extracted Sanskrit has ‘कलयन्न पृथग्भिेत्’ which does not match the visible OCR text exactly."
+      ]
+    },
+    {
+      "page": 46,
+      "issues": [
+        "Header OCR error: 'विऻानभैरि' → 'विज्ञानभैरव'",
+        "Body OCR error: 'वनवऺऩेद्' → 'वनवक्षपेद्'",
+        "Body OCR error: 'ऩवरवऺऩेत्' → 'पवरवक्षपेत्'",
+        "Body OCR error: 'ऻायतां' → 'ज्ञायतां'",
+        "Body OCR error: 'नान्येवऺण्या' → 'नान्येवक्षण्या'",
+        "Body OCR error: 'विऻानवमच्छाद्यं' → 'विज्ञानवमच्छाद्यं'"
+      ]
+    },
+    {
+      "page": 48,
+      "issues": [
+        "Header OCR error: 'विऻानभैरि तन्त्रम्' should be 'विज्ञानभैरव तन्त्रम्'.",
+        "Verse 108: 'तदात्मपरमात्मत्वे भैरवो मृगलोचने' is correct against OCR errors in the source text; extracted Sanskrit already has this corrected, so no fix needed there.",
+        "Verse 109: OCR substitutions and spacing need normalization: 'सिद्धज्ञ्' from 'सिधऻ्', 'परमेश्वर्' from 'ऩरमेश्वर्'.",
+        "Verse 110: OCR substitutions and diacritic errors in 'जलस्येवोर्मयो', 'ज्वालाभङ्ग्यः' (from 'ज्ाधलाभङ्ग्य्'), and 'भवेदिताः'/ending punctuation need correction; the extracted Sanskrit differs from the inline text.",
+        "The extracted Sanskrit does not exactly preserve the visible inline text for verse 110; it should be checked against the source and corrected with proper OCR substitutions and diacritics."
+      ]
+    },
+    {
+      "page": 49,
+      "issues": [
+        "OCR substitutions in extracted Sanskrit: पातनात् was read as ऩातनात् in text; क्षोभ... forms need क्ष not ऺ; चत्तलयेन should be चत्तलयेन with ल not ऱ.",
+        "Header OCR in text shows 'विऻानभैरि तन्त्रम्' / 'Vijnana Bhairava Tantra'; Sanskrit field should preserve the intended Devanagari header 'विज्ञानभैरि तन्त्रम्' as shown in source OCR or normalize?"
+      ]
+    },
+    {
+      "page": 50,
+      "issues": [
+        "Header OCR mismatch: extracted 'विज्ञानभैरि तन्त्रम्' / visible 'विऻानभैरि तन्त्रम्' should be normalized to 'विज्ञानभैरव तन्त्रम्' if preserving the book header from source.",
+        "OCR substitution in verse 113: 'नेत्रयो् स्तब्धमाियो्' contains wrong matras/halant; should be checked against visible text.",
+        "OCR substitution in verse 114: 'कणधयो्' likely misread for a word with nasal/retroflex marking; needs correction from source.",
+        "OCR substitution in verse 114: 'अनच्कमहऱं' contains ऱ instead of ल; should be 'अनच्कमहलं' as already intended in extracted Sanskrit."
+      ]
+    },
+    {
+      "page": 51,
+      "issues": [
+        "Header OCR mismatch: विऻानभैरि should be विज्ञानभैरव.",
+        "Multiple OCR substitutions in verses: कूऩावदके, वस्थत्वोऩवर, वनरीऺणात्, अविकल्पमते्, चत्तऱय्, विभो्, तन्मािधवमधत्वावच्चल्लयाद्भवरतात्मता.",
+        "Diacritic/orthography issues present compared with the inline text: missing visarga in मते् and विभो्; possible गलत matra/halant sequence in चत्तऱय्/कल्लयाद् segment.",
+        "No speaker marker issue on this page, but no dialogue tags appear in the Sanskrit block."
+      ]
+    },
+    {
+      "page": 52,
+      "issues": [
+        "Header in text shows 'विऻानभैरि तन्त्रम्' while extracted Sanskrit has 'विज्ञानभैरि तन्त्रम्'; the OCR-like header should be normalized only if matching source, but source itself is garbled.",
+        "In verse 118, text has 'ऺुताद्यन्ते' and 'कुतूहऱेऺुधाद्यन्ते'; extracted Sanskrit correctly reads 'क्षुताद्यन्ते' and 'कुतूहलेक्षुधाद्यन्ते'.",
+        "In verse 118, text has 'िा' for 'वा'; extracted Sanskrit corrects it.",
+        "In verse 119, text has 'िस्तुषु स्मयधमाणेषु' and 'वनराधारं', while extracted Sanskrit has 'वस्तुषु स्मरणधर्माणेषु' and 'निराधारं'; these are corrected readings from the visible OCR-corrupted page.",
+        "In verse 119, text has 'प्रसरवत प्रभु्'; extracted Sanskrit correctly gives 'प्रसरवत् प्रभुः'."
+      ]
+    },
+    {
+      "page": 53,
+      "issues": [
+        "OCR/header correction needed: विऻानभैरि → विज्ञानभैरव",
+        "OCR substitution needed: शून्याऱायो → शून्यालयो",
+        "Diacritic/letter correction needed: भिेत् → भवेत्",
+        "OCR substitution needed: विवदतोऽवऩ → विवदतोऽपि"
+      ]
+    },
+    {
+      "page": 54,
+      "issues": [
+        "OCR/header mismatch: text shows विऻानभैरि तन्त्रम् / Vijnana Bhairava Tantra, while sanskrit has विज्ञानभैरव तन्त्रम्; preserve the Devanagari header as विज्ञानभैरव तन्त्रम्.",
+        "OCR errors in verse 123: वकंवचज्ज्ञैयाध स्मृता शुद्धिः सा शुद्धिः शम्भुदर्शनं । / न शुचिर्ह्यशुचिस्तस्मान्निर्विकल्पः सुखी भवेत् ॥ १२३ ॥",
+        "OCR errors in verse 124: सिद्धि भैरवो भावः सामान्येष्वपि गोचरः । / न च तद्व्यवतरेण परोऽस्तीत्यद्वया गतिः ॥ १२४ ॥"
+      ]
+    },
+    {
+      "page": 55,
+      "issues": [
+        "Header OCR mismatch: text shows 'विऻानभैरि तन्त्रम्' while Sanskrit has 'विज्ञानभैरि तन्त्रम्'; preserve source if exact header is required, but the extracted line differs in the first word.",
+        "OCR substitution corrected: ऻ→ज्ञ in 'ज्ञात्वा'.",
+        "OCR substitution corrected: ऩ→प in 'पवरपूणधत्वावदवत' and 'प्रसपधवत'."
+      ]
+    },
+    {
+      "page": 56,
+      "issues": [
+        "Header OCR error: वि�ानभैरि तन्त्रम् should be विज्ञानभैरव तन्त्रम्.",
+        "Verse 127 contains multiple OCR errors: यदभािगम्, तत्सिं, भैरिं, िोधसम्भि्.",
+        "Verse 128 contains multiple OCR errors: वनत्ये, वनराश्रये, व्याऩके, कऱनोविते, िाह्याकाशे, मन्, वनराकाशं.",
+        "Verse 129 contains OCR error ऩ→प in ऩवरत्यज्य, and वनस्तरङ्गस्ततो needs normalization to निस्तरङ्गस्ततो.",
+        "Missing/wrong diacritics and letterforms are present in several words across the page."
+      ]
+    },
+    {
+      "page": 57,
+      "issues": [
+        "Header OCR error: विऻानभैरि → विज्ञानभैरव तन्त्रम्",
+        "Verse 130 OCR errors: सिधम् → सिद्धम्, रियवत → रवति/करि? (source OCR unclear), सिधदो → सिद्धो, अवखऱे → अखिले",
+        "Verse 131 OCR error: प्रवतऩवत्त → प्रतिपत्ति / प्रवतपवत्त as shown in source OCR"
+      ]
+    },
+    {
+      "page": 58,
+      "issues": [
+        "Header OCR in text is corrupted; should preserve visible header as 'विज्ञानभैरव तन्त्रम्'.",
+        "Common OCR substitutions present in source text require normalization: ऻ→ज्ञ (ज्ञान), ऺ→क्ष (प्रवतक्षणं), ऱ→ल (अखल/अवखलावधिप्), ऩ→प (रूपत्).",
+        "Diacritic/letter errors in source need correction to match visible Sanskrit: 'व्यापकश्चावखलावधिप्' should be aligned with the inline visible text, and 'िा' should be 'वा' in verse 134.",
+        "Extracted Sanskrit does not fully match the Sanskrit visible in the page text; it needs correction to preserve exact verse forms."
+      ]
+    },
+    {
+      "page": 59,
+      "issues": [
+        "OCR-corrupted header in source text: विऻानभैरि तन्त्रम् should be विज्ञानभैरव तन्त्रम् if header is to be included.",
+        "Possible OCR error in verse 135: extracted शुद्धेजधलेवष्वि may need verification against inline text 'शुद्धेजधऱेवष्वि' and expected standard spelling."
+      ]
+    },
+    {
+      "page": 61,
+      "issues": [
+        "OCR corruption in header: ‘विज्ञानभैरि’ should be ‘विज्ञानभैरव’.",
+        "‘भैरि्’ should be ‘भैरव’.",
+        "‘िाचा’ should be ‘वाचा’.",
+        "‘शाऩानुग्रहकारक्’ should be ‘शापानुग्रहकारकः’.",
+        "‘सोऽवणमावदगुणावित्’ should be ‘सोऽणिमादिगुणान्वित्’.",
+        "‘सिधमेऱाऩकावधऩ्’ should be ‘सिद्धमेलापकाधिपः’."
+      ]
+    },
+    {
+      "page": 62,
+      "issues": [
+        "OCR substitutions corrected: विऻान→विज्ञान, कुिधन्न→कुर्वन्न, वऱ→ल",
+        "OCR substitutions corrected: ऩ→प in िऩुदेि, जऩ",
+        "Missing/wrong diacritics corrected: िा→वा, वकं→किं"
+      ]
+    },
+    {
+      "page": 63,
+      "issues": [
+        "Header OCR mismatch: text shows 'विऻानभैरि तन्त्रम्' while Sanskrit has 'विज्ञानभैरव तन्त्रम्'.",
+        "Verse 144 has OCR differences: 'एषाि प्रवक्रया िाह्या स्थूऱेष्वेि मृगेऺणे' vs 'एषाि प्रवक्रया वाह्या स्थूलेष्वेव मृगेक्षणे'.",
+        "Verse 145 has OCR differences: 'भूयो भूय् ऩरे भािे भािना भाव्यते वह या' vs 'भूयो भूय् परे भािे भािना भाव्यते वह या'.",
+        "Verse 146 has OCR differences in multiple words/diacritics: 'ध्यानं वह वनश्चऱा िुद्धिनिराकारा वनराश्रया । न तु ध्यानं शरीरावऺमुखहस्तावदकल्पना ॥ १४६ ॥' vs 'ध्यानं वह वनश्चला बुद्धिनिराकारा निराश्रया । न तु ध्यानं शरीरावक्षमुखहस्तावदकल्पना ॥ १४६ ॥'."
+      ]
+    },
+    {
+      "page": 64,
+      "issues": [
+        "Header OCR error in text: 'विऻानभैरि तन्त्रम्' should be 'विज्ञानभैरव तन्त्रम्' as per the visible page title.",
+        "OCR substitution ऩ→प: 'ऩूजा' should be 'पूजा' in the verse line.",
+        "OCR substitution ऩ→प: 'ऩुष्पाद्यैः' should be 'पुष्पाद्यैः'.",
+        "OCR substitution ऩ→प: 'त्यन्तऩूणधता' should be 'त्यन्तपूर्णता'."
+      ]
+    },
+    {
+      "page": 65,
+      "issues": [
+        "Inline text contains OCR-substituted characters that differ from the extracted Sanskrit: भूताऺविषयावदकम् → भूताक्षविषयावदकम्, ऩरमेशावन → परमेशावन, नन्दऱऺणा → नन्दलक्षणा, ऺऩणात्सिधऩाऩानां → क्षपणात्सिधपापानां, ऩािधवत → पार्थवत/पारिवत as intended in source; the extracted Sanskrit reflects the corrected spellings.",
+        "Header OCR in text shows विऻानभैरि तन्त्रम्, while extracted Sanskrit has विऻानभैरि तन्त्रम्; this should be checked against the visible page header if strict normalization to the source image is required."
+      ]
+    },
+    {
+      "page": 66,
+      "issues": [
+        "Header OCR mismatch: text shows 'विऻानभैरि तन्त्रम्' while sanskrit has 'विज्ञानभैरव तन्त्रम्'.",
+        "OCR substitution fixed: 'क्षेिं' in text corresponds to 'क्षेिं' in sanskrit; verify intended क्ष from ऺ.",
+        "OCR substitutions fixed for ऩ→प in 'परा', 'पूजा', 'पूज्यते', 'परापर्'.",
+        "Diacritic/orthography correction: 'तत्स्वरूऩे' corrected to 'तत्स्वरूपे'."
+      ]
+    },
+    {
+      "page": 67,
+      "issues": [
+        "Correct page header OCR: 'विऻानभैरि तन्त्रम्' -> 'विज्ञानभैरव तन्त्रम्'",
+        "Normalize OCR substitution in the title: ऻ -> ज्ञ, and final visarga/letter forms to match the visible header"
+      ]
+    },
+    {
+      "page": 68,
+      "issues": [
+        "Header OCR error: विऻानभैरि → विज्ञानभैरव.",
+        "OCR substitution in first verse: िवहयाधवत/विशेत्/जऩवत need normalization to the inline Sanskrit forms.",
+        "OCR substitution: ऩुन् → पुन्.",
+        "Verse marker १५५b is incomplete in extracted Sanskrit; the page text shows ॥ १५५ b ॥.",
+        "The extracted text uses सुलभो/दुलभो, while the page text shows सुऱभो/दुऱधभो.",
+        "Final verse has देव्या् and कस्यावप in extracted Sanskrit; compare carefully with inline OCR where the same glyphs are present, but the page text uses देव्या् and कस्यावऩ."
+      ]
+    },
+    {
+      "page": 69,
+      "issues": [
+        "Correct शीर्षक from 'विज्ञानभैरि तन्त्रम्' to 'विज्ञानभैरव तन्त्रम्'.",
+        "Correct 'परवशष्ये' to 'परवशिष्ये'.",
+        "Correct 'खले' to 'खले' (no change needed) and preserve the text’s intended form; OCR field has no issue here beyond nearby substitutions.",
+        "Correct 'अभिे' to 'अभये'.",
+        "Correct 'गुरुपादयो्' to 'गुरुपादयोः'.",
+        "Verify the OCR substitution 'ऩ'→'प' in the source; here it affects 'परवशष्ये' and 'पुरं' if present in the page text.",
+        "Ensure 'पुिदारकुटुम्बकम्' is preserved exactly as in the text if that is the source reading."
+      ]
+    },
+    {
+      "page": 70,
+      "issues": [
+        "OCR corruption in header: text has विऻानभैरि तन्त्रम्, extracted Sanskrit has विज्ञानभैरव तन्त्रम्.",
+        "OCR substitutions present in text for verse 160: मृगेऺणे -> मृगेक्षणे and ऩरवमदं -> परमदं; extracted Sanskrit reflects corrected forms.",
+        "Speaker tag mismatch: text shows श्री देिी उिाच ।, while the standard/expected form is श्री देव्युवाच ।; extracted Sanskrit preserves the corrupted form as shown.",
+        "Need to preserve exact Devanagari from source text; extracted Sanskrit normalizes some corrupted characters rather than matching the inline OCR exactly."
+      ]
+    },
+    {
+      "page": 71,
+      "issues": [
+        "Correct OCR substitution in header: विऻानभैरि → विज्ञानभैरव",
+        "Correct OCR substitution: रुद्रयामऱतन्त्रस्य → रुद्रयामलतन्त्रस्य",
+        "Correct OCR substitution: ऻातमद्य → ज्ञातमद्य",
+        "Correct OCR substitution: ऱिा → लिा"
+      ]
+    }
+  ]
+}
