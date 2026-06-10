@@ -2,7 +2,6 @@ import { notFound } from "next/navigation"
 import {
   getAllVerseNumbers,
   getVerse,
-  getVerseDe,
   getVerseId,
 } from "@/lib/data/verses"
 import { VerseDetail } from "./verse-detail"
@@ -21,7 +20,6 @@ export default async function VersePage({
   const verseEn = getVerse(n)
   if (!verseEn) notFound()
 
-  const verseDe = getVerseDe(n)
   const verseId = getVerseId(n)
 
   const all = getAllVerseNumbers()
@@ -35,7 +33,6 @@ export default async function VersePage({
   return (
     <VerseDetail
       verseEn={verseEn}
-      verseDe={verseDe}
       verseId={verseId}
       prev={
         prevVerse

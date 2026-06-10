@@ -13,25 +13,18 @@ type NavVerse = { number: number; title: string }
 
 export function VerseDetail({
   verseEn,
-  verseDe,
   verseId,
   prev,
   next,
 }: {
   verseEn: EnrichedVerse
-  verseDe?: EnrichedVerse
   verseId?: EnrichedVerse
   prev?: NavVerse | null
   next?: NavVerse | null
 }) {
   const [tab, setTab] = useState<"beginner" | "scholar">("beginner")
   const { language } = useLanguage()
-  const verse =
-    language === "de" && verseDe
-      ? verseDe
-      : language === "id" && verseId
-        ? verseId
-        : verseEn
+  const verse = language === "id" && verseId ? verseId : verseEn
 
   return (
     <div className="mx-auto w-full max-w-2xl px-6 pt-4 pb-28 md:px-10 md:pt-6 md:pb-16">
