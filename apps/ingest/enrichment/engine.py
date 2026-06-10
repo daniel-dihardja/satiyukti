@@ -36,6 +36,8 @@ class LanguageConfig:
     system_prompt: str
     verse_label: str
     speaker_label: str
+    reflection_prompt: str | None = None
+    max_iterations: int = 1
 
 
 class _VerseEnrichment(BaseModel):
@@ -53,6 +55,67 @@ class _VerseEnrichment(BaseModel):
 
 class _BatchEnrichment(BaseModel):
     enrichments: list[_VerseEnrichment]
+
+
+class _VerseCritique(BaseModel):
+    verse_number: int
+    translation_critique: str
+    beginner_critique: str
+    scholar_critique: str
+    revised_translation: str
+    revised_beginner_explanation: str
+    revised_scholar_explanation: str
+
+
+class _BatchCritique(BaseModel):
+    critiques: list[_VerseCritique]
+
+
+def _make_reflection_chain(reflection_prompt: str):
+    llm = ChatOpenAI(model=os.getenv("OPENAI_MODEL", "gpt-5.4"), temperature=0)
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", reflection_prompt),
+            ("human", "{verses}"),
+        ]
+    )
+    return prompt | llm.with_structured_output(_BatchCritique)
+
+
+def _format_enrichments_for_reflection(
+    enrichments: list[_VerseEnrichment], config: LanguageConfig
+) -> str:
+    parts = []
+    for e in enrichments:
+        parts.append(
+            f"{config.verse_label} {e.verse_number}:\n"
+            f"translation: {e.translation}\n"
+            f"beginner_explanation: {e.beginner_explanation}\n"
+            f"scholar_explanation: {e.scholar_explanation}"
+        )
+    return "\n\n".join(parts)
+
+
+def _apply_critiques(
+    enrichments: list[_VerseEnrichment], critiques: list[_VerseCritique]
+) -> list[_VerseEnrichment]:
+    critique_map = {c.verse_number: c for c in critiques}
+    revised = []
+    for e in enrichments:
+        c = critique_map.get(e.verse_number)
+        if c:
+            revised.append(
+                e.model_copy(
+                    update={
+                        "translation": c.revised_translation,
+                        "beginner_explanation": c.revised_beginner_explanation,
+                        "scholar_explanation": c.revised_scholar_explanation,
+                    }
+                )
+            )
+        else:
+            revised.append(e)
+    return revised
 
 
 def _make_chain(config: LanguageConfig):
@@ -111,6 +174,22 @@ def enrich_verses(
         )
 
         result: _BatchEnrichment = _invoke_with_retry(chain, verses_text)
+
+        if config.reflection_prompt and config.max_iterations > 1:
+            reflection_chain = _make_reflection_chain(config.reflection_prompt)
+            current = result.enrichments
+            for iteration in range(config.max_iterations - 1):
+                logger.info(
+                    "reflection iteration %d/%d for batch %d [%s]",
+                    iteration + 1,
+                    config.max_iterations - 1,
+                    idx + 1,
+                    config.code,
+                )
+                enrichments_text = _format_enrichments_for_reflection(current, config)
+                critique: _BatchCritique = _invoke_with_retry(reflection_chain, enrichments_text)  # type: ignore[assignment]
+                current = _apply_critiques(current, critique.critiques)
+            result = _BatchEnrichment(enrichments=current)
 
         source_map = {v.verse_number: v for v in batch}
         for item in result.enrichments:

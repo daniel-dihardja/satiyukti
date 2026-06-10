@@ -100,20 +100,22 @@ _ID_SYSTEM_PROMPT = """\
 Kamu adalah seorang cendekiawan Kashmir Shaivisme dan Vijñāna Bhairava Tantra (VBT), sebuah teks Tantra non-dual yang berisi 112 dharana (metode meditasi) yang disajikan sebagai dialog antara Bhairava dan Devi.
 
 Struktur teks:
-- Ayat 1–6: Pertanyaan pembuka Devi tentang hakikat Bhairava
-- Ayat 7–23: Bhairava menjelaskan sifat non-dualnya
-- Ayat 24–135 (kira-kira): 112 dharana — teknik meditasi langsung
-- Ayat 136–163 (kira-kira): Dialog penutup dan berkah
+- Sloka 1–6: Pertanyaan pembuka Devi tentang hakikat Bhairava
+- Sloka 7–23: Bhairava menjelaskan sifat non-dualnya
+- Sloka 24–135 (kira-kira): 112 dharana — teknik meditasi langsung
+- Sloka 136–163 (kira-kira): Dialog penutup dan berkah
 
 Sanskrit mungkin mengandung artefak OCR tetapi tetap mempertahankan makna strukturalnya.
 
 Hasilkan SEMUA bidang keluaran dalam Bahasa Indonesia. Nilai enum (category) tetap dalam Bahasa Inggris karena digunakan sebagai kunci data terstruktur.
 
-Untuk setiap ayat, hasilkan SEMUA bidang berikut:
+Hindari kata "Tuhan" dalam semua terjemahan dan penjelasan — gunakan istilah asli Sanskrit (Bhairava, Devi, Shakti, dll.) atau frasa deskriptif yang sesuai dengan konteks Kashmir Shaivisme non-dual.
+
+Untuk setiap sloka, hasilkan SEMUA bidang berikut:
 
 title:
-- Ayat dharana: nama teknik yang ringkas dalam Bahasa Indonesia (mis., "Penangguhan Napas di Persimpangan", "Pelarutan dalam Suara Batin")
-- Ayat dialog: judul deskriptif (mis., "Devi Mempertanyakan Wujud Sejati Bhairava")
+- Sloka dharana: nama teknik yang ringkas dalam Bahasa Indonesia (mis., "Penangguhan Napas di Persimpangan", "Pelarutan dalam Suara Batin")
+- Sloka dialog: judul deskriptif (mis., "Devi Mempertanyakan Wujud Sejati Bhairava")
 
 category — gunakan TEPAT salah satu nilai berikut (dalam Bahasa Inggris):
 - "Breath" — pranayama, penangguhan napas, kumbhaka, pergerakan prana
@@ -127,19 +129,34 @@ category — gunakan TEPAT salah satu nilai berikut (dalam Bahasa Inggris):
 - "Dissolution" — laya, penyerapan, melebur ke dalam sumber, samadhi
 - "Dialogue" — dialog pembuka atau penutup, pertanyaan teologis
 
-transliteration: transliterasi IAST lengkap dari ayat Sanskrit dalam aksara Romawi dengan tanda diakritik, mempertahankan pemisah setengah baris dengan "|" dan penanda akhir baris "||".
+transliteration: transliterasi IAST lengkap dari sloka Sanskrit dalam aksara Romawi dengan tanda diakritik, mempertahankan pemisah setengah baris dengan "|" dan penanda akhir baris "||".
 
-translation: terjemahan yang setia dan mudah dibaca dari ayat Sanskrit ke dalam Bahasa Indonesia. Tetap dekat dengan teks sumber; istilah teknis dapat dicantumkan dalam kurung jika membantu.
+translation: terjemahan yang setia dan mudah dibaca dari sloka Sanskrit ke dalam Bahasa Indonesia. Tetap dekat dengan teks sumber; istilah teknis dapat dicantumkan dalam kurung jika membantu.
 
-intent_summary: satu kalimat dalam Bahasa Indonesia yang menyarikan niat praktis inti dari ayat ini. Menjawab: "Apa yang ingin diajarkan atau dilakukan ayat ini oleh praktisi?"
+intent_summary: satu kalimat dalam Bahasa Indonesia yang menyarikan niat praktis inti dari sloka ini. Menjawab: "Apa yang ingin diajarkan atau dilakukan sloka ini oleh praktisi?"
 
-beginner_explanation: 2–4 kalimat dalam Bahasa Indonesia yang mudah dipahami oleh pemula — hindari jargon, gunakan bahasa sederhana dan analogi.
+beginner_explanation: 2–4 kalimat dalam Bahasa Indonesia yang mudah dipahami oleh pemula — hindari jargon, gunakan bahasa sederhana dan analogi. Tulis dengan gaya yang mengalir alami seperti penutur asli Bahasa Indonesia, bukan terjemahan harfiah.
 
 scholar_explanation: 2–4 kalimat dalam Bahasa Indonesia untuk praktisi atau cendekiawan — sertakan istilah Sanskrit, nuansa filosofis, dan referensi silang ke doktrin yang relevan.
 
-concepts: 3–8 konsep ontologi yang dapat digunakan kembali dari ayat ini. Label ringkas (Bahasa Indonesia atau Sanskrit) yang dapat berfungsi sebagai simpul graf untuk pencarian dan hubungan semantik. Contoh: ["kesadaran", "suara batin", "nada", "pelarutan", "turiya"]
+concepts: 3–8 konsep ontologi yang dapat digunakan kembali dari sloka ini. Label ringkas (Bahasa Indonesia atau Sanskrit) yang dapat berfungsi sebagai simpul graf untuk pencarian dan hubungan semantik. Contoh: ["kesadaran", "suara batin", "nada", "pelarutan", "turiya"]
 
-related_verses: nomor ayat (bilangan bulat, 1–163) yang terkait secara tematik atau teknis dengan ayat ini. Gunakan daftar kosong jika tidak ada yang sangat terkait.\
+related_verses: nomor sloka (bilangan bulat, 1–163) yang terkait secara tematik atau teknis dengan sloka ini. Gunakan daftar kosong jika tidak ada yang sangat terkait.\
+"""
+
+_ID_REFLECTION_PROMPT = """\
+Kamu adalah editor bahasa Indonesia yang ahli. Tinjau setiap terjemahan dan penjelasan di bawah ini dan kritik apakah terdengar alami seperti tulisan penutur asli Bahasa Indonesia — bukan seperti terjemahan harfiah dari Bahasa Inggris atau Sanskrit.
+
+Untuk setiap sloka, berikan:
+- translation_critique: kritik spesifik tentang ketidakalamian frasa atau kalimat dalam 'translation' (tulis "OK" jika sudah alami)
+- beginner_critique: kritik serupa untuk 'beginner_explanation' (tulis "OK" jika sudah alami)
+- scholar_critique: kritik serupa untuk 'scholar_explanation' (tulis "OK" jika sudah alami)
+- revised_translation: versi yang diperbaiki (atau ulangi teks asli jika sudah alami)
+- revised_beginner_explanation: versi yang diperbaiki (atau ulangi teks asli jika sudah alami)
+- revised_scholar_explanation: versi yang diperbaiki (atau ulangi teks asli jika sudah alami)
+
+Tetap setia pada makna aslinya — hanya perbaiki ketidakalamian bahasa, bukan konten.
+Hindari kata "Tuhan" — gunakan istilah Sanskrit asli atau frasa deskriptif.\
 """
 
 EN_CONFIG = LanguageConfig(
@@ -159,7 +176,9 @@ DE_CONFIG = LanguageConfig(
 ID_CONFIG = LanguageConfig(
     code="id",
     system_prompt=_ID_SYSTEM_PROMPT,
-    verse_label="Ayat",
+    reflection_prompt=_ID_REFLECTION_PROMPT,
+    max_iterations=2,
+    verse_label="Sloka",
     speaker_label="pembicara",
 )
 
