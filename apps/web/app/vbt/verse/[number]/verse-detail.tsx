@@ -177,7 +177,7 @@ export function VerseDetail({
             {prev ? (
               <Link
                 href={`/vbt/verse/${prev.number}`}
-                className="group flex items-center gap-3 px-6 py-5 transition-colors hover:bg-muted/50 md:px-8 md:py-6"
+                className="group flex items-center gap-3 px-6 py-4.5 transition-colors hover:bg-muted/50 md:px-8 md:py-5.5"
               >
                 <ChevronLeft className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-foreground" />
                 <div className="min-w-0">
@@ -197,7 +197,7 @@ export function VerseDetail({
             {next ? (
               <Link
                 href={`/vbt/verse/${next.number}`}
-                className="group flex items-center justify-end gap-3 border-l border-border px-6 py-5 text-right transition-colors hover:bg-muted/50 md:px-8 md:py-6"
+                className="group flex items-center justify-end gap-3 border-l border-border px-6 py-4.5 text-right transition-colors hover:bg-muted/50 md:px-8 md:py-5.5"
               >
                 <div className="min-w-0">
                   <p className="mb-0.5 text-xs text-muted-foreground">
@@ -225,9 +225,9 @@ export function VerseDetail({
             {prev ? (
               <Link
                 href={`/vbt/verse/${prev.number}`}
-                className="flex items-start gap-2.5 px-4 pt-4 transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
+                className="flex items-start gap-2.5 px-4 pt-3.5 transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
                 style={{
-                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                  paddingBottom: "calc(2.25rem + env(safe-area-inset-bottom))",
                 }}
               >
                 <ChevronLeft className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
@@ -243,7 +243,7 @@ export function VerseDetail({
             ) : (
               <div
                 style={{
-                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                  paddingBottom: "calc(2.25rem + env(safe-area-inset-bottom))",
                 }}
               />
             )}
@@ -251,9 +251,9 @@ export function VerseDetail({
             {next ? (
               <Link
                 href={`/vbt/verse/${next.number}`}
-                className="flex items-start justify-end gap-2.5 border-l border-border px-4 pt-4 text-right transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
+                className="flex items-start justify-end gap-2.5 border-l border-border px-4 pt-3.5 text-right transition-colors hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none focus-visible:ring-inset active:bg-muted/50"
                 style={{
-                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                  paddingBottom: "calc(2.25rem + env(safe-area-inset-bottom))",
                 }}
               >
                 <div className="min-w-0">
@@ -270,7 +270,7 @@ export function VerseDetail({
               <div
                 className="border-l border-border"
                 style={{
-                  paddingBottom: "calc(2.5rem + env(safe-area-inset-bottom))",
+                  paddingBottom: "calc(2.25rem + env(safe-area-inset-bottom))",
                 }}
               />
             )}
