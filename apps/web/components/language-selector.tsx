@@ -18,7 +18,7 @@ export function LanguageSelector() {
           key={code}
           onClick={() => setLanguage(code)}
           className={cn(
-            "rounded px-2 py-1 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring/50",
+            "rounded px-2 py-1 text-sm transition-colors focus-visible:ring-2 focus-visible:ring-ring/50 focus-visible:outline-none",
             language === code
               ? "font-medium text-foreground"
               : "text-muted-foreground hover:text-foreground"

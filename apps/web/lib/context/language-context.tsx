@@ -19,8 +19,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const stored = localStorage.getItem("vbt-language")
-    if (stored === "en" || stored === "id")
-      setLanguageState(stored)
+    if (stored === "en" || stored === "id") setLanguageState(stored)
   }, [])
 
   const setLanguage = (lang: Language) => {

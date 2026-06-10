@@ -1,9 +1,5 @@
 import { notFound } from "next/navigation"
-import {
-  getAllVerseNumbers,
-  getVerse,
-  getVerseId,
-} from "@/lib/data/verses"
+import { getAllVerseNumbers, getVerse, getVerseId } from "@/lib/data/verses"
 import { VerseDetail } from "./verse-detail"
 
 export function generateStaticParams() {
