@@ -9,8 +9,8 @@ from .models import Page, ValidationReport, Verse
 logger = logging.getLogger(__name__)
 
 VERSE_RE = re.compile(r"॥\s*([०-९]+)\s*[a-z]?\s*॥")
-DEVI_RE = re.compile(r"देव्युिाच|देव्य्\s*उिाच|देिी\s*उिाच")
-BHAIRAVA_RE = re.compile(r"भैरि\s*उिाच")
+DEVI_RE = re.compile(r"देव्युवाच|देव्य्\s*उवाच|देवी\s*उवाच")
+BHAIRAVA_RE = re.compile(r"भैरव\s*उवाच")
 
 DEVA_DIGITS = {ch: i for i, ch in enumerate("०१२३४५६७८९")}
 
