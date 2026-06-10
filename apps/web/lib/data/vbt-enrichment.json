@@ -18,11 +18,7 @@
       "dialogue",
       "scriptural framing"
     ],
-    "related_verses": [
-      2,
-      7,
-      8
-    ]
+    "related_verses": [2, 7, 8]
   },
   {
     "verse_number": 2,
@@ -44,14 +40,7 @@
       "tattva",
       "doubt"
     ],
-    "related_verses": [
-      1,
-      3,
-      4,
-      5,
-      6,
-      7
-    ]
+    "related_verses": [1, 3, 4, 5, 6, 7]
   },
   {
     "verse_number": 3,
@@ -72,13 +61,7 @@
       "selflessness",
       "identity"
     ],
-    "related_verses": [
-      2,
-      4,
-      5,
-      6,
-      8
-    ]
+    "related_verses": [2, 4, 5, 6, 8]
   },
   {
     "verse_number": 4,
@@ -100,13 +83,7 @@
       "symbolism",
       "nonduality"
     ],
-    "related_verses": [
-      2,
-      3,
-      5,
-      6,
-      9
-    ]
+    "related_verses": [2, 3, 5, 6, 9]
   },
   {
     "verse_number": 5,
@@ -127,13 +104,7 @@
       "categories",
       "nonduality"
     ],
-    "related_verses": [
-      2,
-      3,
-      4,
-      6,
-      8
-    ]
+    "related_verses": [2, 3, 4, 6, 8]
   },
   {
     "verse_number": 6,
@@ -155,13 +126,7 @@
       "sakala",
       "nonduality"
     ],
-    "related_verses": [
-      2,
-      3,
-      5,
-      7,
-      8
-    ]
+    "related_verses": [2, 3, 5, 7, 8]
   },
   {
     "verse_number": 7,
@@ -182,12 +147,7 @@
       "dialogue",
       "teaching"
     ],
-    "related_verses": [
-      1,
-      2,
-      8,
-      10
-    ]
+    "related_verses": [1, 2, 8, 10]
   },
   {
     "verse_number": 8,
@@ -208,12 +168,7 @@
       "recognition",
       "sakala"
     ],
-    "related_verses": [
-      7,
-      9,
-      10,
-      11
-    ]
+    "related_verses": [7, 9, 10, 11]
   },
   {
     "verse_number": 9,
@@ -234,12 +189,7 @@
       "asāra",
       "nonduality"
     ],
-    "related_verses": [
-      8,
-      10,
-      11,
-      12
-    ]
+    "related_verses": [8, 10, 11, 12]
   },
   {
     "verse_number": 10,
@@ -260,12 +210,7 @@
       "vikalpa",
       "teaching"
     ],
-    "related_verses": [
-      8,
-      9,
-      11,
-      24
-    ]
+    "related_verses": [8, 9, 11, 24]
   },
   {
     "verse_number": 11,
@@ -285,12 +230,7 @@
       "śabda",
       "self"
     ],
-    "related_verses": [
-      12,
-      15,
-      16,
-      18
-    ]
+    "related_verses": [12, 15, 16, 18]
   },
   {
     "verse_number": 12,
@@ -303,19 +243,8 @@
     "intent_summary": "Reject subtle yogic maps and symbols as final definitions of Bhairava, even when they are spiritually refined.",
     "beginner_explanation": "This verse says that even subtle meditation experiences and energy diagrams are not the whole truth. Sounds, lights, and chakra patterns can be helpful, but they are still only pointers. Don’t confuse the map with the destination.",
     "scholar_explanation": "The text negates nāda-bindu, candra-ardha-nirodhikā, cakra-kramas, and śakti-svarūpaka to prevent reification of yogic phenomenology. These are valid supports in tantric sādhana, but not the essence of Bhairava, who transcends all structured manifestations. The teaching is consistent with VBT's insistence on immediate recognition beyond mediate yogic constructs.",
-    "concepts": [
-      "nada",
-      "bindu",
-      "chakras",
-      "śakti",
-      "nonduality"
-    ],
-    "related_verses": [
-      11,
-      19,
-      20,
-      24
-    ]
+    "concepts": ["nada", "bindu", "chakras", "śakti", "nonduality"],
+    "related_verses": [11, 19, 20, 24]
   },
   {
     "verse_number": 13,
@@ -335,11 +264,7 @@
       "tantra",
       "skillful means"
     ],
-    "related_verses": [
-      14,
-      15,
-      16
-    ]
+    "related_verses": [14, 15, 16]
   },
   {
     "verse_number": 14,
@@ -352,19 +277,8 @@
     "intent_summary": "Point to ultimate reality as beyond speech, time, and spatial localization, making clear that it cannot be fully named.",
     "beginner_explanation": "This verse says the deepest reality is not located somewhere, and it does not fit into ordinary language or clocks. You cannot point to it like a place on a map. The practice is to sense what remains when those mental labels fall away.",
     "scholar_explanation": "Paramārtha is described as vāk-kāla-kalana-unmukta and deśa-uddeśa-viśeṣinī, indicating transcendence of discursive and spatiotemporal determination. Because it is aśakyā vyapadeṣṭum, language can only gesture toward it via negation. This aligns with the non-conceptual disclosure central to Trika and VBT.",
-    "concepts": [
-      "speech",
-      "time",
-      "space",
-      "paramartha",
-      "ineffability"
-    ],
-    "related_verses": [
-      11,
-      12,
-      16,
-      18
-    ]
+    "concepts": ["speech", "time", "space", "paramartha", "ineffability"],
+    "related_verses": [11, 12, 16, 18]
   },
   {
     "verse_number": 15,
@@ -384,12 +298,7 @@
       "vikalpa",
       "nonduality"
     ],
-    "related_verses": [
-      16,
-      17,
-      18,
-      20
-    ]
+    "related_verses": [16, 17, 18, 20]
   },
   {
     "verse_number": 16,
@@ -409,12 +318,7 @@
       "nonduality",
       "paratattva"
     ],
-    "related_verses": [
-      14,
-      15,
-      17,
-      18
-    ]
+    "related_verses": [14, 15, 17, 18]
   },
   {
     "verse_number": 17,
@@ -434,12 +338,7 @@
       "nonduality",
       "supreme state"
     ],
-    "related_verses": [
-      15,
-      16,
-      18,
-      20
-    ]
+    "related_verses": [15, 16, 18, 20]
   },
   {
     "verse_number": 18,
@@ -452,20 +351,8 @@
     "intent_summary": "Teach that Śiva and Śakti are inseparable and that the supreme power is identical with the supreme self.",
     "beginner_explanation": "This verse says that what looks like two things—consciousness and energy—is actually one reality. Just as a fire and its heat are not really separate, Śiva and Śakti belong together. Realizing this helps you stop dividing your own awareness into pieces.",
     "scholar_explanation": "The text argues from abheda-siddha-vastutā: whatever is śiva-śakti-mat is already non-different in fact. The dharma-dharmi relation is then used not to split them but to show that parā śakti is parātman, a hallmark of Trika metaphysics. This formulation supports the VBT's practice methods by grounding them in ontological nonduality.",
-    "concepts": [
-      "Śiva",
-      "Śakti",
-      "abheda",
-      "supreme Self",
-      "nonduality"
-    ],
-    "related_verses": [
-      15,
-      16,
-      17,
-      19,
-      20
-    ]
+    "concepts": ["Śiva", "Śakti", "abheda", "supreme Self", "nonduality"],
+    "related_verses": [15, 16, 17, 19, 20]
   },
   {
     "verse_number": 19,
@@ -478,18 +365,8 @@
     "intent_summary": "Indicate that śakti is inseparable from consciousness and that this teaching is only an entry point into direct knowing.",
     "beginner_explanation": "This verse uses the example of fire and heat: they are different aspects of one thing, not two separate things. In the same way, divine power is not apart from consciousness. The verse also says this is only the beginning of the path into direct awareness.",
     "scholar_explanation": "The fire-heat analogy denies any real vyatireka between śakti and the conscious principle. Jñāna-sattā here points to the luminous being-character of awareness that becomes accessible through entry (praveśana) rather than discursive inference. The verse functions as a bridge from doctrine to practice.",
-    "concepts": [
-      "awareness",
-      "śakti",
-      "fire analogy",
-      "jñāna-sattā",
-      "entry"
-    ],
-    "related_verses": [
-      18,
-      20,
-      24
-    ]
+    "concepts": ["awareness", "śakti", "fire analogy", "jñāna-sattā", "entry"],
+    "related_verses": [18, 20, 24]
   },
   {
     "verse_number": 20,
@@ -509,12 +386,7 @@
       "dissolution",
       "bhāvanā"
     ],
-    "related_verses": [
-      18,
-      19,
-      21,
-      24
-    ]
+    "related_verses": [18, 19, 21, 24]
   },
   {
     "verse_number": 21,
@@ -534,12 +406,7 @@
       "nonduality",
       "recognition"
     ],
-    "related_verses": [
-      22,
-      23,
-      26,
-      28
-    ]
+    "related_verses": [22, 23, 26, 28]
   },
   {
     "verse_number": 22,
@@ -559,15 +426,7 @@
       "time",
       "space"
     ],
-    "related_verses": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      23
-    ]
+    "related_verses": [1, 2, 3, 4, 5, 6, 23]
   },
   {
     "verse_number": 23,
@@ -587,12 +446,7 @@
       "realization",
       "practice"
     ],
-    "related_verses": [
-      22,
-      24,
-      26,
-      27
-    ]
+    "related_verses": [22, 24, 26, 27]
   },
   {
     "verse_number": 24,
@@ -605,19 +459,8 @@
     "intent_summary": "Attend to the upward and downward movements of life-force and rest in the sustaining point between them.",
     "beginner_explanation": "This verse points to the flow of breath and life-energy. If you can notice the upward and downward movement without chasing it, there is a place of balance and stillness. The practice is to rest in that stable middle rather than following every movement.",
     "scholar_explanation": "Prāṇa and jīva are polarized as upward and downward currents, while visarga evokes the tantric cosmology of emission and return. The instruction implies a pause in the generative sequence—utpatti, vidhi, avasthāna—where bharaṇa becomes a stable abiding. This is a breath-based dhāraṇā that points to the gap between movements as the locus of śiva-śakti equilibrium.",
-    "concepts": [
-      "breath",
-      "prana",
-      "jiva",
-      "visarga",
-      "stillness"
-    ],
-    "related_verses": [
-      27,
-      29,
-      30,
-      32
-    ]
+    "concepts": ["breath", "prana", "jiva", "visarga", "stillness"],
+    "related_verses": [27, 29, 30, 32]
   },
   {
     "verse_number": 25,
@@ -637,12 +480,7 @@
       "perception",
       "Bhairava"
     ],
-    "related_verses": [
-      21,
-      28,
-      33,
-      34
-    ]
+    "related_verses": [21, 28, 33, 34]
   },
   {
     "verse_number": 26,
@@ -655,20 +493,8 @@
     "intent_summary": "Do not move toward either outer pursuit or inner fixation; rest in the middle where Bhairava appears.",
     "beginner_explanation": "The verse tells you not to keep running outward or sinking inward. There is a middle place of balance where the mind stops splitting the world into inside and outside. In that middle, awareness can feel spacious and clear.",
     "scholar_explanation": "The injunction na vrajet na viśet rejects dual movement, while madhya becomes the pivotal locus of bhairavarūpatā. The imagery is obscure, but the practical thrust is classic VBT: the madhya between extremes is the site of non-dual revelation. The verse resonates with other gap practices in the tantra and with the centrality of madhya in later Kaula exegesis.",
-    "concepts": [
-      "nonduality",
-      "middle",
-      "duality",
-      "Śiva",
-      "Bhairava"
-    ],
-    "related_verses": [
-      24,
-      27,
-      28,
-      29,
-      30
-    ]
+    "concepts": ["nonduality", "middle", "duality", "Śiva", "Bhairava"],
+    "related_verses": [24, 27, 28, 29, 30]
   },
   {
     "verse_number": 27,
@@ -681,19 +507,8 @@
     "intent_summary": "Use the ends of breath phases as openings into peaceful, self-luminous awareness.",
     "beginner_explanation": "This verse focuses on the moments when breathing changes—holding, exhaling, or just before a new breath begins. Those edge moments can become openings into stillness. The practice is to notice the quiet right at the transition and rest there.",
     "scholar_explanation": "The terms kumbhitatā and recakatā point to retention and exhalation, but the emphasis is on ante, the terminal edge of each phase. Śānta is not mere calm but a luminous condition revealed by śakti. This is a canonical sandhi practice: the junction is the doorway to dissolution of ordinary mental movement.",
-    "concepts": [
-      "breath",
-      "junction",
-      "peace",
-      "śakti",
-      "dissolution"
-    ],
-    "related_verses": [
-      24,
-      29,
-      30,
-      31
-    ]
+    "concepts": ["breath", "junction", "peace", "śakti", "dissolution"],
+    "related_verses": [24, 29, 30, 31]
   },
   {
     "verse_number": 28,
@@ -713,13 +528,7 @@
       "dissolution",
       "light"
     ],
-    "related_verses": [
-      24,
-      27,
-      29,
-      30,
-      31
-    ]
+    "related_verses": [24, 27, 29, 30, 31]
   },
   {
     "verse_number": 29,
@@ -739,13 +548,7 @@
       "awakening",
       "subtle body"
     ],
-    "related_verses": [
-      24,
-      27,
-      28,
-      30,
-      32
-    ]
+    "related_verses": [24, 27, 28, 30, 32]
   },
   {
     "verse_number": 30,
@@ -765,13 +568,7 @@
       "gross-subtle-transcendent",
       "Śiva"
     ],
-    "related_verses": [
-      27,
-      28,
-      29,
-      31,
-      32
-    ]
+    "related_verses": [27, 28, 29, 31, 32]
   },
   {
     "verse_number": 31,
@@ -792,13 +589,7 @@
       "visualization",
       "meditation"
     ],
-    "related_verses": [
-      34,
-      35,
-      36,
-      39,
-      40
-    ]
+    "related_verses": [34, 35, 36, 39, 40]
   },
   {
     "verse_number": 32,
@@ -819,13 +610,7 @@
       "maṇḍala",
       "inner emptiness"
     ],
-    "related_verses": [
-      33,
-      39,
-      40,
-      41,
-      50
-    ]
+    "related_verses": [33, 39, 40, 41, 50]
   },
   {
     "verse_number": 33,
@@ -846,12 +631,7 @@
       "absorption",
       "nonattachment"
     ],
-    "related_verses": [
-      32,
-      39,
-      40,
-      62
-    ]
+    "related_verses": [32, 39, 40, 62]
   },
   {
     "verse_number": 34,
@@ -872,13 +652,7 @@
       "withdrawal",
       "awareness"
     ],
-    "related_verses": [
-      31,
-      35,
-      36,
-      41,
-      42
-    ]
+    "related_verses": [31, 35, 36, 41, 42]
   },
   {
     "verse_number": 35,
@@ -899,13 +673,7 @@
       "visualization",
       "luminous awareness"
     ],
-    "related_verses": [
-      31,
-      34,
-      36,
-      39,
-      50
-    ]
+    "related_verses": [31, 34, 36, 39, 50]
   },
   {
     "verse_number": 36,
@@ -926,13 +694,7 @@
       "supreme state",
       "visualization"
     ],
-    "related_verses": [
-      31,
-      34,
-      35,
-      37,
-      38
-    ]
+    "related_verses": [31, 34, 35, 37, 38]
   },
   {
     "verse_number": 37,
@@ -953,13 +715,7 @@
       "lunar point",
       "absorption"
     ],
-    "related_verses": [
-      36,
-      38,
-      39,
-      40,
-      42
-    ]
+    "related_verses": [36, 38, 39, 40, 42]
   },
   {
     "verse_number": 38,
@@ -980,13 +736,7 @@
       "para-brahman",
       "hearing"
     ],
-    "related_verses": [
-      37,
-      39,
-      60,
-      61,
-      62
-    ]
+    "related_verses": [37, 39, 60, 61, 62]
   },
   {
     "verse_number": 39,
@@ -1007,13 +757,7 @@
       "śūnyatā",
       "breath-sound"
     ],
-    "related_verses": [
-      32,
-      33,
-      38,
-      40,
-      64
-    ]
+    "related_verses": [32, 33, 38, 40, 64]
   },
   {
     "verse_number": 40,
@@ -1034,13 +778,7 @@
       "formless awareness",
       "mantra"
     ],
-    "related_verses": [
-      32,
-      33,
-      39,
-      41,
-      42
-    ]
+    "related_verses": [32, 33, 39, 41, 42]
   },
   {
     "verse_number": 41,
@@ -1061,18 +799,7 @@
       "one-pointedness",
       "dissolution"
     ],
-    "related_verses": [
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      34,
-      51,
-      77
-    ]
+    "related_verses": [26, 27, 28, 29, 30, 31, 32, 34, 51, 77]
   },
   {
     "verse_number": 42,
@@ -1094,17 +821,7 @@
       "emptiness",
       "dissolution"
     ],
-    "related_verses": [
-      27,
-      28,
-      29,
-      31,
-      36,
-      41,
-      52,
-      56,
-      68
-    ]
+    "related_verses": [27, 28, 29, 31, 36, 41, 52, 56, 68]
   },
   {
     "verse_number": 43,
@@ -1125,17 +842,7 @@
       "nvikalpa",
       "embodiment"
     ],
-    "related_verses": [
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      71,
-      72
-    ]
+    "related_verses": [44, 45, 46, 47, 48, 49, 50, 71, 72]
   },
   {
     "verse_number": 44,
@@ -1156,17 +863,7 @@
       "awareness",
       "nonduality"
     ],
-    "related_verses": [
-      43,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      74,
-      75
-    ]
+    "related_verses": [43, 45, 46, 47, 48, 49, 50, 74, 75]
   },
   {
     "verse_number": 45,
@@ -1187,16 +884,7 @@
       "nvikalpa",
       "awareness"
     ],
-    "related_verses": [
-      44,
-      46,
-      48,
-      49,
-      50,
-      70,
-      73,
-      74
-    ]
+    "related_verses": [44, 46, 48, 49, 50, 70, 73, 74]
   },
   {
     "verse_number": 46,
@@ -1217,16 +905,7 @@
       "nvikalpa",
       "awareness"
     ],
-    "related_verses": [
-      43,
-      44,
-      45,
-      47,
-      48,
-      49,
-      50,
-      91
-    ]
+    "related_verses": [43, 44, 45, 47, 48, 49, 50, 91]
   },
   {
     "verse_number": 47,
@@ -1247,16 +926,7 @@
       "stability",
       "bhavana"
     ],
-    "related_verses": [
-      43,
-      44,
-      45,
-      46,
-      48,
-      49,
-      50,
-      78
-    ]
+    "related_verses": [43, 44, 45, 46, 48, 49, 50, 78]
   },
   {
     "verse_number": 48,
@@ -1277,16 +947,7 @@
       "meditation",
       "awareness"
     ],
-    "related_verses": [
-      43,
-      44,
-      45,
-      46,
-      47,
-      49,
-      50,
-      86
-    ]
+    "related_verses": [43, 44, 45, 46, 47, 49, 50, 86]
   },
   {
     "verse_number": 49,
@@ -1307,17 +968,7 @@
       "one-pointedness",
       "bliss"
     ],
-    "related_verses": [
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      50,
-      78,
-      79
-    ]
+    "related_verses": [43, 44, 45, 46, 47, 48, 50, 78, 79]
   },
   {
     "verse_number": 50,
@@ -1338,18 +989,7 @@
       "body",
       "tattva"
     ],
-    "related_verses": [
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      43,
-      49,
-      60
-    ]
+    "related_verses": [34, 35, 36, 37, 38, 39, 40, 43, 49, 60]
   },
   {
     "verse_number": 51,
@@ -1369,13 +1009,7 @@
       "mental quiet",
       "nonduality"
     ],
-    "related_verses": [
-      15,
-      16,
-      24,
-      25,
-      126
-    ]
+    "related_verses": [15, 16, 24, 25, 126]
   },
   {
     "verse_number": 52,
@@ -1395,12 +1029,7 @@
       "dispassion",
       "peaceful luminosity"
     ],
-    "related_verses": [
-      58,
-      59,
-      60,
-      111
-    ]
+    "related_verses": [58, 59, 60, 111]
   },
   {
     "verse_number": 53,
@@ -1420,12 +1049,7 @@
       "world appearance",
       "fulfillment"
     ],
-    "related_verses": [
-      7,
-      8,
-      93,
-      94
-    ]
+    "related_verses": [7, 8, 93, 94]
   },
   {
     "verse_number": 54,
@@ -1438,19 +1062,8 @@
     "intent_summary": "Contemplate all subtle constituents of body and world as dissolving, so the supreme reality can emerge.",
     "beginner_explanation": "This verse says to notice everything that makes up you and the world, down to the most subtle levels, and imagine it all dissolving. As the pieces fade, what remains is not emptiness in a dead sense but a higher reality. It is like letting a picture dissolve so the screen becomes visible.",
     "scholar_explanation": "The verse targets sūkṣma and sūkṣmatara tattvas, inviting laya of all ontic layers within deha and jagat. The result is vyajyate parā, the manifestation of Parā-śakti/Paramaśiva as the substratum of all categories. This is a contemplative deconstruction of tattvic multiplicity into non-dual ground.",
-    "concepts": [
-      "tattva",
-      "dissolution",
-      "subtle body",
-      "world",
-      "parā"
-    ],
-    "related_verses": [
-      58,
-      59,
-      60,
-      97
-    ]
+    "concepts": ["tattva", "dissolution", "subtle body", "world", "parā"],
+    "related_verses": [58, 59, 60, 97]
   },
   {
     "verse_number": 55,
@@ -1463,19 +1076,8 @@
     "intent_summary": "Focus on the energetic field of the dvādaśa and then inwardly enter the heart to realize freedom.",
     "beginner_explanation": "The verse suggests that there is a powerful current or energy in the subtle twelvefold field. You first notice that power, then turn inward to the heart center and rest there. The result is freedom, not because something new is added, but because your attention returns to its source.",
     "scholar_explanation": "The phrase dvādaśagocare indicates the subtle domain around the dvādaśānta/inner periphery, while hṛdaya denotes the central Śaiva locus of consciousness. The verse couples a concentrated visualization of śakti with inward entry, culminating in svātantrya, a key Trika term for divine freedom. Liberation here is not elsewhere but disclosed in the heart as the source of all movement.",
-    "concepts": [
-      "dvadasanta",
-      "heart",
-      "shakti",
-      "freedom",
-      "awareness"
-    ],
-    "related_verses": [
-      24,
-      51,
-      74,
-      118
-    ]
+    "concepts": ["dvadasanta", "heart", "shakti", "freedom", "awareness"],
+    "related_verses": [24, 51, 74, 118]
   },
   {
     "verse_number": 56,
@@ -1495,12 +1097,7 @@
       "mind dissolution",
       "bhuvana"
     ],
-    "related_verses": [
-      57,
-      103,
-      104,
-      105
-    ]
+    "related_verses": [57, 103, 104, 105]
   },
   {
     "verse_number": 57,
@@ -1520,12 +1117,7 @@
       "tattva",
       "universe"
     ],
-    "related_verses": [
-      56,
-      58,
-      103,
-      105
-    ]
+    "related_verses": [56, 58, 103, 105]
   },
   {
     "verse_number": 58,
@@ -1545,11 +1137,7 @@
       "dissolution",
       "universe"
     ],
-    "related_verses": [
-      59,
-      60,
-      143
-    ]
+    "related_verses": [59, 60, 143]
   },
   {
     "verse_number": 59,
@@ -1562,18 +1150,8 @@
     "intent_summary": "Break fixation on bounded forms and throw the gaze into the open so awareness becomes one with dissolution itself.",
     "beginner_explanation": "Think of staring at the inside of a pot: the verse says to break that habit of looking at things as solid containers. Let your attention fall beyond the object, into open space. When the mind lands there, it can merge with that openness.",
     "scholar_explanation": "The verse uses ghaṭa-bhājana imagery to undo container-bound perception, a standard Tantric critique of object fixation. By vinikṣepa of dṛṣṭi beyond the form, the practitioner enters laya and becomes tanmaya with that state. It is a precise technique of de-objectifying perception through spatial deferral.",
-    "concepts": [
-      "space",
-      "gaze",
-      "object fixation",
-      "dissolution",
-      "tanmaya"
-    ],
-    "related_verses": [
-      58,
-      60,
-      145
-    ]
+    "concepts": ["space", "gaze", "object fixation", "dissolution", "tanmaya"],
+    "related_verses": [58, 60, 145]
   },
   {
     "verse_number": 60,
@@ -1593,11 +1171,7 @@
       "mental fluctuations",
       "concentration"
     ],
-    "related_verses": [
-      58,
-      59,
-      148
-    ]
+    "related_verses": [58, 59, 148]
   },
   {
     "verse_number": 61,
@@ -1618,14 +1192,7 @@
       "nonduality",
       "tattva"
     ],
-    "related_verses": [
-      24,
-      29,
-      61,
-      62,
-      64,
-      67
-    ]
+    "related_verses": [24, 29, 61, 62, 64, 67]
   },
   {
     "verse_number": 62,
@@ -1646,13 +1213,7 @@
       "nirodha",
       "self-luminous awareness"
     ],
-    "related_verses": [
-      61,
-      63,
-      64,
-      65,
-      68
-    ]
+    "related_verses": [61, 63, 64, 65, 68]
   },
   {
     "verse_number": 63,
@@ -1673,12 +1234,7 @@
       "bhavana",
       "nonduality"
     ],
-    "related_verses": [
-      61,
-      62,
-      65,
-      69
-    ]
+    "related_verses": [61, 62, 65, 69]
   },
   {
     "verse_number": 64,
@@ -1699,14 +1255,7 @@
       "awareness",
       "kumbhaka"
     ],
-    "related_verses": [
-      24,
-      25,
-      26,
-      61,
-      67,
-      68
-    ]
+    "related_verses": [24, 25, 26, 61, 67, 68]
   },
   {
     "verse_number": 65,
@@ -1719,19 +1268,8 @@
     "intent_summary": "The verse teaches transforming perception into a felt sense of all-pervading personal bliss and unity.",
     "beginner_explanation": "Try to feel the world as not separate from you, but as part of your own living body. Let the feeling be warm, alive, and blissful. When that sense deepens, ordinary pleasure can open into a much larger joy.",
     "scholar_explanation": "Here the practitioner is asked to स्मरेत् the jagat either as svadeha or as immersed in svānanda-bhavarata, shifting cognition into an affective non-dual register. The phrase svāmṛta points to an inner nectar or autonomously arising bliss that, when tasted simultaneously, yields parānandamaya—a fullness beyond ordinary sensory pleasure. This is a bhāvanā of identity between self, world, and blissful consciousness.",
-    "concepts": [
-      "bliss",
-      "world",
-      "body",
-      "memory",
-      "nonduality",
-      "nectar"
-    ],
-    "related_verses": [
-      63,
-      69,
-      70
-    ]
+    "concepts": ["bliss", "world", "body", "memory", "nonduality", "nectar"],
+    "related_verses": [63, 69, 70]
   },
   {
     "verse_number": 66,
@@ -1752,12 +1290,7 @@
       "emotion",
       "Tantra"
     ],
-    "related_verses": [
-      65,
-      69,
-      70,
-      72
-    ]
+    "related_verses": [65, 69, 70, 72]
   },
   {
     "verse_number": 67,
@@ -1778,12 +1311,7 @@
       "tactile sensation",
       "bliss"
     ],
-    "related_verses": [
-      24,
-      64,
-      68,
-      73
-    ]
+    "related_verses": [24, 64, 68, 73]
   },
   {
     "verse_number": 68,
@@ -1804,14 +1332,7 @@
       "remembrance",
       "interior space"
     ],
-    "related_verses": [
-      61,
-      62,
-      64,
-      65,
-      67,
-      69
-    ]
+    "related_verses": [61, 62, 64, 65, 67, 69]
   },
   {
     "verse_number": 69,
@@ -1832,13 +1353,7 @@
       "self-recognition",
       "ecstasy"
     ],
-    "related_verses": [
-      65,
-      66,
-      70,
-      72,
-      81
-    ]
+    "related_verses": [65, 66, 70, 72, 81]
   },
   {
     "verse_number": 70,
@@ -1859,12 +1374,7 @@
       "smriti",
       "Tantra"
     ],
-    "related_verses": [
-      65,
-      69,
-      81,
-      95
-    ]
+    "related_verses": [65, 69, 81, 95]
   },
   {
     "verse_number": 71,
@@ -1885,11 +1395,7 @@
       "laya",
       "mind"
     ],
-    "related_verses": [
-      72,
-      73,
-      74
-    ]
+    "related_verses": [72, 73, 74]
   },
   {
     "verse_number": 72,
@@ -1910,11 +1416,7 @@
       "emotion",
       "nondual joy"
     ],
-    "related_verses": [
-      71,
-      73,
-      74
-    ]
+    "related_verses": [71, 73, 74]
   },
   {
     "verse_number": 73,
@@ -1935,11 +1437,7 @@
       "mind",
       "sensory experience"
     ],
-    "related_verses": [
-      71,
-      72,
-      74
-    ]
+    "related_verses": [71, 72, 74]
   },
   {
     "verse_number": 74,
@@ -1960,12 +1458,7 @@
       "emotion",
       "meditation"
     ],
-    "related_verses": [
-      71,
-      72,
-      73,
-      75
-    ]
+    "related_verses": [71, 72, 73, 75]
   },
   {
     "verse_number": 75,
@@ -1986,12 +1479,7 @@
       "goddess",
       "liminal state"
     ],
-    "related_verses": [
-      19,
-      20,
-      21,
-      76
-    ]
+    "related_verses": [19, 20, 21, 76]
   },
   {
     "verse_number": 76,
@@ -2012,11 +1500,7 @@
       "consciousness",
       "visualization"
     ],
-    "related_verses": [
-      75,
-      77,
-      80
-    ]
+    "related_verses": [75, 77, 80]
   },
   {
     "verse_number": 77,
@@ -2037,11 +1521,7 @@
       "attainment",
       "awareness"
     ],
-    "related_verses": [
-      76,
-      78,
-      80
-    ]
+    "related_verses": [76, 78, 80]
   },
   {
     "verse_number": 78,
@@ -2062,11 +1542,7 @@
       "awareness",
       "non-striving"
     ],
-    "related_verses": [
-      79,
-      80,
-      75
-    ]
+    "related_verses": [79, 80, 75]
   },
   {
     "verse_number": 79,
@@ -2087,11 +1563,7 @@
       "dissolution",
       "attention"
     ],
-    "related_verses": [
-      78,
-      80,
-      58
-    ]
+    "related_verses": [78, 80, 58]
   },
   {
     "verse_number": 80,
@@ -2112,12 +1584,7 @@
       "nonduality",
       "Śiva"
     ],
-    "related_verses": [
-      76,
-      77,
-      78,
-      79
-    ]
+    "related_verses": [76, 77, 78, 79]
   },
   {
     "verse_number": 81,
@@ -2139,12 +1606,7 @@
       "silence",
       "dissolution"
     ],
-    "related_verses": [
-      24,
-      90,
-      91,
-      95
-    ]
+    "related_verses": [24, 90, 91, 95]
   },
   {
     "verse_number": 82,
@@ -2165,12 +1627,7 @@
       "latent impressions",
       "nonduality"
     ],
-    "related_verses": [
-      83,
-      84,
-      89,
-      106
-    ]
+    "related_verses": [83, 84, 89, 106]
   },
   {
     "verse_number": 83,
@@ -2191,11 +1648,7 @@
       "calm",
       "meditation"
     ],
-    "related_verses": [
-      82,
-      84,
-      106
-    ]
+    "related_verses": [82, 84, 106]
   },
   {
     "verse_number": 84,
@@ -2216,12 +1669,7 @@
       "Bhairava_state",
       "nonduality"
     ],
-    "related_verses": [
-      85,
-      86,
-      88,
-      121
-    ]
+    "related_verses": [85, 86, 88, 121]
   },
   {
     "verse_number": 85,
@@ -2242,12 +1690,7 @@
       "Bhairava",
       "absorption"
     ],
-    "related_verses": [
-      84,
-      86,
-      88,
-      107
-    ]
+    "related_verses": [84, 86, 88, 107]
   },
   {
     "verse_number": 86,
@@ -2268,12 +1711,7 @@
       "awareness",
       "perception"
     ],
-    "related_verses": [
-      84,
-      85,
-      87,
-      88
-    ]
+    "related_verses": [84, 85, 87, 88]
   },
   {
     "verse_number": 87,
@@ -2294,12 +1732,7 @@
       "formlessness",
       "contemplation"
     ],
-    "related_verses": [
-      84,
-      85,
-      88,
-      99
-    ]
+    "related_verses": [84, 85, 88, 99]
   },
   {
     "verse_number": 88,
@@ -2320,12 +1753,7 @@
       "Bhairava",
       "absorption"
     ],
-    "related_verses": [
-      84,
-      85,
-      87,
-      89
-    ]
+    "related_verses": [84, 85, 87, 89]
   },
   {
     "verse_number": 89,
@@ -2346,12 +1774,7 @@
       "dissolution",
       "awareness"
     ],
-    "related_verses": [
-      82,
-      84,
-      86,
-      90
-    ]
+    "related_verses": [82, 84, 86, 90]
   },
   {
     "verse_number": 90,
@@ -2364,20 +1787,8 @@
     "intent_summary": "Repeat sacred sound-elements until they spontaneously open into a surge of awakened knowledge.",
     "beginner_explanation": "This verse uses seed-sounds and subtle sound-parts as a meditation object. By repeating them carefully, the mind can suddenly brighten, as if a lamp were switched on inside. The practice is less about pronunciation than about letting sound awaken awareness.",
     "scholar_explanation": "The verse centers on ā-kāra with bindu and visarga, likely referring to phonemic constituents of praṇava or related mantra-consciousness. Continuous japa culminates in sahasā, a sudden emergence of jñānaugha, because sound-form here functions as a direct carrier of śakti. The result is parameśvara, not as external deity but as the awakened plenitude of consciousness.",
-    "concepts": [
-      "mantra",
-      "AUM",
-      "bindu",
-      "visarga",
-      "knowledge",
-      "sound"
-    ],
-    "related_verses": [
-      24,
-      81,
-      91,
-      92
-    ]
+    "concepts": ["mantra", "AUM", "bindu", "visarga", "knowledge", "sound"],
+    "related_verses": [24, 81, 91, 92]
   },
   {
     "verse_number": 91,
@@ -2398,19 +1809,7 @@
       "Brahman",
       "dissolution"
     ],
-    "related_verses": [
-      24,
-      25,
-      83,
-      84,
-      85,
-      86,
-      87,
-      88,
-      89,
-      90,
-      92
-    ]
+    "related_verses": [24, 25, 83, 84, 85, 86, 87, 88, 89, 90, 92]
   },
   {
     "verse_number": 92,
@@ -2431,18 +1830,7 @@
       "śakti",
       "inner openness"
     ],
-    "related_verses": [
-      54,
-      55,
-      56,
-      57,
-      71,
-      72,
-      73,
-      74,
-      91,
-      100
-    ]
+    "related_verses": [54, 55, 56, 57, 71, 72, 73, 74, 91, 100]
   },
   {
     "verse_number": 93,
@@ -2463,19 +1851,7 @@
       "Bhairava",
       "purity"
     ],
-    "related_verses": [
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      100
-    ]
+    "related_verses": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 100]
   },
   {
     "verse_number": 94,
@@ -2497,24 +1873,7 @@
       "self-recognition"
     ],
     "related_verses": [
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      99
+      7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 99
     ]
   },
   {
@@ -2537,29 +1896,8 @@
       "illusion"
     ],
     "related_verses": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+      22, 23
     ]
   },
   {
@@ -2581,18 +1919,7 @@
       "dissolution",
       "source"
     ],
-    "related_verses": [
-      97,
-      98,
-      101,
-      102,
-      103,
-      104,
-      105,
-      106,
-      107,
-      108
-    ]
+    "related_verses": [97, 98, 101, 102, 103, 104, 105, 106, 107, 108]
   },
   {
     "verse_number": 97,
@@ -2614,25 +1941,7 @@
       "absorption"
     ],
     "related_verses": [
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      96,
-      98
+      7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 96, 98
     ]
   },
   {
@@ -2654,14 +1963,7 @@
       "self-purification",
       "tattva"
     ],
-    "related_verses": [
-      96,
-      97,
-      99,
-      100,
-      101,
-      102
-    ]
+    "related_verses": [96, 97, 99, 100, 101, 102]
   },
   {
     "verse_number": 99,
@@ -2682,14 +1984,7 @@
       "Śiva",
       "awareness"
     ],
-    "related_verses": [
-      94,
-      97,
-      98,
-      100,
-      101,
-      102
-    ]
+    "related_verses": [94, 97, 98, 100, 101, 102]
   },
   {
     "verse_number": 100,
@@ -2710,15 +2005,7 @@
       "devotion",
       "manifestation"
     ],
-    "related_verses": [
-      93,
-      94,
-      95,
-      98,
-      99,
-      101,
-      102
-    ]
+    "related_verses": [93, 94, 95, 98, 99, 101, 102]
   },
   {
     "verse_number": 101,
@@ -2739,11 +2026,7 @@
       "nonduality",
       "intellect"
     ],
-    "related_verses": [
-      103,
-      108,
-      109
-    ]
+    "related_verses": [103, 108, 109]
   },
   {
     "verse_number": 102,
@@ -2764,11 +2047,7 @@
       "joy",
       "nonduality"
     ],
-    "related_verses": [
-      104,
-      105,
-      108
-    ]
+    "related_verses": [104, 105, 108]
   },
   {
     "verse_number": 103,
@@ -2789,11 +2068,7 @@
       "equanimity",
       "nonduality"
     ],
-    "related_verses": [
-      101,
-      108,
-      109
-    ]
+    "related_verses": [101, 108, 109]
   },
   {
     "verse_number": 104,
@@ -2814,10 +2089,7 @@
       "attention",
       "joy"
     ],
-    "related_verses": [
-      107,
-      109
-    ]
+    "related_verses": [107, 109]
   },
   {
     "verse_number": 105,
@@ -2838,11 +2110,7 @@
       "siddha",
       "nonduality"
     ],
-    "related_verses": [
-      104,
-      107,
-      109
-    ]
+    "related_verses": [104, 107, 109]
   },
   {
     "verse_number": 106,
@@ -2863,10 +2131,7 @@
       "nonduality",
       "yoga"
     ],
-    "related_verses": [
-      108,
-      109
-    ]
+    "related_verses": [108, 109]
   },
   {
     "verse_number": 107,
@@ -2887,11 +2152,7 @@
       "nonduality",
       "empathy"
     ],
-    "related_verses": [
-      105,
-      106,
-      108
-    ]
+    "related_verses": [105, 106, 108]
   },
   {
     "verse_number": 108,
@@ -2914,13 +2175,7 @@
       "Bhairava",
       "nonduality"
     ],
-    "related_verses": [
-      101,
-      103,
-      105,
-      106,
-      109
-    ]
+    "related_verses": [101, 103, 105, 106, 109]
   },
   {
     "verse_number": 109,
@@ -2942,12 +2197,7 @@
       "shaivism",
       "recognition"
     ],
-    "related_verses": [
-      105,
-      106,
-      107,
-      108
-    ]
+    "related_verses": [105, 106, 107, 108]
   },
   {
     "verse_number": 110,
@@ -2968,11 +2218,7 @@
       "nonduality",
       "appearance"
     ],
-    "related_verses": [
-      102,
-      105,
-      109
-    ]
+    "related_verses": [102, 105, 109]
   },
   {
     "verse_number": 111,
@@ -2993,13 +2239,7 @@
       "parā state",
       "dissolution"
     ],
-    "related_verses": [
-      30,
-      31,
-      118,
-      119,
-      120
-    ]
+    "related_verses": [30, 31, 118, 119, 120]
   },
   {
     "verse_number": 112,
@@ -3020,12 +2260,7 @@
       "samāveśa",
       "Bhairava"
     ],
-    "related_verses": [
-      111,
-      113,
-      115,
-      118
-    ]
+    "related_verses": [111, 113, 115, 118]
   },
   {
     "verse_number": 113,
@@ -3046,12 +2281,7 @@
       "sensory restraint",
       "visual fixation"
     ],
-    "related_verses": [
-      114,
-      115,
-      126,
-      128
-    ]
+    "related_verses": [114, 115, 126, 128]
   },
   {
     "verse_number": 114,
@@ -3072,12 +2302,7 @@
       "body apertures",
       "nonduality"
     ],
-    "related_verses": [
-      113,
-      115,
-      119,
-      120
-    ]
+    "related_verses": [113, 115, 119, 120]
   },
   {
     "verse_number": 115,
@@ -3098,12 +2323,7 @@
       "dizzying perception",
       "awareness"
     ],
-    "related_verses": [
-      111,
-      112,
-      118,
-      119
-    ]
+    "related_verses": [111, 112, 118, 119]
   },
   {
     "verse_number": 116,
@@ -3124,13 +2344,7 @@
       "inner-outer",
       "awareness"
     ],
-    "related_verses": [
-      7,
-      8,
-      9,
-      117,
-      121
-    ]
+    "related_verses": [7, 8, 9, 117, 121]
   },
   {
     "verse_number": 117,
@@ -3151,12 +2365,7 @@
       "awareness",
       "mind dissolution"
     ],
-    "related_verses": [
-      116,
-      119,
-      120,
-      128
-    ]
+    "related_verses": [116, 119, 120, 128]
   },
   {
     "verse_number": 118,
@@ -3177,12 +2386,7 @@
       "Brahman",
       "liminal state"
     ],
-    "related_verses": [
-      111,
-      112,
-      115,
-      119
-    ]
+    "related_verses": [111, 112, 115, 119]
   },
   {
     "verse_number": 119,
@@ -3203,12 +2407,7 @@
       "expansion",
       "awareness"
     ],
-    "related_verses": [
-      114,
-      115,
-      117,
-      120
-    ]
+    "related_verses": [114, 115, 117, 120]
   },
   {
     "verse_number": 120,
@@ -3229,12 +2428,7 @@
       "mind",
       "śūnyālaya"
     ],
-    "related_verses": [
-      115,
-      117,
-      119,
-      121
-    ]
+    "related_verses": [115, 117, 119, 121]
   },
   {
     "verse_number": 121,
@@ -3247,36 +2441,10 @@
     "intent_summary": "Use intense devotion to let the divine power of consciousness arise and take over the practitioner.",
     "beginner_explanation": "This verse says that when devotion becomes strong enough, a special inner power awakens. Instead of forcing progress, you let heartfelt devotion draw you into a deeper state. The practice is to love the divine so fully that your whole being is transformed by it.",
     "scholar_explanation": "The verse points to bhakti-udreka, an intensified surge of devotion, as a trigger for śakti to become manifest and stable. The “power of Śaṅkarī” here suggests the dynamic aspect of consciousness that carries the practitioner beyond ordinary agency. This aligns with VBT’s recognition that emotional intensification can function as a direct upāya when it ripens into absorption.",
-    "concepts": [
-      "bhakti",
-      "śakti",
-      "devotion",
-      "absorption",
-      "consciousness"
-    ],
+    "concepts": ["bhakti", "śakti", "devotion", "absorption", "consciousness"],
     "related_verses": [
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
-      66,
-      67,
-      68,
-      69,
-      70,
-      71,
-      72,
-      73,
-      74,
-      75,
-      76,
-      77,
-      78,
-      79,
-      80,
-      81
+      60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77,
+      78, 79, 80, 81
     ]
   },
   {
@@ -3297,22 +2465,7 @@
       "mind pacification",
       "meditation"
     ],
-    "related_verses": [
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      128,
-      129
-    ]
+    "related_verses": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 128, 129]
   },
   {
     "verse_number": 123,
@@ -3332,13 +2485,7 @@
       "nirvikalpa",
       "Śambhu darśana"
     ],
-    "related_verses": [
-      124,
-      125,
-      126,
-      127,
-      130
-    ]
+    "related_verses": [124, 125, 126, 127, 130]
   },
   {
     "verse_number": 124,
@@ -3358,13 +2505,7 @@
       "unity",
       "advaya"
     ],
-    "related_verses": [
-      123,
-      125,
-      126,
-      127,
-      128
-    ]
+    "related_verses": [123, 125, 126, 127, 128]
   },
   {
     "verse_number": 125,
@@ -3384,12 +2525,7 @@
       "Brahman",
       "fullness"
     ],
-    "related_verses": [
-      124,
-      126,
-      127,
-      121
-    ]
+    "related_verses": [124, 126, 127, 121]
   },
   {
     "verse_number": 126,
@@ -3402,20 +2538,8 @@
     "intent_summary": "Release both craving and rejection so the middle state of Brahman can reveal itself.",
     "beginner_explanation": "This verse says not to feed either liking or dislike. If you stop pushing and pulling, a deeper stillness opens up. In that stillness, you can sense a larger reality that was hidden by your reactions.",
     "scholar_explanation": "Rāga and dveṣa are the classic twin disturbances of consciousness; their renunciation enables entry into the madhya, the central nondual interval. The verb prasarpati suggests Brahman as spontaneously pervading once affective polarization ceases. This verse is closely related to the VBT’s “middle” practices, where the center is not a point but a condition of uncontrived lucidity.",
-    "concepts": [
-      "attachment",
-      "aversion",
-      "middle",
-      "Brahman",
-      "equanimity"
-    ],
-    "related_verses": [
-      125,
-      128,
-      129,
-      122,
-      127
-    ]
+    "concepts": ["attachment", "aversion", "middle", "Brahman", "equanimity"],
+    "related_verses": [125, 128, 129, 122, 127]
   },
   {
     "verse_number": 127,
@@ -3435,12 +2559,7 @@
       "contemplation",
       "awakening"
     ],
-    "related_verses": [
-      123,
-      124,
-      128,
-      130
-    ]
+    "related_verses": [123, 124, 128, 130]
   },
   {
     "verse_number": 128,
@@ -3460,12 +2579,7 @@
       "all-pervading",
       "meditation"
     ],
-    "related_verses": [
-      122,
-      127,
-      129,
-      130
-    ]
+    "related_verses": [122, 127, 129, 130]
   },
   {
     "verse_number": 129,
@@ -3478,20 +2592,8 @@
     "intent_summary": "Interrupt every mental movement immediately so the mind settles into a calm, wave-free state.",
     "beginner_explanation": "This verse tells you not to follow every thought. The moment the mind moves, let it go and do not hold onto it. Over time, the inner surface becomes still, like water with no waves.",
     "scholar_explanation": "The method is a radical de-identification with manas: wherever it goes, it is abandoned in the same instant, preventing fixation and continuity of vṛtti. The result is nistaraṅga, wave-lessness, a classic image for dissolved mental fluctuation and emergent samādhi. This is a practical complement to the previous verses on space and the middle, converting insight into immediate non-clinging.",
-    "concepts": [
-      "mind",
-      "dissolution",
-      "nonclinging",
-      "wave-less",
-      "samādhi"
-    ],
-    "related_verses": [
-      128,
-      127,
-      126,
-      122,
-      130
-    ]
+    "concepts": ["mind", "dissolution", "nonclinging", "wave-less", "samādhi"],
+    "related_verses": [128, 127, 126, 122, 130]
   },
   {
     "verse_number": 130,
@@ -3511,16 +2613,7 @@
       "fear",
       "continuous repetition"
     ],
-    "related_verses": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      23,
-      131
-    ]
+    "related_verses": [1, 2, 3, 4, 5, 6, 23, 131]
   },
   {
     "verse_number": 131,
@@ -3541,15 +2634,7 @@
       "supportless state",
       "nonduality"
     ],
-    "related_verses": [
-      23,
-      124,
-      125,
-      132,
-      134,
-      135,
-      137
-    ]
+    "related_verses": [23, 124, 125, 132, 134, 135, 137]
   },
   {
     "verse_number": 132,
@@ -3570,15 +2655,7 @@
       "meditative attention",
       "limitlessness"
     ],
-    "related_verses": [
-      42,
-      77,
-      78,
-      83,
-      131,
-      133,
-      137
-    ]
+    "related_verses": [42, 77, 78, 83, 131, 133, 137]
   },
   {
     "verse_number": 133,
@@ -3599,15 +2676,7 @@
       "firm insight",
       "nonduality"
     ],
-    "related_verses": [
-      30,
-      31,
-      34,
-      45,
-      50,
-      71,
-      134
-    ]
+    "related_verses": [30, 31, 34, 45, 50, 71, 134]
   },
   {
     "verse_number": 134,
@@ -3628,14 +2697,7 @@
       "emptiness",
       "world"
     ],
-    "related_verses": [
-      23,
-      131,
-      133,
-      135,
-      137,
-      138
-    ]
+    "related_verses": [23, 131, 133, 135, 137, 138]
   },
   {
     "verse_number": 135,
@@ -3656,15 +2718,7 @@
       "reflection",
       "pratyabhijñā"
     ],
-    "related_verses": [
-      23,
-      50,
-      57,
-      131,
-      134,
-      137,
-      140
-    ]
+    "related_verses": [23, 50, 57, 131, 134, 137, 140]
   },
   {
     "verse_number": 136,
@@ -3677,23 +2731,8 @@
     "intent_summary": "To step back from sensory involvement so awareness can rest in its own native stability.",
     "beginner_explanation": "This verse reminds you that most of your ups and downs enter through the senses: sights, sounds, touches, and so on. If you temporarily stop chasing them, you can notice a quieter place inside that is already steady. It is like closing a noisy window so you can hear the room itself.",
     "scholar_explanation": "The senses are presented as indriya-dvāra, gateways through which sukha-duḥkha and their associated oscillations enter the psyche. By saṃtyajya indriyāṇi, the practitioner does not reject embodiment but dis-identifies from sensory capture and becomes svastha, स्थापित in svātman. This corresponds to pratyāhāra-like interiorization, but here it serves immediate recognition of the self-luminous ground.",
-    "concepts": [
-      "senses",
-      "body",
-      "pleasure",
-      "pain",
-      "withdrawal",
-      "self"
-    ],
-    "related_verses": [
-      31,
-      60,
-      62,
-      90,
-      131,
-      134,
-      137
-    ]
+    "concepts": ["senses", "body", "pleasure", "pain", "withdrawal", "self"],
+    "related_verses": [31, 60, 62, 90, 131, 134, 137]
   },
   {
     "verse_number": 137,
@@ -3714,14 +2753,7 @@
       "nonduality",
       "knowledge"
     ],
-    "related_verses": [
-      23,
-      131,
-      134,
-      135,
-      138,
-      140
-    ]
+    "related_verses": [23, 131, 134, 135, 138, 140]
   },
   {
     "verse_number": 138,
@@ -3742,14 +2774,7 @@
       "dissolution",
       "Bhairava"
     ],
-    "related_verses": [
-      23,
-      135,
-      136,
-      137,
-      139,
-      140
-    ]
+    "related_verses": [23, 135, 136, 137, 139, 140]
   },
   {
     "verse_number": 139,
@@ -3770,14 +2795,7 @@
       "gnosis",
       "dialogue"
     ],
-    "related_verses": [
-      112,
-      130,
-      140,
-      141,
-      142,
-      163
-    ]
+    "related_verses": [112, 130, 140, 141, 142, 163]
   },
   {
     "verse_number": 140,
@@ -3798,14 +2816,7 @@
       "blessing",
       "power"
     ],
-    "related_verses": [
-      135,
-      137,
-      138,
-      139,
-      141,
-      163
-    ]
+    "related_verses": [135, 137, 138, 139, 141, 163]
   },
   {
     "verse_number": 141,
@@ -3825,17 +2836,7 @@
       "siddha",
       "nondual attainment"
     ],
-    "related_verses": [
-      142,
-      143,
-      144,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150
-    ]
+    "related_verses": [142, 143, 144, 145, 146, 147, 148, 149, 150]
   },
   {
     "verse_number": 142,
@@ -3848,23 +2849,8 @@
     "intent_summary": "Devi asks about the liberated one who remains untouched by action, pointing toward effortless freedom in activity.",
     "beginner_explanation": "The verse asks how someone can be free even while still doing things in the world. It suggests that true liberation is not about stopping all action, but about being inwardly untouched by it. Think of someone playing a role without getting lost in the role.",
     "scholar_explanation": "Despite OCR disturbance, the semantic thrust is clear: mukta yet karma-kṛt, untouched by the binding force of action. This reflects the Tantric nondual idea of jīvanmukti, where the liberated one acts without kartṛtva-abhimāna. The phrase parāyāś ca maheśvara signals the ascent toward Parā, the supreme शक्ति/awareness beyond duality.",
-    "concepts": [
-      "liberation",
-      "action",
-      "jivanmukti",
-      "nonattachment",
-      "Parā"
-    ],
-    "related_verses": [
-      143,
-      144,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150
-    ]
+    "concepts": ["liberation", "action", "jivanmukti", "nonattachment", "Parā"],
+    "related_verses": [143, 144, 145, 146, 147, 148, 149, 150]
   },
   {
     "verse_number": 143,
@@ -3877,22 +2863,8 @@
     "intent_summary": "Devi probes the collapse of subject-object distinctions in the highest realization, where ritual roles lose their footing.",
     "beginner_explanation": "Here the question is: if everything is ultimately one, who is doing the chanting or meditation? The verse points to a state where the usual idea of “me doing practice” starts to dissolve. It asks whether worship itself makes sense when there is no separate self left.",
     "scholar_explanation": "This is a classic nondual interrogation of ritual and agency: japa, dhyāna, pūjā, and tṛpti presuppose distinct agent, act, and object. Devi’s question challenges the conventional triad within the paramārtha of Bhairava, anticipating the later verse that collapses homa, yāga, and japa into consciousness itself. It aligns with the VBT’s recurring move from external practice to immediate recognition (pratyabhijñā-like insight).",
-    "concepts": [
-      "ritual",
-      "agency",
-      "nonduality",
-      "japa",
-      "dhyana",
-      "pūjā"
-    ],
-    "related_verses": [
-      144,
-      145,
-      146,
-      147,
-      149,
-      150
-    ]
+    "concepts": ["ritual", "agency", "nonduality", "japa", "dhyana", "pūjā"],
+    "related_verses": [144, 145, 146, 147, 149, 150]
   },
   {
     "verse_number": 144,
@@ -3912,13 +2884,7 @@
       "inner meaning",
       "gross level"
     ],
-    "related_verses": [
-      145,
-      146,
-      147,
-      149,
-      150
-    ]
+    "related_verses": [145, 146, 147, 149, 150]
   },
   {
     "verse_number": 145,
@@ -3931,25 +2897,8 @@
     "intent_summary": "The verse teaches that true mantra practice is the repeated return to the supreme state, where recitation becomes spontaneous inner sound.",
     "beginner_explanation": "Instead of chanting words mechanically, this verse points to a deeper kind of mantra that becomes an inner vibration. When attention rests in the highest state again and again, the practice itself turns into a natural hum or current inside. The sound is not just spoken; it is lived.",
     "scholar_explanation": "The verse reinterprets japa as nāda—self-arising sonic presence—within pare bhāva, the supreme condition. Bhāvanā becomes reflexive: the contemplative act is itself what is contemplated, collapsing the distinction between means and goal. This is central to VBT’s inward mantra- सिद्धि, where mantra-ātman is not phonetic repetition alone but awakened resonance.",
-    "concepts": [
-      "nada",
-      "mantra",
-      "japa",
-      "bhavana",
-      "supreme state"
-    ],
-    "related_verses": [
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      145,
-      149
-    ]
+    "concepts": ["nada", "mantra", "japa", "bhavana", "supreme state"],
+    "related_verses": [24, 25, 26, 27, 28, 29, 30, 31, 145, 149]
   },
   {
     "verse_number": 146,
@@ -3969,14 +2918,7 @@
       "niścala buddhi",
       "nirākāra"
     ],
-    "related_verses": [
-      143,
-      145,
-      147,
-      148,
-      149,
-      150
-    ]
+    "related_verses": [143, 145, 147, 148, 149, 150]
   },
   {
     "verse_number": 147,
@@ -3989,21 +2931,8 @@
     "intent_summary": "The verse teaches that true worship is absorption in vast, thought-free awareness rather than external offerings.",
     "beginner_explanation": "This verse says that real worship is not mainly about flowers or objects. The deepest offering is entering a huge inner openness where thoughts settle down. In that openness, the feeling of separation melts away.",
     "scholar_explanation": "Pūjā is redefined as being established in the mahā-vyoma of nivikalpa—nondual, nonconceptual spaciousness. The verse shifts from external ritual implements (puṣpa-ādi) to inner immersion, and identifies worship with laya into the supportless (adhrāl), echoing the tantra’s repeated internalization of ritual. This is a key example of ritual transmutation in the VBT.",
-    "concepts": [
-      "puja",
-      "space",
-      "nivikalpa",
-      "laya",
-      "mahavyoma"
-    ],
-    "related_verses": [
-      144,
-      145,
-      146,
-      148,
-      149,
-      150
-    ]
+    "concepts": ["puja", "space", "nivikalpa", "laya", "mahavyoma"],
+    "related_verses": [144, 145, 146, 148, 149, 150]
   },
   {
     "verse_number": 148,
@@ -4016,18 +2945,8 @@
     "intent_summary": "The verse points to a fullness that remains present amid changing experiences, producing deep contentment.",
     "beginner_explanation": "This verse says that when life keeps changing in many ways, a deeper fullness can still remain. That fullness is not dependent on getting one particular experience. It feels like being completely satisfied from within.",
     "scholar_explanation": "Although OCR garbling is evident, the sense is of tṛpti as atyanta-pūrṇatā—perfect fullness—arising amid diverse conditions (anekatama-yukta). The teaching suggests that true fulfillment is not produced by objects but recognized as an already-present abundance of consciousness. This matches the nondual affective dimension in which experience is suffused by completeness.",
-    "concepts": [
-      "tṛpti",
-      "fullness",
-      "emotion",
-      "contentment",
-      "purnata"
-    ],
-    "related_verses": [
-      147,
-      149,
-      150
-    ]
+    "concepts": ["tṛpti", "fullness", "emotion", "contentment", "purnata"],
+    "related_verses": [147, 149, 150]
   },
   {
     "verse_number": 149,
@@ -4048,14 +2967,7 @@
       "senses",
       "mind"
     ],
-    "related_verses": [
-      144,
-      145,
-      146,
-      147,
-      148,
-      150
-    ]
+    "related_verses": [144, 145, 146, 147, 148, 150]
   },
   {
     "verse_number": 150,
@@ -4068,19 +2980,8 @@
     "intent_summary": "The verse concludes that the deepest sacrifice is a blissful inner fulfillment that purifies and sustains the practitioner.",
     "beginner_explanation": "This verse says that true sacrifice leads to joy, relief, and inner completeness. It washes away what burdens you and supports a stable, grounded life. In short, the highest ritual is a change in being, not just an outer act.",
     "scholar_explanation": "Yāga is here equated with tuṣṭi and ānanda-lakṣaṇa, emphasizing affective completion rather than external rite. The verse also indicates moral purification and worldly preservation, showing that inner realization does not negate life but sanctifies it. This closes the sequence by reinterpreting sacrificial efficacy as the natural radiance of realized consciousness.",
-    "concepts": [
-      "yajna",
-      "ananda",
-      "tushti",
-      "purification",
-      "worldly life"
-    ],
-    "related_verses": [
-      147,
-      148,
-      149,
-      151
-    ]
+    "concepts": ["yajna", "ananda", "tushti", "purification", "worldly life"],
+    "related_verses": [147, 148, 149, 151]
   },
   {
     "verse_number": 151,
@@ -4101,13 +3002,7 @@
       "parā bhāvanā",
       "Rudra"
     ],
-    "related_verses": [
-      146,
-      147,
-      152,
-      153,
-      160
-    ]
+    "related_verses": [146, 147, 152, 153, 160]
   },
   {
     "verse_number": 152,
@@ -4128,12 +3023,7 @@
       "immersion",
       "recognition"
     ],
-    "related_verses": [
-      42,
-      43,
-      151,
-      155
-    ]
+    "related_verses": [42, 43, 151, 155]
   },
   {
     "verse_number": 153,
@@ -4154,11 +3044,7 @@
       "ritual",
       "Bhairava"
     ],
-    "related_verses": [
-      151,
-      152,
-      160
-    ]
+    "related_verses": [151, 152, 160]
   },
   {
     "verse_number": 154,
@@ -4179,12 +3065,7 @@
       "life-force",
       "subtle body"
     ],
-    "related_verses": [
-      27,
-      28,
-      29,
-      155
-    ]
+    "related_verses": [27, 28, 29, 155]
   },
   {
     "verse_number": 155,
@@ -4206,13 +3087,7 @@
       "bliss",
       "Goddess"
     ],
-    "related_verses": [
-      27,
-      28,
-      29,
-      154,
-      156
-    ]
+    "related_verses": [27, 28, 29, 154, 156]
   },
   {
     "verse_number": 156,
@@ -4233,13 +3108,7 @@
       "awareness",
       "daily practice"
     ],
-    "related_verses": [
-      155,
-      27,
-      28,
-      29,
-      157
-    ]
+    "related_verses": [155, 27, 28, 29, 157]
   },
   {
     "verse_number": 157,
@@ -4260,11 +3129,7 @@
       "initiation",
       "discipline"
     ],
-    "related_verses": [
-      158,
-      159,
-      160
-    ]
+    "related_verses": [158, 159, 160]
   },
   {
     "verse_number": 158,
@@ -4285,11 +3150,7 @@
       "discipline",
       "virtue"
     ],
-    "related_verses": [
-      157,
-      159,
-      160
-    ]
+    "related_verses": [157, 159, 160]
   },
   {
     "verse_number": 159,
@@ -4310,11 +3171,7 @@
       "worldly attachment",
       "teacher"
     ],
-    "related_verses": [
-      157,
-      158,
-      160
-    ]
+    "related_verses": [157, 158, 160]
   },
   {
     "verse_number": 160,
@@ -4335,13 +3192,7 @@
       "treasure",
       "recognition"
     ],
-    "related_verses": [
-      151,
-      152,
-      153,
-      157,
-      159
-    ]
+    "related_verses": [151, 152, 153, 157, 159]
   },
   {
     "verse_number": 161,
@@ -4362,10 +3213,7 @@
       "Shankara",
       "dialogue"
     ],
-    "related_verses": [
-      162,
-      163
-    ]
+    "related_verses": [162, 163]
   },
   {
     "verse_number": 162,
@@ -4387,10 +3235,7 @@
       "hṛdaya",
       "knowledge"
     ],
-    "related_verses": [
-      161,
-      163
-    ]
+    "related_verses": [161, 163]
   },
   {
     "verse_number": 163,
@@ -4411,9 +3256,6 @@
       "nonduality",
       "devotion"
     ],
-    "related_verses": [
-      161,
-      162
-    ]
+    "related_verses": [161, 162]
   }
 ]

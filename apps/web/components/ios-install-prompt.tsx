@@ -35,12 +35,11 @@ export function IOSInstallPrompt() {
             </SheetDescription>
           </SheetHeader>
 
-          <ol className="space-y-4 px-4 pb-6 pt-2">
+          <ol className="space-y-4 px-4 pt-2 pb-6">
             <li className="flex items-start gap-4">
               <StepNumber>1</StepNumber>
               <p className="flex-1 pt-1 text-sm text-foreground">
-                Tap the{" "}
-                <Chip icon={<Share className="h-3 w-3" />}>Share</Chip>{" "}
+                Tap the <Chip icon={<Share className="h-3 w-3" />}>Share</Chip>{" "}
                 button at the bottom of Safari
               </p>
             </li>
