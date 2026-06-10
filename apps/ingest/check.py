@@ -61,7 +61,7 @@ STEP 2 — DECIDE:
   `is_resolved=false` just because `fixed_sanskrit` differs from `text`.
 
 Rules:
-- Preserve the exact Devanagari of verses as they appear in `text`.
+- Use `sanskrit` (already partially corrected) as your base — do NOT copy corrupted forms back from `text`.
 - Verse markers take the form ॥ N ॥ where N is a Devanagari numeral (१, २, …).
 - The page header "विज्ञानभैरव तन्त्रम्" may appear at the top — include it if present in the original.
 - Speaker markers (श्री देव्युवाच ।, भैरव उवाच ।) should be preserved when present.
@@ -231,6 +231,9 @@ def main() -> None:
                 "sanskrit": result.fixed_sanskrit if result else page["sanskrit"],
             }
         )
+
+    # Second deterministic pass: catch any OCR forms the LLM reintroduced from `text`.
+    fixed_pages = apply_ocr_substitutions(fixed_pages)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(fixed_pages, f, indent=2, ensure_ascii=False)
