@@ -37,6 +37,7 @@ import {
 import { cn } from "@workspace/ui/lib/utils"
 import type { Category, EnrichedVerse } from "@/lib/types/verse"
 import { DHARANA_CATEGORIES, type VerseGroups } from "@/lib/data/verses"
+import { IOSInstallPrompt } from "@/components/ios-install-prompt"
 
 const CATEGORY_ICONS: Record<Category, React.ElementType> = {
   Breath: Wind,
@@ -304,7 +305,9 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
         </SidebarGroup>
       </SidebarContent>
 
-      <SidebarFooter />
+      <SidebarFooter>
+        <IOSInstallPrompt />
+      </SidebarFooter>
 
       <SidebarRail />
     </Sidebar>
