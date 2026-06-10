@@ -3,6 +3,7 @@
 import json
 import logging
 import os
+import re
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -39,16 +40,25 @@ Your task for each page — work through these steps in order:
 STEP 1 — REFLECT (fill the `reasoning` field first):
   a. Read the `text` field carefully and extract every Sanskrit word/phrase visible inline.
   b. Compare each token in `sanskrit` against those inline occurrences.
-  c. Explicitly check for the four most common OCR substitutions in this document:
+  c. Explicitly check for OCR substitutions in this document:
        ऻ → ज्ञ,  ऺ → क्ष,  ऩ → प,  ऱ → ल
+       व → ि  (the OCR drops the consonant body of व and keeps only the ि diacritic;
+                e.g. भैरव→भैरि, भवेत्→भिेत्, एव→एि, वा→िा, भावना→भािना)
   d. Check for missing/wrong diacritics (matras, visarga ः, anusvāra ं, halant ्).
   e. Check that all verse markers ॥ N ॥ (Devanagari numerals) are present and well-formed.
   f. Check speaker tags (श्री देव्युवाच ।, भैरव उवाच ।) are present where the `text` shows them.
   g. Write your findings as a short analytical note in `reasoning` — even if everything looks fine.
 
 STEP 2 — DECIDE:
-  - If no issues found after the reflection above, set is_complete=true and copy `sanskrit` unchanged.
-  - If any issues found, set is_complete=false, list each issue, and write the corrected Sanskrit.
+  Set two independent flags:
+  - `was_corrected`: true if you made ANY change to `sanskrit` to produce `fixed_sanskrit`; false if you
+    copied it unchanged. This records whether corrections were needed, regardless of outcome.
+  - `is_resolved`: true if `fixed_sanskrit` is now correct Sanskrit and no remaining unfixable issues exist;
+    false ONLY if you could NOT fully fix the text (e.g. a word is too garbled to reconstruct).
+
+  IMPORTANT: a mismatch between the OCR `text` field and `fixed_sanskrit` is EXPECTED after correction —
+  `text` is the raw, corrupted scan and will always differ from corrected Sanskrit. Do NOT set
+  `is_resolved=false` just because `fixed_sanskrit` differs from `text`.
 
 Rules:
 - Preserve the exact Devanagari of verses as they appear in `text`.
@@ -63,7 +73,8 @@ Rules:
 class _PageCheckResult(BaseModel):
     page: int
     reasoning: str  # step-by-step reflection written before the verdict
-    is_complete: bool
+    was_corrected: bool  # true if any change was made to produce fixed_sanskrit
+    is_resolved: bool    # true if fixed_sanskrit is now correct; false only if still unfixable
     issues: list[str]
     fixed_sanskrit: str
 
@@ -88,6 +99,23 @@ _OCR_SUBSTITUTIONS = [
     ("ऺ", "क्ष"),
     ("ऩ", "प"),
     ("ऱ", "ल"),
+    # व→ि OCR corruption: the OCR drops the consonant body of व and keeps only ि
+    ("भिेत्",   "भवेत्"),    # bhavet (21x)
+    ("भािना",   "भावना"),    # bhāvanā (3x)
+    ("भाियन्",  "भावयन्"),   # bhāvayan (4x)
+    ("भािे",    "भावे"),     # bhāve (5x)
+    ("यािस्था", "यावस्था"),  # yāvasthā (3x)
+    ("एिं",     "एवं"),      # evam (2x) — before एि→एव to avoid partial match
+    ("एि",      "एव"),       # eva (8x)
+    ("देिी",    "देवी"),     # devī (3x)
+    ("देिदेि",  "देवदेव"),   # devadeva (2x) — before देि→देव*
+    ("भैरि",    "भैरव"),     # bhairava in all inflections (44x)
+]
+
+# Word-boundary–sensitive substitutions (can't be done with simple str.replace)
+_OCR_REGEX_SUBSTITUTIONS: list[tuple[re.Pattern, str]] = [
+    # Standalone िा is never valid Devanagari; always corrupted वा ("or")
+    (re.compile(r"(?<!\S)िा(?!\S)"), "वा"),
 ]
 
 
@@ -100,10 +128,13 @@ def apply_ocr_substitutions(pages: list[dict]) -> list[dict]:
         count = sum(sanskrit.count(wrong) for wrong, _ in _OCR_SUBSTITUTIONS)
         for wrong, correct in _OCR_SUBSTITUTIONS:
             sanskrit = sanskrit.replace(wrong, correct)
+        for pattern, correct in _OCR_REGEX_SUBSTITUTIONS:
+            count += len(pattern.findall(sanskrit))
+            sanskrit = pattern.sub(correct, sanskrit)
         total += count
         result.append({**page, "sanskrit": sanskrit})
     logger.info(
-        "deterministic pass: replaced %d OCR characters across %d pages",
+        "deterministic pass: replaced %d OCR tokens across %d pages",
         total,
         len(pages),
     )
@@ -163,9 +194,9 @@ def main() -> None:
     results = check_pages(pages, batch_size=batch_size)
     result_map = {r.page: r for r in results}
 
-    # Retry pass: re-run pages still flagged as incomplete, feeding the partially
+    # Retry pass: re-run pages still unresolved, feeding the partially
     # corrected fixed_sanskrit back in so the LLM can build on prior work
-    incomplete = [r for r in results if not r.is_complete]
+    incomplete = [r for r in results if not r.is_resolved]
     if incomplete:
         logger.info("retrying %d pages still flagged as incomplete", len(incomplete))
         retry_input = [
@@ -182,8 +213,8 @@ def main() -> None:
             result_map[r.page] = r
         results = sorted(result_map.values(), key=lambda r: r.page)
         logger.info(
-            "retry done — %d pages still incomplete",
-            sum(1 for r in results if not r.is_complete),
+            "retry done — %d pages still unresolved",
+            sum(1 for r in results if not r.is_resolved),
         )
 
     fixed_pages = []
@@ -204,12 +235,14 @@ def main() -> None:
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(fixed_pages, f, indent=2, ensure_ascii=False)
 
-    corrupted = [r for r in results if not r.is_complete]
+    unresolved = [r for r in results if not r.is_resolved]
+    corrected = [r for r in results if r.was_corrected]
     report = {
         "total_pages": len(pages),
-        "pages_ok": len(results) - len(corrupted),
-        "pages_with_issues": len(corrupted),
-        "issues": [{"page": r.page, "issues": r.issues} for r in corrupted],
+        "pages_ok": len(results) - len(unresolved),
+        "pages_corrected": len(corrected),
+        "pages_unresolved": len(unresolved),
+        "unresolved": [{"page": r.page, "issues": r.issues} for r in unresolved],
     }
 
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
@@ -218,10 +251,11 @@ def main() -> None:
     logger.info("wrote fixed output → %s", OUTPUT_FILE)
     logger.info("wrote report      → %s", REPORT_FILE)
     logger.info(
-        "%d/%d pages had issues after retry: %s",
-        len(corrupted),
+        "%d/%d pages corrected, %d still unresolved: %s",
+        len(corrected),
         len(pages),
-        [r.page for r in corrupted],
+        len(unresolved),
+        [r.page for r in unresolved],
     )
 
 

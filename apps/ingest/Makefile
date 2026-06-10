@@ -8,6 +8,7 @@ check:
 lang ?= en
 
 enrich:
+	uv run python verses.py
 	uv run python enrich.py --lang $(lang)
 	@if [ "$(lang)" = "en" ]; then \
 		cp output/vbt-enrichment-en.json ../web/lib/data/vbt-enrichment.json; \

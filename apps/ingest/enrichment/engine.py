@@ -1,12 +1,13 @@
 import json
 import logging
 import os
+import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 
 from extraction.models import Verse
 from enrichment.models import EnrichedVerse, EnrichmentReport
@@ -65,6 +66,26 @@ def _make_chain(config: LanguageConfig):
     return prompt | llm.with_structured_output(_BatchEnrichment)
 
 
+def _invoke_with_retry(chain, verses_text: str, max_retries: int = 3) -> _BatchEnrichment:
+    last_exc: Exception | None = None
+    for attempt in range(max_retries):
+        try:
+            return chain.invoke({"verses": verses_text})
+        except (ValidationError, Exception) as exc:
+            last_exc = exc
+            if attempt < max_retries - 1:
+                wait = 2 ** attempt
+                logger.warning(
+                    "batch invoke failed (attempt %d/%d): %s — retrying in %ds",
+                    attempt + 1,
+                    max_retries,
+                    exc,
+                    wait,
+                )
+                time.sleep(wait)
+    raise last_exc
+
+
 def enrich_verses(
     verses: list[Verse],
     config: LanguageConfig,
@@ -89,7 +110,7 @@ def enrich_verses(
             for v in batch
         )
 
-        result: _BatchEnrichment = chain.invoke({"verses": verses_text})
+        result: _BatchEnrichment = _invoke_with_retry(chain, verses_text)
 
         source_map = {v.verse_number: v for v in batch}
         for item in result.enrichments:
