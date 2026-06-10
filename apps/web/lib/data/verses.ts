@@ -1,11 +1,8 @@
 import type { Category, EnrichedVerse } from "@/lib/types/verse"
 import rawData from "./vbt-enrichment.json"
-import rawDataDe from "./vbt-enrichment-de.json"
 import rawDataId from "./vbt-enrichment-id.json"
 
 export const allVerses: EnrichedVerse[] = rawData as unknown as EnrichedVerse[]
-export const allVersesDe: EnrichedVerse[] =
-  rawDataDe as unknown as EnrichedVerse[]
 export const allVersesId: EnrichedVerse[] =
   rawDataId as unknown as EnrichedVerse[]
 
@@ -47,10 +44,6 @@ export function getVerseGroups(
 
 export function getVerse(number: number): EnrichedVerse | undefined {
   return allVerses.find((v) => v.verse_number === number)
-}
-
-export function getVerseDe(number: number): EnrichedVerse | undefined {
-  return allVersesDe.find((v) => v.verse_number === number)
 }
 
 export function getVerseId(number: number): EnrichedVerse | undefined {

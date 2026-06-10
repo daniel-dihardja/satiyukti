@@ -35,7 +35,7 @@ export default function Page() {
         </p>
 
         {/* CTA */}
-        <Button asChild size="lg" className="mt-2 gap-2 px-8">
+        <Button asChild size="lg" className="mt-2 gap-2 px-8 py-6">
           <Link href="/vbt">
             Begin Exploring
             <ArrowRight className="h-4 w-4" />
