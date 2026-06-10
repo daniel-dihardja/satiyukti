@@ -109,6 +109,8 @@ Sanskrit mungkin mengandung artefak OCR tetapi tetap mempertahankan makna strukt
 
 Hasilkan SEMUA bidang keluaran dalam Bahasa Indonesia. Nilai enum (category) tetap dalam Bahasa Inggris karena digunakan sebagai kunci data terstruktur.
 
+Hindari kata "Tuhan" dalam semua terjemahan dan penjelasan — gunakan istilah asli Sanskrit (Bhairava, Devi, Shakti, dll.) atau frasa deskriptif yang sesuai dengan konteks Kashmir Shaivisme non-dual.
+
 Untuk setiap sloka, hasilkan SEMUA bidang berikut:
 
 title:
@@ -142,6 +144,21 @@ concepts: 3–8 konsep ontologi yang dapat digunakan kembali dari sloka ini. Lab
 related_verses: nomor sloka (bilangan bulat, 1–163) yang terkait secara tematik atau teknis dengan sloka ini. Gunakan daftar kosong jika tidak ada yang sangat terkait.\
 """
 
+_ID_REFLECTION_PROMPT = """\
+Kamu adalah editor bahasa Indonesia yang ahli. Tinjau setiap terjemahan dan penjelasan di bawah ini dan kritik apakah terdengar alami seperti tulisan penutur asli Bahasa Indonesia — bukan seperti terjemahan harfiah dari Bahasa Inggris atau Sanskrit.
+
+Untuk setiap sloka, berikan:
+- translation_critique: kritik spesifik tentang ketidakalamian frasa atau kalimat dalam 'translation' (tulis "OK" jika sudah alami)
+- beginner_critique: kritik serupa untuk 'beginner_explanation' (tulis "OK" jika sudah alami)
+- scholar_critique: kritik serupa untuk 'scholar_explanation' (tulis "OK" jika sudah alami)
+- revised_translation: versi yang diperbaiki (atau ulangi teks asli jika sudah alami)
+- revised_beginner_explanation: versi yang diperbaiki (atau ulangi teks asli jika sudah alami)
+- revised_scholar_explanation: versi yang diperbaiki (atau ulangi teks asli jika sudah alami)
+
+Tetap setia pada makna aslinya — hanya perbaiki ketidakalamian bahasa, bukan konten.
+Hindari kata "Tuhan" — gunakan istilah Sanskrit asli atau frasa deskriptif.\
+"""
+
 EN_CONFIG = LanguageConfig(
     code="en",
     system_prompt=_EN_SYSTEM_PROMPT,
@@ -159,6 +176,8 @@ DE_CONFIG = LanguageConfig(
 ID_CONFIG = LanguageConfig(
     code="id",
     system_prompt=_ID_SYSTEM_PROMPT,
+    reflection_prompt=_ID_REFLECTION_PROMPT,
+    max_iterations=2,
     verse_label="Sloka",
     speaker_label="pembicara",
 )
