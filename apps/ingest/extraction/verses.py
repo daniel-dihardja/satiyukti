@@ -9,8 +9,8 @@ from .models import Page, ValidationReport, Verse
 logger = logging.getLogger(__name__)
 
 VERSE_RE = re.compile(r"॥\s*([०-९]+)\s*[a-z]?\s*॥")
-DEVI_RE = re.compile(r"देव्युिाच|देव्य्\s*उिाच|देिी\s*उिाच")
-BHAIRAVA_RE = re.compile(r"भैरि\s*उिाच")
+DEVI_RE = re.compile(r"देव्युवाच|देव्य्\s*उवाच|देवी\s*उवाच")
+BHAIRAVA_RE = re.compile(r"भैरव\s*उवाच")
 
 DEVA_DIGITS = {ch: i for i, ch in enumerate("०१२३४५६७८९")}
 
@@ -51,6 +51,7 @@ def load_pages(path: Path) -> list[Page]:
 
 def extract_verses(pages: list[Page]) -> list[Verse]:
     verses: list[Verse] = []
+    seen: dict[int, int] = {}  # verse_number -> index in verses
     current_speaker = "Unknown"
     current_lines: list[str] = []
 
@@ -69,12 +70,24 @@ def extract_verses(pages: list[Page]) -> list[Verse]:
             verse_match = VERSE_RE.search(line)
             if verse_match:
                 current_lines.append(line)
-                verses.append(Verse(
-                    verse_number=devanagari_to_int(verse_match.group(1)),
-                    page=page_data.page,
-                    speaker=current_speaker,
-                    sanskrit="\n".join(current_lines),
-                ))
+                verse_number = devanagari_to_int(verse_match.group(1))
+                if verse_number in seen:
+                    # Duplicate marker in source — append to existing verse.
+                    existing = verses[seen[verse_number]]
+                    verses[seen[verse_number]] = Verse(
+                        verse_number=existing.verse_number,
+                        page=existing.page,
+                        speaker=existing.speaker,
+                        sanskrit=existing.sanskrit + "\n" + "\n".join(current_lines),
+                    )
+                else:
+                    seen[verse_number] = len(verses)
+                    verses.append(Verse(
+                        verse_number=verse_number,
+                        page=page_data.page,
+                        speaker=current_speaker,
+                        sanskrit="\n".join(current_lines),
+                    ))
                 current_lines = []
             else:
                 current_lines.append(line)
