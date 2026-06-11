@@ -33,7 +33,9 @@ export default function AboutPage() {
             in the world, yet in daily life you still feel the Hindu influence
             everywhere. Not through formal practice, but through the texture of
             the culture: school lessons about the ancient Hindu kingdoms of
-            Nusantara, cultural performances, a kind of living mythology woven
+            Nusantara, cultural performances, and small rituals embedded in
+            everyday moments — a ceremony when moving into a new house,
+            offerings placed before a journey. A kind of living mythology woven
             into ordinary life.
           </p>
           <p className="mt-4">
@@ -48,8 +50,8 @@ export default function AboutPage() {
           </h2>
           <p>
             Twenty-five years later, when I wanted to start meditating, I did
-            what most people do — I watched YouTube videos and browsed the
-            internet. But nothing I found aligned with the impression of
+            what probably most people do — I watched YouTube videos and browsed
+            the internet. But nothing I found aligned with the impression of
             spirituality I had carried since my time in Indonesia. The content
             felt shallow, repackaged, unconvincing. None of it made me want to
             actually begin.
@@ -103,12 +105,6 @@ export default function AboutPage() {
           </p>
         </section>
       </div>
-
-      <p className="mt-12 text-base text-muted-foreground">
-        Salam Rahayu,
-        <br />
-        <span className="font-medium text-foreground">Daniel Dihardja</span>
-      </p>
     </div>
   )
 }
