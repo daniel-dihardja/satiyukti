@@ -37,8 +37,8 @@ export default function AboutPage() {
             Shinta, a kind of living mythology woven into ordinary life.
           </p>
           <p className="mt-4">
-            I never got actively involved, but a quiet interest took root during
-            those years — one that would resurface much later.
+            A quiet interest took root during those years — one that would
+            resurface much later.
           </p>
         </section>
 
