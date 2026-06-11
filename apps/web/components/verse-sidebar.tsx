@@ -312,28 +312,16 @@ export function VerseSidebar({ groups }: VerseSidebarProps) {
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
-                <SidebarMenuButton
-                  asChild
-                  isActive={pathname === "/vbt/about"}
-                >
-                  <Link
-                    href="/vbt/about"
-                    onClick={() => setOpenMobile(false)}
-                  >
+                <SidebarMenuButton asChild isActive={pathname === "/vbt/about"}>
+                  <Link href="/vbt/about" onClick={() => setOpenMobile(false)}>
                     <Info aria-hidden="true" />
                     <span>About</span>
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
-                <SidebarMenuButton
-                  asChild
-                  isActive={pathname === "/vbt/guide"}
-                >
-                  <Link
-                    href="/vbt/guide"
-                    onClick={() => setOpenMobile(false)}
-                  >
+                <SidebarMenuButton asChild isActive={pathname === "/vbt/guide"}>
+                  <Link href="/vbt/guide" onClick={() => setOpenMobile(false)}>
                     <BookOpen aria-hidden="true" />
                     <span>Guide</span>
                   </Link>

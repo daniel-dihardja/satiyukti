@@ -13,13 +13,13 @@ export default function AboutPage() {
         About Satiyukti
       </p>
 
-      <h1 className="mb-3 font-serif text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
+      <h1 className="mb-3 font-serif text-3xl leading-tight font-semibold tracking-tight md:text-4xl">
         Why This Exists
       </h1>
 
       <p className="mb-10 text-sm text-muted-foreground italic">
-        <span className="font-serif">सतियुक्ति</span> — Satiyukti —&nbsp;&quot;the
-        right method, the true approach&quot;
+        <span className="font-serif">सतियुक्ति</span> — Satiyukti
+        —&nbsp;&quot;the right method, the true approach&quot;
       </p>
 
       <div className="space-y-10 text-base leading-relaxed text-foreground md:leading-loose">
@@ -29,17 +29,16 @@ export default function AboutPage() {
           </h2>
           <p>
             I am half Indonesian, half German — born in Germany and raised in
-            Indonesia from the late 1980s until 2000. Indonesia is the
-            largest Muslim country in the world, yet in daily life you still
-            feel the Hindu influence everywhere. Not through formal practice,
-            but through the texture of the culture: school lessons about the
-            ancient Hindu kingdoms of Nusantara, comics retelling the stories
-            of Rama and Shinta, a kind of living mythology woven into ordinary
-            life.
+            Indonesia from the late 1980s until 2000. Indonesia is the largest
+            Muslim country in the world, yet in daily life you still feel the
+            Hindu influence everywhere. Not through formal practice, but through
+            the texture of the culture: school lessons about the ancient Hindu
+            kingdoms of Nusantara, comics retelling the stories of Rama and
+            Shinta, a kind of living mythology woven into ordinary life.
           </p>
           <p className="mt-4">
-            I never got actively involved, but a quiet interest took root
-            during those years — one that would resurface much later.
+            I never got actively involved, but a quiet interest took root during
+            those years — one that would resurface much later.
           </p>
         </section>
 
@@ -105,14 +104,13 @@ export default function AboutPage() {
             The Name
           </h2>
           <p>
-            <span className="font-medium">Satiyukti</span> comes from
-            Sanskrit: <em>sati</em> (true, correct) and <em>yukti</em> (method,
-            device, technique). It felt right for a project built around the
-            original technical manual of consciousness — a collection of precise
-            inner methods handed down across generations.
+            <span className="font-medium">Satiyukti</span> comes from Sanskrit:{" "}
+            <em>sati</em> (true, correct) and <em>yukti</em> (method, device,
+            technique). It felt right for a project built around the original
+            technical manual of consciousness — a collection of precise inner
+            methods handed down across generations.
           </p>
         </section>
-
       </div>
     </div>
   )
