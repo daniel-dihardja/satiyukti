@@ -69,17 +69,12 @@ export default function AboutPage() {
             The Problem
           </h2>
           <p>
-            Today, the internet is full of spiritual topics. The wellness and
-            spirituality industry has grown so dominant that most people carry a
-            deeply distorted view of what spirituality actually is. Signal is
-            buried under noise, ancient teachings are repackaged as lifestyle
-            content, and the precision of texts like the VBT gets lost in the
-            translation.
-          </p>
-          <p className="mt-4">
-            With Satiyukti, the goal is to cut through that — to make the
-            ancient information accessible in its original integrity, without
-            diluting it into something easier to sell.
+            Today, spirituality and wellness have largely merged. The dominant
+            entry point has become self-optimization — better focus, less
+            stress, more balance. These are real needs, but they are not what
+            drew the ancient contemplatives to texts like the VBT. Those
+            teachers were asking a different kind of question entirely. This app
+            is an attempt to make that older current a little easier to reach.
           </p>
         </section>
 
