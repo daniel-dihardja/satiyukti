@@ -15,7 +15,7 @@ export default function VidyaLayout({
 
   return (
     <LanguageProvider>
-      <SidebarProvider>
+      <SidebarProvider defaultOpen={false}>
         <VerseSidebar groups={groups} />
         <SidebarInset className="min-h-0 flex-1">
           <header className="sticky top-0 z-10 shrink-0 border-b bg-background">
