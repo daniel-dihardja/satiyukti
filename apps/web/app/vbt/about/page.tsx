@@ -103,6 +103,12 @@ export default function AboutPage() {
           </p>
         </section>
       </div>
+
+      <p className="mt-12 text-base text-muted-foreground">
+        Salam Rahayu,
+        <br />
+        <span className="font-medium text-foreground">Daniel Dihardja</span>
+      </p>
     </div>
   )
 }
