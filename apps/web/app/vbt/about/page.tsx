@@ -88,10 +88,6 @@ export default function AboutPage() {
             two layers of reading: a plain-language explanation for newcomers,
             and a scholarly reading for those who want depth.
           </p>
-          <p className="mt-4">
-            The design is intentionally quiet. No notifications, no social
-            features, no gamification. Just you, the text, and 112 doorways.
-          </p>
         </section>
 
         <section>
