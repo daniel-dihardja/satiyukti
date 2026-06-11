@@ -29,12 +29,12 @@ export default function AboutPage() {
           </h2>
           <p>
             I am half Indonesian, half German — born in Germany and raised in
-            Indonesia from the late 1980s until 2000. Indonesia is the largest
-            Muslim country in the world, yet in daily life you still feel the
-            Hindu influence everywhere. Not through formal practice, but through
-            the texture of the culture: school lessons about the ancient Hindu
-            kingdoms of Nusantara, comics retelling the stories of Rama and
-            Shinta, a kind of living mythology woven into ordinary life.
+            Indonesia from 1982 – 1999. Indonesia is the largest Muslim country
+            in the world, yet in daily life you still feel the Hindu influence
+            everywhere. Not through formal practice, but through the texture of
+            the culture: school lessons about the ancient Hindu kingdoms of
+            Nusantara, cultural performances, a kind of living mythology woven
+            into ordinary life.
           </p>
           <p className="mt-4">
             A quiet interest took root during those years — one that would
