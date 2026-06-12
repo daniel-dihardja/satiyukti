@@ -39,6 +39,8 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-heading",
 })
 
+const isPublished = process.env.PUBLISH !== "0"
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -51,9 +53,9 @@ export default function RootLayout({
       className={cn("antialiased", lato.variable, cormorant.variable)}
     >
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        {isPublished ? <ThemeProvider>{children}</ThemeProvider> : null}
       </body>
-      {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
+      {isPublished && process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
       )}
     </html>
