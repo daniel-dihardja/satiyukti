@@ -39,7 +39,7 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-heading",
 })
 
-const isPublished = process.env.PUBLISH !== "0"
+const isPublished = process.env.PUBLISH === "TRUE"
 
 export default function RootLayout({
   children,
